@@ -1,0 +1,59 @@
+.veredas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 88.4%;
+    margin: 40px auto;z
+}
+.veredas h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.veredas a:hover{
+    background-color: #e8c547;
+    box-shadow: 2px 2px 5px #4d4d4d;
+}
+.veredas .livros{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+    margin-bottom: 30px;
+    padding: 0px 5px 0px 5px;
+}
+.veredas .livros{
+    border-left: ;
+}
+@media screen and (max-width: 600px){
+.veredas .livros{
+    border-left: none;
+    border-bottom: solid 1px #4d4d4d;
+    padding-bottom: 30px;
+}
+.veredas .livros img{
+    width: 100%;
+}
+.veredas .livros img:hover{
+    transform: scale(1.5);
+}
+.veredas div h3{
+    text-align: center;
+    margin: 0px;
+}
+.veredas div p{
+    text-align: center;
+    margin-top: 10px;
+}
+.veredas .comprar{
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: #e8c547;
+    padding: 5px;
+    box-shadow: 2px 3px 5px #4d4d4d;
+}
+.veredas .comprar h4{
+    margin: 0px;
+    text-align: center;
+}
+.veredas .comprar:hover {
+    background-color: #4d4d4d;
+    color: #e8c547;
+}
