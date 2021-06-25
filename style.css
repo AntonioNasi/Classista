@@ -140,12 +140,17 @@ a{
     background-color: #4d4d4d;
     border-radius: 10px;
 }
-.forabozo #fg{
+.forabozo p{
     font-size: 70px;
     font-weight: bolder;
     color: #cdd1ca;
     text-align: center;
     margin: 20px 0px 0px 0px;
+}
+@media screen and (max-width: 600px){
+    .forabozo p{
+        font-size: 30px;
+    }
 }
 
 
