@@ -7,7 +7,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #4d4d4d;
-    background-color: #cdd1ca;
 }
 a{
     text-decoration: none;
@@ -16,12 +15,30 @@ a{
 
 
 
+/* Formatação da barra do topo */
+.barra-topo{
+    background-color: #e8c547;
+    height: 200px;
+    border-top: solid 1px transparent;
+}
+.barra-topo .telegram{
+    max-width: 60px;
+    margin: 20px auto;
+}
+.barra-topo .telegram img{
+    width: 100%;
+}
 
 
 
 .container-geral{
     display: flex;
     flex-wrap: wrap;
+    max-width: 1024px;
+    margin: -110px auto;
+    border-radius: 10px;
+    background-color: #cdd1ca;
+    box-shadow: 1px 2px 10px #4d4d4d;
 }
 @media screen and (max-width: 600px){
     .container-geral{
@@ -36,6 +53,7 @@ a{
 .container-geral .lado-esquerdo{
     max-width: 280px;
     background-color: #4d4d4d;
+    border-radius: 10px;
 }
 @media screen and (max-width: 600px){
     .container-geral .lado-esquerdo{
@@ -45,7 +63,7 @@ a{
 }
 .container-geral .lado-esquerdo .foto-perfil{
     max-width: 63.13%;
-    margin: 103.75px auto;
+    margin: 40px auto;
 }
 @media screen and (max-width: 600px){
     .container-geral .lado-esquerdo .foto-perfil{
@@ -59,7 +77,7 @@ a{
 }
 .container-geral .lado-esquerdo .menu-lateral{
     width: 63.13%;
-    margin: -50px auto;
+    margin: -30px auto;
 }
 @media screen and (max-width: 600px){
     .container-geral .lado-esquerdo .menu-lateral{
@@ -98,12 +116,7 @@ a{
 .container-geral .lado-direito{
     width: auto;
 }
-.container-geral .lado-direito .barra-topo{
-    background-color: #e8c547;
-    box-shadow: 0px 1px 10px #4d4d4d75;
-    height: 103.75px;
-    border-top: solid 1px transparent;
-}
+
 .container-geral .lado-direito .barra-topo .telegram{
     max-width: 60px;
     margin: 20px auto;
@@ -125,16 +138,14 @@ a{
 }
 
 .minicursos{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     margin: 0 auto;
     padding-bottom: 40px;
 }
 .minicursos div{
-    flex-grow: none;
-    flex-shrink: 1;
     padding: 10px;
     border-left: solid 1px #4d4d4d;
+    margin-bottom: 30px;
 }
 .minicursos div:hover{
     background-color: #4d4d4d;
@@ -142,15 +153,7 @@ a{
 .minicursos a:hover{
     color: #cdd1ca;
 }
-#primeiro{
-    margin-right: 10px;
-    padding-bottom: 20px;
-    max-width: 437px;
-}
-#segundo{
-    margin-left: 10px;
-    max-width: 437px;
-}
+
 @media screen and (max-width: 600px){
     #primeiro{
         margin: 0px 0px 20px 0px;
@@ -161,7 +164,7 @@ a{
 }
 .minicursos div h3{
     margin: 0px;
-    text-align: center;
+    text-align: left;
 }
 .minicursos div p{
     margin: 10px 0px 0px 0px;
@@ -199,6 +202,7 @@ a{
 footer{
     background-color: #e8c547;
     border-top: solid 1px transparent;
+    margin-top: 150px;
 }
 footer p{
     text-align: center;

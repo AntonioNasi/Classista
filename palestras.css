@@ -7,7 +7,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #4d4d4d;
-    background-color: #cdd1ca;
 }
 a{
     text-decoration: none;
@@ -16,12 +15,30 @@ a{
 
 
 
+/* Formatação da barra do topo */
+.barra-topo{
+    background-color: #e8c547;
+    height: 200px;
+    border-top: solid 1px transparent;
+}
+.barra-topo .telegram{
+    max-width: 60px;
+    margin: 20px auto;
+}
+.barra-topo .telegram img{
+    width: 100%;
+}
 
 
 
 .container-geral{
     display: flex;
     flex-wrap: wrap;
+    max-width: 1024px;
+    margin: -110px auto;
+    border-radius: 10px;
+    background-color: #cdd1ca;
+    box-shadow: 1px 2px 10px #4d4d4d;
 }
 @media screen and (max-width: 600px){
     .container-geral{
@@ -36,6 +53,7 @@ a{
 .container-geral .lado-esquerdo{
     max-width: 280px;
     background-color: #4d4d4d;
+    border-radius: 10px;
 }
 @media screen and (max-width: 600px){
     .container-geral .lado-esquerdo{
@@ -45,7 +63,7 @@ a{
 }
 .container-geral .lado-esquerdo .foto-perfil{
     max-width: 63.13%;
-    margin: 103.75px auto;
+    margin: 40px auto;
 }
 @media screen and (max-width: 600px){
     .container-geral .lado-esquerdo .foto-perfil{
@@ -59,7 +77,7 @@ a{
 }
 .container-geral .lado-esquerdo .menu-lateral{
     width: 63.13%;
-    margin: -50px auto;
+    margin: -30px auto;
 }
 @media screen and (max-width: 600px){
     .container-geral .lado-esquerdo .menu-lateral{
@@ -165,6 +183,7 @@ a{
 footer{
     background-color: #e8c547;
     border-top: solid 1px transparent;
+    margin-top: 150px;
 }
 footer p{
     text-align: center;
