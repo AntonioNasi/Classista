@@ -46,6 +46,11 @@ a{
         display: block;
     }
 }
+@media screen and (max-width: 962px){
+    .container-geral{
+        display: block;
+    }
+}
 .container-geral .dives{
     flex-grow: 1;
     flex-shrink: 1;
@@ -56,15 +61,30 @@ a{
     max-width: 280px;
     background-color: #4d4d4d;
 }
+@media screen and (max-width: 962px){
+    .container-geral .lado-esquerdo{
+        max-width: 962px;
+        border-top: solid 1px transparent;
+        height: 650px;
+    }
+}
 @media screen and (max-width: 600px){
     .container-geral .lado-esquerdo{
         max-width: 600px;
         border-top: solid 1px transparent;
     }
 }
+
 .container-geral .lado-esquerdo .foto-perfil{
     max-width: 63.13%;
     margin: 40px auto;
+}
+@media screen and (max-width: 962px){
+    .container-geral .lado-esquerdo .foto-perfil{
+        max-width: 50%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
 }
 @media screen and (max-width: 600px){
     .container-geral .lado-esquerdo .foto-perfil{
@@ -73,6 +93,7 @@ a{
         margin-bottom: 10px;
     }
 }
+
 .container-geral .lado-esquerdo .foto-perfil img{
     width: 100%;
 }
@@ -116,6 +137,11 @@ a{
 }
 .container-geral .lado-direito{
     width: auto;
+}
+@media screen and (max-width: 962px){
+    .container-geral .lado-direito{
+        padding-bottom: 30px;
+    }
 }
 
 
@@ -205,11 +231,17 @@ a{
         font-size: 18px;
     }
 }
+@media screen and (max-width: 962px){
+    h1{
+        font-size: 25px;
+    }
+}
 @media screen and (max-width: 600px){
     h1{
         font-size: 22px;
     }
 }
+
 .share-social{
     display: flex;
     flex-wrap: wrap;
@@ -262,11 +294,17 @@ footer .container-parcerias .parceria{
     flex-basis: 100px;
     margin: 20px;
 }
+@media screen and (max-width: 962px){
+    footer .container-parcerias .parceria{
+        flex-basis: 80px;
+    }
+}
 @media screen and (max-width: 600px){
     footer .container-parcerias .parceria{
         flex-basis: 140px;
     }
 }
+
 
 
 
