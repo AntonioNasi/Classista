@@ -96,7 +96,15 @@ a{
 
 .container-geral .lado-esquerdo .foto-perfil img{
     width: 100%;
+    animation-name: girar-foto;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
+@keyframes girar-foto {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
 .container-geral .lado-esquerdo .menu-lateral{
     width: 63.13%;
     margin: -30px auto;
@@ -171,73 +179,71 @@ a{
     width: 100%;
 }
 
-/* Formatação da área destaque */
-.forabozo{
+
+
+/* Formatação da área das manchetes */
+.container-manchete{
     width: 88.4%;
     margin: 30px auto;
-    padding-bottom: 30px;
 }
-.forabozo p{
-    font-size: 70px;
-    font-weight: bolder;
-    color: #cdd1ca;
-    text-align: center;
-    margin: 20px 0px 0px 0px;
+#primeiro{
+    background-image: url(https://www.cbdmania.it/storage/_1200x675_crop_center-center_none/sensimilla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
 }
-@media screen and (max-width: 962px){
-    .forabozo p{
-        font-size: 60px;
-    }
+.container-manchete h1{
+    margin: 5px 0px 0px 0px;
+    font-size: 30px;
 }
-@media screen and (max-width: 600px){
-    .forabozo p{
-        font-size: 30px;
-    }
-}
-
-
-/* Formatação da área de posts */
-.container-geral .lado-direito .post{
-    width: 88.4%;
-    margin: 0 auto;
-}
-@media screen and (max-width: 600px){
-    .container-geral .lado-direito .post{
-        margin-top: 30px;
-    }
-}
-.container-geral .lado-direito .post p{
-    font-size: 25px;
-    font-weight: 300;
+.container-manchete p{
+    margin: 10px 0px 5px 0px;
     text-align: justify;
+    text-indent: 30px;
 }
-@media screen and (max-width: 962px){
-    .container-geral .lado-direito .post p{
-        font-size: 25px;
+@media screen and (max-width: 600px){
+    .container-manchete h1{
+        font-size: 20px;
+        margin: 5px 0px 0px 0px;
     }
 }
 @media screen and (max-width: 600px){
-    .container-geral .lado-direito .post p{
+    .container-manchete p{
         font-size: 18px;
-        font-weight: 500;
     }
 }
-@media screen and (max-width: 962px){
-    h1{
-        font-size: 30px;
-    }
+#segundo{
+    background-image: url(https://centrodeeventos.ce.gov.br/wp-content/uploads/2017/06/MAIS-PAIC.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
 }
-@media screen and (max-width: 600px){
-    h1{
-        font-size: 22px;
-    }
+
+
+.btnLeiaMais{
+    background-color: #e8c547;
+    color: #4d4d4d;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    box-shadow: 2px 2px 5px #4d4d4d;
 }
+.btnLeiaMais:hover{
+    background-color: #4d4d4d;
+    color: #e8c547;
+}
+
+
+
 
 .share-social{
+    width: 88.4%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 60px;
     border-bottom: solid 1px #4d4d4d;
+    padding-bottom: 60px
 }
 .share-social .redes{
     height: ;
