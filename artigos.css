@@ -93,6 +93,13 @@ a{
 }
 .container-geral .lado-esquerdo .foto-perfil img{
     width: 100%;
+    animation-name: girar-foto;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+}
+@keyframes girar-foto {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
 }
 .container-geral .lado-esquerdo .menu-lateral{
     width: 63.13%;
