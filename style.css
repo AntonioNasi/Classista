@@ -200,7 +200,6 @@ a{
 .container-manchete p{
     margin: 10px 0px 5px 0px;
     text-align: justify;
-    text-indent: 30px;
 }
 @media screen and (max-width: 600px){
     .container-manchete h1{
