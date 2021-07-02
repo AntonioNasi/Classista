@@ -99,9 +99,10 @@ a{
     animation-name: girar-foto;
     animation-duration: 20s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
 }
 @keyframes girar-foto {
-    0%{transform: rotate(0deg);}
+    0%{transform: rotate(-360deg);}
     100%{transform: rotate(360deg);}
 }
 .container-geral .lado-esquerdo .menu-lateral{
