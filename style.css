@@ -183,9 +183,18 @@ a{
 
 
 /* Formatação da área das manchetes */
+.lado-direito{
+    display: flex;
+    flex-wrap: wrap;
+}
 .container-manchete{
     width: 88.4%;
     margin: 30px auto;
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    margin: 30px;
 }
 #primeiro{
     background-image: url(https://www.cbdmania.it/storage/_1200x675_crop_center-center_none/sensimilla.jpg);
@@ -196,11 +205,15 @@ a{
 }
 .container-manchete h1{
     margin: 5px 0px 0px 0px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .container-manchete p{
     margin: 10px 0px 5px 0px;
     text-align: justify;
+}
+.limitador-texto{
+    height: 80px;
+    overflow: hidden;
 }
 @media screen and (max-width: 600px){
     .container-manchete h1{
