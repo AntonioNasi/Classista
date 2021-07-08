@@ -286,8 +286,8 @@ a{
 }
 
 
-.insta-feed{
-    margin-bottom: 40px;
+.feed{
+    margin: 110px 0px 0px 0px;
 }
 
 
@@ -295,7 +295,7 @@ a{
 footer{
     background-color: #e8c547;
     border-top: solid 1px transparent;
-    margin-top: 150px;
+    margin-top: 0px;
 }
 footer p{
     text-align: center;
