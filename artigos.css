@@ -21,12 +21,19 @@ a{
     height: 200px;
     border-top: solid 1px transparent;
 }
-.barra-topo .telegram{
-    max-width: 60px;
-    margin: 20px auto;
+.barra-topo .name{
+    max-width: 600px;
+    margin: 30px auto;
 }
-.barra-topo .telegram img{
-    width: 100%;
+.barra-topo .name h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+}
+@media screen and (max-width: 600px){
+    .barra-topo .name h1{
+        font-size: 20px;
+    }
 }
 
 
@@ -129,7 +136,7 @@ a{
     color: #cdd1ca;
     font-weight: bold;
     padding: 10px 0px 10px 0px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 @media screen and (max-width: 600px){

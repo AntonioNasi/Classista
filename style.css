@@ -21,18 +21,23 @@ a{
     height: 200px;
     border-top: solid 1px transparent;
 }
-.barra-topo .telegram{
-    max-width: 60px;
-    margin: 20px auto;
+.barra-topo .name{
+    max-width: 600px;
+    margin: 30px auto;
 }
-.barra-topo .telegram img{
-    width: 100%;
+.barra-topo .name h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+}
+@media screen and (max-width: 600px){
+    .barra-topo .name h1{
+        font-size: 20px;
+    }
 }
 
 
-
-
-
+/* Formatação do container geral */
 .container-geral{
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +63,8 @@ a{
     flex-shrink: 1;
     flex-basis: 360px;
 }
+
+/* Formatação do lado esquerdo */
 .container-geral .lado-esquerdo{
     max-width: 280px;
     background-color: #4d4d4d;
@@ -106,6 +113,7 @@ a{
     100%{transform: rotate(360deg);}
 }
 
+/* Formatação do menu lateral */
 .container-geral .lado-esquerdo .menu-lateral{
     width: 63.13%;
     margin: -30px auto;
@@ -124,7 +132,6 @@ a{
         padding-bottom: 10px;
     }
 }
-
 .container-geral .lado-esquerdo .menu-lateral ul{
     padding: 0px;
     margin: 0px;
@@ -134,7 +141,7 @@ a{
     color: #cdd1ca;
     font-weight: bold;
     padding: 10px 0px 10px 0px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 @media screen and (max-width: 962px){
@@ -158,6 +165,9 @@ a{
 .container-geral .lado-esquerdo .menu-lateral li a:active{
     color: #e8c547;
 }
+
+
+/* Formatação do lado direito geral */
 .container-geral .lado-direito{
     width: auto;
 }
@@ -165,19 +175,6 @@ a{
     .container-geral .lado-direito{
         padding-bottom: 20px;
     }
-}
-.container-geral .lado-direito .barra-topo{
-    background-color: #e8c547;
-    box-shadow: 0px 1px 10px #4d4d4d75;
-    height: 103.75px;
-    border-top: solid 1px transparent;
-}
-.container-geral .lado-direito .barra-topo .telegram{
-    max-width: 60px;
-    margin: 20px auto;
-}
-.container-geral .lado-direito .barra-topo .telegram img{
-    width: 100%;
 }
 
 
@@ -208,7 +205,7 @@ a{
     font-size: 25px;
 }
 .container-manchete p{
-    margin: 10px 0px 5px 0px;
+    margin: 10px 0px 20px 0px;
     text-align: justify;
 }
 .limitador-texto{
@@ -224,6 +221,7 @@ a{
 @media screen and (max-width: 600px){
     .container-manchete p{
         font-size: 18px;
+        margin-bottom: 20px;
     }
 }
 #segundo{
