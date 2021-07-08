@@ -240,6 +240,13 @@ a{
     height: 200px;
     border-radius: 10px;
 }
+#quinto{
+    background-image: url(https://scmillhills.com/wp-content/uploads/sites/5/2017/03/dolni-vestonice-winter-life-giovanni-caselli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+}
 
 
 .btnLeiaMais{
