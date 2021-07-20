@@ -185,7 +185,6 @@ a{
         display: block;
     }
 }
-
 .container-geral .dives{
     flex-grow: 1;
     flex-shrink: 1;
@@ -208,6 +207,12 @@ a{
     flex-basis: 200px;
     margin: 30px;
 }
+@media screen and (max-width: 600px){
+    .container-manchete{
+        padding: 0px 10px 0px 10px;
+        margin: 0px;
+    }
+}
 .container-manchete h1{
     margin: 5px 0px 0px 0px;
     font-size: 25px;
@@ -223,7 +228,7 @@ a{
 @media screen and (max-width: 600px){
     .container-manchete h1{
         font-size: 20px;
-        margin: 5px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
     }
 }
 @media screen and (max-width: 600px){
