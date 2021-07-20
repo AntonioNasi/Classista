@@ -210,7 +210,7 @@ a{
 @media screen and (max-width: 600px){
     .container-manchete{
         padding: 0px 10px 0px 10px;
-        margin: 0px;
+        margin: 15px 0px 15px 0px;
     }
 }
 .container-manchete h1{
