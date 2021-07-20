@@ -40,6 +40,8 @@
 
         <!--Scrool animation-->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
 
     </head>
@@ -47,69 +49,79 @@
     <body>
        
         <div class="barra-topo">
-            <div class="name">
-                <h1>Prof. Antonio Nasi</h1>
+            <div class="menu">
+
+                <div class="mobile-container">
+
+                    <!-- Top Navigation Menu -->
+                    <div class="topnav">
+                        <a href="#home" class="active">Cuide-se, a pandemia não acabou</a>
+                      <div id="myLinks">
+                            <a href="index.html">Início</a>
+                            <a href="venda-livros.html">Livros</a>
+                            <a href="artigos.html">Artigos</a>
+                            <a href="minicursos.html">Minicursos</a>
+                            <a href="palestras.html">Palestras</a>
+                            <a href="sobre.html">Sobre</a>
+                            <a href="https://t.me/AntonioNasi" target="_blank">Contato</a>
+                      </div>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                    </div>
+                    
+                    <!-- End smartphone / tablet look -->
+                </div>
+                    
+                <script>
+                    function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                            x.style.display = "none";
+                    } else {
+                            x.style.display = "block";
+                    }
+                    }
+                </script>
+
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="venda-livros.html">Livros</a></li>
+                    <li><a href="artigos.html">Artigos</a></li>
+                    <li><a href="minicursos.html">Minicursos</a></li>
+                    <li><a href="palestras.html">Palestras</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="https://t.me/AntonioNasi" target="_blank">Contato</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="tela-principal">
+            <h1>Prof. Antonio Nasi</h1>
+            <p>Marxismo, ciência e religião.</p>
+            <div class="rolar-down">
+                <a href="#manchetes">
+                    <img src="./botao-down.png">
+                </a>
             </div>
         </div>
-        
 
+        
         <div class="container-geral">
 
-            <div class="lado-esquerdo dives">
-                <div class="foto-perfil">
-                    <img src="./disco.png">
-                </div>
-
-                <div class="menu-lateral">
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="venda-livros.html">Livros</a></li>
-                        <li><a href="artigos.html">Artigos</a></li>
-                        <li><a href="minicursos.html">Minicursos</a></li>
-                        <li><a href="palestras.html">Palestras</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="https://t.me/AntonioNasi" target="_blank">Contato</a></li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="lado-direito dives">
+            <div class="lado-direito dives" id="manchetes">
 
                 <div class="container-manchete" data-aos="zoom-in">
-                    <div id="quinto">
+                    <div id="terceiro">
                         
                     </div>
-                    <h1>Trabalho, religião e ciência</h1>
-                    <p class="limitador-texto">Por muito tempo a forma de pensamento embrionária da ciência esteve colada com uma perspectiva religiosa, ou, considerando o contexto primitivo da humanidade, uma forma personificadora da realidade.</p>
-                    
-                    <a href="./trabalho-religiao-ciencia.html">
-                        <button class="btnLeiaMais">Leia Mais</button>
-                    </a>
-                    
-                </div>
-
-                <div class="container-manchete" data-aos="zoom-in">
-                    <div id="quarto">
-                        
+                    <div class="limitador-texto">
+                        <h1>Bolsonarismo e religiosidade</h1>
+                        <p>Se você é religioso(a) mas não é bolsonarista e já se sentiu incomodado(a) pelo título, peço apenas um pouco de paciência, no decorrer dessas linhas ficará melhor entendido em que termos se dá essa relação, ficando claro que não se trata de nenhuma arbitrariedade ou insulto para com vós.</p>
                     </div>
-                    <h1>Baixe um modelo de estrutura de PPP</h1>
-                    <p class="limitador-texto">Muitos estudantes de Pedagogia não têm segurança quando o assunto é Projeto Político Pedagógico, na verdade, até gestores experientes as vezes têm um pouco de dificuldade na hora de elaborar ou atualizar o PPP. Então clique no botão e baixe um modelo que pode ser usado na sua escola.</p>
                     
-                    <a href="./estrutura-ppp.html">
-                        <button class="btnLeiaMais">Leia Mais</button>
-                    </a>
-                    
-                </div>
-                
-                <div class="container-manchete" data-aos="zoom-in">
-                    <div id="primeiro">
-                        
-                    </div>
-                    <h1>Professor maconheiro pode?</h1>
-                    <p class="limitador-texto">Esses dias vi numa rede social alguém perguntando se professor que usa maconha pode estar em sala de aula. O que você acha?</p>
-                    
-                    <a href="./profmaconheiro.html">
+                    <a href="./bolsonarismo-religiosidade.html">
                         <button class="btnLeiaMais">Leia Mais</button>
                     </a>
                     
@@ -119,52 +131,64 @@
                     <div id="segundo">
                         
                     </div>
-                    <h1>Não se comemora o MAIS PAIC</h1>
-                    <p class="limitador-texto">O PAIC já está na sua adolescência, com seus 14 anos de existência. Mas sabia que nós professores não deveríamos comemorar? Quer saber o motivo? clique no botão abaixo.</p>
+                    <div class="limitador-texto">
+                        <h1>Trabalho, religião e ciência</h1>
+                        <p >Por muito tempo a forma de pensamento embrionária da ciência esteve colada com uma perspectiva religiosa, ou, considerando o contexto primitivo da humanidade, uma forma personificadora da realidade.</p>
+                    </div>
+                    
+                    <a href="./trabalho-religiao-ciencia.html">
+                        <button class="btnLeiaMais">Leia Mais</button>
+                    </a>
+                    
+                </div>
+
+                <div class="container-manchete" data-aos="zoom-in">
+                    <div id="primeiro">
+                        
+                    </div>
+                    <div class="limitador-texto">
+                        <h1>EXTRA: Não se comemora o MAIS PAIC</h1>
+                        <p>O PAIC já está na sua adolescência, com seus 14 anos de existência. Mas sabia que nós professores não deveríamos comemorar? Quer saber o motivo? clique no botão abaixo.</p>
+                    </div>
 
                         <a href="./maispaic.html">
                             <button class="btnLeiaMais">Leia Mais</button>
                         </a>
                 </div>
 
-                <div class="container-manchete" data-aos="zoom-in">
-                    <div id="terceiro">
-                        <iframe width="100%" height="315px" src="https://www.youtube.com/embed/videoseries?list=PLBwpKGAASu33KHGVSk_ESsADUVHBVF2Pq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <h1>História da ontologia dos gregos a Lukács</h1>
-                    <p class="limitador-texto">Para quem quer estudar sobre a história da ontologia, super recomento essa playlist produzida pelo Coletivo Veredas. Clique no vídeo para assistir</p>
-                </div>
-
-
-
-
-
-                    <div class="share-social">
-                        <div class="redes">
-                            <p>Compartilhe:</p>
-                        </div>
-                        <div class="redes">
-                            <a class="social" href="https://www.facebook.com/sharer/sharer.php?u=https://wwww.antonionasi.github.io/Prof-Antonio-Nasi/index.html" target="blank">
-                            <img width="30" height="30" src="./face.svg">
-                            </a>
-                        </div>
-                        <div class="redes">
-                            <a class="social" href="https://api.whatsapp.com/send?text=Algumas reflexões necessárias. https://wwww.antonionasi.github.io/Prof-Antonio-Nasi/index.html" target="blank">
-                            <img width="30" height="30" src="./zap.svg">
-                            </a>
-                        </div>
-                        
-                    </div>
-
-                </div>
-
-                <div class="insta-feed">
-
-                    
-
-                </div>
-
             </div>
+
+        </div>
+
+        <div class="share-social">
+                       
+            <div class="redes">
+                <a class="social" href="https://www.facebook.com/sharer/sharer.php?u=https://wwww.antonionasi.github.io/Prof-Antonio-Nasi/index.html" target="blank">
+                <img width="30" height="30" src="./face.svg">
+                </a>
+            </div>
+            <div class="redes">
+                <a class="social" href="https://api.whatsapp.com/send?text=Algumas reflexões necessárias. https://wwww.antonionasi.github.io/Prof-Antonio-Nasi/index.html" target="blank">
+                <img width="30" height="30" src="./zap.svg">
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="container-circulo-dominical">
+            <div class="container-menor">
+                <div class="texto-descreve">
+                    <h3 id="titulo-veredas">Círculo Dominical Coletivo Veredas</h3>
+                    
+                    <h4>História da ontologia dos gregos a Lukács</h4>
+                    <p>Para quem quer estudar sobre a história da ontologia, super recomento essa playlist produzida pelo Coletivo Veredas. Clique no vídeo para assistir</p>
+                </div>
+
+                <div class="youtube">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/videoseries?list=PLBwpKGAASu33KHGVSk_ESsADUVHBVF2Pq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
 
         </div>
 

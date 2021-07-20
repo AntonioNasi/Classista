@@ -167,20 +167,76 @@ a{
 
 
 
-/* Formatação da área sobre */
-main{
+/* Formatação da área de texto das postagens */
+.container-manchete{
     max-width: 1200px;
-    margin: 0 auto;
-}
-main p{
-    text-align: justify;
-    font-size: 25px;
+    margin: 30px auto;
 }
 @media screen and (max-width: 600px){
-    main p{
-        padding: 15px;
-        font-size: 18px;
+    .container-manchete{
+        padding: 20px 15px 20px 15px;
     }
+}
+.container-manchete h1{
+    margin: 0px 0px 10px 0px;
+    font-size: 35px;
+    text-align: center;
+}
+.container-manchete p{
+    margin: 20px 0px 20px 0px;
+    text-align: justify;
+    line-height: 1.5;
+}
+@media screen and (max-width: 600px){
+    .container-manchete h1{
+        font-size: 20px;
+        margin: 0px 0px 10px 0px;
+    }
+}
+@media screen and (max-width: 600px){
+    .container-manchete p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+#terceiro{
+    background-image: url(https://exame.com/wp-content/uploads/2021/05/jair-bolsonaro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px;
+}
+#segundo{
+    background-image: url(https://scmillhills.com/wp-content/uploads/sites/5/2017/03/dolni-vestonice-winter-life-giovanni-caselli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+}
+#primeiro{
+    background-image: url(https://centrodeeventos.ce.gov.br/wp-content/uploads/2017/06/MAIS-PAIC.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+.btnLeiaMais{
+    background-color: #e8c547;
+    color: #4d4d4d;
+    padding: 5px 30px 5px 30px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px #4d4d4d;
+}
+.btnLeiaMais:hover{
+    background-color: #4d4d4d;
+    color: #e8c547;
 }
 
 
@@ -254,6 +310,7 @@ footer .container-parcerias .parceria{
         flex-basis: 140px;
     }
 }
+
 
 
 

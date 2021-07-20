@@ -18,34 +18,162 @@ a{
 /* Formatação da barra do topo */
 .barra-topo{
     background-color: #e8c547;
-    height: 200px;
+    height: 60px;
     border-top: solid 1px transparent;
 }
-.barra-topo .name{
-    max-width: 600px;
-    margin: 30px auto;
+
+
+/* Formatação do menu */
+.menu{
+    max-width: 780px;
+    margin: 10px auto;
 }
-.barra-topo .name h1{
-    font-size: 30px;
-    text-align: center;
-    margin: 0px;
-}
-@media screen and (max-width: 600px){
-    .barra-topo .name h1{
-        font-size: 20px;
+@media screen and (max-width: 962px){
+    ul{
+        display: none;
     }
 }
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+.menu li{
+    display: inline-block;
+    list-style: none;
+    color: #4d4d4d;
+    font-weight: 400;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 10px 0px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+.menu li a:hover{
+    border-bottom: solid 5px #4d4d4d;
+}
+.menu li a:active{
+    color: #e8c547;
+}
+
+
+
+/* Formatação do menu mobile */
+.mobile-container {
+    max-width: 480px;
+    margin: -10px auto;
+    background-color: #555;
+    height: ;
+    color: white;
+    border-radius: 10px;
+}
+@media screen and (min-width: 962px){
+    .mobile-container{
+        display: none;
+    }
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #e8c547;
+    position: relative;
+    margin-top: 0px;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: #4d4d4d;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    background: #e8c547;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.topnav a:hover {
+    background-color: #4d4d4d;
+    color: #cdd1c4;
+}
+
+
+
+
+/* Formatação da tela de entrada */
+.tela-principal{
+    border-top: solid 1px transparent;
+    height: 400px;
+    margin-top: 0px;
+    background-image: url(https://www.estudopratico.com.br/wp-content/uploads/2014/06/filosofia-da-religiao-1200x675.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+@media screen and (max-width: 600px){
+    .tela-principal{
+        height: 600px;
+    }
+}
+.tela-principal h1{
+    text-align: center;
+    margin-top: 60px;
+    text-shadow: 2px 2px 5px #e8c547;
+}
+@media screen and (max-width: 600px){
+    .tela-principal h1{
+        font-size: 30px;
+    }
+}
+.tela-principal p{
+    text-align: center;
+    margin-top: -30px;
+    text-shadow: 2px 2px 5px #e8c547;
+}
+@media screen and (max-width: 600px){
+    .tela-principal p{
+        margin-top: -15px;
+    }
+}
+.tela-principal .rolar-down{
+    max-width: 45px;
+    margin: 220px auto;
+}
+@media screen and (max-width: 600px){
+    .tela-principal .rolar-down{
+        margin: 400px auto;
+    }
+}
+.tela-principal .rolar-down img{
+    width: 100%;
+    animation-name: piscar;
+    animation-duration: 1s;
+    animation-iteration-count: 5;
+}
+@keyframes piscar {
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+
 
 
 /* Formatação do container geral */
 .container-geral{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1024px;
-    margin: -110px auto;
+    max-width: 1200px;
+    margin: 30px auto;
     border-radius: 10px;
-    background-color: #cdd1ca;
-    box-shadow: 1px 2px 10px #4d4d4d;
 }
 @media screen and (max-width: 962px){
     .container-geral{
@@ -64,119 +192,6 @@ a{
     flex-basis: 360px;
 }
 
-/* Formatação do lado esquerdo */
-.container-geral .lado-esquerdo{
-    max-width: 280px;
-    background-color: #4d4d4d;
-    border-radius: 10px;
-}
-@media screen and (max-width: 962px){
-    .container-geral .lado-esquerdo{
-        max-width: 962px;
-        border-top: solid 1px transparent;
-    }
-}
-@media screen and (max-width: 600px){
-    .container-geral .lado-esquerdo{
-        max-width: 600px;
-        border-top: solid 1px transparent;
-    }
-}
-.container-geral .lado-esquerdo .foto-perfil{
-    max-width: 63.13%;
-    margin: 40px auto;
-}
-@media screen and (max-width: 962px){
-    .container-geral .lado-esquerdo .foto-perfil{
-        max-width: 50%;
-        margin-top: 25px;
-        margin-bottom: 10px;
-    }
-}
-@media screen and (max-width: 600px){
-    .container-geral .lado-esquerdo .foto-perfil{
-        max-width: 50%;
-        margin-top: 25px;
-        margin-bottom: 10px;
-    }
-}
-
-.container-geral .lado-esquerdo .foto-perfil img{
-    width: 100%;
-    animation-name: girar-foto;
-    animation-duration: 20s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-}
-@keyframes girar-foto {
-    0%{transform: rotate(-360deg);}
-    100%{transform: rotate(360deg);}
-}
-
-/* Formatação do menu lateral */
-.container-geral .lado-esquerdo .menu-lateral{
-    width: 63.13%;
-    margin: -30px auto;
-}
-@media screen and (max-width: 962px){
-    .container-geral .lado-esquerdo .menu-lateral{
-        width: 63.13%;
-        margin: 0px auto;
-        padding-bottom: 10px;
-    }
-}
-@media screen and (max-width: 600px){
-    .container-geral .lado-esquerdo .menu-lateral{
-        width: 63.13%;
-        margin: 0px auto;
-        padding-bottom: 10px;
-    }
-}
-.container-geral .lado-esquerdo .menu-lateral ul{
-    padding: 0px;
-    margin: 0px;
-}
-.container-geral .lado-esquerdo .menu-lateral li{
-    list-style: none;
-    color: #cdd1ca;
-    font-weight: bold;
-    padding: 10px 0px 10px 0px;
-    font-size: 20px;
-    text-align: center;
-}
-@media screen and (max-width: 962px){
-    .container-geral .lado-esquerdo .menu-lateral li{
-        font-size: 25px;
-    }
-}
-@media screen and (max-width: 600px){
-    .container-geral .lado-esquerdo .menu-lateral li{
-        font-size: 18px;
-    }
-}
-
-.container-geral .lado-esquerdo .menu-lateral li a{
-    text-decoration: none;
-    color: #cdd1ca;
-}
-.container-geral .lado-esquerdo .menu-lateral li a:hover{
-    color: #e8c547;
-}
-.container-geral .lado-esquerdo .menu-lateral li a:active{
-    color: #e8c547;
-}
-
-
-/* Formatação do lado direito geral */
-.container-geral .lado-direito{
-    width: auto;
-}
-@media screen and (max-width: 962px){
-    .container-geral .lado-direito{
-        padding-bottom: 20px;
-    }
-}
-
 
 
 /* Formatação da área das manchetes */
@@ -193,13 +208,6 @@ a{
     flex-basis: 200px;
     margin: 30px;
 }
-#primeiro{
-    background-image: url(https://www.cbdmania.it/storage/_1200x675_crop_center-center_none/sensimilla.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    border-radius: 10px;
-}
 .container-manchete h1{
     margin: 5px 0px 0px 0px;
     font-size: 25px;
@@ -209,7 +217,7 @@ a{
     text-align: justify;
 }
 .limitador-texto{
-    height: 80px;
+    height: 180px;
     overflow: hidden;
 }
 @media screen and (max-width: 600px){
@@ -224,33 +232,35 @@ a{
         margin-bottom: 20px;
     }
 }
+
+#terceiro{
+    background-image: url(https://exame.com/wp-content/uploads/2021/05/jair-bolsonaro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+}
 #segundo{
-    background-image: url(https://centrodeeventos.ce.gov.br/wp-content/uploads/2017/06/MAIS-PAIC.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    border-radius: 10px;
-}
-#quarto{
-    background-image: url(https://image.freepik.com/free-photo/smiling-african-student-pointing-with-pencil-laptop-screen-concentrated-blonde-woman-glasses-propping-chin-with-hand-while-working-with-computer-office_197531-3714.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    border-radius: 10px;
-}
-#quinto{
     background-image: url(https://scmillhills.com/wp-content/uploads/sites/5/2017/03/dolni-vestonice-winter-life-giovanni-caselli.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     border-radius: 10px;
 }
+#primeiro{
+    background-image: url(https://centrodeeventos.ce.gov.br/wp-content/uploads/2017/06/MAIS-PAIC.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+}
+
 
 
 .btnLeiaMais{
     background-color: #e8c547;
     color: #4d4d4d;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 30px 5px 30px;
     margin-top: 10px;
     border: none;
     box-shadow: 2px 2px 5px #4d4d4d;
@@ -262,14 +272,13 @@ a{
 
 
 
-
+/* Formatação do compartilhamento nas redes sociais */
 .share-social{
-    width: 88.4%;
+    max-width: 90px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    border-bottom: solid 1px #4d4d4d;
-    padding-bottom: 60px
+    padding-bottom: 0px
 }
 .share-social .redes{
     height: ;
@@ -286,12 +295,48 @@ a{
 }
 
 
-.feed{
-    margin: 110px 0px 0px 0px;
+/* Formatação da área de divulgação do Círculo dominical */
+.container-circulo-dominical{
+    background-color: #cdd1c4;
+    margin-top: 30px;
+}
+.container-circulo-dominical .container-menor{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-circulo-dominical p{
+    line-height: 1.5;
+}
+@media screen and (max-width: 600px){
+    .container-circulo-dominical .container-menor .texto-descreve{
+        padding: 0px 15px 0px 15px;
+    }
+
+}
+.container-circulo-dominical .container-menor div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+.container-circulo-dominical .container-menor h3{
+    font-size: 30px;
+}
+.container-circulo-dominical .container-menor h4{
+    font-size: 25px;
 }
 
 
 
+
+/* Formatação da área de feed do instagram */
+.feed{
+    margin: 30px 0px 0px 0px;
+}
+
+
+/* Formatação da área de rodapé */
 footer{
     background-color: #e8c547;
     border-top: solid 1px transparent;
@@ -333,7 +378,7 @@ footer .container-parcerias .parceria{
 
 
 #myBtn {
-    width: 5%;
+    width: 3%;
     display: none;
     position: fixed;
     bottom: 20px;

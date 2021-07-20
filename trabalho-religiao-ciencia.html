@@ -23,7 +23,7 @@
 
         <link rel="shortcut icon" type="image/x-icon" href="https://antonionasi.github.io/Prof-Antonio-Nasi/perfil-youtube.png"/>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="postagens.css">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -40,6 +40,8 @@
 
         <!--Scrool animation-->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
 
     </head>
@@ -47,84 +49,106 @@
     <body>
        
         <div class="barra-topo">
-            <div class="name">
-                <h1>Prof. Antonio Nasi</h1>
+            <div class="menu">
+
+                <div class="mobile-container">
+
+                    <!-- Top Navigation Menu -->
+                    <div class="topnav">
+                        <a href="#home" class="active">Cuide-se, a pandemia não acabou</a>
+                      <div id="myLinks">
+                            <a href="index.html">Início</a>
+                            <a href="venda-livros.html">Livros</a>
+                            <a href="artigos.html">Artigos</a>
+                            <a href="minicursos.html">Minicursos</a>
+                            <a href="palestras.html">Palestras</a>
+                            <a href="sobre.html">Sobre</a>
+                            <a href="https://t.me/AntonioNasi" target="_blank">Contato</a>
+                      </div>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                    </div>
+                    
+                    <!-- End smartphone / tablet look -->
+                </div>
+                    
+                <script>
+                    function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                            x.style.display = "none";
+                    } else {
+                            x.style.display = "block";
+                    }
+                    }
+                </script>
+
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="venda-livros.html">Livros</a></li>
+                    <li><a href="artigos.html">Artigos</a></li>
+                    <li><a href="minicursos.html">Minicursos</a></li>
+                    <li><a href="palestras.html">Palestras</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="https://t.me/AntonioNasi" target="_blank">Contato</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="tela-principal">
+            <h1>Prof. Antonio Nasi</h1>
+            <p>Marxismo, ciência e religião.</p>
+            <div class="rolar-down">
+                <a href="#manchetes">
+                    <img src="./botao-down.png">
+                </a>
             </div>
         </div>
+
+        
+            <div class="container-manchete" data-aos="zoom-in">
+                <h1>Trabalho, religião e ciência</h1>
+                <div id="segundo"></div>
+                
+                <p>O trabalho é, como muito bem explica o húngaro Lukács, o ponto médio entre o indivíduo, o sujeito e a natureza, bem como a sociedade. É ele que possibilita o salto ontológico, que leva da hominização à humanização, mas, além disso e em paralelo a isso, é através do trabalho que se desenvolve a ciência e a religião.</p>
+                <p>Mediante o enfrentamento da natureza, numa situação ainda primitiva de desenvolvimento da humanidade e muitíssimo limitado conhecimento do homem sobre seu entorno, prevalecia uma tendência personificadora da natureza. Essa tendência é constatada em várias sociedades em todo o planeta.</p>
+                <p>Essa personificação leva à criação de deuses e posteriormente ao que conhecemos hoje por religião. Ao mesmo tempo, nesse enfrentamento da natureza, ou seja, no processo de trabalho, há uma tendência em desenvolver um pensamento mais científico sobre a realidade, de conhecê-la de forma mais desantropomórfica.</p>
+                <p>As duas tendências presentes no trabalho por muito tempo permanecem imbricadas, apenas na Grécia Antiga o pensamento mais científico inicia um processo de desligamento, de separação em relação a tendência personificadora. Apenas nesse contexto, por diversos fatores específicos daquela sociedade, o reflexo científico da realidade alcança um elevado grau de independência e sofisticação ao ponto de dispor também pela primeira de uma metodologia própria.</p>
+                <p>Um dos elementos fundamentais para que o reflexo científico da realidade se generalize e se torne um modo de comportamento na sociedade, reverberando no cotidiano dos indivíduos, é exatamente o desenvolvimento de um método específico. Sem isso, todo o conhecimento, ainda que de caráter desantropomórfico, tende a diluir-se, misturar-se com outras formas de reflexo da realidade e inclusive sendo apropriado indevidamente pelo reflexo religioso.</p>
+                <p>Isso impede o correto desenvolvimento do reflexo científico, sua generalização, sua aplicação correta na realidade e seu aperfeiçoamento. É importante ressaltar que apesar do conhecimento científico iniciar propriamente seu desligamento do reflexo religioso na Grécia Antiga, é possível verificar vários momentos, inclusive mais recentemente, em que por dentro do próprio reflexo científico da realidade surgem processos antropomórficos.</p>
+                <p>Para saber mais sobre isso, leia a Estética de Lukács.</p>
+
+                <a href="./index.html">
+                    <button class="btnLeiaMais">Início</button>
+                </a>
+            </div>
+        
         
 
-        <div class="container-geral">
-
-            <div class="lado-esquerdo dives">
-                <div class="foto-perfil">
-                    <img src="./disco.png">
-                </div>
-
-                <div class="menu-lateral">
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="venda-livros.html">Livros</a></li>
-                        <li><a href="artigos.html">Artigos</a></li>
-                        <li><a href="minicursos.html">Minicursos</a></li>
-                        <li><a href="palestras.html">Palestras</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="https://t.me/AntonioNasi" target="_blank">Contato</a></li>
-                    </ul>
-                </div>
-
+        <div class="share-social">
+                       
+            <div class="redes">
+                <a class="social" href="https://www.facebook.com/sharer/sharer.php?u=https://wwww.antonionasi.github.io/Prof-Antonio-Nasi/index.html" target="blank">
+                <img width="30" height="30" src="./face.svg">
+                </a>
             </div>
-
-            <div class="lado-direito dives">
-
-                <div class="container-manchete" data-aos="zoom-in">
-                    <div id="quinto"></div>
-                    <h1>Trabalho, religião e ciência</h1>
-                    <p>O trabalho é, como muito bem explica o húngaro Lukács, o ponto médio entre o indivíduo, o sujeito e a natureza, bem como a sociedade. É ele que possibilita o salto ontológico, que leva da hominização à humanização, mas, além disso e em paralelo a isso, é através do trabalho que se desenvolve a ciência e a religião.</p>
-                    <p>Mediante o enfrentamento da natureza, numa situação ainda primitiva de desenvolvimento da humanidade e muitíssimo limitado conhecimento do homem sobre seu entorno, prevalecia uma tendência personificadora da natureza. Essa tendência é constatada em várias sociedades em todo o planeta.</p>
-                    <p>Essa personificação leva à criação de deuses e posteriormente ao que conhecemos hoje por religião. Ao mesmo tempo, nesse enfrentamento da natureza, ou seja, no processo de trabalho, há uma tendência em desenvolver um pensamento mais científico sobre a realidade, de conhecê-la de forma mais desantropomórfica.</p>
-                    <p>As duas tendências presentes no trabalho por muito tempo permanecem imbricadas, apenas na Grécia Antiga o pensamento mais científico inicia um processo de desligamento, de separação em relação a tendência personificadora. Apenas nesse contexto, por diversos fatores específicos daquela sociedade, o reflexo científico da realidade alcança um elevado grau de independência e sofisticação ao ponto de dispor também pela primeira de uma metodologia própria.</p>
-                    <p>Um dos elementos fundamentais para que o reflexo científico da realidade se generalize e se torne um modo de comportamento na sociedade, reverberando no cotidiano dos indivíduos, é exatamente o desenvolvimento de um método específico. Sem isso, todo o conhecimento, ainda que de caráter desantropomórfico, tende a diluir-se, misturar-se com outras formas de reflexo da realidade e inclusive sendo apropriado indevidamente pelo reflexo religioso.</p>
-                    <p>Isso impede o correto desenvolvimento do reflexo científico, sua generalização, sua aplicação correta na realidade e seu aperfeiçoamento. É importante ressaltar que apesar do conhecimento científico iniciar propriamente seu desligamento do reflexo religioso na Grécia Antiga, é possível verificar vários momentos, inclusive mais recentemente, em que por dentro do próprio reflexo científico da realidade surgem processos antropomórficos.</p>
-                    <p>Para saber mais sobre isso, leia a Estética de Lukács.</p>
-
-                    <a href="./index.html">
-                        <button class="btnLeiaMais">Início</button>
-                    </a>
-                </div>
-
-
-                    <div class="share-social">
-                        <div class="redes">
-                            <p>Compartilhe:</p>
-                        </div>
-                        <div class="redes">
-                            <a class="social" href="https://www.facebook.com/sharer/sharer.php?u=https://wwww.antonionasi.github.io/Prof-Antonio-Nasi/trabalho-religiao-ciencia.html" target="blank">
-                            <img width="30" height="30" src="./face.svg">
-                            </a>
-                        </div>
-                        <div class="redes">
-                            <a class="social" href="https://api.whatsapp.com/send?text=Ciência e religião têm a mesma origem, você sabia? https://wwww.antonionasi.github.io/Prof-Antonio-Nasi/trabalho-religiao-ciencia.html" target="blank">
-                            <img width="30" height="30" src="./zap.svg">
-                            </a>
-                        </div>
-                        <div class="redes"></div>
-                        <div class="redes">
-                            <a href="#">
-                                <p id="ir-outras-refle">Outras reflexões</p>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="insta-feed">
-
-                    
-
-                </div>
-
+            <div class="redes">
+                <a class="social" href="https://api.whatsapp.com/send?text=Algumas reflexões necessárias. https://wwww.antonionasi.github.io/Prof-Antonio-Nasi/index.html" target="blank">
+                <img width="30" height="30" src="./zap.svg">
+                </a>
             </div>
+            
+        </div>
 
+        
+
+        </div>
+
+        <div class="feed">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-1fbfb4c6-7453-40e0-a1f1-d9fb3294b837"></div>
         </div>
 
         <footer>
@@ -158,6 +182,14 @@
                 </div>
 
             </div>
+
+            <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+            <audio id="player" autoplay preload="auto">
+                <source src="oleoleoleola.mp3" type="audio/mp3">
+            </audio>
+
+
         </footer>
 
         <img onclick="topFunction()" id="myBtn" title="Go to top" src="./voltar-ao-topo.png">
