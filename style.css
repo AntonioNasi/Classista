@@ -113,14 +113,24 @@ a{
 /* Formatação da tela de entrada */
 .tela-principal{
     border-top: solid 1px transparent;
-    height: 400px;
+    height: 560px;
     margin-top: 0px;
     background-image: url(https://www.estudopratico.com.br/wp-content/uploads/2014/06/filosofia-da-religiao-1200x675.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 962px){
+    .tela-principal{
+        height: 540px;
+    }
+}
+@media screen and (max-width: 660px){
+    .tela-principal{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 390px){
     .tela-principal{
         height: 600px;
     }
@@ -147,9 +157,19 @@ a{
 }
 .tela-principal .rolar-down{
     max-width: 45px;
-    margin: 220px auto;
+    margin: 380px auto;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 962px){
+    .tela-principal .rolar-down{
+        margin: 360px auto;
+    }
+}
+@media screen and (max-width: 660px){
+    .tela-principal .rolar-down{
+        margin: 120px auto;
+    }
+}
+@media screen and (max-width: 390px){
     .tela-principal .rolar-down{
         margin: 400px auto;
     }
@@ -164,6 +184,7 @@ a{
     0%{opacity: 0%;}
     100%{opacity: 100%;}
 }
+
 
 
 
@@ -238,6 +259,13 @@ a{
     }
 }
 
+#quarto{
+    background-image: url(https://www.sociedadenerd.com.br/wp-content/uploads/2021/06/o-que-sao-as-esferas-do-dragao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+}
 #terceiro{
     background-image: url(https://exame.com/wp-content/uploads/2021/05/jair-bolsonaro.jpg);
     background-repeat: no-repeat;
