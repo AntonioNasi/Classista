@@ -200,6 +200,14 @@ a{
     }
 }
 
+#quinto{
+    background-image: url(https://exame.com/wp-content/uploads/2018/01/cristianismo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px;
+}
 #quarto{
     background-image: url(https://www.sociedadenerd.com.br/wp-content/uploads/2021/06/o-que-sao-as-esferas-do-dragao.jpg);
     background-repeat: no-repeat;
