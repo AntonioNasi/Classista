@@ -200,6 +200,14 @@ a{
     }
 }
 
+#sexto{
+    background-image: url(https://4.bp.blogspot.com/-QkPZayupLEM/VwuFBVVrezI/AAAAAAAACSk/9GVQrR6kzI0r42J6Kya6PtTkJknRFgAWQ/s1600/panteon_griego.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px;
+}
 #quinto{
     background-image: url(https://exame.com/wp-content/uploads/2018/01/cristianismo.jpg);
     background-repeat: no-repeat;
