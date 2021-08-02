@@ -114,10 +114,10 @@ a{
 
 /* Formatação da tela de entrada */
 .tela-principal{
-    border-top: solid 1px #4d4d4d;
+    border-top: solid 1px transparent;
     height: 300px;
     margin-top: 0px;
-    background-image: url(https://www.estudopratico.com.br/wp-content/uploads/2014/06/filosofia-da-religiao-1200x675.jpg);
+    background-image: url(./1024px-Creación_de_Adán.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -386,7 +386,7 @@ a{
 
 /* Formatação da área de feed do instagram */
 .feed{
-    margin: 30px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 
@@ -394,7 +394,7 @@ a{
 footer{
     background-color: #e8c547;
     border-top: solid 1px transparent;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 footer p{
     text-align: center;
