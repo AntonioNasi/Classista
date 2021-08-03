@@ -217,6 +217,14 @@ a{
     }
 }
 
+#oitavo{
+    background-image: url(https://static.todamateria.com.br/upload/fe/ud/feudalismo-og.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px;
+}
 #setimo{
     background-image: url(https://www.snpcultura.org/imagens/missa_20171220_pc.JPG);
     background-repeat: no-repeat;
