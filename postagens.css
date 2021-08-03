@@ -122,14 +122,9 @@ a{
     background-position: center;
     background-attachment: scroll;
 }
-@media screen and (max-width: 962px){
-    .tela-principal{
-        height: 300px;
-    }
-}
 @media screen and (max-width: 600px){
     .tela-principal{
-        height: 260px;
+        height: 140px;
     }
 }
 .tela-principal h1{
@@ -139,7 +134,8 @@ a{
 }
 @media screen and (max-width: 600px){
     .tela-principal h1{
-        font-size: 30px;
+        margin-top: 30px;
+        font-size: 20px;
     }
 }
 .tela-principal p{
@@ -150,6 +146,7 @@ a{
 @media screen and (max-width: 600px){
     .tela-principal p{
         margin-top: -15px;
+        font-size: 18px;
     }
 }
 /* Formatação do texto animado */
@@ -187,11 +184,12 @@ a{
 /* Formatação da área de texto das postagens */
 .container-manchete{
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 80px auto;
 }
 @media screen and (max-width: 600px){
     .container-manchete{
-        padding: 20px 15px 20px 15px;
+        margin: 40px auto;
+        padding: 0px 15px 20px 15px;
     }
 }
 .container-manchete h1{

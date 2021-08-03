@@ -129,7 +129,7 @@ a{
 }
 @media screen and (max-width: 600px){
     .tela-principal{
-        height: 260px;
+        height: 140px;
     }
 }
 .tela-principal h1{
@@ -139,7 +139,8 @@ a{
 }
 @media screen and (max-width: 600px){
     .tela-principal h1{
-        font-size: 30px;
+        font-size: 20px;
+        margin-top: 40px;
     }
 }
 .tela-principal p{
@@ -150,6 +151,7 @@ a{
 @media screen and (max-width: 600px){
     .tela-principal p{
         margin-top: -15px;
+        font-size: 18px;
     }
 }
 /* Formatação do texto animado */
@@ -192,6 +194,7 @@ main{
 main p{
     text-align: justify;
     font-size: 25px;
+    line-height: 1.5;
 }
 @media screen and (max-width: 600px){
     main p{
