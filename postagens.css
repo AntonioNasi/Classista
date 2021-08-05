@@ -215,6 +215,17 @@ a{
     }
 }
 
+#nono{
+    background-image: url(http://s2.glbimg.com/dp3VD4aTt4H9VTaRPu1lI51SL04=/e.glbimg.com/og/ed/f/original/2016/09/14/sagan-dalai-lama.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 200px;
+    border-radius: 10px;
+}
+#link-destaque{
+    background-color: #cdd1c4;
+}
 #oitavo{
     background-image: url(https://static.todamateria.com.br/upload/fe/ud/feudalismo-og.jpg);
     background-repeat: no-repeat;
