@@ -188,71 +188,40 @@ a{
 
 /* Formatação da área dos artigos */
 .post{
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1200px;
-    margin: 0 auto;
-}
-@media screen and (max-width: 600px){
-    .post{
-        margin-top: 30px;
-    }
+    margin: 30px auto;
 }
 .container-artigo{
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    box-shadow: 1px 1px 5px #cdd1c4;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 240px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
-@media screen and (max-width: 600px){
-    .container-artigo{
-        flex-wrap: wrap;
-    }
+.container-artigo a{
+    display: block;
+    max-width: 80px;
+    margin: 0 auto;
 }
-.container-artigo:hover{
-    background-color: #4d4d4d;
-    color: #cdd1ca;
+.container-artigo h3{
+    text-align: center;
 }
-.container-artigo div img{
+.container-artigo p{
+    text-align: center;
+}
+.container-artigo .div-img{
+    display: block;
+    max-width: 80px;
+    margin: 0 auto;
+}
+.container-artigo img{
     width: 100%;
 }
-.container-artigo div{
-    flex-grow: none;
-    flex-shrink: 1;
-}
-.container-artigo div h3{
-    padding: 0px;
-    margin: 0px 0px 0px 10px;
-    font-size: 18px;
-}
-.container-artigo div p{
-    padding: 0px;
-    margin: 0px 0px 0px 10px;
-}
-@media screen and (max-width: 600px){
-    .container-artigo div p{
-        font-size: 18px;
-        margin: 0px 0px 0px 0px;
-    }
-    .container-artigo div h3{
-        font-size: 18px;
-        margin: 0px 0px 0px 0px;
-    }
-}
-.container-artigo .icone-pdf{
-    width: 80px;
-}
-@media screen and (max-width: 600px){
-    .container-artigo .icone-pdf{
-        margin: 0 auto;
-    }
-}
-.container-artigo .descricao{
-    width: auto;
-}
-@media screen and (max-width: 600px){
-    .container-artigo .descricao{
-        padding: 10px;
-    }
-}
+
 
 
 
