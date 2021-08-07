@@ -200,17 +200,27 @@ a{
 .veredas .livros{
     box-shadow: 2px 1px 5px #4d4d4d;
     border-radius: 10px;
-    flex-grow: 1;
+    flex-grow: none;
     flex-shrink: 1;
-    flex-basis: 300px;
+    flex-basis: 260px;
     margin: 10px 10px 10px 10px;
     padding: 10px;
+}
+@media screen and (max-width: 1024px){
+    .veredas .livros{
+        flex-basis: 160px;
+    }
+}
+@media screen and (max-width: 600px){
+    .veredas .livros{
+        flex-grow: 1;
+    }
 }
 .veredas .livros img{
     width: 100%;
 }
 .veredas .livros img:hover{
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 .veredas .livros .limita-texto{
     overflow: hidden;
