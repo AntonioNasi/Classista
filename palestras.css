@@ -114,7 +114,7 @@ a{
 
 /* Formatação da tela de entrada */
 .tela-principal{
-    border-top: solid 1px #4d4d4d;
+    border-top: solid 1px transparent;
     height: 300px;
     margin-top: 0px;
     background-image: url(./1024px-Creación_de_Adán.jpg);
@@ -186,17 +186,70 @@ a{
 
 
 
-/* Formatação da área das palestras */
-main{
-    max-width: 1200px;
+/* Formatação da área de eventos */
+.info{
+    border-top: solid 1px transparent;
+    margin-bottom: 30px;
+}
+.info .info-content{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 590px;
     margin: 0 auto;
+    color: #4d4d4d;
+    padding: 30px 0px 30px 0px;
+    border-bottom: solid 1px #4d4d4d;
 }
-main p{
-    text-align: center;
+@media screen and (max-width: 600px){
+    .info .info-content{
+        display: block;
+    }
+    #calendar-img{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
+.info .info-content #calendar-img{
+    width: 20%;
+}
+.info .info-content #text-info{
+    width: 80%;
+    padding-left: 15px;
+}
+@media screen and (max-width: 600px){
+    .info .info-content #calendar-img{
+        max-width: 160px;
+    }
+    .info .info-content #text-info{
+        margin: 0 auto;
+    }
+}
+.info .info-content #text-info #data{
+    margin: 17px 0px 10px 0px;
     font-size: 25px;
+    font-weight: 900;
 }
-
-
+@media screen and (max-width: 600px){
+    .info .info-content #text-info #data{
+        font-size: 20px;
+    }
+}
+.info .info-content #text-info #tema{
+    margin: 0px;
+}
+.info .info-content #text-info #orgs{
+    font-weight: 600;
+    margin: 0px;
+}
+@media screen and (max-width: 600px){
+    .info .info-content #text-info p{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+.info .info-content img{
+    width: 100%;
+}
 
 
 
