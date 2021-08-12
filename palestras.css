@@ -244,6 +244,7 @@ a{
 @media screen and (max-width: 600px){
     .info .info-content #text-info #data{
         font-size: 18px;
+        text-align: left;
     }
 }
 .info .info-content #text-info #tema{
@@ -259,6 +260,7 @@ a{
     .info .info-content #text-info p{
         font-size: 15px;
         text-align: center;
+        text-align: left;
     }
 }
 .info .info-content img{
