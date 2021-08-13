@@ -29,7 +29,7 @@ a{
 
 /* Formatação do menu */
 .menu{
-    max-width: 780px;
+    max-width: 650px;
     margin: 10px auto;
 }
 @media screen and (max-width: 962px){
@@ -48,7 +48,7 @@ a{
     font-weight: 400;
     padding: 5px 5px 5px 5px;
     margin: 0px 10px 0px 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     text-align: center;
 }
@@ -119,10 +119,10 @@ a{
 
 /* Formatação da tela de entrada */
 .tela-principal{
-    border-top: solid 1px #4d4d4d;
+    border-top: solid 1px transparent;
     height: 300px;
     margin-top: 0px;
-    background-image: url(./1024px-Creación_de_Adán.jpg);
+    background-color: #4d4d4d;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -133,23 +133,23 @@ a{
     }
 }
 .tela-principal h1{
-    text-align: center;
+    color: #cdd1c4;
     font-size: 30px;
     font-weight: 900;
+    text-align: center;
     margin-top: 60px;
-    text-shadow: 2px 2px 5px #e8c547;
 }
 @media screen and (max-width: 600px){
     .tela-principal h1{
-        margin-top: 30px;
         font-size: 20px;
+        margin-top: 40px;
     }
 }
 .tela-principal p{
+    color: #cdd1c4;
     text-align: center;
-    margin-top: -25px;
     font-size: 20px;
-    text-shadow: 2px 2px 5px #e8c547;
+    margin-top: -25px;
 }
 @media screen and (max-width: 600px){
     .tela-principal p{
@@ -175,7 +175,6 @@ a{
     height: 20px;
     margin-bottom: ;
     color: #4d4d4d;
-    background-color: #cdd1c4;
     display: block;
 }
   

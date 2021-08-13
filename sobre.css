@@ -29,7 +29,7 @@ a{
 
 /* Formatação do menu */
 .menu{
-    max-width: 780px;
+    max-width: 650px;
     margin: 10px auto;
 }
 @media screen and (max-width: 962px){
@@ -48,7 +48,7 @@ a{
     font-weight: 300;
     padding: 5px 5px 5px 5px;
     margin: 0px 10px 0px 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 .menu li a{
