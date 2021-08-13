@@ -29,7 +29,7 @@ a{
 
 /* Formatação do menu */
 .menu{
-    max-width: 780px;
+    max-width: 650px;
     margin: 10px auto;
 }
 @media screen and (max-width: 962px){
@@ -48,7 +48,7 @@ a{
     font-weight: 300;
     padding: 5px 5px 5px 5px;
     margin: 0px 10px 0px 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 .menu li a{
@@ -241,13 +241,13 @@ a{
 }
 .container-manchete h1{
     margin: 5px 0px 0px 0px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
 }
 .container-manchete p{
     margin: 10px 0px 20px 0px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.5;
 }
 .limitador-texto{
@@ -262,7 +262,7 @@ a{
 }
 @media screen and (max-width: 600px){
     .container-manchete p{
-        font-size: 18px;
+        font-size: 15px;
         margin-bottom: 20px;
     }
 }
@@ -388,6 +388,8 @@ a{
 }
 .container-circulo-dominical p{
     line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
 }
 @media screen and (max-width: 600px){
     .container-circulo-dominical .container-menor .texto-descreve{
@@ -402,9 +404,11 @@ a{
 }
 .container-circulo-dominical .container-menor h3{
     font-size: 30px;
+    font-weight: 900;
 }
 .container-circulo-dominical .container-menor h4{
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -424,8 +428,8 @@ footer{
 }
 footer p{
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 900;
     margin: 20px 0px 0px 0px;
 }
 footer .container-parcerias .parceria img{
