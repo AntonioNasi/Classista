@@ -119,7 +119,7 @@ a{
 /* Formatação da tela de entrada */
 .tela-principal{
     border-top: solid 1px transparent;
-    height: 300px;
+    height: 140px;
     margin-top: 0px;
     background-color: #4d4d4d;
     background-size: cover;
@@ -128,7 +128,7 @@ a{
 }
 @media screen and (max-width: 962px){
     .tela-principal{
-        height: 300px;
+        height: 140px;
     }
 }
 @media screen and (max-width: 600px){
@@ -141,7 +141,7 @@ a{
     font-size: 30px;
     font-weight: 900;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 @media screen and (max-width: 600px){
     .tela-principal h1{
@@ -269,14 +269,15 @@ a{
 
 /* Formatação da área de rodapé */
 footer{
-    background-color: #e8c547;
+    background-color: #4d4d4d;
     border-top: solid 1px transparent;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 footer p{
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
+    color: #cdd1c4;
+    font-weight: 900;
     margin: 20px 0px 0px 0px;
 }
 footer .container-parcerias .parceria img{
@@ -303,6 +304,10 @@ footer .container-parcerias .parceria{
     footer .container-parcerias .parceria{
         flex-basis: 140px;
     }
+}
+/* Formatação dos botões ShareThis */
+.sharethis-inline-share-buttons{
+    margin-top: 20px;
 }
 
 
