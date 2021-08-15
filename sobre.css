@@ -33,7 +33,7 @@ a{
     margin: 10px auto;
 }
 @media screen and (max-width: 962px){
-    ul{
+    .menu ul{
         display: none;
     }
 }
@@ -196,20 +196,30 @@ a{
 /* Formatação da área sobre */
 main{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
-main p{
-    text-align: justify;
+main div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 380px;
+    margin: 0px 10px 0px 10px;
+}
+main div p{
     font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+main div li{
+    font-size: 15px;
     line-height: 1.5;
 }
-@media screen and (max-width: 600px){
-    main p{
-        padding: 15px;
-        font-size: 15px;
-    }
+#lattes{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
 }
-
 
 
 
