@@ -29,7 +29,7 @@ a{
 
 /* Formatação do menu */
 .menu{
-    max-width: 650px;
+    max-width: 570px;
     margin: 10px auto;
 }
 @media screen and (max-width: 962px){
