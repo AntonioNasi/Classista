@@ -7,6 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #4d4d4d;
+    hyphens: auto;
 }
 a{
     text-decoration: none;
@@ -250,7 +251,7 @@ a{
 }
 .container-manchete p{
     margin: 10px 0px 20px 0px;
-    text-align: justify;
+    text-align: left;
     font-size: 15px;
     line-height: 1.5;
 }

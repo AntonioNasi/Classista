@@ -7,6 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #4d4d4d;
+    hyphens: auto;
 }
 a{
     text-decoration: none;
@@ -191,8 +192,8 @@ a{
 
 /* Formatação da área de texto das postagens */
 .container-manchete{
-    max-width: 1200px;
-    margin: 80px auto;
+    max-width: 680px;
+    margin: 30px auto;
 }
 @media screen and (max-width: 600px){
     .container-manchete{
@@ -208,8 +209,14 @@ a{
 }
 .container-manchete p{
     margin: 20px 0px 20px 0px;
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
+}
+.container-manchete .links-nos-textos{
+    text-decoration: underline;
+}
+.container-manchete .links-nos-textos:hover{
+    background-color: #cdd1c4;
 }
 @media screen and (max-width: 600px){
     .container-manchete h1{
