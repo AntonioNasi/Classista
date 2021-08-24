@@ -207,6 +207,10 @@ a{
     font-weight: 900;
     text-align: center;
 }
+#tempo-leitura{
+    color: #cdd1c4;
+    font-weight: 300;
+}
 .container-manchete p{
     margin: 20px 0px 20px 0px;
     text-align: left;
@@ -230,7 +234,14 @@ a{
         margin-bottom: 20px;
     }
 }
-
+#decimo{
+    background-image: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3126832:1629798180/TALIB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 200px;
+    border-radius: 10px;
+}
 #nono{
     background-image: url(http://s2.glbimg.com/dp3VD4aTt4H9VTaRPu1lI51SL04=/e.glbimg.com/og/ed/f/original/2016/09/14/sagan-dalai-lama.jpg);
     background-repeat: no-repeat;

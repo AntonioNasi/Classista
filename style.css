@@ -17,18 +17,13 @@ a{
     color: #4d4d4d;
     background-color: #cdd1c4;
 }
-
-
-
-/* Formatação da barra do topo */
+/* Formatação da barra do topo >>>>>>>>>>>>>>>>>>>>>>>*/
 .barra-topo{
     background-color: #e8c547;
     height: 60px;
     border-top: solid 1px transparent;
 }
-
-
-/* Formatação do menu */
+/* Formatação do menu >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .menu{
     max-width: 570px;
     margin: 10px auto;
@@ -62,10 +57,7 @@ a{
 .menu li a:active{
     color: #e8c547;
 }
-
-
-
-/* Formatação do menu mobile */
+/* Formatação do menu mobile >>>>>>>>>>>>>>>>>>>>>>>>>*/
 .mobile-container {
     position: relative;
     z-index: 1;
@@ -81,18 +73,15 @@ a{
         display: none;
     }
 }
-  
 .topnav {
     overflow: hidden;
     background-color: #e8c547;
     position: relative;
     margin-top: 0px;
 }
-  
 .topnav #myLinks {
     display: none;
 }
-  
 .topnav a {
     color: #4d4d4d;
     padding: 14px 16px;
@@ -100,7 +89,6 @@ a{
     font-size: 17px;
     display: block;
 }
-  
 .topnav a.icon {
     background: #e8c547;
     display: block;
@@ -113,11 +101,7 @@ a{
     background-color: #4d4d4d;
     color: #cdd1c4;
 }
-
-
-
-
-/* Formatação da tela de entrada */
+/* Formatação da tela de entrada >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .tela-principal{
     border-top: solid 1px transparent;
     height: 140px;
@@ -162,7 +146,7 @@ a{
         font-size: 18px;
     }
 }
-/* Formatação do texto animado */
+/* Formatação do texto animado >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content {
     max-width: 600px;
     margin: 0 auto;
@@ -182,7 +166,6 @@ a{
     color: #4d4d4d;
     display: block;
 }
-  
 @keyframes blinkTextCursor {
     from {
       border-right-color: black;
@@ -191,10 +174,7 @@ a{
       border-right-color: transparent;
     }
 }
-
-
-
-/* Formatação do container geral */
+/* Formatação do container geral >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .container-geral{
     display: flex;
     flex-wrap: wrap;
@@ -217,14 +197,11 @@ a{
     flex-shrink: 1;
     flex-basis: 360px;
 }
-
-/* Formatação dos botões ShareThis */
+/* Formatação dos botões ShareThis >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .sharethis-inline-share-buttons{
     margin-top: 20px;
 }
-
-
-/* Formatação da área das manchetes */
+/* Formatação da área das manchetes >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .lado-direito{
     display: flex;
     flex-wrap: wrap;
@@ -271,7 +248,15 @@ a{
         margin-bottom: 20px;
     }
 }
-
+/* Formatação das imagens dos posts >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#decimo{
+    background-image: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3126832:1629798180/TALIB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px;
+}
 #nono{
     background-image: url(http://s2.glbimg.com/dp3VD4aTt4H9VTaRPu1lI51SL04=/e.glbimg.com/og/ed/f/original/2016/09/14/sagan-dalai-lama.jpg);
     background-repeat: no-repeat;
@@ -339,9 +324,7 @@ a{
     height: 200px;
     border-radius: 10px;
 }
-
-
-
+/* Formatação do botão leia mais >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .btnLeiaMais{
     background-color: #e8c547;
     color: #4d4d4d;
@@ -354,10 +337,7 @@ a{
     background-color: #4d4d4d;
     color: #e8c547;
 }
-
-
-
-/* Formatação do compartilhamento nas redes sociais */
+/* Formatação do compartilhamento nas redes sociais >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .share-social{
     max-width: 190px;
     margin: 0 auto;
@@ -378,9 +358,7 @@ a{
 #ir-outras-refle:hover{
     background-color: #e8c547;
 }
-
-
-/* Formatação da área de divulgação do Círculo dominical */
+/* Formatação da área de divulgação do Círculo dominical >>>>>>>>>>>>>>>>>>>>>>>>*/
 .container-circulo-dominical{
     background-color: #cdd1c4;
     margin-top: 30px;
@@ -415,17 +393,11 @@ a{
     font-size: 20px;
     font-weight: 600;
 }
-
-
-
-
-/* Formatação da área de feed do instagram */
+/* Formatação da área de feed do instagram >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .feed{
     margin: 20px 0px 0px 0px;
 }
-
-
-/* Formatação da área de rodapé */
+/* Formatação da área de rodapé >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 footer{
     background-color: #4d4d4d;
     border-top: solid 1px transparent;
@@ -463,10 +435,7 @@ footer .container-parcerias .parceria{
         flex-basis: 140px;
     }
 }
-
-
-
-
+/* Formatação do botão voltar ao topo >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 #myBtn {
     width: 3%;
     display: none;
