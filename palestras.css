@@ -238,7 +238,7 @@ a{
     }
 }
 .info .info-content #text-info #data{
-    margin: 17px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     font-size: 20px;
     font-weight: 900;
 }
@@ -257,6 +257,18 @@ a{
     margin: 0px;
     font-size: 15px;
 }
+.info .info-content #text-info #inscrever{
+    margin: 8px 0px 0px 0px;
+    font-size: 15px;
+}
+.info .info-content .butao-ins{
+    border: solid 1px #4d4d4d;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+}
+.info .info-content .butao-ins:hover{
+    font-weight: 700;
+}
 @media screen and (max-width: 600px){
     .info .info-content #text-info p{
         font-size: 15px;
@@ -267,6 +279,7 @@ a{
 .info .info-content img{
     width: 100%;
 }
+
 
 
 
