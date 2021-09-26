@@ -283,12 +283,13 @@ a{
 @media screen and (max-width: 600px){
     .container-manchete{
         padding: 0px 15px 0px 15px;
-        margin: 15px 0px 15px 0px;
+        margin: 15px 0px 20px 0px;
     }
 }
 
 .container-manchete h1{
     margin: 5px 0px 0px 0px;
+    padding-top: 10px;
     font-size: 20px;
     font-weight: 900;
 }
@@ -328,9 +329,20 @@ a{
     height: 200px;
     transform: skewY(183deg);
     box-shadow: 10px 10px #00000011;
+    padding: 10px 0px 0px 10px;
 }
 #decimo:hover{
     transform: rotate(3deg);
+}
+#new-post{
+    animation-name: newpost;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: ;
+}
+@keyframes newpost {
+    from{transform: scale(0%);}
+    to{transform: scale(100%);}
 }
 
 #nono{
