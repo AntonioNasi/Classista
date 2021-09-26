@@ -7,7 +7,7 @@ body{
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: #4d4d4d;
+    color: #000000;
     hyphens: auto;
 }
 
@@ -490,41 +490,79 @@ a{
 #ir-outras-refle:hover{
     background-color: #e8c547;
 }
+
 /* Formatação da área de divulgação do Círculo dominical >>>>>>>>>>>>>>>>>>>>>>>>*/
 .container-circulo-dominical{
-    background-color: #cdd1c4;
     margin-top: 30px;
 }
+
+.container-circulo-dominical .container-menor img{
+    width: 100%;
+}
+
 .container-circulo-dominical .container-menor{
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .container-circulo-dominical p{
     line-height: 1.5;
     font-size: 15px;
     font-weight: 400;
 }
+
+.container-circulo-dominical .container-menor .texto-descreve{
+    max-width: 900px;
+}
+
+.container-circulo-dominical .container-menor .youtube{
+    max-width: 300px;
+}
+
 @media screen and (max-width: 600px){
     .container-circulo-dominical .container-menor .texto-descreve{
         padding: 0px 15px 0px 15px;
     }
 
 }
+
+@media screen and (max-width: 600px){
+    .container-circulo-dominical .container-menor{
+        display: block;
+    }
+    .container-circulo-dominical .container-menor .youtube{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .container-circulo-dominical .container-menor #titulo-veredas{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .container-circulo-dominical .container-menor h4{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
 .container-circulo-dominical .container-menor div{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 300px;
 }
+
 .container-circulo-dominical .container-menor h3{
     font-size: 30px;
     font-weight: 900;
 }
+
 .container-circulo-dominical .container-menor h4{
     font-size: 20px;
     font-weight: 600;
 }
+
 /* Formatação da área de feed do instagram >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .feed{
     margin: 20px 0px 0px 0px;
