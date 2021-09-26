@@ -22,7 +22,6 @@ a{
 
 /* Formatação da barra do topo */
 .barra-topo{
-    background-color: #e8c547;
     height: 60px;
     border-top: solid 1px transparent;
 }
@@ -65,44 +64,42 @@ a{
 
 
 
-/* Formatação do menu mobile */
+/* Formatação do menu mobile >>>>>>>>>>>>>>>>>>>>>>>>>*/
 .mobile-container {
     position: relative;
     z-index: 1;
     max-width: 480px;
     margin: -10px auto;
-    background-color: #555;
-    height: ;
     color: white;
     border-radius: 10px;
 }
+
 @media screen and (min-width: 962px){
     .mobile-container{
         display: none;
     }
 }
-  
+
 .topnav {
     overflow: hidden;
-    background-color: #e8c547;
+    background-color: white;
     position: relative;
     margin-top: 0px;
 }
-  
+
 .topnav #myLinks {
     display: none;
 }
-  
+
 .topnav a {
-    color: #4d4d4d;
+    color: #000000;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
 }
-  
+
 .topnav a.icon {
-    background: #e8c547;
     display: block;
     position: absolute;
     right: 0;
@@ -110,79 +107,119 @@ a{
 }
   
 .topnav a:hover {
-    background-color: #4d4d4d;
-    color: #cdd1c4;
+    color: #000000;
 }
 
-
-
-
-/* Formatação da tela de entrada */
+/* Formatação da tela de entrada >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .tela-principal{
     border-top: solid 1px transparent;
-    height: 140px;
     margin-top: 0px;
-    background-color: #4d4d4d;
+    background-color: #000000;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
 }
-@media screen and (max-width: 962px){
-    .tela-principal{
-        height: 140px;
-    }
-}
+
 @media screen and (max-width: 600px){
     .tela-principal{
-        height: 140px;
+        margin-top: -10px;
     }
 }
-.tela-principal h1{
-    color: #cdd1c4;
-    font-size: 30px;
-    font-weight: 900;
-    text-align: center;
-    margin-top: 40px;
-}
-@media screen and (max-width: 600px){
-    .tela-principal h1{
-        font-size: 20px;
-        margin-top: 40px;
-    }
-}
-.tela-principal p{
-    color: #cdd1c4;
-    text-align: center;
-    font-size: 20px;
-    margin-top: -25px;
-}
-@media screen and (max-width: 600px){
-    .tela-principal p{
-        margin-top: -15px;
-        font-size: 18px;
-    }
-}
-/* Formatação do texto animado */
-.content {
-    max-width: 600px;
+
+.tela-principal .tela-principal-container{
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    align-content: center;
 }
+
+@media screen and (max-width: 600px){
+    .tela-principal .tela-principal-container{
+        display: block;
+    }
+}
+
+.tela-principal .tela-principal-container .tela-principal-img{
+    width: 20%;
+}
+
+@media screen and (max-width: 600px){
+    .tela-principal .tela-principal-container .tela-principal-img{
+        width:auto;
+    }
+}
+
+.tela-principal .tela-principal-container .tela-principal-img img{
+    width: 100%;
+}
+
+.tela-principal h1{
+    color: #87cc33;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 600px){
+    .tela-principal h1{
+        font-size: 20px;
+        margin: 10px 0px 30px 0px;
+    }
+}
+
+.tela-principal p{
+    color: #cdd1c4;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 600px){
+    .tela-principal p{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+}
+
+#tela-principal-saiba-mais{
+    color: red;
+    padding: 3px 7px;
+}
+
+#tela-principal-saiba-mais:hover{
+    border: solid 1px #87cc33;
+    border-radius: 10px;
+}
+
+#a{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+/* Formatação do texto animado >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.content {
+    width: 76%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px){
+    .content{
+        width: auto;
+        padding: 10px;
+    }
+}
+
 .typedtext {
     margin-top: 0px;
     border-right: 2px solid black;
     animation: blinkTextCursor 800ms steps(40) infinite normal;
     height: 20px;
-    margin-bottom: ;
-    color: #4d4d4d;
+    color: #87cc33;
     display: block;
 }
-  
 @keyframes blinkTextCursor {
     from {
       border-right-color: black;
@@ -257,14 +294,13 @@ main div li{
 
 /* Formatação da área de rodapé */
 footer{
-    background-color: #4d4d4d;
-    border-top: solid 1px transparent;
+    border-top: solid 1px #000000;
     margin-top: 20px;
 }
 footer p{
     text-align: center;
     font-size: 20px;
-    color: #cdd1c4;
+    color: #000000;
     font-weight: 900;
     margin: 20px 0px 0px 0px;
 }

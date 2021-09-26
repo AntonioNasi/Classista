@@ -22,7 +22,6 @@ a{
 
 /* Formatação da barra do topo */
 .barra-topo{
-    background-color: #e8c547;
     height: 60px;
     border-top: solid 1px transparent;
 }
@@ -66,44 +65,42 @@ a{
 
 
 
-/* Formatação do menu mobile */
+/* Formatação do menu mobile >>>>>>>>>>>>>>>>>>>>>>>>>*/
 .mobile-container {
     position: relative;
     z-index: 1;
     max-width: 480px;
     margin: -10px auto;
-    background-color: #555;
-    height: ;
     color: white;
     border-radius: 10px;
 }
+
 @media screen and (min-width: 962px){
     .mobile-container{
         display: none;
     }
 }
-  
+
 .topnav {
     overflow: hidden;
-    background-color: #e8c547;
+    background-color: white;
     position: relative;
     margin-top: 0px;
 }
-  
+
 .topnav #myLinks {
     display: none;
 }
-  
+
 .topnav a {
-    color: #4d4d4d;
+    color: #000000;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
 }
-  
+
 .topnav a.icon {
-    background: #e8c547;
     display: block;
     position: absolute;
     right: 0;
@@ -111,74 +108,119 @@ a{
 }
   
 .topnav a:hover {
-    background-color: #4d4d4d;
-    color: #cdd1c4;
+    color: #000000;
 }
 
-
-
-
-/* Formatação da tela de entrada */
+/* Formatação da tela de entrada >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .tela-principal{
     border-top: solid 1px transparent;
-    height: 140px;
     margin-top: 0px;
-    background-color: #4d4d4d;
+    background-color: #000000;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
 }
+
 @media screen and (max-width: 600px){
     .tela-principal{
-        height: 140px;
+        margin-top: -10px;
     }
 }
-.tela-principal h1{
-    color: #cdd1c4;
-    font-size: 30px;
-    font-weight: 900;
-    text-align: center;
-    margin-top: 40px;
-}
-@media screen and (max-width: 600px){
-    .tela-principal h1{
-        font-size: 20px;
-        margin-top: 40px;
-    }
-}
-.tela-principal p{
-    color: #cdd1c4;
-    text-align: center;
-    font-size: 20px;
-    margin-top: -25px;
-}
-@media screen and (max-width: 600px){
-    .tela-principal p{
-        margin-top: -15px;
-        font-size: 18px;
-    }
-}
-/* Formatação do texto animado */
-.content {
-    max-width: 600px;
+
+.tela-principal .tela-principal-container{
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    align-content: center;
 }
+
+@media screen and (max-width: 600px){
+    .tela-principal .tela-principal-container{
+        display: block;
+    }
+}
+
+.tela-principal .tela-principal-container .tela-principal-img{
+    width: 20%;
+}
+
+@media screen and (max-width: 600px){
+    .tela-principal .tela-principal-container .tela-principal-img{
+        width:auto;
+    }
+}
+
+.tela-principal .tela-principal-container .tela-principal-img img{
+    width: 100%;
+}
+
+.tela-principal h1{
+    color: #87cc33;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 600px){
+    .tela-principal h1{
+        font-size: 20px;
+        margin: 10px 0px 30px 0px;
+    }
+}
+
+.tela-principal p{
+    color: #cdd1c4;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 600px){
+    .tela-principal p{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+}
+
+#tela-principal-saiba-mais{
+    color: red;
+    padding: 3px 7px;
+}
+
+#tela-principal-saiba-mais:hover{
+    border: solid 1px #87cc33;
+    border-radius: 10px;
+}
+
+#a{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+/* Formatação do texto animado >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.content {
+    width: 76%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px){
+    .content{
+        width: auto;
+        padding: 10px;
+    }
+}
+
 .typedtext {
     margin-top: 0px;
     border-right: 2px solid black;
     animation: blinkTextCursor 800ms steps(40) infinite normal;
     height: 20px;
-    margin-bottom: ;
-    color: #4d4d4d;
+    color: #87cc33;
     display: block;
 }
-  
 @keyframes blinkTextCursor {
     from {
       border-right-color: black;
@@ -192,7 +234,7 @@ a{
 
 /* Formatação da área de texto das postagens */
 .container-manchete{
-    max-width: 680px;
+    max-width: 700px;
     margin: 30px auto;
 }
 @media screen and (max-width: 600px){
@@ -234,87 +276,131 @@ a{
         margin-bottom: 20px;
     }
 }
+
+/* Formatação da capa das postagens >>>>>>>>>>>>>>>>>>>>>> */
 #decimo{
-    background-image: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3126832:1629798180/TALIB.jpg);
+    background-image: url(https://image.freepik.com/fotos-gratis/close-da-bandeira-do-afeganistao-com-texturas-interessantes_181624-12682.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
 }
+#decimo:hover{
+    transform: rotate(3deg);
+}
+
 #nono{
-    background-image: url(http://s2.glbimg.com/dp3VD4aTt4H9VTaRPu1lI51SL04=/e.glbimg.com/og/ed/f/original/2016/09/14/sagan-dalai-lama.jpg);
+    background-image: url(https://image.freepik.com/vetores-gratis/pessoas-segurando-diverso-religiosas-simbolos-ilustracao_53876-66142.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
 }
-#link-destaque{
-    background-color: #cdd1c4;
+#nono:hover{
+    transform: rotate(3deg);
 }
+
 #oitavo{
-    background-image: url(https://static.todamateria.com.br/upload/fe/ud/feudalismo-og.jpg);
+    background-image: url(https://image.freepik.com/vetores-gratis/cena-da-natureza-de-pastagens-agricolas-de-terras-rurais-abtract-silhueta-de-agricultores-asiaticos-trabalhando-no-campo-de-arroz-ilustracao_1150-37317.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
 }
+#oitavo:hover{
+    transform: rotate(3deg);
+}
+
 #setimo{
-    background-image: url(https://www.snpcultura.org/imagens/missa_20171220_pc.JPG);
+    background-image: url(https://image.freepik.com/vetores-gratis/conceito-de-elementos-esotericos_52683-39409.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
 }
+#setimo:hover{
+    transform: rotate(3deg);
+}
+
 #sexto{
     background-image: url(https://4.bp.blogspot.com/-QkPZayupLEM/VwuFBVVrezI/AAAAAAAACSk/9GVQrR6kzI0r42J6Kya6PtTkJknRFgAWQ/s1600/panteon_griego.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
 }
+#sexto:hover{
+    transform: rotate(3deg);
+}
+
 #quinto{
     background-image: url(https://exame.com/wp-content/uploads/2018/01/cristianismo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
 }
+#quinto:hover{
+    transform: rotate(3deg);
+}
+
 #quarto{
     background-image: url(https://www.sociedadenerd.com.br/wp-content/uploads/2021/06/o-que-sao-as-esferas-do-dragao.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
 }
+#quarto:hover{
+    transform: rotate(3deg);
+}
+
 #terceiro{
     background-image: url(https://exame.com/wp-content/uploads/2021/05/jair-bolsonaro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
 }
+#terceiro:hover{
+    transform: rotate(3deg);
+}
+
 #segundo{
     background-image: url(https://scmillhills.com/wp-content/uploads/sites/5/2017/03/dolni-vestonice-winter-life-giovanni-caselli.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
 }
+#segundo:hover{
+    transform: rotate(3deg);
+}
+
 #primeiro{
     background-image: url(https://centrodeeventos.ce.gov.br/wp-content/uploads/2017/06/MAIS-PAIC.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 200px;
-    border-radius: 10px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
+}
+#primeiro:hover{
+    transform: rotate(3deg);
 }
 
 
@@ -368,14 +454,13 @@ a{
 
 /* Formatação da área de rodapé */
 footer{
-    background-color: #4d4d4d;
-    border-top: solid 1px transparent;
+    border-top: solid 1px #000000;
     margin-top: 20px;
 }
 footer p{
     text-align: center;
     font-size: 20px;
-    color: #cdd1c4;
+    color: #000000;
     font-weight: 900;
     margin: 20px 0px 0px 0px;
 }
@@ -423,13 +508,10 @@ footer .container-parcerias .parceria{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color:;
-    color: ;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
   }
   
   #myBtn:hover {
-    background-color: ;
   }
