@@ -137,6 +137,12 @@ a{
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 962px){
+    .tela-principal .tela-principal-container{
+        display: block;
+    }
+}
+
 @media screen and (max-width: 600px){
     .tela-principal .tela-principal-container{
         display: block;
@@ -264,6 +270,7 @@ a{
 .sharethis-inline-share-buttons{
     margin-top: 20px;
 }
+
 /* Formatação da área das manchetes >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .lado-direito{
     display: flex;
@@ -321,8 +328,8 @@ a{
 }
 
 /* Formatação das imagens dos posts >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-#decimo{
-    background-image: url(https://image.freepik.com/fotos-gratis/close-da-bandeira-do-afeganistao-com-texturas-interessantes_181624-12682.jpg);
+#decimo-primeiro{
+    background-image: url(https://image.freepik.com/fotos-gratis/mulher-pensativa-com-pergunta-simbolos-atras_1134-505.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -343,6 +350,20 @@ a{
 @keyframes newpost {
     from{transform: scale(0%);}
     to{transform: scale(100%);}
+}
+
+#decimo{
+    background-image: url(https://image.freepik.com/fotos-gratis/close-da-bandeira-do-afeganistao-com-texturas-interessantes_181624-12682.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
+    padding: 10px 0px 0px 10px;
+}
+#decimo:hover{
+    transform: rotate(3deg);
 }
 
 #nono{

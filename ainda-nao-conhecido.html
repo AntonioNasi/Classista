@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160635526-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-160635526-1');
+        </script>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>O ainda não conhecido</title>
+        <meta name="author" content="Professor Antonio Nasi">
+        <meta name="description" content="Ciência, religião e o ainda não conhecido; importância da categoria para compreensão do real.">
+        <meta property="og:image" content="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3126832:1629798180/TALIB.jpg">
+        <meta property="og:description" content="Ciência, religião e o ainda não conhecido; importância da categoria para compreensão do real.">
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://antonionasi.github.io/Prof-Antonio-Nasi/perfil-youtube.png"/>
+
+        <link rel="stylesheet" type="text/css" href="postagens.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCWNE295MH"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-KCWNE295MH');
+        </script>
+
+        <!--Scrool animation-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6117b0ae49abbb00129cb2c1&product=inline-share-buttons" async="async"></script>
+
+        <script data-ad-client="ca-pub-8989232740922066" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    </head>
+
+    <body>
+       
+        <div class="barra-topo">
+            <div class="menu">
+
+                <div class="mobile-container">
+
+                    <!-- Top Navigation Menu -->
+                    <div class="topnav">
+                        <a href="#home" class="active">Cuide-se, a pandemia não acabou</a>
+                      <div id="myLinks">
+                            <a href="index.html">Início</a>
+                            <a href="artigos.html">Artigos</a>
+                            <a href="minicursos.html">Minicursos</a>
+                            <a href="palestras.html">Eventos</a>
+                            <a href="sobre.html">Sobre</a>
+                            <a href="https://t.me/AntonioNasi" target="_blank">Contato</a>
+                      </div>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                    </div>
+                    
+                    <!-- End smartphone / tablet look -->
+                </div>
+                    
+                <script>
+                    function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                            x.style.display = "none";
+                    } else {
+                            x.style.display = "block";
+                    }
+                    }
+                </script>
+
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="artigos.html">Artigos</a></li>
+                    <li><a href="minicursos.html">Minicursos</a></li>
+                    <li><a href="palestras.html">Eventos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="https://t.me/AntonioNasi" target="_blank">Contato</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="tela-principal">
+            
+            <div class="tela-principal-container">
+
+                <div class="tela-principal-img a">
+                    <img src="./curso-estetica.jpeg">
+                </div>
+                
+                <div class="content">
+                    
+                    <h1 class="typedtext a"></h1>
+                    <p>Curso oferecido pelo Coletivo Veredas e ministrado pelo professor Phd. Deribaldo Santos.</p>
+                    
+                    <a href="https://coletivoveredas.com/" target="_blank">
+                        <p id="tela-principal-saiba-mais">Clique aqui para saber mais</p>
+                    </a>
+                     
+                </div>
+    
+                <script>
+                    /*
+                    * typingEffect()
+                    * It types an array of texts in a random order. I like random stuff🙃
+                    */
+                    function typingEffect() {
+                        const contactTexts = shuffleArray(['Curso Livre de Introdução à Grande Estética de Lukács']);
+                        const typedtext = document.getElementsByClassName("typedtext")[0];
+                        let removing = false;
+                        let idx = char = 0;
+    
+                        setInterval(() => { // We define the interval of the typing speed
+    
+                            // If we do not reach the limit, we insert characters in the html
+                            if (char < contactTexts[idx].length) typedtext.innerHTML += contactTexts[idx][char];
+    
+                            // 15*150ms = time before starting to remove characters
+                            if (char == contactTexts[idx].length + 15) removing = true;
+    
+                            // Removing characters, the last one always
+                            if (removing) typedtext.innerHTML = typedtext.innerHTML.substring(0, typedtext.innerHTML.length - 1);
+    
+                            char++; // Next character
+    
+                            // When there is nothing else to remove
+                            if (typedtext.innerHTML.length === 0) {
+    
+                                // If we get to the end of the texts we start over
+                                if (idx === contactTexts.length - 1) idx = 0
+                                else idx++;
+    
+                                char = 0; // Start the next text by the first character
+                                removing = false; // No more removing characters
+                            }
+    
+                        }, 150); // Typing speed, 150 ms
+    
+                    }
+                    typingEffect();
+                    function shuffleArray(array) {
+                        let currentIndex = array.length,
+                            temporaryValue, randomIndex;
+    
+                        // While there remain elements to shuffle...
+                        while (0 !== currentIndex) {
+    
+                            // Pick a remaining element...
+                            randomIndex = Math.floor(Math.random() * currentIndex);
+                            currentIndex -= 1;
+    
+                            // And swap it with the current element.
+                            temporaryValue = array[currentIndex];
+                            array[currentIndex] = array[randomIndex];
+                            array[randomIndex] = temporaryValue;
+                        }
+    
+                        return array;
+                    }
+                </script>
+
+            </div>
+            
+        </div>
+
+        
+            <div class="container-manchete" data-aos="zoom-in">
+                <h1>Ciência, religião e o ainda não conhecido</h1>
+                <div id="decimo-primeiro"></div>
+
+                <p id="tempo-leitura"> ~2min de leitura </p>
+                
+                <p>Se pararmos para pensar, todo o desenvolvimento das sociedades, desde os primórdios da humanidade, com o domínio crescente sobre a natureza exterior, gira em torno de uma categoria pouco discutida, porém, fundamental para o entendimento de vários aspectos da realidade. Trata-se do ainda-não-conhecido.</p>
+
+                <p>As formas de reflexo da realidade que têm por finalidade, por assim dizer, explicar a realidade, principalmente o reflexo religioso e científico, giram todos em torno daquilo que ainda não se conhece.</p>
+
+                <p>É o ainda-não-conhecido que põe o terreno sobre o qual florece de forma fértil a religião, e, desenvolve-se também a ciência. Ou seja, religião e ciência atuam sobre o mesmo campo, o ainda-não-conhecido, cada um ao seu modo, de acordo com suas particularidades</p>
+
+                <p>Um fato importante é que, o ainda-não-conhecido mantém uma relação ontológica com o trabalho, pois é este, o trabalho, que coloca a humanidade de frente para o ainda-não-conhecido, é através do trabalho que os indivíduos se defrontam com aquilo que ainda não se conhece.</p>
+
+                <p>Mediante o trabalho, o indivíduo primitivo, por exemplo, vai adiquirindo certa consciência sobre a existência de coisas e/ou eventos inexplicáveis, desconhecidos. A partir dessa tomada de consciência sobre o ainda-não-conhecido, produzem-se repostas, sejam elas de caráter científico, mistico, religioso, etc.</p>
+
+                <p>O surgimento e desenvolvimento de determinadas ideologias, algumas delas muito perigosas, como o nazismo, guarda uma relação estreita também com o ainda-não-conhecido. </p>
+
+                <p>Isso torna o estudo dessa categoria extremamente relevante, dado sua relação com formas de reflexo da realidade e ideologias que, uma vez alcançando força no cotidiano, interferem diretamente nas relações sociais no contexto de luta de classes e crise do capital.</p>
+
+                <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                        /*
+                        var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        */
+                        (function () { // DON'T EDIT BELOW THIS LINE
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://prof-antonio-nasi.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+                            Disqus.</a></noscript>
+
+                <a href="./index.html">
+                    <button class="btnLeiaMais">Início</button>
+                </a>
+            </div>
+    
+                   
+
+        <div class="feed">
+            <div data-mc-src="2b5a6844-2b71-46b0-98f5-b0dd94c0dc19#instagram"></div>
+        
+            <script 
+              src="https://cdn2.woxo.tech/a.js#610806e18d28bd0015eece2c" 
+              async data-usrc>
+            </script>
+        </div>
+
+        <footer>
+            <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
+            <p>Visite os sites:</p>
+            <div class="container-parcerias">
+
+                <div class="parceria">
+                    <a href="http://cristinapaniago.com/" target="_blank">
+                        <img src="p1.png">
+                    </a>
+                </div>
+                <div class="parceria">
+                    <a href="https://www.sergiolessa.net/" target="_blank">
+                        <img src="p2.png">
+                    </a>
+                </div>
+                <div class="parceria">
+                    <a href="http://ivotonet.xp3.biz/" target="_blank">
+                        <img src="p3.png">
+                    </a>
+                </div>
+                <div class="parceria">
+                    <a href="https://coletivoveredas.com/" target="_blank">
+                        <img src="p4.png">
+                    </a>
+                </div>
+                <div class="parceria">
+                    <a href="#">
+                        <img src="p5.png">
+                    </a>
+                </div>
+
+            </div>
+
+        </footer>
+
+        <img onclick="topFunction()" id="myBtn" title="Go to top" src="./voltar-ao-topo.png">
+
+
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            mybutton.style.display = "block";
+            } else {
+            mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+    </body>
+</html>

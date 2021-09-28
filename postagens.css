@@ -278,6 +278,19 @@ a{
 }
 
 /* Formatação da capa das postagens >>>>>>>>>>>>>>>>>>>>>> */
+#decimo-primeiro{
+    background-image: url(https://image.freepik.com/fotos-gratis/mulher-pensativa-com-pergunta-simbolos-atras_1134-505.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
+}
+#decimo:hover{
+    transform: rotate(3deg);
+}
+
 #decimo{
     background-image: url(https://image.freepik.com/fotos-gratis/close-da-bandeira-do-afeganistao-com-texturas-interessantes_181624-12682.jpg);
     background-repeat: no-repeat;
