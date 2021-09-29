@@ -118,10 +118,21 @@ a{
 .tela-principal{
     border-top: solid 1px transparent;
     margin-top: 0px;
-    background-color: #000000;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
+}
+
+.tela-principal:hover{
+    animation: gradient 1s linear 1;
+    background: linear-gradient(45deg, transparent, transparent, transparent, transparent, transparent, rgba(255, 255, 255, 0.253), transparent, transparent, transparent, transparent, transparent);
+    background-size: 300% 300%;
+}
+
+@keyframes gradient {
+    0%{background-position: 0 100%;}
+    50%{background-position: 100% 0%;}
+    100%{background-position: 0 50%;}
 }
 
 @media screen and (max-width: 600px){
@@ -222,22 +233,6 @@ a{
     }
 }
 
-.typedtext {
-    margin-top: 0px;
-    border-right: 2px solid black;
-    animation: blinkTextCursor 800ms steps(40) infinite normal;
-    height: 20px;
-    color: #87cc33;
-    display: block;
-}
-@keyframes blinkTextCursor {
-    from {
-      border-right-color: black;
-    }
-    to {
-      border-right-color: transparent;
-    }
-}
 
 /* Formatação do container geral >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .container-geral{
@@ -338,7 +333,7 @@ a{
     box-shadow: 10px 10px #00000011;
     padding: 10px 0px 0px 10px;
 }
-#decimo:hover{
+#decimo-primeiro:hover{
     transform: rotate(3deg);
 }
 #new-post{
