@@ -322,7 +322,34 @@ a{
     }
 }
 
+
+
 /* Formatação das imagens dos posts >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+#decimo-segundo{
+    background-image: url(https://www.cafehistoria.com.br/wp-content/uploads/2021/02/anti-comunismo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
+    padding: 10px 0px 0px 10px;
+}
+#decimo-segundo:hover{
+    transform: rotate(3deg);
+}
+#new-post{
+    animation-name: newpost;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: ;
+}
+@keyframes newpost {
+    from{transform: scale(0%);}
+    to{transform: scale(100%);}
+}
+
 #decimo-primeiro{
     background-image: url(https://image.freepik.com/fotos-gratis/mulher-pensativa-com-pergunta-simbolos-atras_1134-505.jpg);
     background-repeat: no-repeat;

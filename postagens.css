@@ -269,6 +269,19 @@ a{
     }
 }
 
+#decimo-segundo{
+    background-image: url(https://www.cafehistoria.com.br/wp-content/uploads/2021/02/anti-comunismo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    transform: skewY(183deg);
+    box-shadow: 10px 10px #00000011;
+}
+#decimo:hover{
+    transform: rotate(3deg);
+}
+
 /* Formatação da capa das postagens >>>>>>>>>>>>>>>>>>>>>> */
 #decimo-primeiro{
     background-image: url(https://image.freepik.com/fotos-gratis/mulher-pensativa-com-pergunta-simbolos-atras_1134-505.jpg);
