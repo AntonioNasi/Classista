@@ -1,0 +1,340 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav{
+    max-width: 590px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 414px){
+    header nav{
+        max-width: 255px;
+    }
+}
+@media screen and (max-width: 360px){
+    header nav{
+        max-width: 255px;
+    }
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 3px;
+    padding: 10px;
+}
+@media screen and (max-width: 414px){
+    header nav ul li{
+        margin: 3px;
+        padding: 3px;
+    }
+}
+@media screen and (max-width: 360px){
+    header nav ul li{
+        margin: 3px;
+        padding: 3px;
+        text-align: center;
+    }
+}
+
+header .banner{
+    height: 400px;
+    background-color: black;
+}
+@media screen and (max-width: 1024px){
+    header .banner{
+        height: 316px;
+    }
+}
+@media screen and (max-width: 601px){
+    header .banner{
+        height: 188px;
+    }
+}
+@media screen and (max-width: 414px){
+    header .banner{
+        height: 120px;
+    }
+}
+@media screen and (max-width: 360px){
+    header .banner{
+        height: 110px;
+    }
+}
+
+.container-geral{
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1920px){
+    .container-geral{
+        margin-top: 240px;
+    }
+}
+@media screen and (max-width: 1816px){
+    .container-geral{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 1280px){
+    .container-geral{
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .container-geral{
+        max-width: 962px;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 601px){
+    .container-geral{
+        display: block;
+        max-width: 580px;
+        margin: 60px auto;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-geral{
+        max-width: 400px;
+        margin: 40px auto;
+    }
+}
+@media screen and (max-width: 360px){
+    .container-geral{
+        max-width: 350px;
+        margin: 30px auto;
+    }
+}
+
+.container-geral #l1{
+    width: 74%;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 601px){
+    .container-geral #l1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-geral #l1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px){
+    .container-geral #l1{
+        width: 100%;
+    }
+}
+
+.container-geral #l1 .post-container{
+    margin: 0px 60px 30px 0px;
+}
+@media screen and (max-width: 601px){
+    .container-geral #l1 .post-container{
+        width: 93%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-geral #l1 .post-container{
+        width: 93%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 360px){
+    .container-geral #l1 .post-container{
+        width: 93%;
+        margin: auto;
+    }
+}
+
+.container-geral #l1 .post-container .img-post{
+    width: auto;
+    height: 280px;
+    border-radius: 30px 0px;
+    margin-bottom: 8px;
+}
+
+.container-geral #l1 .post-container h1{
+    font-size: 30px;
+    line-height: 1.3;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+@media screen and (max-width: 360px){
+    .container-geral #l1 .post-container h1{
+        font-size: 22px;
+    }
+}
+
+.container-geral #l1 .post-container .sharethis-inline-share-buttons{
+    padding-bottom: 20px;
+}
+
+.container-geral #l1 .post-container #data-post{
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.container-geral #l1 .post-container p{
+    padding-bottom: 10px;
+}
+
+.container-geral #l2{
+    width: 25%;
+    margin-left: 0px;
+    border-left: 1px solid rgba(0, 0, 0, 0.329);
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 601px){
+    .container-geral #l2{
+        width: 100%;
+        margin: 0px 0px 120px;
+        padding: 0px;
+        border: none;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-geral #l2{
+        width: 100%;
+        margin: 0px 0px 120px;
+        padding: 0px;
+        border: none
+    }
+}
+@media screen and (max-width: 360px){
+    .container-geral #l2{
+        width: 100%;
+        margin: 0px 0px 120px;
+        padding: 0px;
+        border: none;
+    }
+}
+
+#paginas{
+    max-width: 160px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+
+#paginas ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 100%;
+    color: white;
+}
+
+#paginas ul li a{
+    color: white;
+}
+
+footer{
+    height: 120px;
+    background-color: black;
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer p{
+    color: white;
+}
+
+
+
+#img12{
+    background-image: url(https://www.cafehistoria.com.br/wp-content/uploads/2021/02/anti-comunismo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img11{
+    background-image: url(https://image.freepik.com/fotos-gratis/mulher-pensativa-com-pergunta-simbolos-atras_1134-505.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img10{
+    background-image: url(https://image.freepik.com/fotos-gratis/close-da-bandeira-do-afeganistao-com-texturas-interessantes_181624-12682.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img9{
+    background-image: url(https://image.freepik.com/vetores-gratis/pessoas-segurando-diverso-religiosas-simbolos-ilustracao_53876-66142.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img8{
+    background-image: url(https://image.freepik.com/vetores-gratis/cena-da-natureza-de-pastagens-agricolas-de-terras-rurais-abtract-silhueta-de-agricultores-asiaticos-trabalhando-no-campo-de-arroz-ilustracao_1150-37317.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img7{
+    background-image: url(https://image.freepik.com/vetores-gratis/conceito-de-elementos-esotericos_52683-39409.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img6{
+    background-image: url(https://4.bp.blogspot.com/-QkPZayupLEM/VwuFBVVrezI/AAAAAAAACSk/9GVQrR6kzI0r42J6Kya6PtTkJknRFgAWQ/s1600/panteon_griego.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img5{
+    background-image: url(https://exame.com/wp-content/uploads/2018/01/cristianismo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img4{
+    background-image: url(https://www.sociedadenerd.com.br/wp-content/uploads/2021/06/o-que-sao-as-esferas-do-dragao.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img3{
+    background-image: url(https://exame.com/wp-content/uploads/2021/05/jair-bolsonaro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img2{
+    background-image: url(https://scmillhills.com/wp-content/uploads/sites/5/2017/03/dolni-vestonice-winter-life-giovanni-caselli.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img1{
+    background-image: url(https://centrodeeventos.ce.gov.br/wp-content/uploads/2017/06/MAIS-PAIC.png);
+    background-position: center;
+    background-size: cover;
+}
