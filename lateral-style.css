@@ -20,6 +20,8 @@
     background-color: black;
     color: whitesmoke;
     padding: 5px 0px 5px 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
 @media screen and (max-width: 601px){
     #lateral1{
@@ -29,7 +31,8 @@
     #lateral1 h3{
         padding: 30px 0px 30px 0px;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
+        font-weight: 600;
     }
     #lateral1 p{
         text-align: center;
@@ -50,10 +53,13 @@
     color: whitesmoke;
     padding: 10px;
     margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
 #lateral2 p{
     margin-bottom: 7px;
     padding-left: 10px;
+    font-size: 18px;
 }
 #lateral2 span{
     color: red;
@@ -71,8 +77,10 @@
     #lateral3{
         max-width: 580px;
     }
-    #lateral3 h2{
+    #lateral3 h3{
         text-align: center;
+        font-size: 20px;
+        font-weight: 600;
     }
     #lateral3 li{
         text-align: center;
