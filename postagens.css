@@ -193,6 +193,10 @@ header .banner{
     }
 }
 
+.container-geral #l1 .post-container h2{
+    font-size: 20px;
+}
+
 .container-geral #l1 .post-container .sharethis-inline-share-buttons{
     padding-bottom: 20px;
 }
