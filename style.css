@@ -224,6 +224,10 @@ header .banner{
     padding: 3px 5px;
 }
 
+.container-geral #l1 .post-container #politica-local{
+    background-color: red;
+}
+
 .container-geral #l2{
     width: 25%;
     margin-left: 0px;
@@ -289,6 +293,12 @@ footer p{
 }
 
 
+
+#img15{
+    background-image: url(https://climaonline.com.br/public/fotos/ce/capistrano/foto-antiga-de-capistrano-9.webp);
+    background-position: center;
+    background-size: cover;
+}
 
 #img14{
     background-image: url(https://image.freepik.com/vetores-gratis/cena-do-nascimento-de-jesus-cristo-em-ilustracao-plana-de-manjedoura-de-madeira_1284-61990.jpg);
