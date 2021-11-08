@@ -152,8 +152,10 @@ header .banner{
     flex-grow: none;
     flex-shrink: 1;
     flex-basis: 236px;
-    margin: 0px 60px 30px 0px;
-    border-bottom: 1px solid black;
+    margin: 0px 60px 50px 0px;
+    padding-bottom: 10px;
+    background-color: snow;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1024px){
@@ -212,6 +214,14 @@ header .banner{
 .container-geral #l1 .post-container #data-post{
     font-size: 12px;
     font-weight: 500;
+}
+
+.container-geral #l1 .post-container .marcador{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 5px;
 }
 
 .container-geral #l2{
