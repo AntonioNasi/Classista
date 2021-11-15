@@ -96,3 +96,25 @@
     background-color: black;
     padding: 3px 5px 3px 3px;
 }
+
+
+
+#lateral4{
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+#lateral4 h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 10px;
+}
+#lateral4 p{
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+#lateral4 img{
+    width: 100%;
+}
