@@ -98,7 +98,7 @@
 }
 
 
-
+/* Formatação do bloco 4 da lateral */
 #lateral4{
     background-color: black;
     padding: 20px;
@@ -117,4 +117,20 @@
 }
 #lateral4 img{
     width: 100%;
+}
+@media screen and (max-width:601px){
+    #lateral4 h3{
+        text-align: center;
+    }
+    #lateral4 figure{
+        display: flex;
+        margin: 0 auto;
+        place-content: center;
+    }
+    #lateral4 figure img{
+        width: 70%;
+    }
+    #lateral4 p{
+        text-align: center;
+    }
 }
