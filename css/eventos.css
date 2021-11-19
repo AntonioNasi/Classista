@@ -155,13 +155,12 @@ header .banner{
 .container-geral #l1 .post-container{
     flex-grow: none;
     flex-shrink: 1;
-    flex-basis: 384px;
-    height: 220px;
-    margin: 0px 60px 30px 0px;
-    border-top: 1px solid rgba(0, 0, 0, 0.37);
-    border-right: 1px solid rgba(0, 0, 0, 0.37);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
-    border-left: 3px solid black;
+    flex-basis: 410px;
+    height: 130px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 30px 30px 0px;
+    border: solid 1px black;
     border-radius: 5px;
     padding: 10px;
     background-color: snow;
@@ -175,6 +174,7 @@ header .banner{
 }
 @media screen and (max-width: 601px){
     .container-geral #l1 .post-container{
+        display: block;
         margin: 0px 10px 30px;
         flex-basis: 560px;
         height: auto;
@@ -195,9 +195,13 @@ header .banner{
 }
 
 .container-geral #l1 .post-container #div-pdf{
-    display: flex;
+    display: ;
     place-content: center;
     place-items: center;
+}
+
+.container-geral #l1 .post-container .evento-info{
+    background-color: ;
 }
 
 .container-geral #l1 .post-container #div-pdf #pdf-icon{
