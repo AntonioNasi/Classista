@@ -97,7 +97,6 @@
     padding: 3px 5px 3px 3px;
 }
 
-
 /* Formatação do bloco 4 da lateral */
 #lateral4{
     background-color: black;
@@ -133,4 +132,57 @@
     #lateral4 p{
         text-align: center;
     }
+}
+
+/* Formatação do bloco 5 da lateral */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 0px 30px 0px;
+}
+
+@media screen and (max-width: 601px){
+    .content{
+        margin: 30px auto;
+    }
+}
+
+.content .slide-container{
+    animation-name: rolar;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rolar {
+    0%{transform:translatey(0px)}
+    24%{transform:translatey(0px)}
+
+    25%{transform:translatey(-280px)}
+    49%{transform:translatey(-280px)}
+
+    50%{transform:translatey(-570px)}
+    74%{transform:translatey(-570px)}
+
+    75%{transform:translatey(-860px)}
+    99%{transform:translatey(-860px)}
+
+    100%{transform:translatey(0px)}
+}
+
+.content .slides{
+    position: relative;
+}
+
+.content .slides img{
+    width: 100%;
 }
