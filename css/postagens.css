@@ -18,6 +18,30 @@ a{
     color: black;
 }
 
+/*---------------------------------------------
+Formatação da barra de progresso de leitura
+----------------------------------------------*/
+#container-barra-progresso{
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.progress-container {
+    background: #fff;
+    height: 6px;
+    width: 100%;
+}
+.progress-bar {
+    background: red;
+    height: 5px;
+    width: 0%;
+}
+
+/*-----------------------------------
+Formatação geral do cabeçalho
+-----------------------------------*/
 header nav{
     max-width: 590px;
     margin: 0 auto;
