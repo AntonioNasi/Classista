@@ -69,6 +69,33 @@
 
 <body>
 
+    <div id="container-barra-progresso">
+        <div class="progress-container">
+            <div class="progress-bar" id="js-barraDeLeitura"></div>
+        </div>
+    </div>
+
+    <!----------------------------------------------
+        Script da barra de progresso de leitura
+    ------------------------------------------------>
+    <script>
+        showProgressBar = () => {
+        const winScroll =
+        document.body.scrollTop || document.documentElement.scrollTop;
+        const height =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+        const scrolled = (winScroll / height) * 100;
+        document.getElementById("js-barraDeLeitura").style.width = `${scrolled}%`;
+        };
+        window.onscroll = () => {
+        showProgressBar();
+        };
+    </script>
+
+<!----------------------------------------------
+Conteúdo do cabeçalho
+------------------------------------------------>
     <header>
 
         <nav>
