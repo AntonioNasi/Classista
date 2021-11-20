@@ -55,15 +55,17 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-        <script>
+    <script>
 
-            $(function(){
-            $('#banner').load("/html/html-imported/banner.html");
-            $('#l2').load("/html/html-imported/lateral.html");
-            $('#footer').load("/html/html-imported/footer.html");
-            });
+        $(function(){
+        $('#banner').load("/html/html-imported/banner.html");
+        $('#l2').load("/html/html-imported/lateral.html");
+        $('#footer').load("/html/html-imported/footer.html");
+        });
 
-        </script>
+    </script>
+
+    <script src="../../js/barra-progresso.js"></script>
 
 </head>
 
@@ -74,23 +76,6 @@
             <div class="progress-bar" id="js-barraDeLeitura"></div>
         </div>
     </div>
-    <!----------------------------------------------
-        Script da barra de progresso de leitura
-    ------------------------------------------------>
-    <script>
-        showProgressBar = () => {
-        const winScroll =
-        document.body.scrollTop || document.documentElement.scrollTop;
-        const height =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
-        const scrolled = (winScroll / height) * 100;
-        document.getElementById("js-barraDeLeitura").style.width = `${scrolled}%`;
-        };
-        window.onscroll = () => {
-        showProgressBar();
-        };
-    </script>
 
 <!----------------------------------------------
 Conteúdo do cabeçalho
