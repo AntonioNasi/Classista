@@ -67,7 +67,7 @@ FORMATAÇÕES DO BANNER
 ------------------------*/
 header .banner{
     height: 400px;
-    background-color: black;
+    background-color: red;
 }
 @media screen and (max-width: 1024px){
     header .banner{
@@ -146,8 +146,6 @@ FORMATAÇÃO GERAL DO LADO 1
 .container-geral #l1{
     width: 75%;
     margin-right: 0px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 601px){
@@ -166,10 +164,144 @@ FORMATAÇÃO GERAL DO LADO 1
     }
 }
 
+/*--------------------------------
+FORMATAÇÃO DA NOTÍCIA DESTAQUE
+---------------------------------*/
+.container-geral #l1 .noticia-destaque{
+    max-width: 870px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 360px){
+    .container-geral #l1 .noticia-destaque{
+        max-width: 340px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 601px){
+    .container-geral #l1 .noticia-destaque{
+        max-width: 570px;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+}
+
+.container-geral #l1 .noticia-destaque h1{
+    margin: 0px 0px 20px 0px;
+}
+@media screen and (max-width: 360px){
+    .container-geral #l1 .noticia-destaque h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-geral #l1 .noticia-destaque h1{
+        font-size: 20px;
+    }
+}
+
+.container-geral #l1 .noticia-destaque #img-post-destaque{
+    max-width: 852px;
+    height: 240px;
+    margin: auto;
+}
+@media screen and (max-width: 360px){
+    .container-geral #l1 .noticia-destaque #img-post-destaque{
+        max-width: 340px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 601px){
+    .container-geral #l1 .noticia-destaque #img-post-destaque{
+        max-width: 570px;
+        height: 240px;
+    }
+}
+
+.container-geral #l1 .noticia-destaque #img-post-destaque img{
+    width: 852px;
+    height: 240px;
+    object-fit: cover;
+}
+@media screen and (max-width: 360px){
+    .container-geral #l1 .noticia-destaque #img-post-destaque img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 601px){
+    .container-geral #l1 .noticia-destaque #img-post-destaque img{
+        width: 100%;
+    }
+}
+
+.container-geral #l1 .noticia-destaque .previa-noticia-destaque{
+    margin: 30px 0px 0px 0px;
+    column-count: 2;
+    column-gap: 50px;
+}
+@media screen and (max-width: 360px){
+    .container-geral #l1 .noticia-destaque .previa-noticia-destaque{
+        column-count: 1;
+        column-gap: 0px;
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-geral #l1 .noticia-destaque .previa-noticia-destaque{
+        column-count: 1;
+        column-gap: 0px;
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 601px){
+    .container-geral #l1 .noticia-destaque .previa-noticia-destaque{
+        column-count: 1;
+        padding: 0px 10px;
+    }
+}
+
+.container-geral #l1 .noticia-destaque .previa-noticia-destaque span{
+    background-color: red;
+    padding: 3px 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.container-geral #l1 .noticia-destaque .previa-noticia-destaque p{
+    text-align: justify;
+    margin: 5px 0px 5px 0px;
+    text-indent: 30px;
+}
+@media screen and (max-width: 601px){
+    .container-geral #l1 .noticia-destaque .previa-noticia-destaque p{
+        font-size: 15px;
+        text-align: left;
+        text-indent: 0px;
+
+    }
+}
+
+.container-geral #l1 .noticia-destaque .previa-noticia-destaque a{
+    background-color: chartreuse;
+    padding: 2px 5px;
+}
+
+.container-geral #l1 .noticia-destaque .previa-noticia-destaque a:hover{
+    font-weight: 800;
+}
+
+/*--------------------------------
+FORMATAÇÃO GERAL DO SUB LADO 1
+--------------------------------*/
+.container-geral #l1 #sub-l1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*-------------------------------
 FORMATAÇÕES DOS POSTS/NOTÍCIAS
 --------------------------------*/
-.container-geral #l1 .post-container{
+.container-geral #l1 #sub-l1 .post-container{
     flex-grow: none;
     flex-shrink: 1;
     flex-basis: 270px;
@@ -180,42 +312,42 @@ FORMATAÇÕES DOS POSTS/NOTÍCIAS
 }
 
 @media screen and (max-width: 1024px){
-    .container-geral #l1 .post-container{
+    .container-geral #l1 #sub-l1 .post-container{
         flex-basis: 177px;
     }
 }
 @media screen and (max-width: 601px){
-    .container-geral #l1 .post-container{
+    .container-geral #l1 #sub-l1 .post-container{
         margin: 0px 10px 30px;
         flex-basis: 268px;
     }
 }
 @media screen and (max-width: 414px){
-    .container-geral #l1 .post-container{
+    .container-geral #l1 #sub-l1 .post-container{
         flex-basis: 330px;
         margin: 20px auto;
     }
 }
 @media screen and (max-width: 360px){
-    .container-geral #l1 .post-container{
+    .container-geral #l1 #sub-l1 .post-container{
         flex-basis: 290px;
         margin: 20px auto;
     }
 }
 
-.container-geral #l1 .post-container .img-post{
+.container-geral #l1 #sub-l1 .post-container .img-post{
     width: auto;
     height: 155px;
     border-radius: 5px;
     margin-bottom: 8px;
 }
 
-.container-geral #l1 .post-container .img-post .anima-fundo-post{
+.container-geral #l1 #sub-l1 .post-container .img-post .anima-fundo-post{
     width: auto;
     height: 155px;
     border-radius: 5px;
 }
-.container-geral #l1 .post-container .img-post .anima-fundo-post:hover{
+.container-geral #l1 #sub-l1 .post-container .img-post .anima-fundo-post:hover{
     background: linear-gradient(45deg, transparent, transparent, rgba(255, 255, 255, 0.356), transparent, transparent);
     background-size: 200% 200%;
     animation: move-fundo .3s 1 linear forwards;
@@ -226,18 +358,18 @@ FORMATAÇÕES DOS POSTS/NOTÍCIAS
     100%{background-position: 0% 100%;}
 }
 
-.container-geral #l1 .post-container h1{
+.container-geral #l1 #sub-l1 .post-container h1{
     font-size: 20px;
     line-height: 1.3;
     padding-bottom: 5px;
 }
 
-.container-geral #l1 .post-container #data-post{
+.container-geral #l1 #sub-l1 .post-container #data-post{
     font-size: 12px;
     font-weight: 500;
 }
 
-.container-geral #l1 .post-container .marcador{
+.container-geral #l1 #sub-l1 .post-container .marcador{
     background-color: black;
     color: white;
     font-size: 12px;
@@ -245,7 +377,7 @@ FORMATAÇÕES DOS POSTS/NOTÍCIAS
     padding: 3px 5px;
 }
 
-.container-geral #l1 .post-container #politica-local{
+.container-geral #l1 #sub-l1 .post-container #politica-local{
     background-color: red;
 }
 
