@@ -1,3 +1,6 @@
+/*----------------------
+FORMATAÇÃO GLOBAL
+-----------------------*/
 *{
     margin: 0px;
     padding: 0px;
@@ -22,6 +25,9 @@ span{
     font-family: 'Material Icons';
 }
 
+/*--------------------------------
+FORMATAÇÃO GERAL DO CABEÇALHO
+--------------------------------*/
 header nav{
     max-width: 590px;
     margin: 0 auto;
@@ -37,6 +43,9 @@ header nav{
     }
 }
 
+/*----------------------
+FORMATAÇÃO DO MENU
+-----------------------*/
 header nav ul li{
     list-style: none;
     display: inline-block;
@@ -57,6 +66,9 @@ header nav ul li{
     }
 }
 
+/*----------------------
+FORMATAÇÃO DO BANNER
+-----------------------*/
 header .banner{
     height: 400px;
     background-color: black;
@@ -82,6 +94,9 @@ header .banner{
     }
 }
 
+/*--------------------------------
+FORMATAÇÃO DO CONTAINER GERAL
+--------------------------------*/
 .container-geral{
     max-width: 1200px;
     margin: 80px auto;
@@ -129,34 +144,34 @@ header .banner{
     }
 }
 
+/*------------------------------
+FORMATAÇÃO GERAL DO LADO 1
+-------------------------------*/
 .container-geral #l1{
     width: 74%;
     margin-right: 0px;
-    display: flex;
-    flex-wrap: wrap;
 }
-
 @media screen and (max-width: 601px){
     .container-geral #l1{
         width: 100%;
+        margin: auto;
+        padding: 0px 15px 0px 15px;
     }
 }
 @media screen and (max-width: 414px){
     .container-geral #l1{
         width: 100%;
-    }
-}
-@media screen and (max-width: 360px){
-    .container-geral #l1{
-        width: 100%;
+        padding: 0px 15px 0px 15px;
     }
 }
 
+/*-------------------------------
+FORMATAÇÃO DA ÁREA DOS POSTS
+--------------------------------*/
 .container-geral #l1 .post-container{
-    flex-grow: none;
-    flex-shrink: 1;
-    flex-basis: 384px;
-    margin: 0px 60px 30px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 30px 30px 0px;
     border-top: 1px solid rgba(0, 0, 0, 0.37);
     border-right: 1px solid rgba(0, 0, 0, 0.37);
     border-bottom: 1px solid rgba(0, 0, 0, 0.37);
@@ -165,29 +180,15 @@ header .banner{
     padding: 10px;
     background-color: snow;
 }
-
-@media screen and (max-width: 1024px){
-    .container-geral #l1 .post-container{
-        flex-basis: 690px;
-    }
-}
 @media screen and (max-width: 601px){
     .container-geral #l1 .post-container{
-        margin: 0px 10px 30px;
-        flex-basis: 560px;
-        text-align: center;
+        margin: 30px auto;
     }
 }
 @media screen and (max-width: 414px){
     .container-geral #l1 .post-container{
-        flex-basis: 330px;
-        margin: 20px auto;
-    }
-}
-@media screen and (max-width: 360px){
-    .container-geral #l1 .post-container{
-        flex-basis: 290px;
-        margin: 20px auto;
+        display: block;
+        margin: 30px auto;
     }
 }
 
@@ -199,6 +200,7 @@ header .banner{
 
 .container-geral #l1 .post-container #div-pdf #pdf-icon{
     font-size: 80px;
+    padding: 0px 10px 0px 0px;
 }
 
 .container-geral #l1 .post-container h1{
@@ -239,6 +241,9 @@ header .banner{
     }
 }
 
+/*--------------------------
+FORMATAÇÃO DA PAGINAÇÃO
+---------------------------*/
 #paginas{
     max-width: 160px;
     margin: 0px auto;
@@ -260,6 +265,9 @@ header .banner{
     color: white;
 }
 
+/*-----------------------------
+FORMATAÇÃO GERAL DO RODAPÉ
+------------------------------*/
 footer{
     height: 120px;
     background-color: black;

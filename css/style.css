@@ -274,7 +274,6 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
 }
 @media screen and (max-width: 601px){
     .container-geral #l1 .noticia-destaque .previa-noticia-destaque p{
-        font-size: 15px;
         text-align: left;
         text-indent: 0px;
 
