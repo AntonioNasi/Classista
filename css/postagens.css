@@ -1,3 +1,6 @@
+/*---------------------
+FORMATAÇÕES GLOBAIS
+----------------------*/
 *{
     margin: 0px;
     padding: 0px;
@@ -8,9 +11,12 @@ html{
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 18px;
+}
+
+h1, h2, h3, p{
+    font-family: 'Noto Serif', serif;
 }
 
 a{
@@ -83,6 +89,9 @@ header nav ul li{
     }
 }
 
+/*------------------------------
+FORMATAÇÃO DA ÁREA DO BANNER
+-------------------------------*/
 header .banner{
     height: 400px;
     background-color: black;
@@ -108,6 +117,9 @@ header .banner{
     }
 }
 
+/*-------------------------------
+FORMATAÇÃO DO CONTAINER GERAL
+-------------------------------*/
 .container-geral{
     max-width: 1200px;
     margin: 80px auto;
@@ -155,6 +167,9 @@ header .banner{
     }
 }
 
+/*------------------------------
+FORMATAÇÃO DO LADO 1
+-------------------------------*/
 .container-geral #l1{
     width: 74%;
     margin-right: 0px;
@@ -176,6 +191,9 @@ header .banner{
     }
 }
 
+/*------------------------------
+FORMATAÇÃO DOS POSTS
+-------------------------------*/
 .container-geral #l1 .post-container{
     margin: 0px 60px 30px 0px;
 }
@@ -206,19 +224,21 @@ header .banner{
 }
 
 .container-geral #l1 .post-container h1{
-    font-size: 30px;
-    line-height: 1.3;
+    font-size: 28px;
+    line-height: 38px;
     padding-bottom: 5px;
     margin: 0px;
+    font-family: 'Noto Serif', serif;
 }
 @media screen and (max-width: 360px){
     .container-geral #l1 .post-container h1{
         font-size: 22px;
+        line-height: 28px;
     }
 }
 
 .container-geral #l1 .post-container h2{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .container-geral #l1 .post-container .sharethis-inline-share-buttons{
@@ -233,8 +253,12 @@ header .banner{
 
 .container-geral #l1 .post-container p{
     padding-bottom: 12px;
+    line-height: 28px;
 }
 
+/*------------------------------
+FORMATAÇÃO DO LADO 2
+-------------------------------*/
 .container-geral #l2{
     width: 25%;
     margin-left: 0px;
@@ -267,6 +291,9 @@ header .banner{
     }
 }
 
+/*------------------------------
+FORMATAÇÃO DA PAGINAÇÃO
+-------------------------------*/
 #paginas{
     max-width: 160px;
     margin: 0px auto;
