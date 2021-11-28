@@ -15,7 +15,7 @@ body{
     font-size: 18px;
 }
 
-h1, h2, h3, p{
+h1, p{
     font-family: 'Noto Serif', serif;
 }
 
@@ -175,7 +175,6 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     font-size: 28px;
     line-height: 38px;
     font-weight: bold;
-    font-family: 'Noto Serif', serif;
 }
 @media screen and (max-width: 601px){
     .container-geral #l1 .noticia-destaque h1{
@@ -376,6 +375,22 @@ FORMATAÇÕES DOS POSTS/NOTÍCIAS
 .container-geral #l1 #sub-l1 .post-container #politica-local{
     background-color: red;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+#limita-previa{
+    height: 180px;
+    white-space: unset;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+#limita-previa #text-previa{
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 14px;
+    margin-top: 10px;
+}
+#limita-previa #text-previa:hover{
+    text-decoration: underline;
 }
 
 /*------------------------------

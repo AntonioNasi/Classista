@@ -1,21 +1,10 @@
-*{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-li, a{
-    font-family: 'Source Sans Pro', sans-serif;
-}
 
 nav ul li{
     list-style: none;
     display: inline-block;
     margin: 10px 3px;
     padding: 10px;
-    font-family: 'Source Sans Pro' sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 @media screen and (max-width: 414px){
     nav ul li{
