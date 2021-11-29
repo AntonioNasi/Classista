@@ -15,17 +15,54 @@
 </head>
 
 <body>
+    <div id="caixa-menu">
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Início</a></li>
+                <li><a href="/html/html-main-pages/artigos.html">Artigos</a></li>
+                <li><a href="/html/html-main-pages/minicursos.html">Minicursos</a></li>
+                <li><a href="/html/html-main-pages/eventos.html">Eventos</a></li>
+                <li><a href="/html/html-main-pages/sobre.html">Sobre</a></li>
+                <li><a href="/html/html-main-pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    <nav>
-        <ul>
-            <li><a href="../../index.html">Início</a></li>
-            <li><a href="/html/html-main-pages/artigos.html">Artigos</a></li>
-            <li><a href="/html/html-main-pages/minicursos.html">Minicursos</a></li>
-            <li><a href="/html/html-main-pages/eventos.html">Eventos</a></li>
-            <li><a href="/html/html-main-pages/sobre.html">Sobre</a></li>
-            <li><a href="/html/html-main-pages/contato.html">Contato</a></li>
-        </ul>
-    </nav>
-    
+    <div id="caixa-menu-mobile">
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="../../index.html">Início</a>
+                <a href="/html/html-main-pages/artigos.html">Artigos</a>
+                <a href="/html/html-main-pages/minicursos.html">Minicursos</a>
+                <a href="/html/html-main-pages/eventos.html">Eventos</a></li>
+                <a href="/html/html-main-pages/sobre.html">Sobre</a>
+                <a href="/html/html-main-pages/contato.html">Contato</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+
 </body>
 </html>
