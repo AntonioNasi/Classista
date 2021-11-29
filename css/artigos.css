@@ -11,7 +11,6 @@ html{
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
     color: black;
     font-size: 18px;
 }
@@ -205,6 +204,7 @@ FORMATAÇÃO DA ÁREA DOS POSTS
 .container-geral #l1 .post-container #div-pdf #pdf-icon{
     font-size: 80px;
     padding: 0px 10px 0px 0px;
+    font-family: 'Material Icons';
 }
 
 .container-geral #l1 .post-container h1{
