@@ -401,8 +401,8 @@ FORMATAÇÃO GERAL DO LADO 2
 .container-geral #l2{
     width: 25%;
     margin-left: 0px;
-    padding-left: 20px;
-    border-left: 1px solid black;
+    padding: 0px 0px 0px 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 601px){
