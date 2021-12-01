@@ -17,10 +17,6 @@ p, span, li{
     font-family: 'Noto Serif', serif;
 }
 
-
-/* Formatação do bloco 1 da lateral */
-
-
 /* Formatação do bloco Contos Anônimos */
 #lateral2{
     width: 100%;
@@ -44,6 +40,33 @@ p, span, li{
 #lateral2 span{
     color: red;
     font-size: 25px;
+}
+
+/* Formatação do LEIA TAMBÉM */
+#leia-tambem{
+    border-bottom: solid 1px black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+#leia-tambem h3{
+    background-color: black;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 8px;
+}
+#leia-tambem p{
+    padding-left: 10px;
+}
+#leia-tambem span{
+    font-family: 'Material Icons';
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+#leia-tambem a:hover{
+    color: #0000EE;
+}
+#leia-tambem a:visited{
+    color: #551A8B;
 }
 
 
