@@ -252,8 +252,37 @@ FORMATAÇÃO DOS POSTS
 }
 
 .container-geral #l1 .post-container p{
-    padding-bottom: 12px;
+    padding-bottom: 16px;
     line-height: 28px;
+}
+
+#div-anuncio{
+    border-left: solid 5px blue;
+    margin: 20px auto;
+    height: 280px;
+    background-image: url(../img/anuncio-1.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+@media screen and (max-width: 360px){
+    #div-anuncio{
+        height: 120px;
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 414px){
+    #div-anuncio{
+        height: 140px;
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 601px){
+    #div-anuncio{
+        height: 200px;
+        background-size: 100%;
+    }
 }
 
 /*------------------------------

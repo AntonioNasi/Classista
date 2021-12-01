@@ -135,6 +135,7 @@ FORMATAÇÃO GERAL DO LADO 1
 @media screen and (max-width: 601px){
     .container-geral #l1{
         width: 100%;
+        padding: 0px 15px 0px 15px;
     }
 }
 @media screen and (max-width: 414px){
@@ -166,7 +167,7 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     .container-geral #l1 .noticia-destaque{
         max-width: 570px;
         margin: auto;
-        padding: 0px 10px 30px 10px;
+        padding: 0px 0px 20px 0px;
     }
 }
 
@@ -178,18 +179,20 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
 }
 @media screen and (max-width: 601px){
     .container-geral #l1 .noticia-destaque h1{
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 28px;
+        line-height: 35px;
     }
 }
 @media screen and (max-width: 414px){
     .container-geral #l1 .noticia-destaque h1{
-        font-size: 20px;
+        font-size: 28px;
+        line-height: 35px;
     }
 }
 @media screen and (max-width: 360px){
     .container-geral #l1 .noticia-destaque h1{
-        font-size: 20px;
+        font-size: 28px;
+        line-height: 35px;
     }
 }
 
@@ -236,20 +239,18 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     .container-geral #l1 .noticia-destaque .previa-noticia-destaque{
         column-count: 1;
         column-gap: 0px;
-        padding: 0px 10px;
     }
 }
 @media screen and (max-width: 414px){
     .container-geral #l1 .noticia-destaque .previa-noticia-destaque{
         column-count: 1;
         column-gap: 0px;
-        padding: 0px 10px;
     }
 }
 @media screen and (max-width: 601px){
     .container-geral #l1 .noticia-destaque .previa-noticia-destaque{
         column-count: 1;
-        padding: 0px 10px;
+        padding: 0px;
     }
 }
 
@@ -272,7 +273,8 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     .container-geral #l1 .noticia-destaque .previa-noticia-destaque p{
         text-align: left;
         text-indent: 0px;
-        padding: 15px 0px 6px;
+        padding: 0px 0px 6px 0px;
+        margin: 10px 0px 10px 0px;
     }
 }
 
@@ -291,6 +293,12 @@ FORMATAÇÃO GERAL DO SUB LADO 1
 .container-geral #l1 #sub-l1{
     display: flex;
     flex-wrap: wrap;
+}
+@media screen and (max-width: 601px){
+    .container-geral #l1 #sub-l1{
+        padding: 0px;
+        margin: 0px;
+    }
 }
 
 /*-------------------------------
@@ -313,21 +321,21 @@ FORMATAÇÕES DOS POSTS/NOTÍCIAS
 }
 @media screen and (max-width: 601px){
     .container-geral #l1 #sub-l1 .post-container{
-        margin: 0px 10px 0px 0px;
+        margin: 0px 0px 0px 0px;
         padding: 0px 0px 30px 0px;
-        flex-basis: 268px;
+        flex-basis: 600px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     }
 }
 @media screen and (max-width: 414px){
     .container-geral #l1 #sub-l1 .post-container{
-        flex-basis: 330px;
+        flex-basis: 390px;
         margin: 20px auto;
     }
 }
 @media screen and (max-width: 360px){
     .container-geral #l1 #sub-l1 .post-container{
-        flex-basis: 290px;
+        flex-basis: 320px;
         margin: 20px auto;
     }
 }
@@ -408,25 +416,21 @@ FORMATAÇÃO GERAL DO LADO 2
 @media screen and (max-width: 601px){
     .container-geral #l2{
         width: 100%;
-        margin: 0px 0px 120px;
-        padding: 0px;
-        border: none;
+        margin: 0px 0px 0px;
+        padding: 0px 15px 0px 15px;
+        border-left: none;
     }
 }
 @media screen and (max-width: 414px){
     .container-geral #l2{
         width: 100%;
-        margin: 0px 0px 120px;
-        padding: 0px;
-        border: none
+        margin: 0px 0px 0px;
     }
 }
 @media screen and (max-width: 360px){
     .container-geral #l2{
         width: 100%;
-        margin: 0px 0px 120px;
-        padding: 0px;
-        border: none;
+        margin: 0px 0px 0px;
     }
 }
 
