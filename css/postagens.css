@@ -272,7 +272,7 @@ FORMATAÇÃO DO LADO 2
     .container-geral #l2{
         width: 100%;
         margin: 0px 0px 120px;
-        padding: 0px;
+        padding: 0px 15px 0px 15px;
         border: none;
     }
 }
@@ -280,7 +280,6 @@ FORMATAÇÃO DO LADO 2
     .container-geral #l2{
         width: 100%;
         margin: 0px 0px 120px;
-        padding: 0px;
         border: none
     }
 }
@@ -288,7 +287,6 @@ FORMATAÇÃO DO LADO 2
     .container-geral #l2{
         width: 100%;
         margin: 0px 0px 120px;
-        padding: 0px;
         border: none;
     }
 }
