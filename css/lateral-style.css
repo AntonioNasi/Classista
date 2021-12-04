@@ -12,9 +12,11 @@
 
 h3{
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
 }
 p, span, li{
     font-family: 'Noto Serif', serif;
+    font-size: 14px;
 }
 
 /* Formatação do bloco Contos Anônimos */
@@ -29,13 +31,11 @@ p, span, li{
     color: white;
     padding: 10px;
     margin-bottom: 10px;
-    font-size: 20px;
     font-weight: bold;
 }
 #lateral2 p{
     margin-bottom: 7px;
     padding-left: 10px;
-    font-size: 18px;
 }
 #lateral2 span{
     color: red;
@@ -59,7 +59,6 @@ p, span, li{
 }
 #leia-tambem span{
     font-family: 'Material Icons';
-    font-size: 25px;
     margin-bottom: 8px;
 }
 #leia-tambem a:hover{
@@ -89,7 +88,6 @@ p, span, li{
         max-width: 580px;
     }
     #lateral3 h3{
-        font-size: 20px;
         font-weight: bold;
     }
     #lateral3 li{
@@ -116,7 +114,6 @@ p, span, li{
 }
 #lateral4 h3{
     background-color: black;
-    font-size: 20px;
     font-weight: bold;
     color: white;
     padding: 10px;

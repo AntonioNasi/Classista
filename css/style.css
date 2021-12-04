@@ -268,6 +268,7 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     margin: 5px 0px 5px 0px;
     text-indent: 30px;
     line-height: 28px;
+    font-size: 18px;
 }
 @media screen and (max-width: 601px){
     .container-geral #l1 .noticia-destaque .previa-noticia-destaque p{
@@ -309,7 +310,7 @@ FORMATAÇÕES DOS POSTS/NOTÍCIAS
     flex-shrink: 1;
     flex-basis: 270px;
     margin: 0px 30px 30px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     background-color: snow;
     border-radius: 5px 5px 0px 0px;
 }

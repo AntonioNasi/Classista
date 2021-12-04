@@ -7,6 +7,8 @@ nav ul li{
     margin: 10px 3px;
     padding: 10px;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
     background-color: ;
 }
 @media screen and (max-width: 601px){
@@ -78,9 +80,15 @@ nav ul li a{
   
   .dropdown-content a {
     color: black;
+    font-size: 12px;
+    font-weight: 600;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+  }
+
+  .dropdown-content a:hover{
+      background-color:white;
   }
   
   .dropdown a:hover {background-color: whitesmoke;}
