@@ -51,7 +51,6 @@ FORMATAÇÕES DO BANNER
 ------------------------*/
 header .banner{
     height: 400px;
-    background-color: red;
 }
 @media screen and (max-width: 1024px){
     header .banner{
