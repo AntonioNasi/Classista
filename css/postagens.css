@@ -334,6 +334,12 @@ footer p{
 /*---------------------------------------------
 Formatação das imagens de fundo dos posts
 ----------------------------------------------*/
+#img17{
+    background-image: url(https://pcdob.org.br/wp-content/uploads/2021/05/marx-scaled-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img16{
     background-image: url(http://4.bp.blogspot.com/-c9Ktosz0XUc/Tsuo5GtaN7I/AAAAAAAACI8/ldW2aiX-zGs/s1600/NS_DE_%257E1.JPG);
     background-position: center;

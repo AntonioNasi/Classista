@@ -254,7 +254,7 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
 }
 
 .container-geral #l1 .noticia-destaque .previa-noticia-destaque span{
-    background-color: red;
+    background-color: black;
     padding: 3px 5px;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
@@ -269,6 +269,11 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     line-height: 28px;
     font-size: 18px;
 }
+
+.container-geral #l1 .noticia-destaque .previa-noticia-destaque #paragrafo-1{
+    margin-top: 30px;
+}
+
 @media screen and (max-width: 601px){
     .container-geral #l1 .noticia-destaque .previa-noticia-destaque p{
         text-align: left;
@@ -476,6 +481,12 @@ footer p{
 /*-----------------------------------
 FORMATAÇÃO DAS IMAGENS DOS POSTS
 -----------------------------------*/
+#img16{
+    background-image: url(http://4.bp.blogspot.com/-c9Ktosz0XUc/Tsuo5GtaN7I/AAAAAAAACI8/ldW2aiX-zGs/s1600/NS_DE_%257E1.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
 #img15{
     background-image: url(https://climaonline.com.br/public/fotos/ce/capistrano/foto-antiga-de-capistrano-9.webp);
     background-position: center;
