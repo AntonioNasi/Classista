@@ -74,7 +74,7 @@ FORMATAÇÃO DO BANNER
 -----------------------*/
 header .banner{
     height: 400px;
-    background-color: black;
+    margin-top: 55px;
 }
 @media screen and (max-width: 1024px){
     header .banner{

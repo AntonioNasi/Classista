@@ -51,7 +51,6 @@ Formatação geral do cabeçalho
 header nav{
     max-width: 590px;
     margin: 0 auto;
-    border-bottom: 1px solid black;
 }
 @media screen and (max-width: 601px){
     header nav{
@@ -94,7 +93,7 @@ FORMATAÇÃO DA ÁREA DO BANNER
 -------------------------------*/
 header .banner{
     height: 400px;
-    background-color: black;
+    margin-top: 55px;
 }
 @media screen and (max-width: 1024px){
     header .banner{

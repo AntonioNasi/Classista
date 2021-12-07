@@ -110,3 +110,21 @@ nav ul li:hover{
   .dropdown a:hover {background-color: whitesmoke;}
   
   .show {display: block;}
+
+
+
+
+
+  #menu{
+    background-color: white;
+    border-bottom: solid 1px black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.5s;
+}
+#menu a{
+    display: block;
+}
