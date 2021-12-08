@@ -15,15 +15,17 @@ body{
 
 h1, h2, h3, p{
     font-family: 'Noto Serif', serif;
+    color: #2b4162;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: #2b4162;
 }
 
 span{
     font-family: 'Material Icons';
+    background-color: #2b4162;
 }
 
 header nav{
@@ -153,7 +155,7 @@ Formatação do lado 1 - lado esquerdo
 }
 
 .container-geral #l1 .curso{
-    border: 1px solid black;
+    border: 1px solid #2b4162;
     border-radius: 5px;
     padding: 20px;
     margin: 0px 30px 30px 0px;
@@ -187,7 +189,6 @@ Formatação do lado 1 - lado esquerdo
     font-size: 14px;
     font-weight: bold;
     font-family: 'Source Sans Pro';
-    background-color: black;
     color: white;
     padding: 3px 5px;
 }
@@ -243,8 +244,7 @@ Formatação do lado 2 - lado direito
     text-align: center;
     padding: 5px 15px;
     margin: 5px;
-    background-color: black;
-    border-radius: 100%;
+    background-color: #2b4162;
     color: white;
 }
 
@@ -254,7 +254,7 @@ Formatação do lado 2 - lado direito
 
 footer{
     height: 120px;
-    background-color: black;
+    background-color: #2b4162;
     text-align: center;
     padding-top: 25px;
 }

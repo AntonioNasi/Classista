@@ -228,6 +228,7 @@ FORMATAÇÃO DOS POSTS
     padding-bottom: 20px;
     margin: 0px;
     font-family: 'Noto Serif', serif;
+    color: #2b4162;
 }
 @media screen and (max-width: 360px){
     .container-geral #l1 .post-container h1{
@@ -248,12 +249,14 @@ FORMATAÇÃO DOS POSTS
     font-size: 12px;
     font-weight: 500;
     padding-bottom: 20px;
+    color: #2b4162;
 }
 
 .container-geral #l1 .post-container p{
     padding-bottom: 16px;
     line-height: 28px;
     font-size: 18px;
+    color: #2b4162;
 }
 
 
@@ -305,8 +308,7 @@ FORMATAÇÃO DA PAGINAÇÃO
     text-align: center;
     padding: 5px 15px;
     margin: 5px;
-    background-color: black;
-    border-radius: 100%;
+    background-color: #2b4162;
     color: white;
 }
 
@@ -319,7 +321,7 @@ Formatação do rodapé
 ----------------------------------------------*/
 footer{
     height: 120px;
-    background-color: black;
+    background-color: #2b4162;
     text-align: center;
     padding-top: 25px;
 }

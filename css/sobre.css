@@ -15,6 +15,7 @@ body{
 
 h1, h2, h3, p{
     font-family: 'Noto Serif', serif;
+    color: #2b4162;
 }
 
 a{
@@ -212,8 +213,7 @@ header .banner{
     text-align: center;
     padding: 5px 15px;
     margin: 5px;
-    background-color: black;
-    border-radius: 100%;
+    background-color: #2b4162;
     color: white;
 }
 
@@ -223,7 +223,7 @@ header .banner{
 
 footer{
     height: 120px;
-    background-color: black;
+    background-color: #2b4162;
     text-align: center;
     padding-top: 25px;
 }

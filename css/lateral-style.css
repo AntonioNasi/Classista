@@ -27,7 +27,7 @@ p, span, li{
     border-bottom: solid 1px rgba(0, 0, 0, 0.2);
 }
 #lateral2 h3{
-    background-color: black;
+    background-color: #2b4162;
     color: white;
     padding: 10px;
     margin-bottom: 10px;
@@ -36,9 +36,10 @@ p, span, li{
 #lateral2 p{
     margin-bottom: 7px;
     padding-left: 10px;
+    color: #2b4162;
 }
 #lateral2 span{
-    color: red;
+    color: #d7263d;
     font-size: 25px;
 }
 
@@ -49,13 +50,14 @@ p, span, li{
     padding-bottom: 20px;
 }
 #leia-tambem h3{
-    background-color: black;
+    background-color: #2b4162;
     color: white;
     padding: 10px 0px 10px 10px;
     margin-bottom: 8px;
 }
 #leia-tambem p{
     padding-left: 10px;
+    color: #2b4162;
 }
 #leia-tambem span{
     font-family: 'Material Icons';
@@ -78,7 +80,7 @@ p, span, li{
 }
 
 #lateral3 h3{
-    background-color: black;
+    background-color: #2b4162;
     color: white;
     padding: 10px 0px 10px 10px;
 }
@@ -98,10 +100,17 @@ p, span, li{
     list-style-type: square;
     list-style-position: inside;
     padding: 3px 5px 3px 3px;
+    margin-top: 10px;
+    color: #2b4162;
 }
+
+#lateral3 li a{
+    color: #2b4162;
+}
+
 #lateral3 li a:hover{
     color: white;
-    background-color: black;
+    background-color: #2b4162;
     padding: 3px 5px 3px 3px;
 }
 
@@ -113,13 +122,13 @@ p, span, li{
     border-top: solid 1px rgba(0, 0, 0, 0.2);
 }
 #lateral4 h3{
-    background-color: black;
+    background-color: #2b4162;
     font-weight: bold;
     color: white;
     padding: 10px;
 }
 #lateral4 p{
-    color: black;
+    color: #2b4162;
     padding: 10px 0px 0px 10px;
 }
 
@@ -136,7 +145,7 @@ p, span, li{
 /* Formatação do bloco 5 da lateral BANNER */
 #aee{
     margin-bottom: 0px;
-    background-color: black;
+    background-color: #2b4162;
     color: white;
     padding: 10px 0px 10px 10px;
 }
