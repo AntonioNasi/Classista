@@ -144,4 +144,15 @@ FORMATAÇÃO DO MENU MOBILE
     padding: 3px 5px;
     border-radius: 10px;
     font-family: 'Source Sans Pro', sans-serif;
+    color: #2b4162;
+}
+#cta a{
+    color: #2b4162;
+}
+
+#cta-mobile{
+    background-color: #ead637;
+    padding: 3px 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b4162;
 }
