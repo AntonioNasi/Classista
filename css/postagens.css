@@ -335,6 +335,12 @@ footer p{
 /*---------------------------------------------
 Formatação das imagens de fundo dos posts
 ----------------------------------------------*/
+#img18{
+    background-image: url(https://scontent.ffor36-1.fna.fbcdn.net/v/t39.30808-6/265514623_2948668142065222_8618648923566890212_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=a26aad&_nc_ohc=_z0vZo9V9TMAX-pl1a1&_nc_oc=AQkmx9eSn3dMfGQ3_aFE5q2fkeJRWZSoskP6HndoYiFJvfav6rOHBgF_YY83dD1ejpo&_nc_ht=scontent.ffor36-1.fna&oh=00_AT_dbY11h6dSjOwmLSM6Tj0W3RS8nkemiuJ10ymHAV4FAA&oe=61B9C572);
+    background-position: center;
+    background-size: cover;
+}
+
 #img17{
     background-image: url(https://pcdob.org.br/wp-content/uploads/2021/05/marx-scaled-1.jpg);
     background-position: center;

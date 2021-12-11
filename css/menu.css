@@ -136,3 +136,12 @@ FORMATAÇÃO DO MENU MOBILE
 #menu a{
     display: block;
 }
+
+
+
+#cta{
+    background-color: #ead637;
+    padding: 3px 5px;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
