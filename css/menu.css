@@ -74,7 +74,7 @@ FORMATAÇÃO DO MENU MOBILE
 
 .dropbtn {
     color: white;
-    padding: 16px 100px;
+    padding: 16px 50px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -96,7 +96,8 @@ FORMATAÇÃO DO MENU MOBILE
     display: none;
     position: absolute;
     background-color: #2b4162;
-    min-width: 245px;
+    min-width: 130px;
+    left: 23%;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -150,9 +151,20 @@ FORMATAÇÃO DO MENU MOBILE
     color: #2b4162;
 }
 
+
 #cta-mobile{
     background-color: #ead637;
     padding: 3px 5px;
+    border-radius: 10px;
+    margin: 0px 0px 0px;
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
     color: #2b4162;
+}
+
+#caixa-button-mobile{
+    display: flex;
+    place-items: center;
 }
