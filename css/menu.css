@@ -58,7 +58,7 @@ FORMATAÇÃO DO MENU SECUNDÁRIO
 #caixa-menu-secundario{
     background-color: white;
     border-bottom: 1px solid #2b4162;
-    box-shadow: 0px 0px 10px #2b4162;
+    box-shadow: 0px 2px 10px #2b4162;
 }
 @media screen and (max-width: 601px){
     #caixa-menu-secundario{
@@ -66,7 +66,7 @@ FORMATAÇÃO DO MENU SECUNDÁRIO
     }
 }
 #caixa-menu-secundario #menu-secundario{
-    max-width: 400px;
+    max-width: 435px;
     margin: auto;
 }
 #caixa-menu-secundario #menu-secundario ul li{
@@ -93,6 +93,10 @@ FORMATAÇÃO DO MENU SECUNDÁRIO MOBILE
     #caixa-menu-secundario-mobile{
         background-color: white;
         padding: 0px 15px;
+    }
+    #caixa-menu-secundario-mobile #menu-secundario{
+        padding: 0px;
+        margin: 0px;
     }
     #caixa-menu-secundario-mobile #menu-secundario ul li{
         display: inline-block;

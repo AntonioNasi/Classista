@@ -5,14 +5,22 @@ body{
 
 a{
     text-decoration: none;
+    color: #2b4162;
 }
 
 header{
     background-color: #2b4162;
 }
 
+
+
 nav{
+    max-width: 590px;
     margin: auto;
+}
+
+header li{
+    font-size: 14px;
 }
 
 .div-cta{
@@ -36,4 +44,10 @@ nav{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     color: #2b4162;
+}
+
+@media screen and (max-width:601px){
+    #caixa-menu-secundario-mobile{
+        display: none;
+    }
 }
