@@ -68,7 +68,7 @@ FORMATAÇÕES DO BANNER
 ------------------------*/
 header .banner{
     height: 400px;
-    margin-top: 55px;
+    margin-top: 88px;
 }
 @media screen and (max-width: 1024px){
     header .banner{
