@@ -155,18 +155,43 @@ Formatação do lado 1 - lado esquerdo
 }
 
 .container-geral #l1 .curso{
-    border: 1px solid #2b4162;
+    display: flex;
+    flex-wrap: nowrap;
     border-radius: 5px;
     padding: 20px;
     margin: 0px 30px 30px 0px;
 }
 @media screen and (max-width: 601px){
     .container-geral #l1 .curso{
-        width: 100%;
+        display: block;
+        margin: 0px 0px 30px 0px;
+        padding: 0px;
     }
+    .container-geral #l1 .curso .capa-video{
+        margin: auto;
+    }
+    .container-geral #l1 .curso .decricao-curso{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-geral #l1 .curso .decricao-curso h1{
+        font-size: 10px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
 }
 
-.container-geral #l1 .curso h1{
+.container-geral #l1 .curso .capa-video{
+    max-width: 200px;
+}
+
+.container-geral #l1 .curso .decricao-curso{
+    padding: 0px 0px 0px 20px;
+}
+
+.container-geral #l1 .curso .decricao-curso h1{
     font-size: 28px;
     padding: 0px;
     margin: 0px;
