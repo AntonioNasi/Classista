@@ -68,7 +68,7 @@ FORMATAÇÕES DO BANNER
 ------------------------*/
 header .banner{
     height: 400px;
-    margin-top: 58px;
+    margin: 58px 0px 20px 0px;
 }
 @media screen and (max-width: 1024px){
     header .banner{
@@ -78,6 +78,7 @@ header .banner{
 @media screen and (max-width: 601px){
     header .banner{
         height: 188px;
+        margin-bottom: 0px;
     }
 }
 @media screen and (max-width: 414px){
@@ -91,12 +92,50 @@ header .banner{
     }
 }
 
+/*---------------------------------
+FORMATAÇÕES DO LETREIRO DIGITAL
+----------------------------------*/
+#letreiro{
+    display: flex;
+    place-items: center;
+    margin: 0px 0px -70px 0px;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+@media screen and (max-width:601px){
+    #letreiro{
+        margin-bottom: -20px;
+    }
+}
+#letreiro a{
+    background-color: #2b4162;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px 15px 0px 15px;
+    font-weight: 600;
+    font-size: 18px;
+    animation-name: letreiro;
+    animation-duration: 30s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes letreiro {
+    0%{transform: translateX(1300px);}
+    100%{transform: translateX(-1300px);}
+}
+
 /*--------------------------------
 FORMATAÇÕES DO CONTAINER GERAL
 ---------------------------------*/
 .container-geral{
     max-width: 1200px;
-    margin: 80px auto;
+    margin: 0px auto;
+    padding-top: 0px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -328,7 +367,6 @@ FORMATAÇÕES DOS POSTS/NOTÍCIAS
     flex-basis: 270px;
     margin: 0px 30px 30px 0px;
     padding: 0px;
-    background-color: snow;
     border-radius: 5px 5px 0px 0px;
 }
 
@@ -489,6 +527,12 @@ footer p{
 /*-----------------------------------
 FORMATAÇÃO DAS IMAGENS DOS POSTS
 -----------------------------------*/
+#img18{
+    background-image: url(../img/conferencia-educa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img17{
     background-image: url(https://pcdob.org.br/wp-content/uploads/2021/05/marx-scaled-1.jpg);
     background-position: center;
@@ -589,4 +633,17 @@ FORMATAÇÃO DAS IMAGENS DOS POSTS
     background-image: url(https://centrodeeventos.ce.gov.br/wp-content/uploads/2017/06/MAIS-PAIC.png);
     background-position: center;
     background-size: cover;
+}
+
+
+
+.marca-texto{
+    font-family: unset;
+    font-size: unset;
+}
+.marca-texto:hover{
+    background-color: #ead637;
+}
+.marca-texto::shadow{
+    background-color: #ead637;
 }

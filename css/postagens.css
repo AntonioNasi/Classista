@@ -335,6 +335,12 @@ footer p{
 /*---------------------------------------------
 Formatação das imagens de fundo dos posts
 ----------------------------------------------*/
+#img19{
+    background-image: url(https://image.freepik.com/photos-gratuite/cellule-virus-bacteries-pathogenes-dans-circulation-sanguine-pandemie-mondiale-coronavirus-rendu-3d_482257-17611.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img18{
     background-image: url(../img/conferencia-educa.jpg);
     background-position: center;
