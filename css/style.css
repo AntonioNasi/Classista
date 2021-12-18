@@ -277,6 +277,7 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     width: 852px;
     height: 240px;
     object-fit: cover;
+    border-radius: 5px;
 }
 @media screen and (max-width: 360px){
     .container-geral #l1 .noticia-destaque #img-post-destaque img{
