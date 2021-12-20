@@ -14,6 +14,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>footer</title>
+
+    <style>
+        #container-rodape{
+            color: white;
+            text-align: center;
+        }
+        #container-rodape a{
+            color: white;
+        }
+        #caixa-rodape{
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        @media screen and (max-width:601px){
+            #caixa-rodape{
+                display: block;
+                padding: 0px 15px;
+            }
+        }
+        #caixa-rodape .rodape-content{
+            flex-basis: 400px;
+            flex-grow: none;
+            flex-shrink: 1;
+        }
+        @media screen and (max-width:601px){
+            #caixa-rodape .rodape-content{
+                padding: 20px 0px;
+            }
+        }
+    </style>
+
 </head>
 <body>
 
@@ -22,8 +55,33 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <p>Prof. Antonio Nasi</p>
-    <p>profantonionasi@gmail.com</p>
+    <div id="container-rodape">
+
+        <p>Prof. Antonio Nasi</p>
+
+        <div id="caixa-rodape">
+
+            <div id="redes-sociais" class="rodape-content">
+                <h3>Redes sociais</h3>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Twitter</a></p>
+            </div>
+
+            <div id="sobre-site" class="rodape-content">
+                <h3>Sobre o site</h3>
+                <p>Nos dedicamos ao compartilhamento de conteúdos com fundamentação no materialismo histórico-dialético, bem como, na sua elaboração lukacsiana.</p>
+            </div>
+
+            <div id="contato" class="rodape-content">
+                <h3>Contato</h3>
+                <p><a href="#">profantonionasi@gmail.com</a></p>
+                <p><a href="#">Telegram</a></p>
+                <p><a href="#">Whatsapp</a></p>
+            </div>
+            
+        </div>
+    </div>
     
 </body>
 </html>
