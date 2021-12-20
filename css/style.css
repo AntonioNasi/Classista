@@ -514,14 +514,9 @@ FORMATAÇÃO DA PAGINAÇÃO
 FORMATAÇÃO GERAL DO RODAPÉ
 -----------------------------*/
 footer{
-    height: 120px;
     background-color: #2b4162;
     text-align: center;
-    padding-top: 25px;
-}
-
-footer p{
-    color: white;
+    padding: 25px 0px;
 }
 
 
