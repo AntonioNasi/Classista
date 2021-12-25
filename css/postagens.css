@@ -239,6 +239,8 @@ FORMATAÇÃO DOS POSTS
 
 .container-geral #l1 .post-container h2{
     font-size: 22px;
+    color: #2b4162;
+    margin: 20px 0px 10px;
 }
 
 .container-geral #l1 .post-container .sharethis-inline-share-buttons{
@@ -335,6 +337,12 @@ footer p{
 /*---------------------------------------------
 Formatação das imagens de fundo dos posts
 ----------------------------------------------*/
+#img20{
+    background-image: url(https://image.freepik.com/vecteurs-libre/design-plat-feliz-natal_23-2148773635.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img19{
     background-image: url(https://image.freepik.com/photos-gratuite/cellule-virus-bacteries-pathogenes-dans-circulation-sanguine-pandemie-mondiale-coronavirus-rendu-3d_482257-17611.jpg);
     background-position: center;

@@ -40,6 +40,13 @@ a{
     font-size: 12px;
     font-weight: 700;
 }
+.data-post{
+    font-family: 'Noto Serif', serif;
+    color: #2b4162;
+    font-size: 12px;
+    font-weight: 700;
+    text-indent: none;
+}
 
 /*---------------------------------
 FORMATAÇÕES GERAIS DO CABEÇALHO
@@ -523,6 +530,12 @@ footer{
 /*-----------------------------------
 FORMATAÇÃO DAS IMAGENS DOS POSTS
 -----------------------------------*/
+#img19{
+    background-image: url(https://image.freepik.com/photos-gratuite/cellule-virus-bacteries-pathogenes-dans-circulation-sanguine-pandemie-mondiale-coronavirus-rendu-3d_482257-17611.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img18{
     background-image: url(../img/conferencia-educa.jpg);
     background-position: center;
