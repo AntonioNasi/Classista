@@ -278,10 +278,9 @@ Formatação do lado 2 - lado direito
 }
 
 footer{
-    height: 120px;
     background-color: #2b4162;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px 0px;
 }
 
 footer p{
