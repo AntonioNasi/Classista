@@ -201,3 +201,55 @@ FORMATAÇÃO DO MENU MOBILE
 /*-------------------------------
 FORMATAÇÃO DO MENU SECUNDÁRIO MOBILE
 --------------------------------*/
+.menu-secundario-mobile{
+    background-color: white;
+    display: flex;
+    place-content: center;
+}
+@media screen and (min-width:600px){
+    .menu-secundario-mobile{
+        display: none;
+    }
+}
+.menu-secundario-mobile .item{
+    margin: 5px 0px;
+    padding: 0px 10px;
+    text-align: center;
+    color: #2b4162;
+}
+.flexDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px;
+    color: #2b4162;
+  }
+  .selectWrapper {
+    max-width: 600px;
+    position: relative;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 100ms linear 0s;
+    color: #2b4162;
+  }
+  .multiSelect {
+    box-sizing: border-box;
+    position: absolute;
+    max-width: 600px;
+    left: 0px;
+    right: 0;
+    background: white;
+    color: #2b4162;
+    transition: transform 300ms ease-in-out 0s, clip-path 300ms ease-in-out 0s;
+    border-bottom: solid 1px #2b4162;
+    color: #2b4162;
+  }
+
+  button {
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0px;
+    cursor: pointer;
+  }
