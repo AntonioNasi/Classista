@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.material-icons-outlined{
+    font-family: 'Material Icons';
+}
+
+
+header{
+    background-image: linear-gradient(90deg, rgba(229, 128, 255, 0.7), white);
+}
+
+
+header .cti{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: auto;
+    align-items: center;
+}
+@media screen and (max-width:600px){
+    header .cti{
+        display: block;
+        padding: 15px;
+    }
+}
+
+header .cti .img-i{
+    max-width: 500px;
+}
+@media screen and (max-width:600px){
+    header .cti .img-i::after{
+        content: "";
+        display: block;
+        height: 30px;
+        background-color: #00aad4;
+        transform: rotate(-3deg);
+        margin: -15px 0px 0px 0px;
+    }
+}
+
+header .cti .img-i img{
+    width: 100%;
+}
+
+
+header .cti .txt-i h1{
+    font-size: 50px;
+    text-align: center;
+    color: transparent;
+    font-weight: 900;
+    background-image: linear-gradient(45deg, #00aad4, #e580ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+@media screen and (max-width:600px){
+    header .cti .txt-i h1{
+        font-size: 40px;
+    }
+}
+
+header .cti .txt-i p{
+    font-size: 23px;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+header .cti .txt-i .card-i{
+    display: flex;
+    margin: auto;
+    padding: 20px 0px;
+}
+@media screen and (max-width:600px){
+    header .cti .txt-i .card-i{
+        display: flex;
+        flex-wrap: wrap;
+        place-content: center;
+    }
+}
+
+header .cti .txt-i .card-i .span-card{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    place-content: center;
+    place-items: center;
+    border-left: solid 5px #00aad4;
+    border-right: solid 5px #e580ff;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    header .cti .txt-i .card-i .span-card{
+        display: block;
+        width: 140px;
+        height: 140px;
+    }
+}
+
+header .cti .txt-i .card-i .span-card span{
+    text-align: center;
+    font-size: 50px;
+    color: #00aad4;
+}
+header .cti .txt-i .card-i .span-card p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+/*--------------------------------------------
+Formatação da seção 1
+---------------------------------------------*/
+@media screen and (max-width:600px){
+    #section-1{
+        padding: 15px;
+    }
+}
+#section-1 .s1{
+    position: relative;
+    transform: rotate(-2deg);
+    max-width: 1280px;
+    margin: -30px auto;
+    padding: 30px 0px;
+    background-color: #00aad4;
+    border-radius: 5px;
+    z-index: 1;
+}
+#section-1 .s1 h2{
+    font-size: 25px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+#section-1 .s1-txt{
+    max-width: 1024px;
+    margin: 60px auto;
+}
+#section-1 .s1-txt p{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+#section-1 .estrutura-curso{
+    max-width: 1024px;
+    margin: auto;
+}
+#section-1 .estrutura-curso h2{
+    text-align: center;
+    font-size: 40px;
+    color: #00aad4;
+}
+#section-1 .estrutura-curso #est-des{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+#section-1 .estrutura-curso table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0px 40px 0px;
+}
+#section-1 .estrutura-curso table td{
+    padding: 10px 0px;
+}
+#section-1 .estrutura-curso table tr:nth-child(2n+1){
+    background-color: rgba(229, 128, 255, 0.3);
+}
+#section-1 .estrutura-curso table tr td:first-child{
+    width: 30%;
+    text-align: center;
+}
+#section-1 .estrutura-curso table tr td:first-child .material-icons-outlined{
+    font-size: 40px;
+    color: #00aad4;
+}
+#section-1 .estrutura-curso table tr td:first-child p{
+    font-size: 18px;
+    font-weight: 300;
+}
+#section-1 .estrutura-curso table tr td:last-child{
+    padding: 0px 10px 0px 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+/*--------------------------------------------
+Formatação da seção m - ministrante
+---------------------------------------------*/
+#sec-m{
+    background-color: #00aad4;
+    border-top: solid 1px transparent;
+    padding: 0px 0px 60px 0px;
+}
+@media screen and (max-width:600px){
+    #sec-m{
+        padding: 0px 15px 25px;
+    }
+}
+
+#sec-m h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    color: white;
+}
+#sec-m .ministrante{
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+}
+@media screen and (max-width:600px){
+    #sec-m .ministrante{
+        display: block;
+    }
+}
+
+#sec-m .ministrante .minis-img{
+    width: 35%;
+}
+@media screen and (max-width:600px){
+    #sec-m .ministrante .minis-img{
+        width: 100%;
+    }
+}
+
+#sec-m .ministrante .minis-img h3{
+    background-color: white;
+    padding: 20px 0px;
+    transform: rotate(-8deg);
+    margin-top: -100px;
+    text-align: center;
+}
+#sec-m .ministrante .minis-img img{
+    width: 100%;
+}
+
+#sec-m .ministrante .minis-txt{
+    width: 65%;
+    padding: 0px 0px 0px 30px;
+}
+@media screen and (max-width:600px){
+    #sec-m .ministrante .minis-txt{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+#sec-m .ministrante .minis-txt ul li{
+    list-style-position: outside;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+@media screen and (max-width:600px){
+    #sec-m .ministrante .minis-txt ul li{
+        list-style:none;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+/*--------------------------------------------
+Formatação da seção 2
+---------------------------------------------*/
+#section-2 .s2-t::before{
+    content: "";
+    display: block;
+    height: 5px;
+    background-image: linear-gradient(45deg, #00aad4, #e580ff);
+    margin: 60px 10px 40px 0px;
+}
+@media screen and (max-width:600px){
+    #section-2 .s2-t::before{
+        content: "";
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+    #section-2{
+        padding: 20px 0px 0px;
+    }
+}
+#section-2 .s2-t{
+    text-align: center;
+    max-width: 1024px;
+    margin: auto;
+}
+#section-2 .s2-t h2{
+    color: #00aad4;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#section-2 .s2{
+    max-width: 1280px;
+    margin: auto;
+}
+
+#section-2 .s2 .cont-serv{
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:600px){
+    #section-2 .s2 .cont-serv{
+        display: block;
+    }
+}
+
+#section-2 .s2 .serv{
+    flex-basis: 235px;
+    flex-grow: none;
+    flex-shrink: 1;
+    margin: 20px 10px 10px;
+    padding: 10px;
+    background-color: rgba(229, 128, 255, 0.25);
+    border-radius: 5px;
+}
+#section-2 .s2 .serv .serv-t{
+    border: solid 5px #00aad4;
+    border-radius: 5px;
+    width: 215px;
+    height: 100px;
+    margin: auto;
+    padding: 13px 0px 0px 0px;
+    color: #00aad4;
+    text-align: center;
+}
+#section-2 .s2 .serv .serv-t .material-icons-outlined{
+    font-size: 40px;
+}
+
+#section-2 .s2 .serv .serv-d{
+    border-radius: 5px;
+    padding: 10px 0px 0px;
+    margin: 0px 0px;
+    position: relative;
+    z-index: -1;
+}
+#section-2 .s2 .serv .serv-d p{
+    margin: 0px 0px 10px;
+}
+@media screen and (max-width:600px){
+    #section-2 .s2 .serv .serv-d p{
+        text-align: center;
+    }
+}
+#section-2 .s2 .serv .serv-d .inve{
+    text-align: center;
+    background-color: rgba(229, 128, 255, 1);
+    padding: 5px;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+}
+#section-2 .s2 #cta-zap{
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    padding: 20px 20px;
+    background-color: #00aad4;
+    color: white;
+    font-size: 30px;
+}
