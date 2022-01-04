@@ -242,7 +242,8 @@ Formatação da seção m - ministrante
 }
 @media screen and (max-width:600px){
     #sec-m .ministrante .minis-img{
-        width: 100%;
+        width: 80%;
+        margin: auto;
     }
 }
 
@@ -252,6 +253,11 @@ Formatação da seção m - ministrante
     transform: rotate(-8deg);
     margin-top: -100px;
     text-align: center;
+}
+@media screen and (max-width:600px){
+    #sec-m .ministrante .minis-img h3{
+        margin-top: -75px;
+    }
 }
 #sec-m .ministrante .minis-img img{
     width: 100%;
