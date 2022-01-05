@@ -14,6 +14,11 @@ body{
 header{
     background-image: linear-gradient(90deg, rgba(229, 128, 255, 0.7), white);
 }
+@media screen and (max-width:600px){
+    header{
+        background-image: linear-gradient(90deg, rgba(229, 128, 255, 0.3), white);
+    }
+}
 
 
 header .cti{
@@ -114,6 +119,11 @@ header .cti .txt-i .card-i .span-card p{
     font-size: 20px;
     font-weight: 600;
 }
+@media screen and (max-width:600px){
+    header .cti .txt-i .card-i .span-card p{
+        font-size: 18px;
+    }
+}
 
 
 
@@ -142,6 +152,7 @@ Formatação da seção 1
     font-weight: 900;
 }
 
+
 #section-1 .s1-txt{
     max-width: 1024px;
     margin: 60px auto;
@@ -167,6 +178,11 @@ Formatação da seção 1
     text-align: center;
     font-size: 40px;
     color: #00aad4;
+}
+@media screen and (max-width:600px){
+    #section-1 .estrutura-curso h2{
+        font-size: 30px;
+    }
 }
 #section-1 .estrutura-curso #est-des{
     text-align: center;
@@ -224,6 +240,12 @@ Formatação da seção m - ministrante
     margin: 40px 0px 30px 0px;
     color: white;
 }
+@media screen and (max-width:600px){
+    #sec-m h2{
+        font-size: 30px;
+    }
+}
+
 #sec-m .ministrante{
     max-width: 1024px;
     margin: auto;
@@ -271,6 +293,7 @@ Formatação da seção m - ministrante
     #sec-m .ministrante .minis-txt{
         width: 100%;
         margin-top: 30px;
+        padding: 0px;
     }
 }
 
@@ -284,7 +307,8 @@ Formatação da seção m - ministrante
 @media screen and (max-width:600px){
     #sec-m .ministrante .minis-txt ul li{
         list-style:none;
-        text-align: center;
+        text-align: left;
+        font-weight: 400;
     }
 }
 
@@ -312,7 +336,7 @@ Formatação da seção 2
 
 @media screen and (max-width:600px){
     #section-2{
-        padding: 20px 0px 0px;
+        padding: 20px 15px 0px;
     }
 }
 #section-2 .s2-t{
@@ -325,6 +349,12 @@ Formatação da seção 2
     font-size: 40px;
     margin-bottom: 15px;
 }
+@media screen and (max-width:600px){
+    #section-2 .s2-t h2{
+        font-size: 30px;
+    }
+}
+
 #section-2 .s2{
     max-width: 1280px;
     margin: auto;
@@ -396,4 +426,9 @@ Formatação da seção 2
     background-color: #00aad4;
     color: white;
     font-size: 30px;
+}
+@media screen and (max-width:600px){
+    #section-2 .s2 #cta-zap{
+        font-size: 23px;
+    }
 }
