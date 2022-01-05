@@ -270,14 +270,7 @@ FORMATAÇÃO DOS POSTS
 }
 
 .container-geral #l1 .post-container .sharethis-inline-share-buttons{
-    padding-bottom: 20px;
-}
-
-.container-geral #l1 .post-container #data-post{
-    font-size: 12px;
-    font-weight: 500;
-    padding-bottom: 20px;
-    color: #2b4162;
+    padding-bottom: 40px;
 }
 
 .container-geral #l1 .post-container p{
