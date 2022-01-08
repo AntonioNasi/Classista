@@ -355,6 +355,12 @@ footer p{
 /*---------------------------------------------
 Formatação das imagens de fundo dos posts
 ----------------------------------------------*/
+#img22{
+    background-image: url(https://image.freepik.com/fotos-gratis/menina-de-sorriso-com-livros-prontos_1098-3792.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img21{
     background-image: url(https://image.freepik.com/vecteurs-libre/ile-dans-ocean-ile-inhabitee-plage-sable_107791-619.jpg);
     background-position: center;

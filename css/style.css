@@ -267,6 +267,11 @@ footer{
 /*-----------------------------------
 FORMATAÇÃO DAS IMAGENS DOS POSTS
 -----------------------------------*/
+#img21{
+    background-image: url(https://image.freepik.com/vecteurs-libre/ile-dans-ocean-ile-inhabitee-plage-sable_107791-619.jpg);
+    background-position: center;
+    background-size: cover;
+}
 #img20{
     background-image: url(https://image.freepik.com/vecteurs-libre/design-plat-feliz-natal_23-2148773635.jpg);
     background-position: center;
