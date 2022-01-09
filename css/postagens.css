@@ -248,13 +248,18 @@ FORMATAÇÃO DOS POSTS
     margin-left: 10px;
     background-color: rgba(43, 65, 98, 0.2);
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 360px){
     .container-geral #l1 .post-container .titulo-autor-data h1{
         font-size: 22px;
         line-height: 28px;
     }
     .container-geral #l1 .post-container .titulo-autor-data #data-pub::after{
-        max-width: 340px;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        max-width: 320px;
+        margin-left: 10px;
+        background-color: rgba(43, 65, 98, 0.2);
     }
 }
 
@@ -273,6 +278,21 @@ FORMATAÇÃO DOS POSTS
     line-height: 28px;
     font-size: 18px;
     color: #2b4162;
+}
+
+.container-geral #l1 .post-container p .destaque-link{
+    padding-bottom: 0px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #2b4162;
+
+    border-bottom: solid 2px rgba(43, 65, 98, 0.5);
+}
+.container-geral #l1 .post-container p .destaque-link:hover{
+    background-color: rgba(234, 214, 55, .7);
+    border-bottom: none;
+    border-radius: 5px;
+    transition: background-color .6s;
 }
 
 
