@@ -254,12 +254,7 @@ FORMATAÇÃO DOS POSTS
         line-height: 28px;
     }
     .container-geral #l1 .post-container .titulo-autor-data #data-pub::after{
-        content: "";
-        display: inline-block;
-        height: 1px;
         max-width: 340px;
-        margin-left: 10px;
-        background-color: rgba(43, 65, 98, 0.2);
     }
 }
 
