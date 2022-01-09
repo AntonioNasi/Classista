@@ -248,7 +248,7 @@ FORMATAÇÃO DOS POSTS
     margin-left: 10px;
     background-color: rgba(43, 65, 98, 0.2);
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 600px){
     .container-geral #l1 .post-container .titulo-autor-data h1{
         font-size: 22px;
         line-height: 28px;
@@ -257,7 +257,7 @@ FORMATAÇÃO DOS POSTS
         content: "";
         display: inline-block;
         height: 1px;
-        max-width: 320px;
+        max-width: 340px;
         margin-left: 10px;
         background-color: rgba(43, 65, 98, 0.2);
     }
