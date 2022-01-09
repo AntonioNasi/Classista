@@ -160,6 +160,7 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     .container-geral #l1 .noticia-destaque #img-post-destaque{
         max-width: 570px;
         height: 240px;
+        clear:both;
     }
 }
 @media screen and (max-width: 360px){
@@ -180,7 +181,7 @@ FORMATAÇÃO GERAL DO SUB LADO 1
 @media screen and (max-width: 601px){
     .container-geral #l1 #sub-l1{
         padding: 0px;
-        margin: 880px 0px 0px 0px;
+        margin: 600px 0px 0px 0px;
     }
 }
 
