@@ -71,7 +71,7 @@ header nav{
 header nav ul li{
     list-style: none;
     display: inline-block;
-    margin: 10px 3px;
+    margin: 10px 1px;
     padding: 10px;
 }
 @media screen and (max-width: 414px){
@@ -228,14 +228,14 @@ FORMATAÇÃO DOS POSTS
     padding-bottom: 10px;
     margin: 0px;
     font-family: 'Noto Serif', serif;
-    color: #2b4162;
+    color: black;
 }
 .container-geral #l1 .post-container .titulo-autor-data p{
     font-size: 12px;
     line-height: 1.5;
     margin: 0px;
     padding: 0px;
-    color: rgba(43, 65, 98, 0.5);
+    color: rgba(0, 0, 0, .5);
 }
 .container-geral #l1 .post-container .titulo-autor-data #data-pub{
     margin-bottom: 20px;
@@ -246,7 +246,7 @@ FORMATAÇÃO DOS POSTS
     height: 1px;
     width: 615px;
     margin-left: 10px;
-    background-color: rgba(43, 65, 98, 0.2);
+    background-color: rgba(0, 0, 0, .2);
 }
 @media screen and (max-width: 600px){
     .container-geral #l1 .post-container .titulo-autor-data h1{
@@ -259,13 +259,13 @@ FORMATAÇÃO DOS POSTS
         height: 1px;
         max-width: 340px;
         margin-left: 10px;
-        background-color: rgba(43, 65, 98, 0.2);
+        background-color: rgba(0, 0, 0, 0.2);
     }
 }
 
 .container-geral #l1 .post-container h2{
     font-size: 22px;
-    color: #2b4162;
+    color: black;
     margin: 20px 0px 10px;
 }
 
@@ -277,7 +277,7 @@ FORMATAÇÃO DOS POSTS
     padding-bottom: 16px;
     line-height: 28px;
     font-size: 18px;
-    color: #2b4162;
+    color: black;
 }
 
 @media screen and (min-width: 600px){
@@ -285,9 +285,9 @@ FORMATAÇÃO DOS POSTS
         padding-bottom: 0px;
         line-height: 28px;
         font-size: 18px;
-        color: #2b4162;
+        color: black;
     
-        border-bottom: solid 2px rgba(43, 65, 98, 0.5);
+        border-bottom: solid 2px rgba(0, 0, 0, .5);
     }
     .container-geral #l1 .post-container p .destaque-link:hover{
         background-color: rgba(234, 214, 55, .6);
@@ -302,7 +302,7 @@ FORMATAÇÃO DOS POSTS
         padding-bottom: 0px;
         line-height: 28px;
         font-size: 18px;
-        color: #2b4162;
+        color: black;
         background-color: rgba(234, 214, 55, .6);
         border-radius: 5px;
     }
@@ -357,7 +357,8 @@ FORMATAÇÃO DA PAGINAÇÃO
     text-align: center;
     padding: 5px 15px;
     margin: 5px;
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
+    border-radius: 5px;
     color: white;
 }
 
@@ -369,7 +370,7 @@ FORMATAÇÃO DA PAGINAÇÃO
 Formatação do rodapé
 ----------------------------------------------*/
 footer{
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     text-align: center;
     padding: 25px 0px;
 }

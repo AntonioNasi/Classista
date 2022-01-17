@@ -40,7 +40,7 @@ header nav{
 header nav ul li{
     list-style: none;
     display: inline-block;
-    margin: 10px 3px;
+    margin: 10px 1px;
     padding: 10px;
 }
 @media screen and (max-width: 414px){
@@ -232,7 +232,7 @@ header .banner{
     text-align: center;
     padding: 5px 15px;
     margin: 5px;
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     color: white;
 }
 
@@ -241,7 +241,7 @@ header .banner{
 }
 
 footer{
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     text-align: center;
     padding: 25px 0px;
 }

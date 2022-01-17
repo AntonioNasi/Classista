@@ -15,17 +15,17 @@ body{
 
 h1, h2, h3, p{
     font-family: 'Noto Serif', serif;
-    color: #2b4162;
+    color: rgba(0, 0, 0, 1);
 }
 
 a{
     text-decoration: none;
-    color: #2b4162;
+    color: rgba(0, 0, 0, 1);
 }
 
 .info{
     font-family: 'Material Icons';
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
 }
 
 header nav{
@@ -46,7 +46,7 @@ header nav{
 header nav ul li{
     list-style: none;
     display: inline-block;
-    margin: 10px 3px;
+    margin: 10px 1px;
     padding: 10px;
 }
 @media screen and (max-width: 414px){
@@ -269,7 +269,7 @@ Formatação do lado 2 - lado direito
     text-align: center;
     padding: 5px 15px;
     margin: 5px;
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     color: white;
 }
 
@@ -278,7 +278,7 @@ Formatação do lado 2 - lado direito
 }
 
 footer{
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     text-align: center;
     padding: 25px 0px;
 }

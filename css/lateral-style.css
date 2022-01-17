@@ -21,14 +21,14 @@ p, span, li{
 
 /* Formatação do bloco Contos Anônimos */
 #lateral2{
-    background-color: rgba(43, 65, 98, 0.1);
+    background-color: rgba(0, 170, 212, .1);
     border-radius: 5px;
     width: 100%;
     margin-bottom: 30px;
     padding: 10px;
 }
 #lateral2 h3{
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     border-radius: 5px;
     color: white;
     padding: 10px;
@@ -38,7 +38,7 @@ p, span, li{
 #lateral2 p{
     margin-bottom: 7px;
     padding-left: 10px;
-    color: #2b4162;
+    color: rgba(0, 0, 0, 1);
 }
 #lateral2 span{
     color: #d7263d;
@@ -48,21 +48,21 @@ p, span, li{
 
 /* Formatação do LEIA TAMBÉM */
 #leia-tambem{
-    background-color: rgba(43, 65, 98, 0.1);
+    background-color: rgba(0, 170, 212, .1);
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 10px;
 }
 #leia-tambem h3{
     border-radius: 5px;
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     color: white;
     padding: 10px 0px 10px 10px;
     margin-bottom: 8px;
 }
 #leia-tambem p{
     padding: 10px 0px 10px 10px;
-    color: #2b4162;
+    color: rgba(0, 0, 0, 1);
 }
 #leia-tambem span{
     font-family: 'Material Icons';
@@ -78,7 +78,7 @@ p, span, li{
 
 /* Formatação do bloco 3 da lateral */
 #lateral3{
-    background-color: rgba(43, 65, 98, 0.1);
+    background-color: rgba(0, 170, 212, .1);
     border-radius: 5px;
     max-width: 300px;
     margin-bottom: 0px;
@@ -86,7 +86,7 @@ p, span, li{
 }
 
 #lateral3 h3{
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     border-radius: 5px;
     color: white;
     padding: 10px 0px 10px 10px;
@@ -108,35 +108,35 @@ p, span, li{
     list-style-position: inside;
     padding: 3px 5px 3px 3px;
     margin-top: 10px;
-    color: #2b4162;
+    color: rgba(0, 0, 0, 1);
 }
 
 #lateral3 li a{
-    color: #2b4162;
+    color: rgba(0, 0, 0, 1);
 }
 
 #lateral3 li a:hover{
     color: white;
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     padding: 3px 5px 3px 3px;
 }
 
 /* Formatação do bloco 4 da lateral */
 #lateral4{
-    background-color: rgba(43, 65, 98, 0.1);
+    background-color: rgba(0, 170, 212, .1);
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 5px;
 }
 #lateral4 h3{
     border-radius: 5px;
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     font-weight: bold;
     color: white;
     padding: 10px;
 }
 #lateral4 p{
-    color: #2b4162;
+    color: rgba(0, 0, 0, 1);
     padding: 10px 0px 0px 10px;
 }
 
@@ -153,7 +153,7 @@ p, span, li{
 /* Formatação do bloco 5 da lateral BANNER */
 #aee{
     border-radius: 5px;
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     color: white;
     padding: 10px;
 }
@@ -163,7 +163,7 @@ body{
 }
 
 .banner-container{
-    background-color: rgba(43, 65, 98, 0.1);
+    background-color: rgba(0, 170, 212, .1);
     border-radius: 5px;
     padding: 10px;
     margin: 0px 0px 30px 0px;

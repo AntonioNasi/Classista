@@ -52,7 +52,7 @@ FORMATAÇÃO DO MENU
 header nav ul li{
     list-style: none;
     display: inline-block;
-    margin: 10px 3px;
+    margin: 10px 1px;
     padding: 10px;
 }
 @media screen and (max-width: 414px){
@@ -175,8 +175,7 @@ FORMATAÇÃO DA ÁREA DOS POSTS
     display: flex;
     flex-wrap: nowrap;
     margin: 0px 30px 30px 0px;
-    border: solid 1px #2b4162;
-    border-radius: 5px;
+    border-bottom: solid 1px rgba(0, 0, 0, .2);
     padding: 10px;
 }
 @media screen and (max-width: 601px){
@@ -201,15 +200,17 @@ FORMATAÇÃO DA ÁREA DOS POSTS
     font-size: 80px;
     padding: 0px 10px 0px 0px;
     font-family: 'Material Icons';
-    color: #2b4162;
+    color: rgba(0, 170, 212, 1);
 }
 
 .container-geral #l1 .post-container h1{
     font-size: 20px;
     line-height: 1.3;
     padding-bottom: 5px;
-    color: #2b4162;
+    color: rgba(0, 0, 0, 1);
 }
+
+
 
 .container-geral #l2{
     width: 25%;
@@ -258,7 +259,7 @@ FORMATAÇÃO DA PAGINAÇÃO
     text-align: center;
     padding: 5px 15px;
     margin: 5px;
-    background-color:#2b4162;
+    background-color:rgba(0, 170, 212, 1);
     color: white;
 }
 
@@ -270,7 +271,7 @@ FORMATAÇÃO DA PAGINAÇÃO
 FORMATAÇÃO GERAL DO RODAPÉ
 ------------------------------*/
 footer{
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     text-align: center;
     padding: 25px 0px;
 }

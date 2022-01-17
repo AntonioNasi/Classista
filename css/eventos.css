@@ -15,17 +15,17 @@ body{
 
 h1, h2, h3, p{
     font-family: 'Noto Serif', serif;
-    color: #2b4162;
+    color: black;
 }
 
 a{
     text-decoration: none;
-    color: #2b4162;
+    color: black;
 }
 
 span{
     font-family: 'Material Icons';
-    color: #2b4162;
+    color: rgba(0, 170, 212, 1);
 }
 
 header nav{
@@ -46,7 +46,7 @@ header nav{
 header nav ul li{
     list-style: none;
     display: inline-block;
-    margin: 10px 3px;
+    margin: 10px 1px;
     padding: 10px;
 }
 @media screen and (max-width: 414px){
@@ -166,8 +166,7 @@ header .banner{
     display: flex;
     flex-wrap: nowrap;
     margin: 0px 30px 30px 0px;
-    border: solid 1px black;
-    border-radius: 5px;
+    border-bottom: solid 1px black;
     padding: 10px;
     background-color: snow;
 }
@@ -221,6 +220,11 @@ header .banner{
     padding-bottom: 5px;
 }
 
+
+
+
+
+
 .container-geral #l2{
     width: 25%;
     margin-left: 0px;
@@ -265,7 +269,7 @@ header .banner{
     text-align: center;
     padding: 5px 15px;
     margin: 5px;
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     color: white;
 }
 
@@ -274,7 +278,7 @@ header .banner{
 }
 
 footer{
-    background-color: #2b4162;
+    background-color: rgba(0, 170, 212, 1);
     text-align: center;
     padding: 25px 0px;
 }
