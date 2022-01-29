@@ -53,10 +53,6 @@ a{
 /*---------------------------------
 FORMATAÇÕES GERAIS DO CABEÇALHO
 ----------------------------------*/
-header nav{
-    max-width: 590px;
-    margin: 0 auto;
-}
 
 /*-----------------------
 FORMATAÇÕES DO MENU
@@ -67,15 +63,16 @@ FORMATAÇÕES DO BANNER
 ------------------------*/
 header .banner{
     height: 400px;
-    margin: 88px 0px 20px 0px;
+    margin: 88px 0px 0px 0px;
 }
+
 
 /*--------------------------------
 FORMATAÇÕES DO CONTAINER GERAL
 ---------------------------------*/
 .container-geral{
     max-width: 1200px;
-    margin: 80px auto;
+    margin: 0px auto;
     padding-top: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -280,6 +277,12 @@ footer{
 /*-----------------------------------
 FORMATAÇÃO DAS IMAGENS DOS POSTS
 -----------------------------------*/
+#img22{
+    background-image: url(https://image.freepik.com/fotos-gratis/menina-de-sorriso-com-livros-prontos_1098-3792.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img21{
     background-image: url(https://image.freepik.com/vecteurs-libre/ile-dans-ocean-ile-inhabitee-plage-sable_107791-619.jpg);
     background-position: center;
