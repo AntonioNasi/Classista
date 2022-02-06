@@ -277,6 +277,12 @@ footer{
 /*-----------------------------------
 FORMATAÇÃO DAS IMAGENS DOS POSTS
 -----------------------------------*/
+#img23{
+    background-image: url(https://image.freepik.com/free-vector/concept-protest-revolution-conflict_1325-267.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img22{
     background-image: url(https://image.freepik.com/fotos-gratis/menina-de-sorriso-com-livros-prontos_1098-3792.jpg);
     background-position: center;

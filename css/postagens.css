@@ -384,6 +384,12 @@ footer p{
 /*---------------------------------------------
 Formatação das imagens de fundo dos posts
 ----------------------------------------------*/
+#img24{
+    background-image: url(https://image.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg?w=900);
+    background-position: center;
+    background-size: cover;
+}
+
 #img23{
     background-image: url(https://image.freepik.com/free-vector/concept-protest-revolution-conflict_1325-267.jpg);
     background-position: center;
