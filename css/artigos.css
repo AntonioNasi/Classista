@@ -259,7 +259,7 @@ FORMATAÇÃO DA PAGINAÇÃO
     text-align: center;
     padding: 5px 15px;
     margin: 5px;
-    background-color:rgba(0, 170, 212, 1);
+    background-color:rgba(0, 167, 227, 1);
     color: white;
 }
 
@@ -271,7 +271,7 @@ FORMATAÇÃO DA PAGINAÇÃO
 FORMATAÇÃO GERAL DO RODAPÉ
 ------------------------------*/
 footer{
-    background-color: rgba(0, 170, 212, 1);
+    background-color: rgba(0, 167, 227, 1);
     text-align: center;
     padding: 25px 0px;
 }
