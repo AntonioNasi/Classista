@@ -209,3 +209,13 @@ body{
 .content .slides img{
     width: 100%;
 }
+
+
+
+
+
+.insta{
+    height: 420px;
+    border-top: solid 5px rgba(0, 167, 227, 1);
+    overflow: hidden;
+}
