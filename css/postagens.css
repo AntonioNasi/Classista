@@ -280,6 +280,30 @@ FORMATAÇÃO DOS POSTS
     color: black;
 }
 
+
+
+mark{
+    --color1: rgba(255, 195, 0, 1);
+    --color2: rgba(255, 195, 0, 1);
+    --height: 100%;    
+    all: unset;
+    background-image: linear-gradient(var(--color1), var(--color2));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 var(--height);
+    animation: highlight 900ms 1 ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    border-radius: 5px;
+}
+@keyframes highlight {
+    to{
+        background-size: 100% var(--height);
+    }
+}
+
+
+
 @media screen and (min-width: 600px){
     .container-geral #l1 .post-container p .destaque-link{
         padding-bottom: 0px;
