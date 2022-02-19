@@ -285,7 +285,7 @@ FORMATAÇÃO DOS POSTS
 mark{
     --color1: rgba(255, 195, 0, 1);
     --color2: rgba(255, 195, 0, 1);
-    --height: 100%;    
+    --height: 100%;
     all: unset;
     background-image: linear-gradient(var(--color1), var(--color2));
     background-position: 0 100%;
@@ -408,6 +408,12 @@ footer p{
 /*---------------------------------------------
 Formatação das imagens de fundo dos posts
 ----------------------------------------------*/
+#img25{
+    background-image: url(https://img.freepik.com/free-photo/classic-wooden-christian-cross-open-book_488220-233.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img24{
     background-image: url(https://image.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg?w=900);
     background-position: center;
