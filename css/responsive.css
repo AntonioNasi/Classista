@@ -39,6 +39,52 @@ FORMATAÇÕES DO BANNER
 }
 
 
+/*------------------------------------------------
+FORMATAÇÕES CONTAINER DOS GRUPOS ZAP E TELEGRAM
+-------------------------------------------------*/
+@media screen and (max-width:600px){
+    .container-grupos-sociais{
+        max-width: 300px;
+        margin: 10px auto;
+        border-bottom: solid 3px rgba(0, 167, 227, 1);
+    }
+    .container-grupos-sociais a{
+        display: unset;
+    }
+    .container-grupos-sociais img{
+        width: 100%;
+    }
+    .container-grupos-sociais img:hover{
+        transform:rotate(360deg);
+        transition: transform .5s;
+    }
+    .container-grupos-sociais h3{
+        border-radius: 5px;
+        background-color: ;
+        font-weight: 200;
+        color: black;
+        padding: 5px;
+        text-align: center;
+        font-family: 'Noto Serif', serif;
+    }
+    .container-grupos-sociais .sub-cont{
+        display: flex;
+        place-content: center;
+    }
+    .container-grupos-sociais div{
+        flex-basis: 40px;
+        margin: 5px 20px;
+        z-index: 1;
+    }
+}
+@media screen and (min-width:600px){
+    .container-grupos-sociais{
+        display: none;
+    }
+}
+
+
+
 /*--------------------------------
 FORMATAÇÕES DO CONTAINER GERAL
 ---------------------------------*/
