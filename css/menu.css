@@ -3,20 +3,35 @@
 }*/
 
 #body-menu{
-    background-image: linear-gradient(45deg, rgba(0, 167, 227, 1), rgba(0, 167, 227, 1));
+    background-image: ;
 }
 
 #caixa-menu{
-    max-width: ;
+    max-width: 1024px;
     margin: auto;
     display: ;
+    margin: solid 1px black;
 }
 
 nav{
     width: unset;
     display: flex;
-    place-content: center;
+    align-content: space-around;
     place-items: center;
+}
+
+nav .log-des{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    place-items: center;
+}
+nav .log-des p{
+    font-size: 15px;
+}
+
+nav .log-des img{
+    width: 15%;
 }
 
 nav ul li{
@@ -24,10 +39,9 @@ nav ul li{
     display: inline-block;
     margin: 10px 1px;
     padding: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 14px;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 nav ul li:hover{
@@ -41,7 +55,7 @@ nav ul li:hover{
 }
 
 nav ul li a{
-    color: white;
+    color: black;
 }
 
 @media screen and (max-width: 414px){
@@ -63,9 +77,8 @@ nav ul li a{
 FORMATAÇÃO DO MENU SECUNDÁRIO
 --------------------------------*/
 #container-menu-secundario{
-    background-color: white;
+    background-color: rgba(0, 167, 227, 1);
     height: 30px;
-    border-bottom: solid 1px rgba(43, 65, 98, 0.3);
 }
 #container-menu-secundario #menu-secundario{
     height: 30px;
@@ -79,6 +92,7 @@ FORMATAÇÃO DO MENU SECUNDÁRIO
     font-size: 12px;
     letter-spacing: 1px;
     padding: 6px 10px 6px 10px;
+    color: rgba(255, 255, 255, 1);
 }
 #container-menu-secundario #menu-secundario a:hover{
     background-color: rgba(43, 65, 98, 0.2);
@@ -111,7 +125,7 @@ FORMATAÇÃO DO MENU MOBILE
 }
 
 .dropbtn {
-    color: white;
+    color: black;
     padding: 16px 48px;
     font-size: 16px;
     font-weight: bold;
@@ -164,7 +178,7 @@ FORMATAÇÃO DO MENU MOBILE
 
 
   #menu{
-    background-image: linear-gradient(45deg, rgba(0, 167, 227, 1), rgba(0, 167, 227, 1));
+    background-color: rgba(255, 255, 255, 1);
     position: fixed;
     z-index: 1;
     top: 0;

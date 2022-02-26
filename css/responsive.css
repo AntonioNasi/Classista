@@ -74,7 +74,7 @@ FORMATAÇÕES CONTAINER DOS GRUPOS ZAP E TELEGRAM
     .container-grupos-sociais div{
         flex-basis: 40px;
         margin: 5px 20px;
-        z-index: 1;
+        z-index: 0;
     }
 }
 @media screen and (min-width:600px){
