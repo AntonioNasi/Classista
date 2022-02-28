@@ -282,6 +282,12 @@ mark{
 /*-----------------------------------
 FORMATAÇÃO DAS IMAGENS DOS POSTS
 -----------------------------------*/
+#img25{
+    background-image: url(https://img.freepik.com/fotos-gratis/livro-da-biblia-sagrada-e-cruz-vista-de-perto_488220-21528.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img24{
     background-image: url(https://image.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg);
     background-position: center;
