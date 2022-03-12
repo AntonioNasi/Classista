@@ -150,6 +150,7 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     font-family: 'Source Sans Pro', sans-serif;
     background-color: rgba(255, 195, 0, 1);
     border-radius: 5px;
+    color: black;
 }
 .container-geral #l1 .noticia-destaque #dots{
     font-size: 18px;
