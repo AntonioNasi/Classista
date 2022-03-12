@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0 px;
+}
+
+#lado_2a .caixa-conteudo{
+    background-color: rgba(0, 167, 227, .1);
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+#lado_2a .caixa-conteudo h3{
+    background-color: rgba(0, 167, 227, 1);
+    padding: 3px 0px 3px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#lado_2a .caixa-conteudo p{
+    padding: 10px 0px 10px 10px;
+}

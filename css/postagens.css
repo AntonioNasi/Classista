@@ -121,7 +121,7 @@ header .banner{
 FORMATAÇÃO DO CONTAINER GERAL
 -------------------------------*/
 .container-geral{
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 80px auto;
     display: flex;
     flex-wrap: wrap;
@@ -245,10 +245,11 @@ FORMATAÇÃO DOS POSTS
     content: "";
     display: inline-block;
     height: 1px;
-    width: 615px;
+    width: 470px;
     margin-left: 10px;
     background-color: rgba(0, 0, 0, .2);
 }
+
 @media screen and (max-width: 600px){
     .container-geral #l1 .post-container .titulo-autor-data h1{
         font-size: 22px;
@@ -279,6 +280,7 @@ FORMATAÇÃO DOS POSTS
     line-height: 28px;
     font-size: 18px;
     color: black;
+    hyphens: auto;
 }
 
 

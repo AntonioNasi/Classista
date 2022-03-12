@@ -71,7 +71,7 @@ header .banner{
 FORMATAÇÕES DO CONTAINER GERAL
 ---------------------------------*/
 .container-geral{
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 0px auto;
     padding-top: 0px;
     display: flex;
@@ -90,7 +90,7 @@ FORMATAÇÃO GERAL DO LADO 1
 FORMATAÇÃO DA NOTÍCIA DESTAQUE
 ---------------------------------*/
 .container-geral #l1 .noticia-destaque{
-    max-width: 870px;
+    max-width: 730px;
     margin-bottom: 30px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.2);
     padding-bottom: 30px;
@@ -114,7 +114,7 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
     content: "";
     display: inline-block;
     height: 1px;
-    width: 600px;
+    width: 64%;
     margin: 0px 0px 0px 5px;
     background-color: rgba(0, 0, 0, .2);
 }
@@ -125,7 +125,7 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
 }
 
 .container-geral #l1 .noticia-destaque #img-post-destaque img{
-    width: 500px;
+    width: 400px;
     height: 240px;
     object-fit: cover;
     border-radius: 5px;
@@ -134,36 +134,29 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
 }
 
 .container-geral #l1 .noticia-destaque #img-post-destaque p{
-    text-align: justify;
+    text-align: left;
     margin: 16px 0px 16px 0px;
-    line-height: 1.5;
+    line-height: 28px;
     font-size: 18px;
     color: rgba(0, 0, 0, 1);
+    hyphens: auto;
 }
 
-.container-geral #l1 .noticia-destaque #img-post-destaque #continuar-leitura{
-    display: block;
-    padding: 10px 0px;
-    text-align: center;
-    text-transform: uppercase;
+.container-geral #l1 .noticia-destaque #more{
+    display: none;
+}
+.container-geral #l1 .noticia-destaque #myBtn{
+    max-width: 120px;
     font-family: 'Source Sans Pro', sans-serif;
-    letter-spacing: 2px;
-    font-size: 14px;
-    font-weight: 600;
     background-color: rgba(255, 195, 0, 1);
-    background-size: 200%;
-    color: black;
     border-radius: 5px;
+}
+.container-geral #l1 .noticia-destaque #dots{
+    font-size: 18px;
+}
 
-    animation-name: move-fundo;
-    animation-duration: 10s;
-    animation-iteration-count: 2;
-    animation-timing-function: 1;
-}
-@keyframes move-fundo {
-    0%{background-position: 0%, 0%;}
-    100%{background-position: 100%, 0%;}
-}
+
+
 
 /*--------------------------------
 FORMATAÇÃO GERAL DO SUB LADO 1
@@ -179,7 +172,7 @@ FORMATAÇÕES DOS POSTS/NOTÍCIAS
 .container-geral #l1 #sub-l1 .post-container{
     flex-grow: none;
     flex-shrink: 1;
-    flex-basis: 270px;
+    flex-basis: 350px;
     margin: 0px 30px 30px 0px;
     padding: 0px;
     border-radius: 5px 5px 0px 0px;
@@ -234,6 +227,16 @@ FORMATAÇÕES DOS POSTS/NOTÍCIAS
 FORMATAÇÃO GERAL DO LADO 2
 -------------------------------*/
 .container-geral #l2{
+    width: 25%;
+    margin-left: 0px;
+    padding: 0px 0px 0px 20px;
+    border-left: 1px solid rgba(43, 65, 98, 0.2);
+}
+
+/*------------------------------
+FORMATAÇÃO GERAL DO LADO 2 A
+-------------------------------*/
+.container-geral #l2-a{
     width: 25%;
     margin-left: 0px;
     padding: 0px 0px 0px 20px;
@@ -432,14 +435,9 @@ FORMATAÇÃO DAS IMAGENS DOS POSTS
 }
 
 
-
-.marca-texto{
-    font-family: unset;
-    font-size: unset;
-}
-.marca-texto:hover{
-    background-color: #ead637;
-}
-.marca-texto::shadow{
-    background-color: #ead637;
+.tela-toda{
+    max-width: 1024px;
+    margin: 40px auto;
+    height: 400px;
+    background-color: rgba(0, 167, 227, 1);
 }

@@ -1,6 +1,13 @@
 /*---------------------------------
 FORMATAÇÕES GERAIS DO CABEÇALHO
 ----------------------------------*/
+@media screen and (max-width: 600px){
+    header nav{
+        max-width: 580px;
+    }
+}
+
+/*
 @media screen and (max-width: 414px){
     header nav{
         max-width: 255px;
@@ -11,7 +18,7 @@ FORMATAÇÕES GERAIS DO CABEÇALHO
         max-width: 255px;
     }
 }
-
+*/
 
 /*-----------------------
 FORMATAÇÕES DO BANNER
@@ -21,10 +28,10 @@ FORMATAÇÕES DO BANNER
         height: 316px;
     }
 }
-@media screen and (max-width: 601px){
+@media screen and (max-width: 600px){
     header .banner{
         height: 188px;
-        margin-bottom: 0px;
+        margin: 93px 0px 0px 0px;
     }
 }
 @media screen and (max-width: 414px){
@@ -196,17 +203,18 @@ FORMATAÇÃO DA NOTÍCIA DESTAQUE
         background-color: rgba(43, 65, 98, 0.2);
     }
 }
+
+/* Aqui estava a formatação que deixava o texto aparecendo por baixo da div com os postes */
 @media screen and (max-width: 360px){
     .container-geral #l1 .noticia-destaque #img-post-destaque{
         max-width: 340px;
         margin: auto;
     }
 }
+
 @media screen and (max-width: 601px){
     .container-geral #l1 .noticia-destaque #img-post-destaque{
         max-width: 570px;
-        height: 240px;
-        clear:both;
     }
 }
 @media screen and (max-width: 360px){
@@ -227,7 +235,7 @@ FORMATAÇÃO GERAL DO SUB LADO 1
 @media screen and (max-width: 601px){
     .container-geral #l1 #sub-l1{
         padding: 0px;
-        margin: 880px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 }
 
@@ -286,6 +294,34 @@ FORMATAÇÃO GERAL DO LADO 2
 }
 @media screen and (max-width: 360px){
     .container-geral #l2{
+        width: 100%;
+        margin: 0px 0px 0px;
+    }
+}
+
+
+/*------------------------------
+FORMATAÇÃO GERAL DO LADO 2 A
+-------------------------------*/
+@media screen and (max-width: 601px){
+    .container-geral #l2-a{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 15px 0px 15px;
+        border-left: none;
+    }
+    .cont-geral-2{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 414px){
+    .container-geral #l2-a{
+        width: 100%;
+        margin: 0px 0px 0px;
+    }
+}
+@media screen and (max-width: 360px){
+    .container-geral #l2-a{
         width: 100%;
         margin: 0px 0px 0px;
     }

@@ -9,8 +9,9 @@
 #caixa-menu{
     max-width: 1024px;
     margin: auto;
-    display: ;
-    margin: solid 1px black;
+    display: flex;
+
+    place-content: center;
 }
 
 nav{
@@ -21,17 +22,53 @@ nav{
 }
 
 nav .log-des{
-    width: 500px;
-    height: 40px;
+    max-width: 660px;
+    height: 60px;
     display: flex;
     place-items: center;
+    place-content: center;
 }
-nav .log-des p{
-    font-size: 15px;
+
+nav .log-des #title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+    color: black;
+
+    animation-name: color-text;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    /*
+    background-image: linear-gradient(to right, rgba(0, 167, 227, 1), rgba(225, 195, 0, 1), rgba(213, 32, 5, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    */
+}
+@keyframes color-text {
+    to{
+        background-image: linear-gradient(to right, rgba(0, 167, 227, 1), rgba(225, 195, 0, 1), rgba(213, 32, 5, 1));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: background-image .8s;
+    }
+}
+
+nav .log-des #description{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0px;
 }
 
 nav .log-des img{
     width: 15%;
+}
+@media screen and (max-width:600px){
+    nav .log-des img{
+        width: 22%;
+    }
 }
 
 nav ul li{
@@ -48,11 +85,10 @@ nav ul li:hover{
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width: 601px){
-    nav{
-        display: none;
-    }
-}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    FORMATAÇÃO DO MENU MOBILE
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
 
 nav ul li a{
     color: black;
@@ -71,6 +107,9 @@ nav ul li a{
         text-align: center;
     }
 }
+/*-------------------------------------
+    FIM DA FORMATAÇÃO DO MENU MOBILE
+--------------------------------------*/
 
 
 /*-------------------------------
@@ -239,14 +278,12 @@ FORMATAÇÃO DO MENU SECUNDÁRIO MOBILE
     margin: 5px 0px;
     padding: 0px 10px;
     text-align: center;
-    color: #2b4162;
 }
 .flexDiv {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: 0px 0px;
-    color: #2b4162;
   }
   .selectWrapper {
     max-width: 600px;
@@ -254,7 +291,6 @@ FORMATAÇÃO DO MENU SECUNDÁRIO MOBILE
     opacity: 0;
     pointer-events: none;
     transition: opacity 100ms linear 0s;
-    color: #2b4162;
   }
   .multiSelect {
     box-sizing: border-box;
@@ -276,4 +312,6 @@ FORMATAÇÃO DO MENU SECUNDÁRIO MOBILE
     outline: none;
     padding: 8px 0px;
     cursor: pointer;
+    background-color: rgba(0, 167, 227, 1);
+    color: white;
   }
