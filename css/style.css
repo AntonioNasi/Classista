@@ -286,6 +286,12 @@ mark{
 /*-----------------------------------
 FORMATAÇÃO DAS IMAGENS DOS POSTS
 -----------------------------------*/
+#img26{
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/26/21/47/holocaust-2176655_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 #img25{
     background-image: url(https://img.freepik.com/fotos-gratis/livro-da-biblia-sagrada-e-cruz-vista-de-perto_488220-21528.jpg);
     background-position: center;
