@@ -29,7 +29,7 @@ p, span, li{
     background-color: rgba(0, 167, 227, 1);
     border-radius: 5px;
     color: white;
-    padding: 10px;
+    padding: 3px 0px 3px 10px;
     margin-bottom: 10px;
     font-weight: bold;
 }
