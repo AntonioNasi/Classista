@@ -21,11 +21,9 @@ p, span, li{
 
 /* Formatação do bloco Contos Anônimos */
 #lateral2{
-    background-color: rgba(0, 167, 227, .1);
     border-radius: 5px;
     width: 100%;
     margin-bottom: 30px;
-    padding: 10px;
 }
 #lateral2 h3{
     background-color: rgba(0, 167, 227, 1);
@@ -48,10 +46,8 @@ p, span, li{
 
 /* Formatação do LEIA TAMBÉM */
 #leia-tambem{
-    background-color: rgba(0, 167, 227, .1);
     border-radius: 5px;
     margin-bottom: 20px;
-    padding: 10px;
 }
 #leia-tambem h3{
     border-radius: 5px;
@@ -78,11 +74,9 @@ p, span, li{
 
 /* Formatação do bloco 3 da lateral */
 #lateral3{
-    background-color: rgba(0, 167, 227, .1);
     border-radius: 5px;
     max-width: 300px;
     margin-bottom: 0px;
-    padding: 10px;
 }
 
 #lateral3 h3{
@@ -123,9 +117,7 @@ p, span, li{
 
 /* Formatação do bloco 4 da lateral */
 #lateral4{
-    background-color: rgba(0, 167, 227, .1);
     margin-bottom: 20px;
-    padding: 10px;
     border-radius: 5px;
 }
 #lateral4 h3{
