@@ -83,7 +83,7 @@ p, span, li{
     background-color: rgba(0, 167, 227, 1);
     border-radius: 5px;
     color: white;
-    padding: 10px 0px 10px 10px;
+    padding: 3px 0px 3px 10px;
 }
 
 @media screen and (max-width: 601px){
@@ -125,7 +125,7 @@ p, span, li{
     background-color: rgba(0, 167, 227, 1);
     font-weight: bold;
     color: white;
-    padding: 10px;
+    padding: 3px 0px 3px 10px;
 }
 #lateral4 p{
     color: rgba(0, 0, 0, 1);
