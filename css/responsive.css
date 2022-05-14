@@ -48,7 +48,7 @@ FORMATAÇÕES DO BANNER
 
 /*------------------------------------------------
 FORMATAÇÕES CONTAINER DOS GRUPOS ZAP E TELEGRAM
--------------------------------------------------*/
+-------------------------------------------------
 @media screen and (max-width:600px){
     .container-grupos-sociais{
         max-width: 300px;
@@ -90,7 +90,7 @@ FORMATAÇÕES CONTAINER DOS GRUPOS ZAP E TELEGRAM
     }
 }
 
-
+*/
 
 /*--------------------------------
 FORMATAÇÕES DO CONTAINER GERAL
@@ -338,3 +338,15 @@ FORMATAÇÃO GERAL DO RODAPÉ
 /*-----------------------------------
 FORMATAÇÃO DAS IMAGENS DOS POSTS
 -----------------------------------*/
+
+
+@media screen and (max-width:600px){
+    
+    .tela-toda p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        color: white;
+    }
+}

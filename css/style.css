@@ -443,8 +443,18 @@ FORMATAÇÃO DAS IMAGENS DOS POSTS
 
 
 .tela-toda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 1024px;
     margin: 40px auto;
     height: 400px;
-    background-color: rgba(0, 167, 227, 1);
+    background-color: rgb(0, 0, 0);
+}
+.tela-toda p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 85px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
 }
