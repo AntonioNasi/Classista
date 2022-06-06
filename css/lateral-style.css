@@ -142,7 +142,7 @@ p, span, li{
     }
 }
 
-/* Formatação do bloco 5 da lateral BANNER */
+/* Formatação do bloco 5 da lateral BANNER
 #aee{
     border-radius: 5px;
     background-color: rgba(0, 167, 227, 1);
@@ -194,6 +194,7 @@ body{
 
 }
 
+
 .content .slides{
     position: relative;
 }
@@ -201,7 +202,7 @@ body{
 .content .slides img{
     width: 100%;
 }
-
+*/
 
 
 
@@ -215,30 +216,54 @@ body{
 
 
 
-.container-grupos-sociais1 img{
+
+.newsletterform{
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.050);
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.152) 1px 1px 3px;
 }
-.container-grupos-sociais1 img:hover{
-    transform:rotate(360deg);
-    transition: transform .5s;
-}
-.container-grupos-sociais1 h3{
-    border-radius: 5px;
+
+.newsletterform h3{
     background-color: rgba(0, 167, 227, 1);
-    font-weight: bold;
+    border-radius: 5px;
     color: white;
     padding: 3px 0px 3px 10px;
+    margin-bottom: 10px;
 }
-.container-grupos-sociais1 .sub-cont{
-    display: flex;
-    place-content: center;
+
+.newsletterform p{
+    margin-bottom: 10px;
 }
-.container-grupos-sociais1 div{
-    flex-basis: 70px;
-    margin: 10px 20px;
+
+#mc_embed_signup{
+    padding: 0px 10px 10px 10px;
 }
-@media screen and (max-width:600px){
-    .container-grupos-sociais1{
-        display: none;
-    }
+
+.newsletterform .mc-field-group label{
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.newsletterform .mc-field-group input{
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px;
+}
+
+.newsletterform .button{
+    width: 100%;
+    padding: 3px 0px;
+    margin: 5px 0px 10px;
+    background-color: #ffc300;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletterform .button:hover{
+    background-color: rgba(0, 167, 227, 1);
+    color: white;
+    transition: background 1s;
 }
