@@ -26,9 +26,9 @@ p, span, li{
     margin-bottom: 30px;
 }
 #lateral2 h3{
-    background-color: rgba(0, 167, 227, 1);
+    background-color: rgba(255, 195, 0, 1);
     border-radius: 5px;
-    color: white;
+    color: #000000;
     padding: 3px 0px 3px 10px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -39,7 +39,7 @@ p, span, li{
     color: rgba(0, 0, 0, 1);
 }
 #lateral2 span{
-    color: #d7263d;
+    color: #ff0000;
     font-size: 25px;
 }
 
@@ -51,8 +51,8 @@ p, span, li{
 }
 #leia-tambem h3{
     border-radius: 5px;
-    background-color: rgba(0, 167, 227, 1);
-    color: white;
+    background-color: rgba(255, 195, 0, 1);
+    color: #000000;
     padding: 3px 0px 3px 10px;
     margin-bottom: 8px;
 }
@@ -80,9 +80,9 @@ p, span, li{
 }
 
 #lateral3 h3{
-    background-color: rgba(0, 167, 227, 1);
+    background-color: rgba(255, 195, 0, 1);
     border-radius: 5px;
-    color: white;
+    color: #000000;
     padding: 3px 0px 3px 10px;
 }
 
@@ -122,9 +122,9 @@ p, span, li{
 }
 #lateral4 h3{
     border-radius: 5px;
-    background-color: rgba(0, 167, 227, 1);
+    background-color: rgba(255, 195, 0, 1);
     font-weight: bold;
-    color: white;
+    color: #000000;
     padding: 3px 0px 3px 10px;
 }
 #lateral4 p{
@@ -209,7 +209,7 @@ body{
 
 .insta{
     height: 420px;
-    border-top: solid 5px rgba(0, 167, 227, 1);
+    border-top: solid 5px rgba(255, 195, 0, 1);
     overflow: hidden;
 }
 
@@ -226,9 +226,9 @@ body{
 }
 
 .newsletterform h3{
-    background-color: rgba(0, 167, 227, 1);
+    background-color: rgba(255, 195, 0, 1);
     border-radius: 5px;
-    color: white;
+    color: #000000;
     padding: 3px 0px 3px 10px;
     margin-bottom: 10px;
 }

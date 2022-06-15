@@ -63,11 +63,11 @@ nav .log-des #description{
 }
 
 nav .log-des img{
-    width: 15%;
+    width: 9%;
 }
 @media screen and (max-width:600px){
     nav .log-des img{
-        width: 22%;
+        width: 16%;
     }
 }
 
@@ -79,6 +79,7 @@ nav ul li{
     font-family: 'Noto Serif', serif;
     font-size: 15px;
     font-weight: 600;
+    color: #000000;
 }
 
 nav ul li:hover{
@@ -116,7 +117,7 @@ nav ul li a{
 FORMATAÇÃO DO MENU SECUNDÁRIO
 --------------------------------*/
 #container-menu-secundario{
-    background-color: rgba(0, 167, 227, 1);
+    background-color: #ffc300;
     height: 30px;
 }
 #container-menu-secundario #menu-secundario{
@@ -131,10 +132,10 @@ FORMATAÇÃO DO MENU SECUNDÁRIO
     font-size: 12px;
     letter-spacing: 1px;
     padding: 6px 10px 6px 10px;
-    color: rgba(255, 255, 255, 1);
+    color: #000000;
 }
 #container-menu-secundario #menu-secundario a:hover{
-    background-color: rgba(43, 65, 98, 0.2);
+    background-color: rgba(255, 0, 0, 1);
 }
 @media screen and (max-width:600px){
     #container-menu-secundario{
@@ -312,6 +313,6 @@ FORMATAÇÃO DO MENU SECUNDÁRIO MOBILE
     outline: none;
     padding: 8px 0px;
     cursor: pointer;
-    background-color: rgba(0, 167, 227, 1);
-    color: white;
+    background-color: rgba(255, 195, 0, 1);
+    color: #000000;
   }

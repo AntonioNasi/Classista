@@ -25,7 +25,7 @@ a{
 }
 
 .geral{
-    background-color: rgba(0, 167, 227, 1);
+    background-color: rgba(255, 0, 0, 1);
     border-radius: 5px;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 3px 5px;
@@ -34,7 +34,7 @@ a{
     font-weight: 700;
 }
 .politica-local{
-    background-color: rgba(0, 167, 227, 1);
+    background-color: rgba(255, 0, 0, 1);
     border-radius: 5px;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 3px 5px;
