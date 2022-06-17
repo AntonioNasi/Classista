@@ -411,6 +411,11 @@ footer p{
 /*---------------------------------------------
 Formatação das imagens de fundo dos posts
 ----------------------------------------------*/
+#img27{
+    background-image: url(https://images.pexels.com/photos/11477798/pexels-photo-11477798.jpeg);
+    background-position: center;
+    background-size: cover;
+}
 #img26{
     background-image: url(https://cdn.pixabay.com/photo/2017/03/26/21/47/holocaust-2176655_960_720.jpg);
     background-position: center;
