@@ -10,9 +10,9 @@
 }
 
 #lado_2a .caixa-conteudo h3{
-    background-color: rgba(255, 195, 0, 1);
+    background-color: black;
     padding: 3px 0px 3px 10px;
-    color: #000000;
+    color: rgba(255, 195, 0, 1);
     border-radius: 5px;
 }
 

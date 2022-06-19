@@ -12,7 +12,7 @@
 
 h3{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 p, span, li{
     font-family: 'Noto Serif', serif;
@@ -26,9 +26,9 @@ p, span, li{
     margin-bottom: 30px;
 }
 #lateral2 h3{
-    background-color: rgba(255, 195, 0, 1);
+    background-color: #000000;
     border-radius: 5px;
-    color: #000000;
+    color: rgba(255, 195, 0, 1);
     padding: 3px 0px 3px 10px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -51,8 +51,8 @@ p, span, li{
 }
 #leia-tambem h3{
     border-radius: 5px;
-    background-color: rgba(255, 195, 0, 1);
-    color: #000000;
+    background-color: black;
+    color: rgba(255, 195, 0, 1);
     padding: 3px 0px 3px 10px;
     margin-bottom: 8px;
 }
@@ -80,9 +80,9 @@ p, span, li{
 }
 
 #lateral3 h3{
-    background-color: rgba(255, 195, 0, 1);
+    background-color: black;
     border-radius: 5px;
-    color: #000000;
+    color: rgba(255, 195, 0, 1);
     padding: 3px 0px 3px 10px;
 }
 
@@ -122,9 +122,9 @@ p, span, li{
 }
 #lateral4 h3{
     border-radius: 5px;
-    background-color: rgba(255, 195, 0, 1);
+    background-color: black;
     font-weight: bold;
-    color: #000000;
+    color: rgba(255, 195, 0, 1);
     padding: 3px 0px 3px 10px;
 }
 #lateral4 p{
@@ -226,9 +226,9 @@ body{
 }
 
 .newsletterform h3{
-    background-color: rgba(255, 195, 0, 1);
+    background-color: black;
     border-radius: 5px;
-    color: #000000;
+    color: rgba(255, 195, 0, 1);
     padding: 3px 0px 3px 10px;
     margin-bottom: 10px;
 }

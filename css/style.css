@@ -25,20 +25,20 @@ a{
 }
 
 .geral{
-    background-color: rgba(255, 0, 0, 1);
+    background-color: black;
     border-radius: 5px;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 3px 5px;
-    color: white;
+    color: rgba(255, 195, 0, 1);
     font-size: 12px;
     font-weight: 700;
 }
 .politica-local{
-    background-color: rgba(255, 0, 0, 1);
+    background-color: black;
     border-radius: 5px;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 3px 5px;
-    color: white;
+    color: rgba(255, 195, 0, 1);
     font-size: 12px;
     font-weight: 700;
 }
