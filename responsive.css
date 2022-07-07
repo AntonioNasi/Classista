@@ -1,0 +1,86 @@
+/*-------------------------------------
+Configurações da barra topo
+--------------------------------------*/
+@media screen and (min-width:600px){
+    .barra-topo .container-logo .logo{
+        max-width: 60px;
+    }
+}
+
+
+/*-------------------------------------
+Configurações do menu
+--------------------------------------*/
+@media screen and (max-width:600px){
+    .menu2{
+        display: none;
+    }
+}
+@media screen and (min-width:600px){
+    .menu{
+        display: none;
+    }
+}
+
+
+/*-------------------------------------
+Configurações do Banner
+--------------------------------------*/
+@media screen and (min-width:600px){
+    .banner{
+        margin-top: 63px;
+    }
+}
+
+
+/*-------------------------------------
+Configurações do container geral
+--------------------------------------*/
+@media screen and (min-width:600px){
+    .container-geral{
+        margin: 40px auto;
+    }
+}
+
+
+/*-------------------------------------
+Configurações dos artigos
+--------------------------------------*/
+@media screen and (min-width:600px){
+    .container-article article h1{
+        font-size: 28px;
+        font-weight: 900;
+        margin-bottom: 10px;
+        line-height: 38px;
+    }
+    .container-article article p{
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+}
+
+
+/*-------------------------------------
+Configurações das colunas
+--------------------------------------*/
+@media screen and (max-width:600px){
+    .container-article .coluna1, .coluna3{
+        display: none;
+    }
+}
+@media screen and (min-width:600px){
+    .coluna2 .top-article {
+        display: none;
+    }
+}
+
+
+/*-------------------------------------
+Configurações do footer
+--------------------------------------*/
+@media screen and (min-width:600px){
+    footer{
+        margin-top: 60px;
+    }
+}

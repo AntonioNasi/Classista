@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>menu-mobile</title>
+
+        <style>
+            .dropbtn2 {
+                background-color: #ffc300;
+                color: #000000;
+                padding: 2px;
+                font-size: 30px;
+                font-weight: 900;
+                cursor: pointer;
+            }
+
+            .dropdown2 {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content2 {
+                display: none;
+                position: absolute;
+                background-color: #d52005;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content2 a {
+                color: #ffffff;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown-content2 a:hover {background-color: #000000;}
+
+            .dropdown2:hover .dropdown-content2 {display: block;}
+
+            .dropdown2:hover .dropbtn2 {background-color: #ffc300;}
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="dropdown2">
+            <span onclick="myFunction()" class="dropbtn2 material-symbols-outlined">
+                menu
+            </span>
+            <div class="dropdown-content2">
+                <a href="./index.html">Início</a>
+                <a href="./sobre.html">Sobre</a>
+                <a href="./contato.html">Contato</a>
+                <a href="./textos_antigos.html">Textos antigos</a>
+            </div>
+        </div>
+        
+    </body>
+</html>

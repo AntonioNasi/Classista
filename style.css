@@ -1,0 +1,267 @@
+/*-----------------------
+Formatações globais
+------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body p, h1, h2, a{
+    font-family: 'Noto Serif', serif;
+}
+body h3, button{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.material-symbols-outlined{
+    font-family: 'Material Icons';
+}
+
+
+/*----------------------------------------
+Formatação da barra topo
+-----------------------------------------*/
+.barra-topo{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: black;
+
+    display: block;
+    position: fixed;
+    top: 0;
+    transition: top 0.5s;
+}
+.barra-topo .container-logo{
+    max-width: 600px;
+    display: flex;
+    margin: auto;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.barra-topo .container-logo .logo{
+    max-width: 50px;
+}
+.barra-topo .container-logo .logo img{
+    width: 100%;
+}
+.barra-topo .container-logo .descricao{
+    width: auto;
+
+}
+.barra-topo .container-logo .descricao h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #ffc300;
+    margin: 0px;
+    padding: 0px;
+}
+.barra-topo .container-logo .descricao p{
+    color: #ffc300;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+
+/*----------------------------------------
+Formatação do menu
+-----------------------------------------*/
+.menu{
+    height: 40px;
+    width: auto;
+    margin: auto;
+    background-color: #ffc300;
+}
+.menu span{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.menu2{
+    width: 180px;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/*----------------------------------------
+Formatação do banner
+-----------------------------------------*/
+.banner{
+    height: 65vh;
+    background-image: url(https://w.wallha.com/ws/5/z9XMWnip.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 94px;
+}
+
+
+/*----------------------------------------
+Formatação do container geral
+-----------------------------------------*/
+.container-geral{
+    max-width:auto;
+    margin: 0px auto;
+    padding: 0px 10px 0px 10px;
+}
+
+
+/*----------------------------------------
+Formatação do container dos article
+-----------------------------------------*/
+.container-article{
+    
+    max-width: 1024px;
+    height: auto;
+    margin: 20px auto;
+    
+    display: flex;
+}
+.container-article .top-article{
+    background-color: #000000;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-article .top-article h3{
+    font-size: 15px;
+    color: #ffc300;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container-article article{
+    width: auto;
+    margin: auto;
+    padding: 10px;
+}
+.container-article article h1{
+    font-size: 20px;
+}
+.container-article article img{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+.container-article article p{
+    font-size: 15px;
+    line-height: 28px;
+}
+.container-article .bottom-article{
+    background-color: rgba(0,0,0,0.1);
+    height: auto;
+    padding: 10px 0px;
+    border-radius: 0px 0px 10px 10px;
+    color: #ffc300;
+    text-align: center;
+    font-size: 13px;
+}
+
+/*------------------------------------------------------------------
+Formatação do more e do bt ler mais, duplicados a cada novo texto
+-------------------------------------------------------------------*/
+#more1{
+    display: none;
+}
+.container-article article #bt1{
+    display: flex;
+    margin: 10px auto;
+    padding: 3px 5px;
+    background-color: #ffc300;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*----------------------------------------
+    Formatação do container dos article laterais
+-----------------------------------------*/
+.container-article .coluna1{
+    background-color: rgba(0,0,0,1);
+    border-radius: 10px;
+    width: 164px;
+    margin-right: 40px;
+}
+.container-article .coluna1{
+    display: flex;
+    color: #ffc300;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+}
+.container-article .coluna1 .caixa-texto{
+    transform: rotate(-90deg);
+}
+.container-article .coluna2{
+    max-width: 616px;
+    border: solid 1px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.container-article .coluna3{
+    border: solid 1px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 164px;
+    margin-left: 40px;
+}
+.container-article .coluna3 h3{
+    text-align: center;
+    margin: 10px 10px 0px;
+}
+.container-article .coluna3 .caixa-referencias{
+    width: 100%;
+    padding: 0px 10px;
+}
+.container-article .coluna3 .caixa-referencias .referencia{
+    background-color: #ffc300;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.1), -1px -1px 8px rgba(0,0,0,0.1);
+    width: 138px;
+    height: 138px;
+    margin: 15px 0px;
+    border-radius: 100%;
+}
+.container-article .coluna3 .caixa-referencias a{
+    display: block;
+    width: 138px;
+    height: 138px;
+}
+.container-article .coluna3 .caixa-referencias .referencia:hover{
+    animation-name: gira;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes gira {
+    0%{transform: rotate(0deg); box-shadow: none;}
+    100%{transform: rotate(360deg);}
+}
+.container-article .coluna3 .caixa-referencias #ref1{
+    background-image: url(https://static.wixstatic.com/media/4c396a_f7a90920ab1041adbbbea7f80a32bf2d~mv2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container-article .coluna3 .caixa-referencias #ref2{
+    background-image: url(https://gritonaluta.files.wordpress.com/2017/02/ivo-tonet.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container-article .coluna3 .caixa-referencias #ref3{
+    background-image: url(https://i.ytimg.com/vi/M742pGWl_24/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+footer{
+    background-color: #000000;
+    height: auto;
+    padding: 30px;
+}
+footer .footer{
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+    color: #ffc300;
+}
