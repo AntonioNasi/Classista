@@ -142,6 +142,20 @@ Formatação do container dos article
 .container-article article h1{
     font-size: 20px;
 }
+.container-article article .post-data{
+    color: rgba(0,0,0,0.5);
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+.container-article article .post-data::before{
+    content: '';
+    background-color: rgba(0,0,0,0.5);
+    height: 1px;
+    width: 30px;
+    margin-right: 10px;
+    display: inline-block;
+}
 .container-article article img{
     width: 100%;
     margin: 10px 0px 10px 0px;
@@ -163,10 +177,10 @@ Formatação do container dos article
 /*------------------------------------------------------------------
 Formatação do more e do bt ler mais, duplicados a cada novo texto
 -------------------------------------------------------------------*/
-#more1{
+#more1, #more2, #more3{
     display: none;
 }
-.container-article article #bt1{
+.container-article article #bt1, #bt2, #bt3{
     display: flex;
     margin: 10px auto;
     padding: 3px 5px;
@@ -249,6 +263,11 @@ Formatação do more e do bt ler mais, duplicados a cada novo texto
 }
 .container-article .coluna3 .caixa-referencias #ref3{
     background-image: url(https://i.ytimg.com/vi/M742pGWl_24/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container-article .coluna3 .caixa-referencias #ref4{
+    background-image: url(https://4.bp.blogspot.com/-huK4RF9wIZQ/WzEQMLgwX3I/AAAAAAAAHMI/Lu3jEeDs87Ao8eqPStgEfaCWqxOVfRdzwCLcBGAs/s320/deribaldo_santos.jpg);
     background-size: cover;
     background-position: center;
 }

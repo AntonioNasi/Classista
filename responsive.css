@@ -47,11 +47,18 @@ Configurações do container geral
 Configurações dos artigos
 --------------------------------------*/
 @media screen and (min-width:600px){
+    .container-article{
+        margin-top: 40px;
+    }
     .container-article article h1{
         font-size: 28px;
         font-weight: 900;
         margin-bottom: 10px;
         line-height: 38px;
+    }
+    .container-article article .post-data{
+        font-size: 15px;
+        margin: 0px 0px;
     }
     .container-article article p{
         font-size: 18px;
