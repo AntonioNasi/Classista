@@ -27,8 +27,17 @@ Configurações do menu
 Configurações do Banner
 --------------------------------------*/
 @media screen and (min-width:600px){
-    .banner{
+    #banner{
         margin-top: 63px;
+        display: none;
+    }
+    #banner2{
+        margin-top: 63px;
+    }
+}
+@media screen and (max-width:600px){
+    #banner2{
+        display: none;
     }
 }
 
