@@ -142,7 +142,7 @@ Formatação do container dos article
     padding: 10px;
 }
 .container-article article h1{
-    font-size: 20px;
+    font-size: 28px;
 }
 .container-article article .post-data{
     color: rgba(0,0,0,0.5);
@@ -163,7 +163,7 @@ Formatação do container dos article
     margin: 10px 0px 10px 0px;
 }
 .container-article article p{
-    font-size: 15px;
+    font-size: 18px;
     line-height: 28px;
 }
 .container-article .bottom-article{
