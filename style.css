@@ -179,10 +179,10 @@ Formatação do container dos article
 /*------------------------------------------------------------------
 Formatação do more e do bt ler mais, duplicados a cada novo texto
 -------------------------------------------------------------------*/
-#more1, #more2, #more3{
+#more1, #more2, #more3, #more4{
     display: none;
 }
-.container-article article #bt1, #bt2, #bt3{
+.container-article article #bt1, #bt2, #bt3, #bt4{
     display: flex;
     margin: 10px auto;
     padding: 3px 5px;
