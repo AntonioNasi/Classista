@@ -7,6 +7,10 @@ Formatações globais
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body p, h1, h2, a{
     font-family: 'Noto Serif', serif;
 }
@@ -179,10 +183,10 @@ Formatação do container dos article
 /*------------------------------------------------------------------
 Formatação do more e do bt ler mais, duplicados a cada novo texto
 -------------------------------------------------------------------*/
-#more1, #more2, #more3, #more4{
+#more1, #more2, #more3, #more4, #more5{
     display: none;
 }
-.container-article article #bt1, #bt2, #bt3, #bt4{
+.container-article article #bt1, #bt2, #bt3, #bt4, #bt5{
     display: flex;
     margin: 10px auto;
     padding: 3px 5px;
