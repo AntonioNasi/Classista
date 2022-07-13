@@ -169,6 +169,7 @@ Formatação do container dos article
 .container-article article p{
     font-size: 18px;
     line-height: 28px;
+    margin-bottom: 10px;
 }
 .container-article .bottom-article{
     background-color: rgba(0,0,0,0.1);
@@ -276,6 +277,33 @@ Formatação do more e do bt ler mais, duplicados a cada novo texto
     background-image: url(https://4.bp.blogspot.com/-huK4RF9wIZQ/WzEQMLgwX3I/AAAAAAAAHMI/Lu3jEeDs87Ao8eqPStgEfaCWqxOVfRdzwCLcBGAs/s320/deribaldo_santos.jpg);
     background-size: cover;
     background-position: center;
+}
+
+
+/*----------------------------------------
+    Formatação da paginação
+-----------------------------------------*/
+.paginacao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.paginacao a{
+    text-decoration: none;
+    color: #000000;
+    border: solid 1px #000000;
+    margin: 10px 8px;
+    padding: 5px 12px;
+    border-radius: 100%;
+}
+.paginacao a:hover{
+    background-color: #ffc300;
+    font-weight: 600;
+}
+.paginacao .pagAtual{
+    background-color: #ffc300;
 }
 
 
