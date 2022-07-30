@@ -1,320 +1,187 @@
-/*-----------------------
-Formatações globais
-------------------------*/
+/*Configurações Globais*/
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-
 html{
     scroll-behavior: smooth;
 }
-
-body p, h1, h2, a{
-    font-family: 'Noto Serif', serif;
-}
-body h3, button{
+body h1, h2, h3, h4{
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+body p, a, span, link{
+    font-family: 'Noto Serif', serif;
+}
 .material-symbols-outlined{
     font-family: 'Material Icons';
 }
 
 
-/*----------------------------------------
-Formatação da barra topo
------------------------------------------*/
-.barra-topo{
+/*Formatação dos elementos do Header/Cabeçalho*/
+header{
+    border-top: solid 1px transparent;
+    height: 100vh;
     width: 100%;
-    margin: auto;
-    height: auto;
-    background-color: black;
+    background-color: #ffc300;
 
-    display: block;
+    background-image: url(./eu2.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: -50px bottom;
+}
+header .containerMenu{
+    width: 100%;
     position: fixed;
-    top: 0;
-    transition: top 0.5s;
-    z-index: 3;
-}
-.barra-topo .container-logo{
-    max-width: 600px;
-    display: flex;
-    margin: auto;
-    padding: 0px;
-    justify-content: center;
-    align-items: center;
-}
-.barra-topo .container-logo .logo{
-    max-width: 50px;
-}
-.barra-topo .container-logo .logo img{
-    width: 100%;
-}
-.barra-topo .container-logo .descricao{
-    width: auto;
-
-}
-.barra-topo .container-logo .descricao h1{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    color: #ffc300;
-    margin: 0px;
-    padding: 0px;
-}
-.barra-topo .container-logo .descricao p{
-    color: #ffc300;
-    font-size: 13px;
-    margin-top: -5px;
-}
-
-
-/*----------------------------------------
-Formatação do menu
------------------------------------------*/
-.menu{
-    height: 40px;
-    width: auto;
-    margin: auto;
+    transition: top .5s;
+    z-index: 1;
     background-color: #ffc300;
 }
-.menu span{
-    font-size: 30px;
+header nav{
+    margin-top: 10px;
+}
+header nav .material-symbols-outlined{
+    font-size: 40px;
     font-weight: 900;
 }
 
-.menu2{
-    width: 180px;
+header #largeMenu{
     display: flex;
-    justify-content: end;
-}
-
-
-
-/*----------------------------------------
-Formatação do banner
------------------------------------------*/
-.banner{
-    width: 100%;
-    height: 360px;
-    background-image: url(https://w.wallha.com/ws/5/z9XMWnip.jpg);
-    background-size: cover;
-    background-position: center;
-    margin-top: 94px;
-}
-
-
-/*----------------------------------------
-Formatação do container geral
------------------------------------------*/
-.container-geral{
-    max-width:auto;
-    margin: 0px auto;
-    padding: 0px 10px 0px 10px;
-}
-
-
-/*----------------------------------------
-Formatação do container dos article
------------------------------------------*/
-.container-article{
-    
-    max-width: 1024px;
-    height: auto;
-    margin: 20px auto;
-    
-    display: flex;
-}
-.container-article .top-article{
-    background-color: #000000;
-    height: 30px;
-    border-radius: 10px 10px 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container-article .top-article h3{
-    font-size: 15px;
-    color: #ffc300;
-    text-align: center;
-    text-transform: uppercase;
-}
-.container-article article{
-    width: auto;
+    width: 95%;
     margin: auto;
-    padding: 10px;
-}
-.container-article article h1{
-    font-size: 28px;
-}
-.container-article article .post-data{
-    color: rgba(0,0,0,0.5);
-    display: inline-block;
-    font-size: 12px;
-    margin: 10px 0px;
-}
-.container-article article .post-data::before{
-    content: '';
-    background-color: rgba(0,0,0,0.5);
-    height: 1px;
-    width: 30px;
-    margin-right: 10px;
-    display: inline-block;
-}
-.container-article article img{
-    width: 100%;
-    margin: 10px 0px 10px 0px;
-}
-.container-article article p{
-    font-size: 18px;
-    line-height: 28px;
-    margin-bottom: 15px;
-}
-.container-article .bottom-article{
-    background-color: rgba(0,0,0,0.1);
-    height: auto;
+    justify-content: end;
+    align-items: center;
     padding: 10px 0px;
-    border-radius: 0px 0px 10px 10px;
+}
+header #largeMenu a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header #largeMenu a:hover{
+    background-color: #000000;
     color: #ffc300;
-    text-align: center;
-    font-size: 13px;
+    transition: background-color 0.3s;
 }
 
-/*------------------------------------------------------------------
-Formatação do more e do bt ler mais, duplicados a cada novo texto
--------------------------------------------------------------------*/
-#more1, #more2, #more3, #more4, #more5{
-    display: none;
+
+header .desc{
+    width: 95%;
+    margin: 100px auto;
+    z-index: auto;
 }
-.container-article article #bt1, #bt2, #bt3, #bt4, #bt5{
-    display: flex;
-    margin: 10px auto;
+header .desc h1{
+    font-weight: 900;
+}
+header .desc h1, p{
+    text-align: center;
+}
+header .desc p{
+    margin-bottom: 40px;
+}
+header .desc a{
+    display: block;
+    max-width: 130px;
+    text-decoration: none;
+    font-family: 'Noto Sans Pro', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 5px 10px;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+header .desc #legenda1, #legenda2{
+    background-color: #000000;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffc300;
+    margin-top: 20px;
+}
+#reforma{
+    animation-name: alerta;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #ff0000;
+
     padding: 3px 5px;
-    background-color: #ffc300;
-    border: none;
+}
+@keyframes alerta {
+    0%{background-color: transparent; color:transparent;}
+    25%{background-color: transparent; color:transparent;}
+    100%{background-color: #ff0000; color:#000000;}
+}
+
+/*Formatação dos elementos da section groups*/
+.groups{
+    background-color: #000000;
+    min-height: 100vh;
+    padding: 20px 0px 20px 0px;
+}
+.titleSection{
+    width: 95%;
+    margin: 20px auto;
+}
+.titleSection h1{
+    color: #ffc300;
+    text-align: left;
+}
+.titleSection p{
+    color: #ffc300;
+    text-align: left;
+}
+.containerG{
+    width: 95%;
+    margin: auto;
+}
+.contentG{
+    border: solid 1px #a9a9a9;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
     border-radius: 5px;
 }
 
+.contentG .g-logo{
+    width: 20%;
+    height: 40%;
+    margin: auto;
+}
+.contentG .g-logo img{
+    width: 100%;
+}
 
-/*----------------------------------------
-    Formatação do container dos article laterais
------------------------------------------*/
-.container-article .coluna1{
-    background-color: rgba(0,0,0,1);
-    border-radius: 10px;
-    width: 164px;
-    margin-right: 40px;
-}
-.container-article .coluna1{
-    display: flex;
-    color: #ffc300;
-    justify-content:center;
-    align-items: center;
-    font-size: 30px;
-}
-.container-article .coluna1 .caixa-texto{
-    transform: rotate(-90deg);
-}
-.container-article .coluna2{
-    max-width: 616px;
-    border: solid 1px rgba(0,0,0,0.1);
-    border-radius: 10px;
-}
-.container-article .coluna3{
-    border: solid 1px rgba(0,0,0,0.1);
-    border-radius: 10px;
-    width: 164px;
-    margin-left: 40px;
-}
-.container-article .coluna3 h3{
+.contentG h2{
+    color: #a9a9a9;
     text-align: center;
-    margin: 10px 10px 0px;
 }
-.container-article .coluna3 .caixa-referencias{
-    width: 100%;
-    padding: 0px 10px;
-}
-.container-article .coluna3 .caixa-referencias .referencia{
-    background-color: #ffc300;
-    box-shadow: 5px 5px 8px rgba(0,0,0,0.1), -1px -1px 8px rgba(0,0,0,0.1);
-    width: 138px;
-    height: 138px;
-    margin: 15px 0px;
-    border-radius: 100%;
-}
-.container-article .coluna3 .caixa-referencias a{
-    display: block;
-    width: 138px;
-    height: 138px;
-}
-.container-article .coluna3 .caixa-referencias .referencia:hover{
-    animation-name: gira;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-}
-@keyframes gira {
-    0%{transform: rotate(0deg); box-shadow: none;}
-    100%{transform: rotate(360deg);}
-}
-.container-article .coluna3 .caixa-referencias #ref1{
-    background-image: url(https://static.wixstatic.com/media/4c396a_f7a90920ab1041adbbbea7f80a32bf2d~mv2.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.container-article .coluna3 .caixa-referencias #ref2{
-    background-image: url(https://gritonaluta.files.wordpress.com/2017/02/ivo-tonet.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.container-article .coluna3 .caixa-referencias #ref3{
-    background-image: url(https://i.ytimg.com/vi/M742pGWl_24/maxresdefault.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.container-article .coluna3 .caixa-referencias #ref4{
-    background-image: url(https://4.bp.blogspot.com/-huK4RF9wIZQ/WzEQMLgwX3I/AAAAAAAAHMI/Lu3jEeDs87Ao8eqPStgEfaCWqxOVfRdzwCLcBGAs/s320/deribaldo_santos.jpg);
-    background-size: cover;
-    background-position: center;
+.contentG p{
+    color: #a9a9a9;
+    text-align: left;
+    line-height: 1.5;
 }
 
-
-/*----------------------------------------
-    Formatação da paginação
------------------------------------------*/
-.paginacao{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.paginacao a{
-    text-decoration: none;
-    color: #000000;
-    border: solid 1px #000000;
-    margin: 10px 8px;
-    padding: 5px 12px;
-    border-radius: 100%;
-}
-.paginacao a:hover{
-    background-color: #ffc300;
-    font-weight: 600;
-}
-.paginacao .pagAtual{
-    background-color: #ffc300;
-}
-
-
+/*Formatação dos elementos footer*/
 footer{
     background-color: #000000;
-    height: auto;
-    padding: 30px;
 }
-footer .footer{
-    max-width: 320px;
+footer .contentFooter{
+    width: 95%;
+    height: auto;
     margin: auto;
+    padding: 20px 0px;
+}
+footer .contentFooter h2{
+    color:#ffc300;
     text-align: center;
-    color: #ffc300;
+    font-size: 18px;
+}
+footer .contentFooter p{
+    color:#ffc300;
+    text-align: center;
+    font-size: 14px;
 }

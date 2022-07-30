@@ -7,58 +7,96 @@
         <title>menu-mobile</title>
 
         <style>
-            .dropbtn2 {
-                background-color: #ffc300;
-                color: #000000;
-                padding: 2px;
-                font-size: 30px;
-                font-weight: 900;
+            .caixa-menu-mobile{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index: 1;
+            }
+            .dropbtn {
+                padding: 8px;
+                border: none;
                 cursor: pointer;
             }
 
-            .dropdown2 {
+            .dropdown {
                 position: relative;
                 display: inline-block;
             }
 
-            .dropdown-content2 {
+            .dropdown-content {
                 display: none;
-                position: absolute;
-                background-color: #d52005;
-                min-width: 160px;
+                position: relative;
+                background-color: #000000;
+                width: 100%;
+                overflow: auto;
                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                z-index: 5;
+                border-radius: 5px;
+                z-index: 1;
             }
 
-            .dropdown-content2 a {
-                color: #ffffff;
+            .dropdown-content a {
+                color: white;
                 padding: 12px 16px;
+                width: 100%;
                 text-decoration: none;
-                display: block;
+                display: inline-block;
+                text-align: center;
+                font-family: 'Source Sans Pro', sans-serif;
             }
 
-            .dropdown-content2 a:hover {background-color: #000000;}
+            .dropdown a:hover {background-color: #000000;}
 
-            .dropdown2:hover .dropdown-content2 {display: block;}
-
-            .dropdown2:hover .dropbtn2 {background-color: #ffc300;}
+            .show {display: block;}
 
         </style>
 
     </head>
     <body>
 
-        <div class="dropdown2">
-            <span onclick="myFunction()" class="dropbtn2 material-symbols-outlined">
-                menu
-            </span>
-            <div class="dropdown-content2">
-                <a href="./index.html">Início</a>
-                <a href="./sobre.html">Sobre</a>
-                <a href="./contato.html">Contato</a>
-                <a href="./textos_antigos.html">Textos antigos</a>
+        
+        <div class="caixa-menu-mobile">
+            <div class="dropdown">
+            
+                <span onclick="myFunction()" class="dropbtn material-symbols-outlined">
+                        menu
+                </span>
+                
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="./index.html">Início</a>
+                    <a href="./blog.html">Blog</a>
+                    <a href="./servicos.html">Serviços</a>
+                    <a href="./grupos.html">Grupos</a>
+                    <a href="./download.html">Download</a>
+                    <a href="./pesquisa.html">Pesquisa</a>
+                    <a href="./sobre.html">Sobre</a>
+                    <a href="./contato.html">Contato</a>
+                </div>
             </div>
         </div>
+
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+                }
+            }
+            }
+        </script>
         
     </body>
 </html>

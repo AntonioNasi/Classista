@@ -1,102 +1,59 @@
-/*-------------------------------------
-Configurações da barra topo
---------------------------------------*/
-@media screen and (min-width:600px){
-    .barra-topo .container-logo .logo{
-        max-width: 60px;
-    }
-}
-
-
-/*-------------------------------------
-Configurações do menu
---------------------------------------*/
 @media screen and (max-width:600px){
-    .menu2{
+    .containerMenu #largeMenu{
         display: none;
     }
-}
-@media screen and (min-width:600px){
-    .menu{
-        display: none;
-    }
-}
-
-
-/*-------------------------------------
-Configurações do Banner
---------------------------------------*/
-@media screen and (min-width:600px){
-    #banner{
-        margin-top: 63px;
-        display: none;
-    }
-    #banner2{
-        margin-top: 63px;
-    }
-}
-@media screen and (max-width:600px){
-    #banner2{
+    header .desc #legenda1, #legenda2{
         display: none;
     }
 }
 
-
-/*-------------------------------------
-Configurações do container geral
---------------------------------------*/
 @media screen and (min-width:600px){
-    .container-geral{
-        margin: 40px auto;
+    header{
+        background-size: 60%;
     }
-}
-
-
-/*-------------------------------------
-Configurações dos artigos
---------------------------------------*/
-@media screen and (min-width:600px){
-    .container-article{
-        margin-top: 40px;
+    header .desc{
+        width: 48%;
+        position: absolute;
+        top:30%;
+        left: 50%;
+        padding: 0px;
     }
-    .container-article article h1{
-        font-size: 28px;
-        font-weight: 900;
-        margin-bottom: 10px;
-        line-height: 38px;
+    header .desc h1{
+        text-align: left;
     }
-    .container-article article .post-data{
-        font-size: 15px;
-        margin: 0px 0px;
+    header .desc p{
+        text-align: left;
+        margin-bottom: 20px;
     }
-    .container-article article p{
-        font-size: 18px;
-        margin-bottom: 10px;
-        line-height: 28px;
+    #reforma{
+        border-radius:15px;
     }
-}
-
-
-/*-------------------------------------
-Configurações das colunas
---------------------------------------*/
-@media screen and (max-width:600px){
-    .container-article .coluna1, .coluna3{
+    header .desc a{
+        display: inline;
+        font-weight: 600;
+    }
+    header .desc #legenda1, #legenda2{
         display: none;
     }
-}
-@media screen and (min-width:600px){
-    .coluna2 .top-article {
+    #menu{
         display: none;
     }
-}
 
-
-/*-------------------------------------
-Configurações do footer
---------------------------------------*/
-@media screen and (min-width:600px){
-    footer{
-        margin-top: 60px;
+    .groups{
+        height: 100vh;
+    }
+    .titleSection h1{
+        font-size: 35px;
+    }
+    .titleSection p{
+        font-size: 26px;
+    }
+    .containerG{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .containerG .contentG{
+        flex-basis: 30%;
+        margin: 20px;
     }
 }

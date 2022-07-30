@@ -1,0 +1,174 @@
+/*Configurações Globais*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body h2, h3, h4{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body h1, p, a, span, link{
+    font-family: 'Noto Serif', serif;
+}
+.material-symbols-outlined{
+    font-family: 'Material Icons';
+}
+
+
+/*Formatação dos elementos do Header/Cabeçalho*/
+.post-header{
+    border-top: solid 1px transparent;
+    height: 200px;
+    width: 100%;
+    background-color: #ffc300;
+
+    background-image: url(./eu2.png);
+    background-size: 57%;
+    background-repeat: no-repeat;
+    background-position: -50px bottom;
+}
+.post-header .containerMenu{
+    width: 100%;
+    position: fixed;
+    transition: top .5s;
+    z-index: 1;
+    background-color: #ffc300;
+}
+.post-header nav{
+    margin-top: 10px;
+}
+.post-header nav .material-symbols-outlined{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.post-header #largeMenu{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 0px;
+}
+.post-header #largeMenu a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.post-header #largeMenu a:hover{
+    background-color: #000000;
+    color: #ffc300;
+    transition: background-color 0.3s;
+}
+
+
+.post-header .desc{
+    margin: auto;
+    position: absolute;
+    top: 90px;
+    left: 37%;
+    z-index: auto;
+}
+.post-header .desc h1{
+    font-weight: 900;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.post-header .desc h1, p{
+    text-align: left;
+}
+.post-header .desc p{
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+
+/* Estilo do post*/
+.post-caixa{
+    width: 95%;
+    margin: 20px auto;
+}
+.post-caixa h1{
+    font-weight: 900;
+    font-size: 28px;
+}
+.post-caixa .post-data{
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
+}
+/*.post-caixa figure{
+    width: 100%;
+    height: 300px;
+    margin: 10px 0px 15px 0px;
+}*/
+.post-caixa figure img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px 0px 15px 0px;
+    border-radius: 8px;
+}
+.post-caixa .artigo p{
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+
+/* Responsividade do post*/
+@media screen and (max-width:600px){
+    .containerMenu #largeMenu{
+        display: none;
+    }
+}
+@media screen and (min-width:600px){
+    .post-header{
+        background-size: 18%;
+    }
+    .post-header #menu{
+        display: none;
+    }
+    .post-header .desc{
+        left: 15%;
+    }
+
+    .post-caixa{
+        max-width: 616px;
+        margin: 40px auto;
+    }
+    .post-caixa .artigo{
+        max-width: 616px;
+        margin: auto;
+    }
+    .post-caixa .artigo p{
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*Formatação dos elementos footer*/
+footer{
+    background-color: #000000;
+}
+footer .contentFooter{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 20px 0px;
+}
+footer .contentFooter h2{
+    color:#ffc300;
+    text-align: center;
+    font-size: 18px;
+}
+footer .contentFooter p{
+    color:#ffc300;
+    text-align: center;
+    font-size: 14px;
+}
