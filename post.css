@@ -116,6 +116,7 @@ body h1, p, a, span, link{
 .post-caixa .artigo p{
     line-height: 1.5;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 
@@ -148,6 +149,7 @@ body h1, p, a, span, link{
     .post-caixa .artigo p{
         line-height: 1.5;
         margin-bottom: 10px;
+        font-size: 22px;
     }
 }
 
