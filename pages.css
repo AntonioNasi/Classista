@@ -152,6 +152,7 @@ body h1, p, a, span, link{
     }
 
     .post-caixa{
+        height: 100vh;
         max-width: 616px;
         margin: 40px auto;
     }

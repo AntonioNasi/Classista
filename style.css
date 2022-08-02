@@ -101,6 +101,8 @@ header .desc #legenda1, #legenda2{
     color: #ffc300;
     margin-top: 20px;
 }
+
+/*
 #reforma{
     animation-name: alerta;
     animation-duration: 3s;
@@ -116,6 +118,7 @@ header .desc #legenda1, #legenda2{
     25%{background-color: transparent; color:transparent;}
     100%{background-color: #ff0000; color:#000000;}
 }
+*/
 
 /*Formatação dos elementos da section groups*/
 .groups{
