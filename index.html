@@ -63,6 +63,7 @@
         <script>
             $(function () {
                 $('#menu').load("./menu.html");
+                $('#quote').load("./quoteSlide.html");
                 $('#rodape').load("./footer.html");
             });
         </script>
@@ -114,13 +115,13 @@
                 <h1>Prof. Antonio Nasi</h1>
                 <p>Marxismo, religião e educação</p>
 
-                <p id="reforma">"Não se caça uma lebre que não exista"</p>
-                
-                <br>
+                <div id="quote"></div>
 
-                <a id="verBlog" onmouseover="show()" onmouseout="hide()" href="./blog.html">Ver blog</a>
+                <div class="cx-btInicial">
+                    <a class="btInicial" id="verBlog" onmouseover="show()" onmouseout="hide()" href="./blog.html">Ver blog</a>
 
-                <a onmouseover="show1()" onmouseout="hide1()" href="#sectG">Estudos</a>
+                    <a class="btInicial" onmouseover="show1()" onmouseout="hide1()" href="#sectG">Estudos</a>
+                </div>
 
                 <div id="legenda1">Reflexões não acadêmicas, porém, fundamentadas.</div>
                 <div id="legenda2">Grupos de estudos marxistas, participe, estude!</div>

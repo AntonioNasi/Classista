@@ -28,7 +28,10 @@
     #reforma{
         border-radius:15px;
     }
-    header .desc a{
+    header .desc #quote p{
+        padding: 0px;
+    }
+    header .desc .cx-btInicial a{
         display: inline;
         font-weight: 600;
     }
