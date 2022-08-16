@@ -12,7 +12,7 @@
             box-sizing: border-box;
         }
         .container{
-            width: 100vh;
+            width: auto;
             height: 100vh;
             margin: auto;
             display: flex;
@@ -20,7 +20,7 @@
             justify-content: center;
         }
         .container .img{
-            width: 30%;
+            width: 50%;
             margin: auto;
         }
         .container .img img{
@@ -36,8 +36,7 @@
         .container .img h1{
             text-align: center;
             font-family: 'Times New Roman', Times, serif;
-        }
-        span{
+            font-size: 22px;
             animation-name: pisca;
             animation-duration: 1s;
             animation-iteration-count: infinite;
@@ -52,7 +51,7 @@
     <div class="container">
         <div class="img">
             <img src="./carregando.png">
-            <h1>Carregando <span>...</span></h1>
+            <h1>Carregando...</h1>
         </div>
     </div>
 </body>
