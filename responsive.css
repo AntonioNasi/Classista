@@ -1,0 +1,38 @@
+@media screen and (max-width:600px){
+  .cx-logoDesc-large{
+    display: none;
+  }
+  header .menu .large-menu{
+    display: none;
+  }
+}
+
+
+@media screen and (min-width:601px){
+
+  header .cont-menu{
+    margin-bottom: 20px;
+  }
+
+  .cx-logoDesc{
+    display: none;
+  }
+
+  header .menu .caixa-menu-mobile{
+    display: none;
+  }
+  
+  
+  .content-sec .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-sec .content .cx-artigo{
+    margin: 20px;
+    width: 30%;
+    padding: 10px;
+  }
+  .content-sec .content .cx-artigo:nth-child(n+4){
+    border-top: none;
+  }
+}

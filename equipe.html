@@ -64,11 +64,6 @@
             $(function () {
                 $('#menu').load("./menu.html");
                 $('#banner').load("./banner.html");
-
-                $('#art0').load("./art0.html");
-                $('#art1').load("./art1.html");
-                $('#art2').load("./art2.html");
-                $('#art3').load("./art3.html");
             });
         </script>
 
@@ -80,8 +75,7 @@
         <!---------------------------------
             Carrega css nativo
         ----------------------------------->
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <link rel="stylesheet" type="text/css" href="./responsive.css">
+        <link rel="stylesheet" type="text/css" href="./equipe.css">
 
         <!-----------------------------------------------
             Carrega os Icones do Google Material icons
@@ -117,19 +111,35 @@
                 <h1>Classista</h1>
             </div>
             <div class="banner" id="banner">
-                Serei um banner em JavaScript
             </div>
         </header>
 
         <section class="content-sec">
             <div class="content-title">
-                <h2>Últimos artigos</h2>
+                <h2>Nossos/as camaradas</h2>
             </div>
-            <div class="content" id="ultimos-art">
-                <a href="./art3.html" class="cx-artigo" id="art3"></a>
-                <a href="./art2.html" class="cx-artigo" id="art2"></a>
-                <a href="./art1.html" class="cx-artigo" id="art1"></a>
-                <a href="./art0.html" class="cx-artigo" id="art0"></a>
+            <div class="content">
+                <div class="cx-artigo">
+                    <div class="img-cama">
+                        <img src="./kira.jpg">
+                    </div>
+                    <h3>Kira Nerys</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae eligendi.</p>
+                </div>
+                <div class="cx-artigo">
+                    <div class="img-cama">
+                        <img src="./nyota-uhura.jpg">
+                    </div>
+                    <h3>Nyota Uhura</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae eligendi.</p>
+                </div>
+                <div class="cx-artigo">
+                    <div class="img-cama">
+                        <img src="./tgai-Spock.jpg">
+                    </div>
+                    <h3>T'gai Spock</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae eligendi.</p>
+                </div>
             </div>
         </section>
 

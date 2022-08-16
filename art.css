@@ -1,0 +1,169 @@
+/* Formatação global */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Formatação do header */
+header .cont-menu{
+    height: 48px;
+    border-bottom: solid 5px #ff0000;
+}
+header .cont-menu .cont-menu-m{
+    width: 93%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+header .cont-menu .cont-menu-m .cx-logoDesc-large{
+    width: 20%;
+}
+header .cont-menu .cont-menu-m .cx-logoDesc-large h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+header .cont-menu .cont-menu-m .menu{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+header .menu .large-menu a{
+    padding: 10px 10px;
+    color: #000000;
+    text-decoration: none;
+}
+header .menu .large-menu a:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+    transition: background-color .3s;
+}
+
+header .menu .material-symbols-outlined{
+    font-family: 'Material Icons';
+    font-size: 30px;
+    font-weight: 900;
+    color: #ff0000;
+    margin: 3px 0px 0px 0px;
+}
+
+/* estilo da logo */
+header .cx-logoDesc h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 22px;
+    padding: 8px 0px;
+}
+
+header .cx-logoDesc-large{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header .cx-logoDesc-large h1{
+    display: inline;
+    padding: 4px 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header .banner{
+    width: 93%;
+    height: 300px;
+    margin: auto;
+    background-color: #d4d4d4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Formatação da section 0 */
+.a-content-sec{
+    width: 93%;
+    margin: 20px auto;
+}
+.a-content-sec .artigo{
+    max-width: 616px;
+    margin: 0 auto;
+}
+.a-content-sec .artigo .art-content-title{
+    border-bottom: solid 5px #ff0000;
+}
+.a-content-sec .artigo .art-content-title h1{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.a-content-sec .artigo .art-autores{
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+}
+.a-content-sec .artigo .art-autores .img-autores{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    
+    background-color: pink;
+}
+.a-content-sec .artigo .art-autores .img-autores img{
+    width: 100%;
+    border-radius: 100%;
+}
+.a-content-sec .artigo .art-autores p{
+    padding: 0px 0px 0px 10px;
+    font-weight: 600;
+}
+.a-content-sec .artigo .art-autores p span{
+    font-size: 14px;
+    font-weight: normal;
+}
+.a-content-sec .artigo figure{
+    width: 100%;
+    height: 260px;
+    margin: 15px 0px;
+}
+.a-content-sec .artigo figure img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width:600px){
+    .cx-logoDesc-large{
+      display: none;
+    }
+    header .menu .large-menu{
+      display: none;
+    }
+}
+  
+  
+  @media screen and (min-width:601px){
+    header .cont-menu{
+      margin-bottom: 20px;
+    }
+  
+    .cx-logoDesc{
+      display: none;
+    }
+  
+    header .menu .caixa-menu-mobile{
+      display: none;
+    }
+}

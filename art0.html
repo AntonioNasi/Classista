@@ -63,12 +63,6 @@
         <script>
             $(function () {
                 $('#menu').load("./menu.html");
-                $('#banner').load("./banner.html");
-
-                $('#art0').load("./art0.html");
-                $('#art1').load("./art1.html");
-                $('#art2').load("./art2.html");
-                $('#art3').load("./art3.html");
             });
         </script>
 
@@ -80,8 +74,7 @@
         <!---------------------------------
             Carrega css nativo
         ----------------------------------->
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <link rel="stylesheet" type="text/css" href="./responsive.css">
+        <link rel="stylesheet" type="text/css" href="./art.css">
 
         <!-----------------------------------------------
             Carrega os Icones do Google Material icons
@@ -104,7 +97,7 @@
 
     <body>
         
-        <header class="cabecalho">
+        <header class="art-cabecalho">
             <div class="cont-menu">
                 <div class="cont-menu-m">
                     <div class="cx-logoDesc-large">
@@ -121,16 +114,27 @@
             </div>
         </header>
 
-        <section class="content-sec">
-            <div class="content-title">
-                <h2>Últimos artigos</h2>
-            </div>
-            <div class="content" id="ultimos-art">
-                <a href="./art3.html" class="cx-artigo" id="art3"></a>
-                <a href="./art2.html" class="cx-artigo" id="art2"></a>
-                <a href="./art1.html" class="cx-artigo" id="art1"></a>
-                <a href="./art0.html" class="cx-artigo" id="art0"></a>
-            </div>
+        <section class="a-content-sec">
+          
+            <article class="artigo" id="artigo-0">
+                <div class="art-content-title">
+                    <h1>O que ganhamos até aqui com a democracia?</h1>
+                </div>
+                <div class="art-autores">
+                    <div class="img-autores">
+                        <img src="https://this-person-does-not-exist.com/img/avatar-a81c8a0a79df10f8fa4985079405d71b.jpg">
+                    </div>
+                    <p>Alexander Schenko <br>
+                    <span>11 de agosto de 2020</span> </p>
+                </div>
+                <figure>
+                  <img src="https://img.freepik.com/free-photo/education-concept-student-studying-brainstorming-campus-concept-close-up-students-discussing-their-subject-books-textbooks-selective-focus_1418-627.jpg">
+                </figure>
+                <div class="a-content" id="artigo-0">
+                    <p>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum.</p>
+                </div>
+            </article>
+            
         </section>
 
         <footer id="footer">
