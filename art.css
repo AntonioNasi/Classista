@@ -145,13 +145,17 @@ header .banner{
 .a-content-sec .artigo figure{
     width: 100%;
     height: 260px;
-    margin: 15px 0px;
+    margin: 15px 0px 40px 0px;
 }
 .a-content-sec .artigo figure img{
     width: 100%;
     height: 260px;
     object-fit: cover;
     object-position: center;
+}
+.a-content-sec .artigo figure figcaption{
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
 }
 .a-content-sec .artigo .a-content p{
     line-height: 1.5;

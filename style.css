@@ -157,7 +157,11 @@ header .banner{
 }
 .content-sec .content .a-content-sec .artigo figure{
     height: 140px;
+    margin-bottom: 15px;
 }
 .content-sec .content .a-content-sec .artigo figure img{
     height: 140px;
+}
+.content-sec .content .a-content-sec .artigo figure figcaption{
+    display: none;
 }
