@@ -1,5 +1,5 @@
 @media screen and (max-width:600px){
-  .cx-logoDesc-large{
+  .cont-menu .cont-menu-m .cx-logoDesc-large{
     display: none;
   }
   header .menu .large-menu{
@@ -14,7 +14,7 @@
     margin-bottom: 20px;
   }
 
-  .cx-logoDesc{
+  header .cx-logoDesc{
     display: none;
   }
 

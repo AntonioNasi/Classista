@@ -45,7 +45,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Classista">
         <meta name="description" content="Análise classista do cotidiano.">
-        <meta property="og:image" content="#">
+        <meta property="og:image" content="https://raw.githubusercontent.com/AntonioNasi/Classista/main/og-image.png">
         <meta property="og:description" content="Análise classista do cotidiano.">
 
         <title>Classista</title>
@@ -53,7 +53,7 @@
         <!---------------------------------
             Carrega o fav icone do site
         ----------------------------------->
-        <link rel="shortcut icon" type="image/x-icon" href="#"/>
+        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/AntonioNasi/Classista/main/favicon.png"/>
 
         <!---------------------------------
             Carrega HTML externo
@@ -64,6 +64,7 @@
             $(function () {
                 $('#menu').load("./menu.html");
                 $('#banner').load("./banner.html");
+                $('#footer').load("./footer.html");
             });
         </script>
 
@@ -92,14 +93,14 @@
         <!-------------------------------------------------------
             Esconde e exibe navbar ao rolar a página
         --------------------------------------------------------->
-        <script src="./hide-menu.js"></script>
+        <script src="./h-menu.js"></script>
 
     </head>
 
     <body>
         
         <header class="cabecalho">
-            <div class="cont-menu">
+            <div class="cont-menu" id="hideMenu">
                 <div class="cont-menu-m">
                     <div class="cx-logoDesc-large">
                         <h1>Classista</h1>

@@ -14,6 +14,8 @@ body{
 /* Formatação do menu */
 header .cont-menu{
     height: 48px;
+    width: 100%;
+    margin: auto;
     border-bottom: solid 5px #ff0000;
 }
 header .cont-menu .cont-menu-m{
@@ -33,8 +35,12 @@ header .cont-menu .cont-menu-m .cx-logoDesc-large h1{
 header .cont-menu .cont-menu-m .menu{
     width: 80%;
     display: flex;
+    margin: auto;
     align-items: center;
     justify-content: end;
+}
+header .cont-menu .cont-menu-m .menu .caixa-menu-mobile{
+    margin: auto;
 }
 header .menu .large-menu a{
     padding: 10px 10px;
@@ -57,11 +63,20 @@ header .menu .material-symbols-outlined{
 
 
 /* estilo da logo */
+header .cx-logoDesc{
+    display: flex;
+    max-width: 140px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px auto 8px;
+    background-color: #ff0000;
+}
 header .cx-logoDesc h1{
     text-align: center;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 20px;
     padding: 8px 0px;
+    color: #ffffff;
 }
 
 header .cx-logoDesc-large{
@@ -157,7 +172,7 @@ header .banner{
     Responsive
 ***************************************************/
 @media screen and (max-width:600px){
-    .cx-logoDesc-large{
+    .cont-menu .cont-menu-m .cx-logoDesc-large{
       display: none;
     }
     header .menu .large-menu{
@@ -172,7 +187,7 @@ header .banner{
       margin-bottom: 20px;
     }
   
-    .cx-logoDesc{
+    header .cx-logoDesc{
       display: none;
     }
   

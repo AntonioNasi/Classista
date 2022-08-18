@@ -14,6 +14,8 @@ body{
 /* Formatação do menu */
 header .cont-menu{
     height: 48px;
+    width: 100%;
+    margin: auto;
     border-bottom: solid 5px #ff0000;
 }
 header .cont-menu .cont-menu-m{
@@ -33,9 +35,14 @@ header .cont-menu .cont-menu-m .cx-logoDesc-large h1{
 header .cont-menu .cont-menu-m .menu{
     width: 80%;
     display: flex;
+    margin: auto;
     align-items: center;
     justify-content: end;
 }
+header .cont-menu .cont-menu-m .menu .caixa-menu-mobile{
+    margin: auto;
+}
+
 header .menu .large-menu a{
     padding: 10px 10px;
     color: #000000;
@@ -57,11 +64,20 @@ header .menu .material-symbols-outlined{
 
 
 /* estilo da logo */
+header .cx-logoDesc{
+    display: flex;
+    max-width: 140px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px auto 8px;
+    background-color: #ff0000;
+}
 header .cx-logoDesc h1{
     text-align: center;
     font-weight: 900;
-    font-size: 22px;
-    padding: 8px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 header .cx-logoDesc-large{
@@ -121,7 +137,7 @@ header .banner{
 
 .content-sec .content .cx-artigo{
     display: block;
-    height: 400px;
+    height: 440px;
     margin: 20px 0px 20px 0px;
     text-decoration: none;
     color: unset;

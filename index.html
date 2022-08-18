@@ -53,7 +53,7 @@
         <!---------------------------------
             Carrega o fav icone do site
         ----------------------------------->
-        <link rel="shortcut icon" type="image/x-icon" href="#"/>
+        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/AntonioNasi/Classista/main/favicon.png"/>
 
         <!---------------------------------
             Carrega HTML externo
@@ -64,11 +64,17 @@
             $(function () {
                 $('#menu').load("./menu.html");
                 $('#banner').load("./banner.html");
+                $('#footer').load("./footer.html");
 
                 $('#art0').load("./art0.html");
                 $('#art1').load("./art1.html");
                 $('#art2').load("./art2.html");
                 $('#art3').load("./art3.html");
+                $('#art3').load("./art4.html");
+                $('#art3').load("./art5.html");
+                $('#art3').load("./art6.html");
+                $('#art3').load("./art7.html");
+                $('#art3').load("./art8.html");
             });
         </script>
 
@@ -98,13 +104,14 @@
         <!-------------------------------------------------------
             Esconde e exibe navbar ao rolar a página
         --------------------------------------------------------->
-        <script src="./hide-menu.js"></script>
+        <script src="./h-menu.js"></script>
 
     </head>
 
     <body>
         
         <header class="cabecalho">
+            
             <div class="cont-menu">
                 <div class="cont-menu-m">
                     <div class="cx-logoDesc-large">
@@ -113,6 +120,7 @@
                     <div class="menu" id="menu"></div>
                 </div>
             </div>
+
             <div class="cx-logoDesc">
                 <h1>Classista</h1>
             </div>
@@ -126,9 +134,6 @@
                 <h2>Últimos artigos</h2>
             </div>
             <div class="content" id="ultimos-art">
-                <a href="./art3.html" class="cx-artigo" id="art3"></a>
-                <a href="./art2.html" class="cx-artigo" id="art2"></a>
-                <a href="./art1.html" class="cx-artigo" id="art1"></a>
                 <a href="./art0.html" class="cx-artigo" id="art0"></a>
             </div>
         </section>

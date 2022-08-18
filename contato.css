@@ -103,60 +103,27 @@ header .banner{
 
 
 /* Formatação da section 0 */
-.a-content-sec{
+.c-content-sec{
     width: 93%;
     margin: 20px auto;
 }
-.a-content-sec .artigo{
+.c-content-sec .contato{
     max-width: 616px;
     margin: 0 auto;
 }
-.a-content-sec .artigo .art-content-title{
+.c-content-sec .contato .cont-content-title{
     border-bottom: solid 5px #ff0000;
 }
-.a-content-sec .artigo .art-content-title h1{
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-.a-content-sec .artigo .art-autores{
-    display: flex;
-    margin: 10px 0px;
-    align-items: center;
-}
-.a-content-sec .artigo .art-autores .img-autores{
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    
-    background-color: pink;
-}
-.a-content-sec .artigo .art-autores .img-autores img{
-    width: 100%;
-    border-radius: 100%;
-}
-.a-content-sec .artigo .art-autores p{
-    padding: 0px 0px 0px 10px;
-    font-weight: 600;
-}
-.a-content-sec .artigo .art-autores p span{
-    font-size: 14px;
-    font-weight: normal;
-}
-.a-content-sec .artigo figure{
-    width: 100%;
-    height: 260px;
-    margin: 15px 0px;
-}
-.a-content-sec .artigo figure img{
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
-    object-position: center;
-}
-.a-content-sec .artigo .a-content p{
-    line-height: 1.5;
+.c-content-sec .contato .cont-content-title h2{
+    display: inline-block;
     font-size: 18px;
-    margin: 0px 0px 15px;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 3px 8px;
+}
+.contato .c-content p{
+    margin: 10px 0px;
+    line-height: 1.5;
 }
 
 
