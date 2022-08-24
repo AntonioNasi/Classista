@@ -171,6 +171,11 @@ header .banner{
 .content-sec .content .a-content-sec .artigo figure figcaption{
     display: none;
 }
+
+.content-sec .content .cx-artigo .sharethis-inline-share-buttons{
+    display: none !important;
+}
+
 .content-sec .content .a-content-sec .artigo .a-content p{
     font-size: 14px;
     color: rgba(43, 34, 0, 1);

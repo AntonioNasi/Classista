@@ -158,6 +158,11 @@ header .banner{
     font-size: 14px;
     color: rgba(0, 0, 0, .5);
 }
+
+.a-content-sec .artigo .sharethis-inline-share-buttons{
+    margin: 15px 0px 25px 0px;
+}
+
 .a-content-sec .artigo .a-content p{
     line-height: 1.5;
     font-size: 18px;
