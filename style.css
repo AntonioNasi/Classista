@@ -124,6 +124,7 @@ header .banner{
     color: #ffffff;
     font-size: 18px;
 }
+
 /* Elementos da pág blog não exibidos no index */
 .content-sec .content .art-cabecalho{
     display: none;
@@ -145,9 +146,11 @@ header .banner{
   
     border-top: solid 1px rgba(0, 0, 0, .05);
 }
+
 .content-sec .content .cx-artigo:hover{
     background-color: rgba(0, 0, 0, .05);
     transition: background-color .3s;
+
 }
 .content-sec .content .cx-artigo:nth-child(1) {
   border-top: none;
@@ -159,9 +162,16 @@ header .banner{
     height: 140px;
     margin-bottom: 15px;
 }
+.content-sec .content .a-content-sec .artigo .art-autores p{
+    color: rgba(43, 34, 0, .6);
+}
 .content-sec .content .a-content-sec .artigo figure img{
     height: 140px;
 }
 .content-sec .content .a-content-sec .artigo figure figcaption{
     display: none;
+}
+.content-sec .content .a-content-sec .artigo .a-content p{
+    font-size: 14px;
+    color: rgba(43, 34, 0, 1);
 }
