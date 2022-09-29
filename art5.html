@@ -2,7 +2,6 @@
 <html lang="pt-br">
 
     <head>
-        
         <!----------------------------------------------
             Google AdSense
         ----------------------------------------------->
@@ -72,16 +71,6 @@
                 $('#menu').load("./menu.html");
                 $('#banner').load("./banner.html");
                 $('#footer').load("./footer.html");
-
-                $('#art0').load("./art0.html");
-                $('#art1').load("./art1.html");
-                $('#art2').load("./art2.html");
-                $('#art3').load("./art3.html");
-                $('#art4').load("./art4.html");
-                $('#art5').load("./art5.html");
-                $('#art6').load("./art6.html");
-                $('#art7').load("./art7.html");
-                $('#art8').load("./art8.html");
             });
         </script>
 
@@ -93,8 +82,7 @@
         <!---------------------------------
             Carrega css nativo
         ----------------------------------->
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <link rel="stylesheet" type="text/css" href="./responsive.css">
+        <link rel="stylesheet" type="text/css" href="./art.css">
 
         <!-----------------------------------------------
             Carrega os Icones do Google Material icons
@@ -117,9 +105,8 @@
 
     <body>
         
-        <header class="cabecalho">
-            
-            <div class="cont-menu">
+        <header class="art-cabecalho">
+            <div class="cont-menu" id="hideMenu">
                 <div class="cont-menu-m">
                     <div class="cx-logoDesc-large">
                         <h1>Classista</h1>
@@ -127,27 +114,55 @@
                     <div class="menu" id="menu"></div>
                 </div>
             </div>
-
             <div class="cx-logoDesc">
                 <h1>Classista</h1>
             </div>
             <div class="banner" id="banner">
-                Serei um banner em JavaScript
+                
             </div>
         </header>
 
-        <section class="content-sec">
-            <div class="content-title">
-                <h2>Últimos artigos</h2>
-            </div>
-            <div class="content" id="ultimos-art">
-                <a href="./art5.html" class="cx-artigo" id="art5"></a>
-                <a href="./art4.html" class="cx-artigo" id="art4"></a>
-                <a href="./art3.html" class="cx-artigo" id="art3"></a>
-                <a href="./art2.html" class="cx-artigo" id="art2"></a>
-                <a href="./art1.html" class="cx-artigo" id="art1"></a>
-                <a href="./art0.html" class="cx-artigo" id="art0"></a>
-            </div>
+        <section class="a-content-sec">
+          
+            <article class="artigo" id="artigo-0">
+                <div class="art-content-title">
+                    <h1> Os universitários do Sertão Central e o voto nulo </h1>
+                </div>
+                <div class="art-autores">
+                    <div class="img-autores">
+                        <img src="./nyota-uhura.jpg">
+                    </div>
+                    <p> Nyota Uhura <br>
+                    <span>29 de setembro de 2022</span> </p>
+                </div>
+                <figure>
+                  <img src="https://fdr.com.br/wp-content/uploads/2022/09/voto_nulo_branco.jpg">
+                  <figcaption>Imagem: FDR Portal Terra</figcaption>
+                </figure>
+
+                <!-- ShareThis BEGIN -->
+                <div class="sharethis-inline-share-buttons"></div>
+                <!-- ShareThis END -->
+
+                <div class="a-content" id="artigo-0">
+                    
+                    <p>Os universitários do Sertão Central devem votar nulo.</p>
+
+                    <p>Ao contrário de outras regiões, no Sertão Central, a imensa maioria dos estudantes universitários são filhos e filhas de trabalhadores. São famílias exploradas pelo capitalismo e submetidas a toda forma de violência por parte do Estado e das elites brasileiras.</p>
+
+                    <p>No ensino superior público do Sertão Central falta do papel higiênico, professor, laboratórios, equipamentos, acervo bibliotecário e instalações físicas adequadas. A expansão do ensino superior nos últimos governos petistas se deu sem qualquer compromisso com a qualidade. Prova disso é que o atual concurso para a Universidade Estadual do Ceará - UECE, não tem dedicação exclusiva. Isso transformará os futuros docentes em professores temporários permanentes. Ganharão um salário mais miserável que os atuais e, serão obrigados a complementar a renda com outras atividades. Isso compromete o pilar universitário: ensino-pesquisa-extensão.</p>
+
+                    <p>Na UECE, por várias vezes estudantes são obrigados a atrasarem o curso por falta de professores. Além disso e pelo mesmo motivo, encaram greves constantes. No final, são sempre os universitários os mais prejudicados, estes cujas famílias, contra todas as adversidades, o fizeram chegar na universidade.</p>
+
+                    <p>É assim que o Estado trata os filhos e filhas dos trabalhadores e trabalhadoras do Sertão Central no tocante a sua formação superior. Estado esse que, as elites políticas e econômicas por ele representadas, agora, em época de eleição, “bate na porta” desses mesmos universitários pedindo voto e alegando as migalhas que têm dado em forma de ensino superior ou fazendo promessas vazias e inúteis para a emancipação da classe trabalhadora.</p>
+
+                    <p>Por isso que, votar em um ou outro candidato é em vão, não trará as mudanças necessárias para estes universitários. Pelo contrário, a escolha de um candidato só perpetuará a precariedade e violência contra a dignidade desses estudantes do ensino superior e da classe que representam no Sertão Central.</p>
+
+                    <p>De fato, só a organização autônoma da classe trabalhadora poderá apontar soluções para essa realidade, e é por isso que conclamamos a esses universitários a se organizarem como classe de trabalhadores que são, e a votarem nulo nessas eleições.</p>
+
+                </div>
+            </article>
+            
         </section>
 
         <footer id="footer">
