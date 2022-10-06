@@ -169,6 +169,12 @@ header .banner{
     margin: 0px 0px 15px;
 }
 
+.a-content-sec .artigo .a-content h2{
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -180,6 +186,10 @@ header .banner{
     }
     header .menu .large-menu{
       display: none;
+    }
+
+    .a-content-sec .artigo .art-content-title h1{
+        font-size: 22px;
     }
 }
   
