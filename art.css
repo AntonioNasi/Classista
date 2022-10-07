@@ -116,7 +116,7 @@ header .banner{
     border-bottom: solid 5px #ff0000;
 }
 .a-content-sec .artigo .art-content-title h1{
-    font-size: 22px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 .a-content-sec .artigo .art-autores{
@@ -146,7 +146,7 @@ header .banner{
 .a-content-sec .artigo figure{
     width: 100%;
     height: 260px;
-    margin: 15px 0px 40px 0px;
+    margin: 15px 0px 60px 0px;
 }
 .a-content-sec .artigo figure img{
     width: 100%;
@@ -157,6 +157,7 @@ header .banner{
 .a-content-sec .artigo figure figcaption{
     font-size: 14px;
     color: rgba(0, 0, 0, .5);
+    margin: 0px 0px 0px 0px;
 }
 
 .a-content-sec .artigo .sharethis-inline-share-buttons{
@@ -205,5 +206,9 @@ header .banner{
   
     header .menu .caixa-menu-mobile{
       display: none;
+    }
+
+    .a-content-sec .artigo figure{
+        margin: 15px 0px 40px 0px;
     }
 }

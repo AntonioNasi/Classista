@@ -176,6 +176,11 @@ header .banner{
     display: none !important;
 }
 
+.content-sec .content .cx-artigo .a-content-sec .artigo .art-content-title h1{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
 .content-sec .content .a-content-sec .artigo .a-content p{
     font-size: 14px;
     color: rgba(43, 34, 0, 1);
