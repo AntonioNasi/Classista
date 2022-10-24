@@ -27,9 +27,14 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .content-sec .content a{
+    width: 32%;
+    margin: auto;
+    
+  }
+
   .content-sec .content .cx-artigo{
-    margin: 20px;
-    width: 30%;
     padding: 10px;
   }
   .content-sec .content .cx-artigo:nth-child(n+4){

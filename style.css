@@ -125,6 +125,7 @@ header .banner{
     font-size: 18px;
 }
 
+
 /* Elementos da pág blog não exibidos no index */
 .content-sec .content .art-cabecalho{
     display: none;
@@ -135,12 +136,22 @@ header .banner{
     margin: auto;
 }
 
+.content-sec .content a{
+    text-decoration: none;
+    color: #000000;
+}
+.content-sec .content a .leia-mais{
+    display: inline;
+    text-align: center;
+    background-color: #ff0000;
+    padding: 3px 10px;
+    margin-left: 35%;
+    color: #ffffff;
+}
 
 .content-sec .content .cx-artigo{
-    display: block;
     height: 440px;
     margin: 20px 0px 20px 0px;
-    text-decoration: none;
     color: unset;
     overflow: hidden;
   
