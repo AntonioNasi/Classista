@@ -10,6 +10,10 @@ body{
     color: rgba(43, 34, 0, 1);
 }
 
+body p::selection, h1::selection, h2::selection, h3::selection, span::selection, figcaption::selection{
+    background-color: #ff0000;
+}
+
 
 /* Formatação do header */
 header .cont-menu{
