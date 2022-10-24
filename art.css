@@ -208,6 +208,10 @@ header .banner{
       display: none;
     }
 
+    .a-content-sec .artigo .art-content-title h1{
+        font-size: 38px;
+    }
+
     .a-content-sec .artigo figure{
         margin: 15px 0px 40px 0px;
     }
