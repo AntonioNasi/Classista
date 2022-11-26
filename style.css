@@ -5,9 +5,17 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto Slab', serif;
     color: #2b2200;
+}
+
+body .material-symbols-outlined{
+    font-family: 'Material Icons';
 }
 
 
@@ -18,6 +26,16 @@ header .cont-menu{
     margin: auto;
     border-bottom: solid 5px #ff0000;
 }
+
+/* Hide meunu não funciona ainda
+header .cont-menu{
+    width: 100%;
+    position: fixed;
+    transition: top .5s;
+    z-index: 1;
+    border-bottom: solid 5px #ff0000;
+} */
+
 header .cont-menu .cont-menu-m{
     width: 93%;
     height: 100%;
@@ -282,3 +300,29 @@ header .banner{
     font-size: 14px;
     color: rgba(43, 34, 0, 1);
 }
+
+
+/* Configuração do botão voltar ao topo */
+#myBtnS {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 0px;
+  }
+  
+  #myBtnS:hover {
+    background-color: #555;
+  }
+
+  #up{
+    font-size: 25px;
+  }
