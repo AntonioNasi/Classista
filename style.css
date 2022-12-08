@@ -301,6 +301,26 @@ header .banner{
     color: rgba(43, 34, 0, 1);
 }
 
+.content-sec .paginacao{
+    margin-top: 20px;
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, .1);
+}
+.content-sec .paginacao p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content-sec .paginacao a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2px 3px;
+}
+.content-sec .paginacao a:hover{
+    background-color: #000000;
+    transition: background-color 1s;
+}
+
 
 /* Configuração do botão voltar ao topo */
 #myBtnS {
