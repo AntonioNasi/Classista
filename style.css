@@ -112,6 +112,27 @@ header .cx-logoDesc-large h1{
 }
 
 
+/* estilo das redes sociais */
+header .redes-sociais{
+    width: 93%;
+    margin: 0px auto 20px;
+}
+header .redes-sociais p{
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+header .redes-sociais .cont-redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+header .redes-sociais .cont-redes-sociais .red-soc{
+    width: 35px;
+    margin: 0px 5px 0px 5px;
+}
+header .redes-sociais .cont-redes-sociais .red-soc img{
+    width: 100%;
+}
+
 /* estilo do banner */
 header .banner{
     width: 93%;
