@@ -111,6 +111,27 @@ header .cx-logoDesc-large h1{
     text-transform: uppercase;
 }
 
+/* estilo das categorias */
+header .categorias{
+    width: 93%;
+    margin: auto;
+}
+header .categorias a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff0000;
+    width: auto;
+    padding: 5px 0px;
+    margin: 0px 0px 5px 0px;
+    text-align: center;
+    font-weight: 600;
+}
+header .categorias a:hover{
+    background-color: #af0000;
+    transition: background-color .7s;
+}
+
 
 /* estilo das redes sociais */
 header .redes-sociais{
@@ -173,6 +194,15 @@ header .banner{
 .capa #capa-sub-title{
     font-size: 18px;
     color: rgba(0, 0, 0, .6);
+}
+
+.capa #autor-capa{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 20px 0px;
+    color: rgba(0, 0, 0, .5);
+    border-left: solid 1px rgba(0, 0, 0, .5);
+    padding: 0px 0px 0px 5px;
 }
 
 .capa .sharethis-inline-share-buttons{

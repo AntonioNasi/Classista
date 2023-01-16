@@ -21,6 +21,15 @@
   header .menu .caixa-menu-mobile{
     display: none;
   }
+
+  header .categorias{
+    display: flex;
+    margin: -15px auto 15px;
+  }
+  header .categorias a{
+      width: 30%;
+      margin: 0px 3px;
+    }
   
   
   .content-sec .content{
