@@ -136,7 +136,7 @@ header .categorias a:hover{
 /* estilo das redes sociais */
 header .redes-sociais{
     width: 93%;
-    margin: 0px auto 20px;
+    margin: 0px auto 40px;
 }
 header .redes-sociais p{
     text-align: center;
@@ -155,21 +155,16 @@ header .redes-sociais .cont-redes-sociais .red-soc img{
 }
 
 /* estilo do banner */
-header .banner{
+header #banner{
     width: 93%;
-    height: 300px;
+    height: 90px;
     margin: auto;
-    background-color: #d4d4d4;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Formatação da section capa */
 .capa{
     width: 93%;
-    margin: 30px auto;
+    margin: 50px auto;
 }
 
 .capa .capa-title{

@@ -5,6 +5,10 @@
   header .menu .large-menu{
     display: none;
   }
+
+  header #slide{
+    display: none;
+  }
 }
 
 
@@ -20,6 +24,17 @@
 
   header .menu .caixa-menu-mobile{
     display: none;
+  }
+
+  header #slide2{
+    display: none;
+  }
+
+  header .redes-sociais{
+    margin: 0px auto 20px;
+  }
+  .capa{
+    margin: 30px auto;
   }
 
   header .categorias{

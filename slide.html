@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide</title>
+
+    <style>
+        .mySlides {display:none;}
+    </style>
+
+</head>
+<body>
+
+    <div class="w3-content w3-section" style="width: 100%;">
+        
+        <a href="./art13.html">
+            <img class="mySlides" src="./b1.png" style="width:100%">
+        </a>
+        <a href="./art7.html">
+            <img class="mySlides" src="./b2.png" style="width:100%">
+        </a>
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 8000); // Change image every 2 seconds
+        }
+    </script>
+    
+</body>
+</html>
