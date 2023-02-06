@@ -46,10 +46,16 @@ header .cont-menu .cont-menu-m{
 header .cont-menu .cont-menu-m .cx-logoDesc-large{
     width: 20%;
 }
+
+header .cont-menu .cont-menu-m .cx-logoDesc-large a{
+    text-decoration: none;
+}
+
 header .cont-menu .cont-menu-m .cx-logoDesc-large h1{
     font-size: 25px;
     font-weight: 900;
 }
+
 header .cont-menu .cont-menu-m .menu{
     width: 80%;
     display: flex;
@@ -90,6 +96,11 @@ header .cx-logoDesc{
     margin: 8px auto 8px;
     background-color: #ff0000;
 }
+
+header .cx-logoDesc a{
+    text-decoration: none;
+}
+
 header .cx-logoDesc h1{
     text-align: center;
     font-weight: 900;
