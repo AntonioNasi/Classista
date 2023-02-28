@@ -252,7 +252,7 @@ header #banner{
         column-gap: 50px;
     }
 }
-@media screen and (min-width:769px){
+@media screen and (min-width:1024px){
     .capa .capa-art{
         column-count: 3;
         column-gap: 50px;
