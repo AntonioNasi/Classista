@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
     <head>
-        
+
         <!----------------------------------------------
             Google AdSense
         ----------------------------------------------->
@@ -52,15 +52,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Classista">
 
-        <!-----------------------------------------------------
-            Meta tags configurations de descrições
-        ------------------------------------------------------->
-        <meta name="description" content=" Reflexões classistas sobre o cotidiano. ">
-        <meta property="og:image" content="https://raw.githubusercontent.com/AntonioNasi/Classista/main/og-image.png">
+        <meta name="description" content="Análise classista do cotidiano.">
 
-        <meta property="og:description" content="Reflexões classistas sobre o cotidiano.">
+        <meta property="og:image" content="https://uploads.metropoles.com/wp-content/uploads/2021/01/04123946/BOLSONARO-VACINA-COVID.jpg">
 
-        <title> Política </title>
+        <meta property="og:description" content="A mentira de Bolsonaro sobre sua vacina pode ter causado mortes">
+
+        <title>Mentira de Bolsonaro sobre sua própria vacinação pode ter causado mortes</title>
 
         <!---------------------------------
             Carrega o fav icone do site
@@ -78,26 +76,8 @@
                 $('#banner').load("./banner.html");
                 $('#footer').load("./footer.html");
                 $('#categ').load("./categ.html");
-
-                $('#art0').load("./art0.html");
-                $('#art1').load("./art1.html");
-                $('#art2').load("./art2.html");
-                $('#art3').load("./art3.html");
-                $('#art4').load("./art4.html");
-                $('#art5').load("./art5.html");
-                $('#art6').load("./art6.html");
-                $('#art7').load("./art7.html");
-                $('#art8').load("./art8.html");
-                $('#art9').load("./art9.html");
-                $('#art10').load("./art10.html");
-                $('#art11').load("./art11.html");
-                $('#art12').load("./art12.html");
-                $('#art13').load("./art13.html");
-                $('#art14').load("./art14.html");
-                $('#art15').load("./art15.html");
-                $('#art16').load("./art16.html");
-                $('#art21').load("./art21.html");
-
+                $('#slide').load("./slide.html");
+                $('#slide2').load("./slide2.html");
             });
         </script>
 
@@ -109,8 +89,7 @@
         <!---------------------------------
             Carrega css nativo
         ----------------------------------->
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <link rel="stylesheet" type="text/css" href="./responsive.css">
+        <link rel="stylesheet" type="text/css" href="./art.css">
 
         <!-----------------------------------------------
             Carrega os Icones do Google Material icons
@@ -127,15 +106,14 @@
         <!-------------------------------------------------------
             Esconde e exibe navbar ao rolar a página
         --------------------------------------------------------->
-        <script src="./hide-menu.js"></script>
+        <script src="./h-menu.js"></script>
 
     </head>
 
     <body>
         
-        <header class="cabecalho">
-            
-            <div class="cont-menu">
+        <header class="art-cabecalho">
+            <div class="cont-menu" id="hideMenu">
                 <div class="cont-menu-m">
                     <div class="cx-logoDesc-large">
                         <h1>Classista</h1>
@@ -143,7 +121,6 @@
                     <div class="menu" id="menu"></div>
                 </div>
             </div>
-
             <div class="cx-logoDesc">
                 <h1>Classista</h1>
             </div>
@@ -177,75 +154,61 @@
                 </div>
             </div>
 
-            <div class="banner" id="banner">
+            <div class="banner" id="slide">
                 Serei um banner em JavaScript
             </div>
+            <div class="banner" id="slide2">
+                Serei um banner em JavaScript
+            </div>
+
         </header>
 
-        
+        <section class="a-content-sec">
+          
+            <article class="artigo" id="artigo-0">
 
-        <section class="content-sec" id="mais-textos">
-            <div class="content-title">
-                <h2>Últimos artigos sobre Política</h2>
-            </div>
-            <div class="content" id="ultimos-art">
+                <div class="art-content-title">
+                    <h1>Mentira de Bolsonaro sobre sua própria vacinação pode ter causado mortes</h1>
+                </div>
+                <div class="art-autores">
+                    <div class="img-autores">
+                        <img src="./autor-classista.png" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <p>Antonio Nasi<br>
+                    <span>19 de fevereiro de 2023</span> </p>
+                </div>
+                <figure>
+                  <img src="https://uploads.metropoles.com/wp-content/uploads/2021/01/04123946/BOLSONARO-VACINA-COVID.jpg">
+                  <figcaption>Imagem: Metrópoles</figcaption>
+                </figure>
 
-                <a href="./art21.html" >
-                    <div class="cx-artigo" id="art21"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                <!-- ShareThis BEGIN -->
+                <div class="sharethis-inline-share-buttons"></div>
+                <!-- ShareThis END -->
 
-                <a href="./art16.html" >
-                    <div class="cx-artigo" id="art16"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                <div class="a-content" id="artigo-0">
 
-                <a href="./art13.html" >
-                    <div class="cx-artigo" id="art13"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p>Que o ex-presidente é um mentiroso contumaz, disso já sabemos. Mas algumas de suas mentiras podem ter tido consequências trágicas.</p>
 
-                <a href="./art12.html" >
-                    <div class="cx-artigo" id="art12"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                <p>No auge da pandemia, Bolsonaro, agora acovardado nos EUA, reiteradamente se manteve contra os procedimentos recomendados por especialistas e que estavam sendo adotados em todo o mundo.</p>
 
-                <a href="./art9.html" >
-                    <div class="cx-artigo" id="art9"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
-
-                <a href="./art6.html" >
-                    <div class="cx-artigo" id="art6"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
-
-                <a href="./art5.html">
-                    <div class="cx-artigo" id="art5"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
-
-                <a href="./art1.html">
-                    <div class="cx-artigo" id="art1"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
-
+                <p>Quando as primeiras vacinas se tornaram possíveis, o militar foi enfático em desacreditar a ciência e ridicularizar as vacinas. Entre outras tantas asneiras proferidas ouvíamos que a vacina transformaria pessoas em jacarés. Pior que isso, em suas lives semanais disse que a vacina poderia transmitir HIV.</p>
                 
-                <a href="./art0.html">
-                    <div class="cx-artigo" id="art0"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
-                
+                <p>Com toda essa negação da vacina, o ex-presidente afirmava que não tomaria a vacina. Curiosamente, quando avolumaram-se os questionamentos sobre se ele de fato teria ou não teria se vacinado, o mesmo impôs sigilo sobre seu cartão de vacina.</p>
 
-            </div>
+                <p>Entretanto, recentemente veículos da imprensa têm noticiado que a CGU confirma o registro de vacinação de Bolsonaro em julho de 2021. Uma vez isso constatado, significa que o ex-presidente deliberadamente incentivou as pessoas a não se vacinarem contra Covid-19, enquanto ele mesmo tratava de receber o imunizante.</p>
 
-            <!--
-            <div class="paginacao">
-                <p>Página</p>
-                <p> <a href="./index.html">01</a> <a href="./page02.html">02</a> </p>
-            </div>
-            -->
+                <p>Ou seja, enquanto ele se protegia com a vacina que ele mesmo criticava dia sim outro também, desencorajava milhões de brasileiros e brasileiras a não tomaram a vacina. Agora pense: quantas milhares de pessoas tiveram que pagar com a própria vida por confiarem na mentira propagada pelo chefe do executivo sobre a vacina? A maioria das vítimas certamente são trabalhadores(as).</p>
 
+                <p>É inimaginável a dimensão disso! pessoas conduzidas à morte deliberadamente, por irresponsabilidade ou, responsabilidade de um presidente da república.</p>
+
+                <p>Obviamente, como de costume, o militar da reserva nega tudo! Para qualquer situação, ainda que seus próprios vídeos testemunhem contra, ele nega, mente sem qualquer pudor.</p>
+
+                <p>Veremos como tudo isso se desenrolará ao longo dos próximos meses. Mas de uma coisa podemos ter certeza: é muito provável que jamais receba punição legal proporcional aos nefastos danos que cometeu.</p>
+
+                </div>
+            </article>
+            
         </section>
 
         <footer id="footer">
@@ -259,17 +222,6 @@
         </button>
 
         <script src="./subir.js"></script>
-
-            <!-- PushAlert Onsite Messaging
-                <script type="text/javascript">
-                    (function(d, t) {
-                        var g = d.createElement(t),
-                        s = d.getElementsByTagName(t)[0];
-                        g.src = "https://cdn.inwebr.com/inwebr_b7fe3cc7b2c441252acac614e4947ec7.js";
-                        s.parentNode.insertBefore(g, s);
-                    }(document, "script"));
-                </script>
-             End PushAlert Onsite Messaging -->
 
     </body>
 
