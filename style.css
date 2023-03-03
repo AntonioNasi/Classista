@@ -266,7 +266,7 @@ header #banner{
     object-position: center;
 }
 
-.capa .capa-art figure figcaption{
+.capa figcaption{
     font-size: 12px;
     color: rgba(43, 34, 0, .6);
     margin-bottom: 20px;
