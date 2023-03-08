@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
     <head>
-        
+
         <!----------------------------------------------
             Google AdSense
         ----------------------------------------------->
@@ -52,15 +52,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Classista">
 
-        <!-----------------------------------------------------
-            Meta tags configurations de descrições
-        ------------------------------------------------------->
-        <meta name="description" content=" Reflexões classistas sobre o cotidiano. ">
-        <meta property="og:image" content="https://raw.githubusercontent.com/AntonioNasi/Classista/main/og-image.png">
+        <meta name="description" content="Análise classista do cotidiano.">
 
-        <meta property="og:description" content="Reflexões classistas sobre o cotidiano.">
+        <meta property="og:image" content="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/2736777/510927_156894.jpeg">
 
-        <title> Política </title>
+        <meta property="og:description" content="Os sindicatos se aliaram aos poderosos">
+
+        <title>Sindicalismo aliado ao poder: como a cooptação dos sindicatos nos governos petistas minou a voz dos trabalhadores</title>
 
         <!---------------------------------
             Carrega o fav icone do site
@@ -78,26 +76,8 @@
                 $('#banner').load("./banner.html");
                 $('#footer').load("./footer.html");
                 $('#categ').load("./categ.html");
-
-                $('#art0').load("./art0.html");
-                $('#art1').load("./art1.html");
-                $('#art2').load("./art2.html");
-                $('#art3').load("./art3.html");
-                $('#art4').load("./art4.html");
-                $('#art5').load("./art5.html");
-                $('#art6').load("./art6.html");
-                $('#art7').load("./art7.html");
-                $('#art8').load("./art8.html");
-                $('#art9').load("./art9.html");
-                $('#art10').load("./art10.html");
-                $('#art11').load("./art11.html");
-                $('#art12').load("./art12.html");
-                $('#art13').load("./art13.html");
-                $('#art14').load("./art14.html");
-                $('#art15').load("./art15.html");
-                $('#art16').load("./art16.html");
-                $('#art21').load("./art21.html");
-
+                $('#slide').load("./slide.html");
+                $('#slide2').load("./slide2.html");
             });
         </script>
 
@@ -109,8 +89,7 @@
         <!---------------------------------
             Carrega css nativo
         ----------------------------------->
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <link rel="stylesheet" type="text/css" href="./responsive.css">
+        <link rel="stylesheet" type="text/css" href="./art.css">
 
         <!-----------------------------------------------
             Carrega os Icones do Google Material icons
@@ -127,15 +106,14 @@
         <!-------------------------------------------------------
             Esconde e exibe navbar ao rolar a página
         --------------------------------------------------------->
-        <script src="./hide-menu.js"></script>
+        <script src="./h-menu.js"></script>
 
     </head>
 
     <body>
         
-        <header class="cabecalho">
-            
-            <div class="cont-menu">
+        <header class="art-cabecalho">
+            <div class="cont-menu" id="hideMenu">
                 <div class="cont-menu-m">
                     <div class="cx-logoDesc-large">
                         <h1>Classista</h1>
@@ -143,7 +121,6 @@
                     <div class="menu" id="menu"></div>
                 </div>
             </div>
-
             <div class="cx-logoDesc">
                 <h1>Classista</h1>
             </div>
@@ -177,80 +154,59 @@
                 </div>
             </div>
 
-            <div class="banner" id="banner">
+            <div class="banner" id="slide">
                 Serei um banner em JavaScript
             </div>
+            <div class="banner" id="slide2">
+                Serei um banner em JavaScript
+            </div>
+
         </header>
 
-        
+        <section class="a-content-sec">
+          
+            <article class="artigo" id="artigo-0">
 
-        <section class="content-sec" id="mais-textos">
-            <div class="content-title">
-                <h2>Últimos artigos sobre Política</h2>
-            </div>
-            <div class="content" id="ultimos-art">
+                <div class="art-content-title">
+                    <h1>Sindicalismo aliado ao poder: como a cooptação dos sindicatos nos governos petistas minou a voz dos trabalhadores</h1>
+                </div>
+                <div class="art-autores">
+                    <div class="img-autores">
+                        <img src="./autor-classista.png" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <p>Antonio Nasi<br>
+                    <span>26 de fevereiro de 2023</span> </p>
+                </div>
+                <figure>
+                  <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/2736777/510927_156894.jpeg">
+                  <figcaption>Imagem: SINDUECE</figcaption>
+                </figure>
 
-                <a href="./art22.html" >
-                    <div class="cx-artigo" id="art22"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                <!-- ShareThis BEGIN -->
+                <div class="sharethis-inline-share-buttons"></div>
+                <!-- ShareThis END -->
 
-                <a href="./art21.html" >
-                    <div class="cx-artigo" id="art21"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                <div class="a-content" id="artigo-0">
 
-                <a href="./art16.html" >
-                    <div class="cx-artigo" id="art16"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p>Para onde caminhará o sindicalismo nesse novo governo petista? Eis aqui um alerta sobre um destino possível.</p>
 
-                <a href="./art13.html" >
-                    <div class="cx-artigo" id="art13"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p>Durante os governos petistas, os sindicatos no Brasil foram cooptados pelo governo. Isso inevitavelmente ocasionou a perda de força e capacidade de luta pelas reais necessidades dos trabalhadores. Ao invés de defenderem os interesses dos proletários, os sindicatos se tornaram aliados do governo e por consequência, do próprio Estado.</p>
 
-                <a href="./art12.html" >
-                    <div class="cx-artigo" id="art12"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p>Jornais como a Folha de São Paulo e O Globo, chegaram a veicular notícia de que muitos sindicatos receberam verbas públicas e favorecimentos do governo em troca de apoio político. Algo até previsível dentro do capitalismo: se tudo vira mercadoria, por qual motivo os sindicatos não se tornariam também mais uma a disposição de quem puder pagar por ela?</p>
 
-                <a href="./art9.html" >
-                    <div class="cx-artigo" id="art9"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p>Como resultado, trabalhadores que já não tão bem representados pelos seus sindicatos, se viram mais desamparados, tendo direitos básicos negligenciados ou mesmo violados. Além disso, o enfraquecimento dos sindicatos também contribuiu para a precarização das condições de trabalho e salário, especialmente nos setores mais vulneráveis da economia. Devemos pensar aqui quando foi gestada a reforma trabalhista, por exemplo, que eclodiu na sequência do governo de Dilma.</p>
 
-                <a href="./art6.html" >
-                    <div class="cx-artigo" id="art6"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p>É importante ressaltar que a cooptação dos sindicatos pelo governo não é um problema exclusivo dos governos Lula-Dilma, mas sim um problema histórico no Brasil. No entanto, não há como negar que a intensidade e a extensão desse fenômeno durante os governos petistas foi especialmente preocupante. Isso justamente no governo cuja retórica enfatizava a defesa dos trabalhadores, bem como prometia fortalecer os sindicatos.</p>
 
-                <a href="./art5.html">
-                    <div class="cx-artigo" id="art5"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p>Uma lição temos que tirar disso: os sindicatos precisam se manter independentes de governo e de partidos políticos. Isso é o mínimo para que os sindicatos retomem seu papel de representantes dos anseios ontológicos da classe trabalhadora. Sindicato que fica ao lado de interesses políticos e partidários, jamais poderá falar em nome dos trabalhadores.</p>
 
-                <a href="./art1.html">
-                    <div class="cx-artigo" id="art1"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p>E uma reflexão importante cabe aqui: até que ponto os sindicatos podem realmente gozar de autonomia perante o Estado, aos políticos e seus partidos? Não temos expectativas animadoras quanto a isso, por isso que para além do sindicato, reivindicamos a necessidade da organização autônoma da classe trabalhadora.</p>
 
-                
-                <a href="./art0.html">
-                    <div class="cx-artigo" id="art0"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
-                
+                    <p>Diante disso, apesar de não termos como prever o futuro, o passado nos confirma que o destino dos sindicatos nesse novo governo petista, tem muitas chances de não ser em nada diferente dos momentos anteriores. Talvez seja o momento de irmos de fato para além dos sindicatos.</p>
 
-            </div>
-
-            <!--
-            <div class="paginacao">
-                <p>Página</p>
-                <p> <a href="./index.html">01</a> <a href="./page02.html">02</a> </p>
-            </div>
-            -->
-
+                </div>
+            </article>
+            
         </section>
 
         <footer id="footer">
@@ -264,17 +220,6 @@
         </button>
 
         <script src="./subir.js"></script>
-
-            <!-- PushAlert Onsite Messaging
-                <script type="text/javascript">
-                    (function(d, t) {
-                        var g = d.createElement(t),
-                        s = d.getElementsByTagName(t)[0];
-                        g.src = "https://cdn.inwebr.com/inwebr_b7fe3cc7b2c441252acac614e4947ec7.js";
-                        s.parentNode.insertBefore(g, s);
-                    }(document, "script"));
-                </script>
-             End PushAlert Onsite Messaging -->
 
     </body>
 
