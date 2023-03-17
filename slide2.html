@@ -4,82 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>slide</title>
+    <title>slide2</title>
 
     <style>
-        .mySlides2 {display:none;}
+        .smallslide {display: none;}
+        img {vertical-align: middle;}
 
-        .w3-content{
-            position: relative;
+        /* Slideshow container */
+        .sldcont {
+        height: 300px;
+        position: relative;
+        margin: auto;
         }
 
-        .w3-content a{
-            color: #ffffff;
-            text-decoration: none;
+        .sldcont .smallslide img{
+          height: 300px;
+          
         }
 
-        .w3-content img{
-            height: 300px;
-            width: 100%;
-            object-fit: cover;
-            object-position: center;
+        /* Caption text */
+        .text2 {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
         }
 
-        .w3-content figcaption{
-            position: absolute;
-            bottom: 0px;
-            right: 0px;
-            background-color: #ff0000;
-            padding: 20px;
-            text-transform: uppercase;
-            font-weight: 600;
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .ponto {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: red;
+        border-radius: 50%;
+        display: none;
+        transition: background-color 0.6s ease;
+        }
+
+        .active {
+        background-color: red;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+        .text2 {font-size: 11px}
         }
     </style>
 
 </head>
 <body>
 
-    <div class="w3-content w3-section" style="width: 100%;">
+    <div class="sldcont">
 
-        <a href="https://gemmarx.com.br/" target="_blank">
-            <div class="mySlides2">
-                <img  src="https://gemmarx.com.br/banner_2.svg" >
-                <figcaption>Conheça o GEMMARX - Grupo de estudos sobre o método em Marx</figcaption>
-            </div>
-        </a>
+        <div class="smallslide fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./1.png" style="width:100%">
+          <div class="text2">Teste do novo slide</div>
+        </div>
         
-        <a href="https://coletivoveredas.com.br" target="_blank">
-            <div class="mySlides2">
-                <img  src="https://coletivoveredas.com.br/wp-content/uploads/2021/08/cropped-Coletivo-veredas-informa2.jpg" >
-                <figcaption>Conhecimento a serviço da classe trabalhadora! baixe os livros do Coletivo Veredas.</figcaption>
-            </div>
-        </a>
-
-        <a href="https://deribaldosantos.com.br/" target="_blank">
-            <div class="mySlides2">
-                <img src="https://deribaldosantos.com.br/F%C3%B3tons%20de%20luz.jpeg">
-                <figcaption>Acesse deribaldosantos.com.br</figcaption>
-            </div>
-        </a>
-
-    </div>
-
-    <script>
-        var myIndex2 = 0;
-        carouselA();
+        <div class="smallslide fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./2.png" style="width:100%">
+          <div class="text2">Caption Two</div>
+        </div>
         
-        function carouselA() {
-          var i2;
-          var x2 = document.getElementsByClassName("mySlides2");
-          for (i2 = 0; i2 < x2.length; i2++) {
-            x2[i2].style.display = "none";  
-          }
-          myIndex2++;
-          if (myIndex2 > x2.length) {myIndex2 = 1}    
-          x2[myIndex2-1].style.display = "block";  
-          setTimeout(carouselA, 8000); // Change image every 8 seconds
-        }
-    </script>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="ponto"></span> 
+          <span class="ponto"></span>
+        </div>
+
+        <script>
+            let sldinde = 0;
+            mostraSld();
+
+            function mostraSld() {
+            let i;
+            let laminas = document.getElementsByClassName("smallslide");
+            let pontos = document.getElementsByClassName("dot");
+            for (i = 0; i < laminas.length; i++) {
+                laminas[i].style.display = "none";  
+            }
+            sldinde++;
+            if (sldinde > laminas.length) {sldinde = 1}    
+            for (i = 0; i < pontos.length; i++) {
+                pontos[i].className = pontos[i].className.replace(" active", "");
+            }
+            laminas[sldinde-1].style.display = "block";  
+            pontos[sldinde-1].className += " active";
+            setTimeout(mostraSld, 8000); // Change image every 2 seconds
+            }
+        </script>
     
 </body>
 </html>
