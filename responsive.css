@@ -9,13 +9,21 @@
   header #slide{
     display: none;
   }
+
+  header .redes-sociais{
+    margin: 20px auto 10px;
+  }
+
+  .capa{
+    margin: 10px auto 0px;
+  }
 }
 
 
 @media screen and (min-width:601px){
 
   header .cont-menu{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   header .cx-logoDesc{

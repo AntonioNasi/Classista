@@ -22,9 +22,8 @@ body .material-symbols-outlined{
 /* Formatação do menu */
 header .cont-menu{
     height: 48px;
-    width: 100%;
+    width: 93%;
     margin: auto;
-    border-bottom: solid 5px #ff0000;
 }
 
 /* Hide meunu não funciona ainda
@@ -37,43 +36,36 @@ header .cont-menu{
 } */
 
 header .cont-menu .cont-menu-m{
-    width: 93%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     margin: auto;
     display: flex;
     align-items: center;
-}
-header .cont-menu .cont-menu-m .cx-logoDesc-large{
-    width: 20%;
-}
-
-header .cont-menu .cont-menu-m .cx-logoDesc-large a{
-    text-decoration: none;
-}
-
-header .cont-menu .cont-menu-m .cx-logoDesc-large h1{
-    font-size: 25px;
-    font-weight: 900;
+    background-color: #ff0000;
+    border-top: solid 1px #ffffff;
 }
 
 header .cont-menu .cont-menu-m .menu{
-    width: 80%;
+    width: 100%;
     display: flex;
     margin: auto;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+    padding: 8px 0px;
 }
 header .cont-menu .cont-menu-m .menu .caixa-menu-mobile{
     margin: auto;
 }
 
-header .menu .large-menu a{
-    padding: 10px 10px;
-    color: #000000;
+header .cont-menu .cont-menu-m .menu .large-menu a{
+    padding: 8px 8px;
+    margin: 0px -2px;
+    color: #ffffff;
     text-decoration: none;
-}
-header .menu .large-menu a:hover{
     background-color: #ff0000;
+}
+header .cont-menu .cont-menu-m .menu .large-menu a:hover{
+    background-color: #aa0000;
     color: #ffffff;
     transition: background-color .3s;
 }
@@ -82,7 +74,7 @@ header .menu .material-symbols-outlined{
     font-family: 'Material Icons';
     font-size: 30px;
     font-weight: 900;
-    color: #ff0000;
+    color: #ffffff;
     margin: 3px 0px 0px 0px;
 }
 
@@ -147,7 +139,7 @@ header .categorias a:hover{
 /* estilo das redes sociais */
 header .redes-sociais{
     width: 93%;
-    margin: 0px auto 40px;
+    margin: 20px auto;
 }
 header .redes-sociais p{
     text-align: center;
@@ -166,16 +158,28 @@ header .redes-sociais .cont-redes-sociais .red-soc img{
 }
 
 /* estilo do banner */
-header #banner{
-    width: 93%;
+header .bannerG{
+    width: 100%;
     height: 300px;
     margin: auto;
+}
+header .bannerG .slideshow-container .mySlides img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+header .bannerS .sldcont .smallslide img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Formatação da section capa */
 .capa{
     width: 93%;
-    margin: 50px auto;
+    margin: 80px auto;
 }
 
 .capa .capa-title{
