@@ -297,6 +297,20 @@ header .bannerS .sldcont .smallslide img{
 }
 
 
+.capa .capa-art ul{
+    background-color: rgba(0, 0, 0, .1);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.capa .capa-art ul li{
+    list-style-position: inside;
+    list-style-type: square;
+}
+.capa .capa-art ul li a{
+    text-decoration: none;
+}
+
+
 
 /* Formatação da section 0 */
 .content-sec{

@@ -24,12 +24,19 @@ body p::selection, h1::selection, h2::selection, h3::selection, span::selection,
 
 
 /* Formatação do header */
-header .cont-menu{
+header .cont-menu-art{
     height: 48px;
     width: 100%;
-    margin: auto;
+    margin: -28px auto;
 }
-header .cont-menu .cont-menu-m{
+
+@media screen and (max-width:600px){
+    header .cont-menu-art{
+        margin: -20px auto;
+    }
+}
+
+header .cont-menu-art .cont-menu-m{
     width: 93%;
     height: auto;
     margin: auto;
@@ -39,7 +46,7 @@ header .cont-menu .cont-menu-m{
     border-top: solid 1px #ffffff;
 }
 
-header .cont-menu .cont-menu-m .menu{
+header .cont-menu-art .cont-menu-m .menu{
     width: 100%;
     display: flex;
     margin: auto;
@@ -47,18 +54,18 @@ header .cont-menu .cont-menu-m .menu{
     justify-content: center;
     padding: 8px 0px;
 }
-header .cont-menu .cont-menu-m .menu .caixa-menu-mobile{
+header .cont-menu-art .cont-menu-m .menu .caixa-menu-mobile{
     margin: auto;
 }
 
-header .cont-menu .cont-menu-m .menu .large-menu a{
+header .cont-menu-art .cont-menu-m .menu .large-menu a{
     padding: 8px 8px;
     margin: 0px -2px;
     color: #ffffff;
     text-decoration: none;
     background-color: #ff0000;
 }
-header .cont-menu .cont-menu-m .menu .large-menu a:hover{
+header .cont-menu-art .cont-menu-m .menu .large-menu a:hover{
     background-color: #aa0000;
     color: #ffffff;
     transition: background-color .3s;
@@ -211,6 +218,8 @@ header #banner{
     padding: 0px 0px 0px 10px;
     font-weight: 600;
 }
+
+
 .a-content-sec .artigo .art-autores p span{
     font-size: 14px;
     font-weight: normal;
@@ -248,6 +257,19 @@ header #banner{
     margin-bottom: 10px;
 }
 
+
+.a-content-sec .artigo .a-content ul{
+    background-color: rgba(0, 0, 0, .1);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.a-content-sec .artigo .a-content ul li{
+    list-style-position: inside;
+    list-style-type: square;
+}
+.a-content-sec .artigo .a-content ul li a{
+    text-decoration: none;
+}
 
 
 
