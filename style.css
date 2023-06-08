@@ -179,40 +179,57 @@ header .bannerS .sldcont .smallslide img{
 /* Formatação da section capa */
 .capa{
     width: 93%;
-    margin: 80px auto;
+    margin: 100px auto;
 }
 
 .capa .capa-title{
     width: auto;
     margin: auto;
-    border-bottom: solid 5px #ff0000;
 }
 
 .capa .capa-title h2{
-    background-color: #ff0000;
-    display: inline;
+    text-align: center;
     padding: 3px 8px;
-    color: #ffffff;
-    font-size: 22px;
+    color: #ff0000;
+    font-size: 30px;
+}
+.capa .capa-title h2::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: auto;
+    margin: 15px auto;
+    background-color: #ff0000;
 }
 
 .capa h1{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
-    margin-top: 20px;
+    margin-top: 0px;
+    text-align: center;
 }
 .capa #capa-sub-title{
-    font-size: 20px;
+    font-size: 18px;
     color: rgba(0, 0, 0, .6);
+    text-align: center;
 }
 
 .capa #autor-capa{
     font-size: 13px;
+    text-align: center;
     font-weight: 400;
-    margin: 40px 0px;
+    margin: 20px 0px;
     color: rgba(0, 0, 0, .5);
-    border-left: solid 1px rgba(0, 0, 0, .5);
     padding: 0px 0px 0px 5px;
+}
+.capa #autor-capa::before{
+    content: "";
+    display: block;
+    margin: auto;
+    background-color: #000000;
+    height: 1px;
+    width: 200px;
+    margin-bottom: 10px;
 }
 
 
@@ -277,9 +294,9 @@ header .bannerS .sldcont .smallslide img{
 }
 
 .capa .capa-art p{
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 24px;
 }
 
 .capa .capa-art h2{
