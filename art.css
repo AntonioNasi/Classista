@@ -27,7 +27,7 @@ body p::selection, h1::selection, h2::selection, h3::selection, span::selection,
 header .cont-menu-art{
     height: 48px;
     width: 100%;
-    margin: -28px auto;
+    margin: -25px auto;
 }
 
 @media screen and (max-width:600px){
@@ -131,49 +131,6 @@ header #banner .sldcont .smallslide img{
     object-position: center;
 }
 
-
-/* estilo das categorias */
-header .categorias{
-    width: 93%;
-    margin: 20px auto;
-}
-header .categorias a{
-    display: block;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #ff0000;
-    width: auto;
-    padding: 5px 0px;
-    margin: 0px 0px 5px 0px;
-    text-align: center;
-    font-weight: 600;
-}
-header .categorias a:hover{
-    background-color: #af0000;
-    transition: background-color .7s;
-}
-
-/* estilo das redes sociais */
-header .redes-sociais{
-    width: 93%;
-    margin: 0px auto 40px;
-}
-header .redes-sociais p{
-    text-align: center;
-    margin: 0px 0px 10px 0px;
-}
-header .redes-sociais .cont-redes-sociais{
-    display: flex;
-    justify-content: center;
-}
-header .redes-sociais .cont-redes-sociais .red-soc{
-    width: 35px;
-    margin: 0px 5px 0px 5px;
-}
-header .redes-sociais .cont-redes-sociais .red-soc img{
-    width: 100%;
-}
-
 /* estilo do banner */
 header #banner{
     width: 93%;
@@ -188,42 +145,43 @@ header #banner{
     margin: 40px auto;
 }
 .a-content-sec .artigo{
-    max-width: 616px;
+    width: 100%;
     margin: 0 auto;
 }
-.a-content-sec .artigo .art-content-title{
-    border-bottom: solid 5px #ff0000;
-}
+
 .a-content-sec .artigo .art-content-title h1{
-    font-size: 28px;
+    text-align: center;
+    font-size: 30px;
     margin-bottom: 10px;
 }
+
+.a-content-sec .artigo .art-content-title p{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.a-content-sec .artigo .art-content-title p::after{
+    content: "";
+    display: block;
+    margin: 20px auto 20px;
+    height: 1px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .a-content-sec .artigo .art-autores{
-    display: flex;
-    margin: 10px 0px;
-    align-items: center;
+    margin: auto;
 }
-.a-content-sec .artigo .art-autores .img-autores{
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    
-    background-color: pink;
-}
-.a-content-sec .artigo .art-autores .img-autores img{
-    width: 100%;
-    border-radius: 100%;
-}
+
 .a-content-sec .artigo .art-autores p{
+    text-align: center;
+    font-size: 12px;
     padding: 0px 0px 0px 10px;
     font-weight: 600;
+    color: rgba(0, 0, 0, .7);
 }
 
 
-.a-content-sec .artigo .art-autores p span{
-    font-size: 14px;
-    font-weight: normal;
-}
 .a-content-sec .artigo figure{
     width: 100%;
     height: 260px;
@@ -242,7 +200,13 @@ header #banner{
 }
 
 .a-content-sec .artigo .sharethis-inline-share-buttons{
-    margin: 15px 0px 25px 0px;
+    max-width: 300px;
+    margin: 0px auto 10px;
+}
+
+.a-content-sec .artigo .a-content{
+    max-width: 618px;
+    margin: auto;
 }
 
 .a-content-sec .artigo .a-content p{

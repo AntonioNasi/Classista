@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
     <head>
-        
+
         <!----------------------------------------------
             Google AdSense
         ----------------------------------------------->
@@ -52,17 +52,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Classista">
 
-        <!-----------------------------------------------------
-            Meta tags configurations de descrições
-        ------------------------------------------------------->
-        <meta name="description" content="Reflexões classistas sobre o cotidiano.">
-        <!-- <meta property="og:image:secure-url" content="https://raw.githubusercontent.com/AntonioNasi/Classista/main/og-image.png"> -->
+        <meta name="description" content="Análise classista do cotidiano.">
 
-        <meta property="og:image" content="https://img.freepik.com/free-photo/packings-pills-capsules-medicines_1339-2254.jpg">
+        <meta property="og:image" content="https://img.freepik.com/free-photo/low-angle-shot-female-statue-with-wings-black-white_181624-3177.jpg">
 
-        <meta property="og:description" content="Capitalismo e adoecimento mental">
+        <meta property="og:description" content="Aumenta a quantidade de jovens sem religião.">
 
-        <title>Capitalismo e adoecimento mental</title>
+        <title>A juventude sem religião</title>
 
         <!---------------------------------
             Carrega o fav icone do site
@@ -77,13 +73,12 @@
         <script>
             $(function () {
                 $('#menu').load("./menu.html");
-                $('#slide').load("./slide.html");
-                $('#slide2').load("./slide2.html");
+                $('#banner').load("./banner.html");
                 $('#footer').load("./footer.html");
                 $('#categ').load("./categ.html");
 
-                $('#art28').load("./art28.html");
-                $('#des-capa').load("./art29.html");
+                $('#slide').load("./slide.html");
+                $('#slide2').load("./slide2.html");
             });
         </script>
 
@@ -95,8 +90,7 @@
         <!---------------------------------
             Carrega css nativo
         ----------------------------------->
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <link rel="stylesheet" type="text/css" href="./responsive.css">
+        <link rel="stylesheet" type="text/css" href="./art.css">
 
         <!-----------------------------------------------
             Carrega os Icones do Google Material icons
@@ -104,7 +98,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-        
+
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
         <!-------------------------------------------------------
@@ -115,25 +109,20 @@
         <!-------------------------------------------------------
             Esconde e exibe navbar ao rolar a página
         --------------------------------------------------------->
-        <script src="./hide-menu.js"></script>
+        <script src="./h-menu.js"></script>
 
     </head>
 
     <body>
         
-        <header class="cabecalho">
-            
-            
-
-            
-
+        <header class="art-cabecalho">
             <div class="bannerG" id="slide"></div>
             <div class="bannerS" id="slide2"></div>
 
 
 
 
-            <div class="cont-menu">
+            <div class="cont-menu-art">
                 <div class="cont-menu-m">
                     <!--
                     <div class="cx-logoDesc-large">
@@ -146,86 +135,53 @@
                 </div>
             </div>
 
-            <!--
-            <div class="cx-logoDesc">
-                <a href="./index.html">
-                    <h1>Classista</h1>
-                </a>
-            </div>
-
-            <div class="categorias" id="categ"></div>
-            
-
-            <div class="redes-sociais">
-                <p>Acesse nossos canais:</p>
-                <div class="cont-redes-sociais">
-                    
-                    <div class="red-soc">
-                        <a href="https://t.me/+K6idy5xxd0Q0ZGZh" target="_blank">
-                            <img src="./telegram.png">
-                        </a>
-                    </div>
-
-                    <div class="red-soc">
-                        <a href="https://www.youtube.com/channel/UCiu4xH5YX7W-4c_jlAzuosA" target="_blank">
-                            <img src="./youtube.png">
-                        </a>
-                    </div>
-
-                    <div class="red-soc">
-                        <a href="https://www.instagram.com/classista.oficial/" target="_blank">
-                            <img src="./instagram.png">
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-            -->
-
         </header>
 
-        <section class="capa">
+        <section class="a-content-sec">
+          
+            <article class="artigo" id="artigo-0">
 
-            <div class="capa-title">
-                <h2>Destaque</h2>
-            </div>
+                <div class="art-content-title">
+                    <h1>Exércitos privados e a capacidade autodestrutiva do capitalismo</h1>
+                    <p>Exércitos sem pátria, sem Estado, sem governo, sem ideologia. Reconhecem apenas uma autoridade: o dinheiro.</p>
+                </div>
 
-            <a href="./art29.html">
-                <div class="noticia-capa" id="des-capa"></div>
-            </a>
+                <div class="art-autores">
+                    <p>Por <i> Classista </i>| 27 de junho de 2023
+                </div>
 
-        </section>
+                <figure>
+                    <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTopNews/tagreuters.com2023binary_LYNXMPEJ5N097-FILEDIMAGE.jpg?w=876&h=484&crop=1">
+                    <figcaption>Imagem: CNN</figcaption>
+                </figure>
 
-        <section class="content-sec" id="mais-textos">
-            <div class="content-title">
-                <h2>Outras reflexões</h2>
-            </div>
-            <div class="content" id="ultimos-art">
+                <!-- ShareThis BEGIN -->
+                <div class="sharethis-inline-share-buttons"></div>
+                <!-- ShareThis END -->
 
-                <a href="./art28.html">
-                    <div class="cx-artigo" id="art28"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                <div class="a-content" id="artigo-0">
 
-                <a href="#">
-                    <div class="cx-artigo" id="art27"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p> No último final de semana ganhou destaque na mídia internacional a “rebelião” do grupo Wagner, um exército que não serve a nenhum país. Embora tenha relação estreita com o governo russo, a mídia o tem denominado simplesmente como um grupo militar mercenário.</p>
 
-                <a href="#">
-                    <div class="cx-artigo" id="art26"></div>
-                    <p class="leia-mais">Leia mais</p>
-                </a>
+                    <p> A origem e história do grupo Wagner já foi fartamente exposta na mídia, mas o que chama mais atenção não é exatamente como surge uma organização dessas. O mais chocante é a contradição da sua natureza, ou, aparente contradição. </p>
 
-            </div>
+                    <p> O Wagner é, em poucas palavras, um exército. Mas geralmente no contexto político atual os exércitos têm uma vinculação com algum Estado, ao qual se relacionam como subordinados e cuja atuação está toda prevista na legislação. Desse modo os exércitos servem aos interesses de um Estado, de uma nação. </p>
 
-            <!--
-            <div class="paginacao">
-                <p>Página</p>
-                <p> <a href="./index.html">01</a> <a href="./page02.html">02</a> </p>
-            </div>
-            -->
+                    <p> Mas esse não é o caso do exército Wagner, este tem um caráter privado, é uma empresa. Sendo assim, não atendem e nem se subordinam a um país ou Estado, nem mesmo a um governo. Enquanto empresa que naturalmente visa o que todo empreendimento busca, ou seja, o lucro, um grupo como Wagner tem um único senhor: o dinheiro. </p>
 
+                    <p> É até um pouco difícil imaginar o quão bizarro isso é. Mas façamos um esforço. Trata-se de um exército que pode iniciar ou terminar uma guerra, e pra isso não importa de que lado irá lutar, quem irá defender e quem irá matar. Importa apenas quem pagará mais pelos serviços de um exército dessa natureza. </p>
+
+                    <p> Apesar do grupo Wagner ter ganhado os noticiários no final de semana, ele não é o único. Empresas desse tipo existem por todo o mundo, sejam menores ou maiores em termos de poder. O próprio Brasil já produziu o seu monstrinho que, ao que parece, não está mais em funcionamento. </p>
+
+                    <p> Claro que no Brasil, uma empresa dessa natureza não poderia vir de outro lugar senão do bueiro que sobrou da ditadura militar. Só poderia partir de substratos de militares herdeiros da tragédia militar brasileira que iniciou-se em 64 e ainda não foi enterrada o suficiente. </p>
+
+                    <p> Pode não parecer, mas esse tipo de liberdade do capitalismo, que permite criação de exércitos privados, é um tiro no pé do próprio capitalismo. Muito embora, como sempre, o preço mais caro é pago por trabalhadores e trabalhadoras que são ou obrigados pela miséria a lutar guerras para alimentar a conta de alguém, ou, são dizimados por e viram apenas estatísticas na ONU. </p>
+
+                    <p> De uma coisa temos certeza, cada vez mais o capitalismo segue cavando sua própria sepultura. O que parece algo muito vantajoso de imediato, como poder contar com um exército particular, é na verdade mais um sintoma de quão inescrupuloso é o atual regime, e de como em nome do lucro e da liberdade do mercado, põe em xeque sua própria sobrevivência. Põe em jogo a aniquilação daquilo sem o qual não há mais como ter lucro algum: o que resta da humanidade. </p>
+
+                </div>
+            </article>
+            
         </section>
 
         <footer id="footer">
@@ -239,17 +195,6 @@
         </button>
 
         <script src="./subir.js"></script>
-
-            <!-- PushAlert Onsite Messaging
-                <script type="text/javascript">
-                    (function(d, t) {
-                        var g = d.createElement(t),
-                        s = d.getElementsByTagName(t)[0];
-                        g.src = "https://cdn.inwebr.com/inwebr_b7fe3cc7b2c441252acac614e4947ec7.js";
-                        s.parentNode.insertBefore(g, s);
-                    }(document, "script"));
-                </script>
-             End PushAlert Onsite Messaging -->
 
     </body>
 

@@ -176,6 +176,8 @@ header .bannerS .sldcont .smallslide img{
     object-position: center;
 }
 
+
+
 /* Formatação da section capa */
 .capa{
     width: 93%;
@@ -198,134 +200,51 @@ header .bannerS .sldcont .smallslide img{
     display: block;
     height: 1px;
     width: auto;
-    margin: 15px auto;
+    margin: 15px auto 0px;
     background-color: #ff0000;
 }
 
-.capa h1{
-    font-size: 50px;
-    font-weight: 900;
-    margin-top: 0px;
-    text-align: center;
-}
-.capa #capa-sub-title{
-    font-size: 18px;
-    color: rgba(0, 0, 0, .6);
-    text-align: center;
-}
-
-.capa #autor-capa{
-    font-size: 13px;
-    text-align: center;
-    font-weight: 400;
-    margin: 20px 0px;
-    color: rgba(0, 0, 0, .5);
-    padding: 0px 0px 0px 5px;
-}
-.capa #autor-capa::before{
-    content: "";
-    display: block;
-    margin: auto;
-    background-color: #000000;
-    height: 1px;
-    width: 200px;
-    margin-bottom: 10px;
-}
-
-
-.capa figure{
-    margin: auto;
-}
-.capa figure img{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
-    filter: sepia(50%);
-}
-
-
-.capa .sharethis-inline-share-buttons{
-    display: block;
-    max-width: 302px;
-    margin: 15px auto 30px;
-}
-
-
-.capa .capa-art{
-    column-count: 3;
-    column-gap: 50px;
-}
-@media screen and (max-width:600px){
-    .capa .capa-art{
-        column-count: unset;
-        column-gap: unset;
-    }
-    .capa h1{
-        font-size: 26px;
-        font-weight: 900;
-        margin-top: 20px;
-    }
-}
-@media screen and (min-width:601px){
-    .capa .capa-art{
-        column-count: 2;
-        column-gap: 50px;
-    }
-}
-@media screen and (min-width:1024px){
-    .capa .capa-art{
-        column-count: 3;
-        column-gap: 50px;
-    }
-}
-
-.capa .capa-art figure img{
-    width: 100%;
-    height: 240px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.capa figcaption{
-    font-size: 12px;
-    color: rgba(43, 34, 0, .6);
-    margin-bottom: 20px;
-}
-
-.capa .capa-art p{
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 24px;
-}
-
-.capa .capa-art h2{
-    margin: 20px 0px;
-    color: rgba(0, 0, 0, .6);
-}
-
-.capa .capa-art #m-txt{
-    display: inline-block;
+.capa a{
     text-decoration: none;
-    color: rgba(250, 250, 250, 1);
-    background-color: rgba(0, 0, 0, .3);
-    padding: 5px;
-    margin: 20px 0px;
+    color: #000000;
 }
 
+.capa .noticia-capa{
+    overflow: hidden;
+    height: 590px;
+    white-space: wrap;
+}
 
-.capa .capa-art ul{
+.capa .noticia-capa:hover{
     background-color: rgba(0, 0, 0, .1);
-    padding: 10px;
-    margin-bottom: 15px;
 }
-.capa .capa-art ul li{
-    list-style-position: inside;
-    list-style-type: square;
+
+.capa .noticia-capa header{
+    display: none;
 }
-.capa .capa-art ul li a{
-    text-decoration: none;
+
+.capa .noticia-capa .a-content-sec{
+    width: 100%;
+    margin: 0px;
 }
+
+.capa .noticia-capa .a-content-sec .artigo{
+    width: 100%;
+}
+
+.capa .noticia-capa .a-content-sec .artigo .figure{
+    height: 300px;
+}
+
+.capa .noticia-capa .a-content-sec .artigo .a-content{
+    width: 100%;
+}
+
+.capa footer{
+    display: none;
+}
+
+
 
 
 
@@ -391,6 +310,11 @@ header .bannerS .sldcont .smallslide img{
 .content-sec .content .a-content-sec{
     width: 100%;
 }
+
+.content-sec .content .a-content-sec .artigo .art-content-title p{
+    display: none;
+}
+
 .content-sec .content .a-content-sec .artigo figure{
     height: 140px;
     margin-bottom: 15px;
