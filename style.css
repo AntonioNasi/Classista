@@ -26,15 +26,6 @@ header .cont-menu{
     margin: auto;
 }
 
-/* Hide meunu não funciona ainda
-header .cont-menu{
-    width: 100%;
-    position: fixed;
-    transition: top .5s;
-    z-index: 1;
-    border-bottom: solid 5px #ff0000;
-} */
-
 header .cont-menu .cont-menu-m{
     width: 100%;
     height: auto;
@@ -78,90 +69,37 @@ header .menu .material-symbols-outlined{
     margin: 3px 0px 0px 0px;
 }
 
-
-/* estilo da logo */
-header .cx-logoDesc{
-    display: flex;
-    max-width: 140px;
-    align-items: center;
-    justify-content: center;
-    margin: 8px auto 8px;
-    background-color: #ff0000;
-}
-
-header .cx-logoDesc a{
-    text-decoration: none;
-}
-
-header .cx-logoDesc h1{
-    text-align: center;
-    font-weight: 900;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-header .cx-logoDesc-large{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-header .cx-logoDesc-large h1{
-    display: inline;
-    padding: 4px 10px;
-    background-color: #ff0000;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
-/* estilo das categorias */
-header .categorias{
-    width: 93%;
-    margin: auto;
-}
-header .categorias a{
-    display: block;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #ff0000;
-    width: auto;
-    padding: 5px 0px;
-    margin: 0px 0px 5px 0px;
-    text-align: center;
-    font-weight: 600;
-}
-header .categorias a:hover{
-    background-color: #af0000;
-    transition: background-color .7s;
-}
-
-
-/* estilo das redes sociais */
-header .redes-sociais{
-    width: 93%;
-    margin: 20px auto;
-}
-header .redes-sociais p{
-    text-align: center;
-    margin: 0px 0px 10px 0px;
-}
-header .redes-sociais .cont-redes-sociais{
-    display: flex;
-    justify-content: center;
-}
-header .redes-sociais .cont-redes-sociais .red-soc{
-    width: 35px;
-    margin: 0px 5px 0px 5px;
-}
-header .redes-sociais .cont-redes-sociais .red-soc img{
-    width: 100%;
-}
-
-/* estilo do banner */
+/*=======================
+Formatação do banner
+=========================*/
 header .bannerG{
     width: 100%;
-    height: 300px;
+    height: 200px;
     margin: auto;
+    background-image: url(./fdo.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+    animation-name: moveFundo;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+@keyframes moveFundo {
+    to{background-position: 50%;}
+}
+header .bannerG .c-logo{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: #ffffff;
+}
+header .bannerG .c-classista{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: -30px;
 }
 header .bannerG .slideshow-container .mySlides img{
     width: 100%;
@@ -176,9 +114,9 @@ header .bannerS .sldcont .smallslide img{
     object-position: center;
 }
 
-
-
-/* Formatação da section capa */
+/*==============================
+Formatação da section capa
+================================*/
 .capa{
     width: 93%;
     margin: 100px auto;
@@ -209,46 +147,56 @@ header .bannerS .sldcont .smallslide img{
     color: #000000;
 }
 
-.capa .noticia-capa{
-    overflow: hidden;
-    height: 590px;
-    white-space: wrap;
+.capa a #previa{
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0px 0px 15px;
 }
 
-.capa .noticia-capa:hover{
-    background-color: rgba(0, 0, 0, .1);
+.capa a .leia-mais{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    color: #ff0000;
+    border: solid 1px #ff0000;
+    padding: 8px 10px;
+    margin: -0% 0% 10% 0%;
 }
 
-.capa .noticia-capa header{
+.capa a .leia-mais:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.capa #link-capa .noticia-capa header{
     display: none;
 }
 
-.capa .noticia-capa .a-content-sec{
+.capa #link-capa .noticia-capa .a-content-sec{
     width: 100%;
     margin: 0px;
 }
 
-.capa .noticia-capa .a-content-sec .artigo{
-    width: 100%;
-}
-
-.capa .noticia-capa .a-content-sec .artigo .figure{
+.capa #link-capa .noticia-capa .a-content-sec .artigo .figure{
     height: 300px;
 }
 
-.capa .noticia-capa .a-content-sec .artigo .a-content{
-    width: 100%;
+.capa #link-capa .noticia-capa .a-content-sec .artigo .sharethis-inline-share-buttons{
+    display: none;
 }
 
-.capa footer{
+.capa #link-capa .noticia-capa .a-content-sec .artigo .a-content{
+    display: none;
+}
+
+.capa a footer{
     display: none;
 }
 
 
-
-
-
-/* Formatação da section 0 */
+/*====================================
+Formatação de mais textos/Leia mais
+======================================*/
 .content-sec{
     margin: 20px 0px;
 }
@@ -267,7 +215,9 @@ header .bannerS .sldcont .smallslide img{
 }
 
 
-/* Elementos da pág blog não exibidos no index */
+/*===============================================
+Elementos da página blog não exibidos no index
+=================================================*/
 .content-sec .content .art-cabecalho{
     display: none;
 }

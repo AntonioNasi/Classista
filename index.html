@@ -79,10 +79,10 @@
                 $('#slide').load("./slide.html");
                 $('#slide2').load("./slide2.html");
                 $('#footer').load("./footer.html");
-                $('#categ').load("./categ.html");
 
                 $('#art28').load("./art28.html");
-                $('#des-capa').load("./art29.html");
+                $('#art29').load("./art29.html");
+                $('#des-capa').load("./art30.html");
             });
         </script>
 
@@ -121,16 +121,12 @@
     <body>
         
         <header class="cabecalho">
-            
-            
 
-            
-
-            <div class="bannerG" id="slide"></div>
-            <div class="bannerS" id="slide2"></div>
-
-
-
+            <div class="bannerG" id="">
+                <p class="c-logo">C</p>
+                <p class="c-classista">Classista</p>
+            </div>
+            <div class="bannerS" id=""></div>
 
             <div class="cont-menu">
                 <div class="cont-menu-m">
@@ -183,17 +179,31 @@
 
         </header>
 
+        <!-------------------------------------------
+            Notícia de capa/destaque
+        --------------------------------------------->
+
         <section class="capa">
 
             <div class="capa-title">
                 <h2>Destaque</h2>
             </div>
 
-            <a href="./art29.html">
+            <a id="link-capa" href="./art30.html">
+
                 <div class="noticia-capa" id="des-capa"></div>
+
+                <p id="previa">A tal da reforma tributária passou na Câmara Federal, ou seja, foi aprovada pelos deputados. A proposta agora seguirá para o Senado Federal, onde terá que ser votada pelos senadores em dois turnos, quer dizer, serão duas votações para depois, se aprovada em ambas, ser sancionada pelo presidente da república.</p>
+
+                <p class="leia-mais">Leia o texto completo</p>
+
             </a>
 
         </section>
+
+        <!-------------------------------------------
+            Outras notícias/Mais textos
+        --------------------------------------------->
 
         <section class="content-sec" id="mais-textos">
             <div class="content-title">
@@ -201,13 +211,13 @@
             </div>
             <div class="content" id="ultimos-art">
 
-                <a href="./art28.html">
-                    <div class="cx-artigo" id="art28"></div>
+                <a href="./art29.html">
+                    <div class="cx-artigo" id="art29"></div>
                     <p class="leia-mais">Leia mais</p>
                 </a>
 
-                <a href="#">
-                    <div class="cx-artigo" id="art27"></div>
+                <a href="./art28.html">
+                    <div class="cx-artigo" id="art28"></div>
                     <p class="leia-mais">Leia mais</p>
                 </a>
 
@@ -218,6 +228,10 @@
 
             </div>
 
+            <!-------------------------------------------
+            Rodapé do site | desativada por enquanto
+            --------------------------------------------->
+
             <!--
             <div class="paginacao">
                 <p>Página</p>
@@ -226,6 +240,10 @@
             -->
 
         </section>
+
+        <!-------------------------------------------
+            Rodapé do site
+        --------------------------------------------->
 
         <footer id="footer">
 

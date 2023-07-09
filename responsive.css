@@ -1,7 +1,5 @@
 @media screen and (max-width:600px){
-  .cont-menu .cont-menu-m .cx-logoDesc-large{
-    display: none;
-  }
+  
   header .menu .large-menu{
     display: none;
   }
@@ -39,6 +37,21 @@
   }
   .capa{
     margin: 30px auto;
+  }
+
+  .capa a .leia-mais{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    color: #ff0000;
+    border: solid 1px #ff0000;
+    padding: 8px 10px;
+    margin: -0% 0% 5% 0%;
+  }
+
+  .a-content-sec .artigo .a-content-para-capa{
+    width: 100%;
+    margin: auto;
   }
 
   header .categorias{

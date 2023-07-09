@@ -109,15 +109,38 @@ header .cx-logoDesc-large h1{
     text-transform: uppercase;
 }
 
-header .banner{
-    width: 100%;
-    height: 300px;
-    margin: auto;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header .bannerG{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    background-image: url(./fdo.png);
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+    animation-name: moveFundo;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
 }
+@keyframes moveFundo {
+    to{background-position: 50%;}
+}
+header .bannerG .c-logo{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: #ffffff;
+}
+header .bannerG .c-classista{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: -30px;
+}
+
+
 header #banner .slideshow-container .mySlides img{
     width: 100%;
     height: 300px;
@@ -205,8 +228,14 @@ header #banner{
 }
 
 .a-content-sec .artigo .a-content{
-    max-width: 618px;
+    width: 100%;
     margin: auto;
+}
+
+@media screen and (min-width:600px){
+    .a-content-sec .artigo .a-content{
+        max-width: 618px;
+    }
 }
 
 .a-content-sec .artigo .a-content p{
