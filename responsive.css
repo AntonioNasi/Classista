@@ -11,6 +11,10 @@
   .capa{
     margin: 10px auto 0px;
   }
+
+  header .cont-menu .logo_classista .des{
+    display: none;
+  }
 }
 
 
@@ -36,7 +40,7 @@
     margin: 0px auto 20px;
   }
   .capa{
-    margin: 30px auto;
+    margin: -100px auto 0px;
   }
 
   .capa a .leia-mais{
@@ -52,6 +56,10 @@
   .a-content-sec .artigo .a-content-para-capa{
     width: 100%;
     margin: auto;
+  }
+
+  .capa #link-capa .noticia-capa .a-content-sec .artigo .figure{
+    display: none;
   }
 
   header .categorias{

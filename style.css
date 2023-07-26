@@ -19,21 +19,50 @@ body .material-symbols-outlined{
 }
 
 
+header{
+    height: 70px;
+    background-image: linear-gradient(45deg, #db0101, #ff0000);
+    margin-bottom: 0px;
+}
+
 /* Formatação do menu */
 header .cont-menu{
-    height: 48px;
+    height: 70px;
     width: 93%;
-    margin: auto;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+header .cont-menu .logo_classista{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+header .cont-menu .logo_classista .log{
+    margin: 0px 20px 0px 0px;
+}
+header .cont-menu .logo_classista .log h1{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+header .cont-menu .logo_classista .log a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header .cont-menu .logo_classista .des p{
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+    color: #ffffff;
 }
 
 header .cont-menu .cont-menu-m{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     margin: auto;
     display: flex;
-    align-items: center;
-    background-color: #ff0000;
-    border-top: solid 1px #ffffff;
+    align-items: right;
 }
 
 header .cont-menu .cont-menu-m .menu{
@@ -53,12 +82,11 @@ header .cont-menu .cont-menu-m .menu .large-menu a{
     margin: 0px -2px;
     color: #ffffff;
     text-decoration: none;
-    background-color: #ff0000;
+    border: solid 1px transparent;
 }
 header .cont-menu .cont-menu-m .menu .large-menu a:hover{
-    background-color: #aa0000;
-    color: #ffffff;
-    transition: background-color .3s;
+    border: solid 1px #ffffff;
+    transition: border .3s;
 }
 
 header .menu .material-symbols-outlined{
@@ -72,54 +100,21 @@ header .menu .material-symbols-outlined{
 /*=======================
 Formatação do banner
 =========================*/
-header .bannerG{
-    width: 100%;
-    height: 200px;
-    margin: auto;
-    background-image: url(./fdo.png);
-    background-repeat: no-repeat;
-    background-size: 150%;
-
-    animation-name: moveFundo;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate-reverse;
-}
-@keyframes moveFundo {
-    to{background-position: 50%;}
-}
-header .bannerG .c-logo{
-    text-align: center;
-    font-size: 100px;
-    font-weight: 900;
-    color: #ffffff;
-}
-header .bannerG .c-classista{
-    text-align: center;
-    font-size: 50px;
-    color: #ffffff;
-    margin-top: -30px;
-}
-header .bannerG .slideshow-container .mySlides img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-}
-header .bannerS .sldcont .smallslide img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-}
 
 /*==============================
 Formatação da section capa
 ================================*/
+#i-capa{
+    margin: 0px;
+}
 .capa{
-    width: 93%;
-    margin: 100px auto;
+    width: 100%;
+    height: 90vh;
+    margin: 0px auto;
+    background-image: url(https://s2.glbimg.com/YIThT9up9PM1KvIHWUp5XI_0qvk=/1200x/smart/filters:cover:strip_icc/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/M/b/kMzTevR2eg3tW5LhqbsQ/reformatributaria-servicos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .capa .capa-title{
@@ -168,6 +163,39 @@ Formatação da section capa
     color: #ffffff;
 }
 
+.capa #link-capa{
+    margin: auto;
+}
+
+.capa #link-capa .noticia-capa{
+    margin: 0px auto 0px;
+    padding: 0% 3% 6% 3%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+    background-image: linear-gradient(360deg, #000000, transparent, transparent);
+}
+
+.capa #link-capa .noticia-capa .art-content-title h1{
+    color: #ffffff;
+}
+.capa #link-capa .noticia-capa .art-content-title h1:hover{
+    text-decoration: underline;
+}
+.capa #link-capa .noticia-capa .art-content-title p{
+    color: #ffffff;
+}
+.capa #link-capa .noticia-capa .art-autores p{
+    color: #ffffff;
+}
+.capa #link-capa .noticia-capa .art-content-title p::after{
+    background-color: #ffffff;
+}
+
+
+
 .capa #link-capa .noticia-capa header{
     display: none;
 }
@@ -177,8 +205,8 @@ Formatação da section capa
     margin: 0px;
 }
 
-.capa #link-capa .noticia-capa .a-content-sec .artigo .figure{
-    height: 300px;
+.capa #link-capa .noticia-capa .a-content-sec .artigo #a-figure{
+    display: none;
 }
 
 .capa #link-capa .noticia-capa .a-content-sec .artigo .sharethis-inline-share-buttons{

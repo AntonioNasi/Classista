@@ -24,29 +24,53 @@ body p::selection, h1::selection, h2::selection, h3::selection, span::selection,
 
 
 /* Formatação do header */
-header .cont-menu-art{
-    height: 48px;
-    width: 100%;
-    margin: -25px auto;
+header{
+    height: 70px;
+    background-image: linear-gradient(45deg, #db0101, #ff0000);
+    margin-bottom: 0px;
 }
 
-@media screen and (max-width:600px){
-    header .cont-menu-art{
-        margin: -20px auto;
-    }
-}
-
-header .cont-menu-art .cont-menu-m{
+/* Formatação do menu */
+header .cont-menu{
+    height: 70px;
     width: 93%;
-    height: auto;
-    margin: auto;
+    margin: 0px auto;
     display: flex;
     align-items: center;
-    background-color: #ff0000;
-    border-top: solid 1px #ffffff;
 }
 
-header .cont-menu-art .cont-menu-m .menu{
+header .cont-menu .logo_classista{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+header .cont-menu .logo_classista .log{
+    margin: 0px 20px 0px 0px;
+}
+header .cont-menu .logo_classista .log h1{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+header .cont-menu .logo_classista .log a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header .cont-menu .logo_classista .des p{
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+
+header .cont-menu .cont-menu-m{
+    width: auto;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: right;
+}
+
+header .cont-menu .cont-menu-m .menu{
     width: 100%;
     display: flex;
     margin: auto;
@@ -54,21 +78,20 @@ header .cont-menu-art .cont-menu-m .menu{
     justify-content: center;
     padding: 8px 0px;
 }
-header .cont-menu-art .cont-menu-m .menu .caixa-menu-mobile{
+header .cont-menu .cont-menu-m .menu .caixa-menu-mobile{
     margin: auto;
 }
 
-header .cont-menu-art .cont-menu-m .menu .large-menu a{
+header .cont-menu .cont-menu-m .menu .large-menu a{
     padding: 8px 8px;
     margin: 0px -2px;
     color: #ffffff;
     text-decoration: none;
-    background-color: #ff0000;
+    border: solid 1px transparent;
 }
-header .cont-menu-art .cont-menu-m .menu .large-menu a:hover{
-    background-color: #aa0000;
-    color: #ffffff;
-    transition: background-color .3s;
+header .cont-menu .cont-menu-m .menu .large-menu a:hover{
+    border: solid 1px #ffffff;
+    transition: border .3s;
 }
 
 header .menu .material-symbols-outlined{
@@ -77,88 +100,6 @@ header .menu .material-symbols-outlined{
     font-weight: 900;
     color: #ffffff;
     margin: 3px 0px 0px 0px;
-}
-
-/* estilo da logo */
-header .cx-logoDesc{
-    display: flex;
-    max-width: 140px;
-    align-items: center;
-    justify-content: center;
-    margin: 8px auto 8px;
-    background-color: #ff0000;
-}
-header .cx-logoDesc h1{
-    text-align: center;
-    font-weight: 900;
-    font-size: 20px;
-    padding: 8px 0px;
-    color: #ffffff;
-}
-
-header .cx-logoDesc-large{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-header .cx-logoDesc-large h1{
-    display: inline;
-    padding: 4px 10px;
-    background-color: #ff0000;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
-
-header .bannerG{
-    width: 100%;
-    height: 200px;
-    margin: auto;
-    background-image: url(./fdo.png);
-    background-repeat: no-repeat;
-    background-size: 150%;
-
-    animation-name: moveFundo;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate-reverse;
-}
-@keyframes moveFundo {
-    to{background-position: 50%;}
-}
-header .bannerG .c-logo{
-    text-align: center;
-    font-size: 100px;
-    font-weight: 900;
-    color: #ffffff;
-}
-header .bannerG .c-classista{
-    text-align: center;
-    font-size: 50px;
-    color: #ffffff;
-    margin-top: -30px;
-}
-
-
-header #banner .slideshow-container .mySlides img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-}
-header #banner .sldcont .smallslide img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-}
-
-/* estilo do banner */
-header #banner{
-    width: 93%;
-    height: 300px;
-    margin: auto;
 }
 
 
@@ -281,6 +222,10 @@ header #banner{
     }
 
     header #slide{
+        display: none;
+    }
+
+    header .cont-menu .logo_classista .des{
         display: none;
     }
 }
