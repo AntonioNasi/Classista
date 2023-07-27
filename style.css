@@ -111,7 +111,7 @@ Formatação da section capa
     width: 100%;
     height: 90vh;
     margin: 0px auto;
-    background-image: url(https://s2.glbimg.com/YIThT9up9PM1KvIHWUp5XI_0qvk=/1200x/smart/filters:cover:strip_icc/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/M/b/kMzTevR2eg3tW5LhqbsQ/reformatributaria-servicos.jpg);
+    background-image: url(https://img.freepik.com/free-photo/resurrection-concept-crucifixion-jesus-christ-cross-sunset_1150-7204.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -246,6 +246,10 @@ Formatação de mais textos/Leia mais
 /*===============================================
 Elementos da página blog não exibidos no index
 =================================================*/
+.content-sec .content header{
+    display: none;
+}
+
 .content-sec .content .art-cabecalho{
     display: none;
 }
