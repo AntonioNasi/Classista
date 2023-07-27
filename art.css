@@ -177,6 +177,11 @@ header .menu .material-symbols-outlined{
     .a-content-sec .artigo .a-content{
         max-width: 618px;
     }
+
+    header .cont-menu .cont-menu-m .menu .large-menu{
+        display: flex;
+        align-content: center;
+    }
 }
 
 .a-content-sec .artigo .a-content p{

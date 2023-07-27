@@ -29,6 +29,11 @@
     margin-bottom: 0px;
   }
 
+  header .cont-menu .cont-menu-m .menu .large-menu{
+    display: flex;
+    align-content: center;
+  }
+
   header .cx-logoDesc{
     display: none;
   }
