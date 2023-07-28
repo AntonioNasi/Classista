@@ -222,6 +222,43 @@ Formatação da section capa
 }
 
 
+/*==================================================================
+Formatação do formulário de inscrição para receber textos no e-mail
+=====================================================================*/
+#mc_embed_signup{background:#fff; false;clear:left; font:14px; width: 600px;}
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+.mail-chimp-subscribe .m-chimp-form{
+    width: 93%;
+    margin: auto;
+}
+
+.mail-chimp-subscribe .m-chimp-form #mc_embed_shell #mc_embed_signup{
+    margin: auto;
+}
+.mail-chimp-subscribe .m-chimp-form #mc_embed_shell #mc_embed_signup h2{
+    font-size: 18px;
+}
+
+#mc-embedded-subscribe{
+    background-color: #ff0000;
+}
+
+@media screen and (max-width:601px){
+    .mail-chimp-subscribe .m-chimp-form #mc_embed_shell{
+        width: auto;
+    }
+    .mail-chimp-subscribe .m-chimp-form #mc_embed_shell #mc_embed_signup{
+        width: auto;
+    }
+    .mail-chimp-subscribe .m-chimp-form #mc_embed_shell #mc_embed_signup h2{
+        font-size: 18px;
+    }
+}
+ 
+
+
 /*====================================
 Formatação de mais textos/Leia mais
 ======================================*/
