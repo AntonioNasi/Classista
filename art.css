@@ -109,63 +109,21 @@ header .menu .material-symbols-outlined{
     margin: 40px auto;
 }
 .a-content-sec .artigo{
-    width: 100%;
+    width: 618px;
     margin: 0 auto;
 }
 
-.a-content-sec .artigo .art-content-title h1{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.a-content-sec .artigo .art-content-title p{
-    color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-.a-content-sec .artigo .art-content-title p::after{
-    content: "";
-    display: block;
-    margin: 20px auto 20px;
-    height: 1px;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.a-content-sec .artigo .art-autores{
-    margin: auto;
-}
-
-.a-content-sec .artigo .art-autores p{
-    text-align: center;
-    font-size: 12px;
-    padding: 0px 0px 0px 10px;
-    font-weight: 600;
-    color: rgba(0, 0, 0, .7);
-}
-
-
 .a-content-sec .artigo figure{
-    width: 100%;
-    height: 260px;
-    margin: 15px 0px 60px 0px;
+    width: 618px;
+    margin: 0 auto;
 }
 .a-content-sec .artigo figure img{
     width: 100%;
-    height: 260px;
-    object-fit: cover;
-    object-position: center;
-}
-.a-content-sec .artigo figure figcaption{
-    font-size: 14px;
-    color: rgba(0, 0, 0, .5);
-    margin: 0px 0px 0px 0px;
 }
 
 .a-content-sec .artigo .sharethis-inline-share-buttons{
     max-width: 300px;
-    margin: 0px auto 10px;
+    margin: 0px auto 30px;
 }
 
 .a-content-sec .artigo .a-content{
@@ -188,6 +146,8 @@ header .menu .material-symbols-outlined{
     line-height: 1.5;
     font-size: 18px;
     margin: 0px 0px 15px;
+    text-align: justify;
+    text-indent: 2em;
 }
 
 .a-content-sec .artigo .a-content h2{

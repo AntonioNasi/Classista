@@ -97,292 +97,33 @@ header .menu .material-symbols-outlined{
     margin: 3px 0px 0px 0px;
 }
 
-/*=======================
-Formatação do banner
-=========================*/
 
-/*==============================
-Formatação da section capa
-================================*/
-#i-capa{
-    margin: 0px;
+/* Configuração da seção de posts */
+.sec-posts{
+    margin: 40px 0px;
 }
-.capa{
-    width: 100%;
-    height: 90vh;
-    margin: 0px auto;
-    background-image: url(https://img.freepik.com/free-photo/resurrection-concept-crucifixion-jesus-christ-cross-sunset_1150-7204.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.container-posts{
+    width: 94%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
 }
-
-.capa .capa-title{
-    width: auto;
-    margin: auto;
+.container-posts #txt01{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
-
-.capa .capa-title h2{
-    text-align: center;
-    padding: 3px 8px;
-    color: #ff0000;
-    font-size: 30px;
+.container-posts .posts{
+    asd
 }
-.capa .capa-title h2::after{
-    content: "";
-    display: block;
-    height: 1px;
-    width: auto;
-    margin: 15px auto 0px;
-    background-color: #ff0000;
-}
-
-.capa a{
-    text-decoration: none;
-    color: #000000;
-}
-
-.capa a #previa{
-    line-height: 1.5;
-    font-size: 18px;
-    margin: 0px 0px 15px;
-}
-
-.capa a .leia-mais{
-    display: block;
-    text-align: center;
-    font-weight: 700;
-    color: #ff0000;
-    border: solid 1px #ff0000;
-    padding: 8px 10px;
-    margin: -0% 0% 10% 0%;
-}
-
-.capa a .leia-mais:hover{
-    background-color: #ff0000;
-    color: #ffffff;
-}
-
-.capa #link-capa{
-    margin: auto;
-}
-
-.capa #link-capa .noticia-capa{
-    margin: 0px auto 0px;
-    padding: 0% 3% 6% 3%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-
-    background-image: linear-gradient(360deg, #000000, transparent, transparent);
-}
-
-.capa #link-capa .noticia-capa .art-content-title h1{
-    color: #ffffff;
-}
-.capa #link-capa .noticia-capa .art-content-title h1:hover{
-    text-decoration: underline;
-}
-.capa #link-capa .noticia-capa .art-content-title p{
-    color: #ffffff;
-}
-.capa #link-capa .noticia-capa .art-autores p{
-    color: #ffffff;
-}
-.capa #link-capa .noticia-capa .art-content-title p::after{
-    background-color: #ffffff;
-}
-
-
-
-.capa #link-capa .noticia-capa header{
-    display: none;
-}
-
-.capa #link-capa .noticia-capa .a-content-sec{
-    width: 100%;
-    margin: 0px;
-}
-
-.capa #link-capa .noticia-capa .a-content-sec .artigo #a-figure{
-    display: none;
-}
-
-.capa #link-capa .noticia-capa .a-content-sec .artigo .sharethis-inline-share-buttons{
-    display: none;
-}
-
-.capa #link-capa .noticia-capa .a-content-sec .artigo .a-content{
-    display: none;
-}
-
-.capa a footer{
-    display: none;
-}
-
-
-/*==================================================================
-Formatação do formulário de inscrição para receber textos no e-mail
-=====================================================================*/
-#mc_embed_signup{background:#fff; false;clear:left; font:14px; width: 600px;}
-/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-
-.mail-chimp-subscribe .m-chimp-form{
-    width: 93%;
-    margin: auto;
-}
-
-.mail-chimp-subscribe .m-chimp-form #mc_embed_shell #mc_embed_signup{
-    margin: auto;
-}
-.mail-chimp-subscribe .m-chimp-form #mc_embed_shell #mc_embed_signup h2{
-    font-size: 18px;
-}
-
-#mc-embedded-subscribe{
-    background-color: #ff0000;
-}
-
-@media screen and (max-width:601px){
-    .mail-chimp-subscribe .m-chimp-form #mc_embed_shell{
-        width: auto;
-    }
-    .mail-chimp-subscribe .m-chimp-form #mc_embed_shell #mc_embed_signup{
-        width: auto;
-    }
-    .mail-chimp-subscribe .m-chimp-form #mc_embed_shell #mc_embed_signup h2{
-        font-size: 18px;
-    }
-}
- 
-
-
-/*====================================
-Formatação de mais textos/Leia mais
-======================================*/
-.content-sec{
-    margin: 40px 0px 40px;
-}
-.content-sec .content-title{
-    width: 93%;
-    margin: auto;
-    border-bottom: solid 5px #ff0000;
-}
-
-.content-sec .content-title h2{
-    background-color: #ff0000;
-    display: inline;
-    padding: 3px 8px;
-    color: #ffffff;
-    font-size: 18px;
-}
-
-
-/*===============================================
-Elementos da página blog não exibidos no index
-=================================================*/
-.content-sec .content header{
-    display: none;
-}
-
-.content-sec .content .art-cabecalho{
-    display: none;
-}
-
-.content-sec .content{
-    width: 93%;
-    margin: auto;
-}
-
-.content-sec .content a{
-    text-decoration: none;
-    color: #000000;
-}
-.content-sec .content a .leia-mais{
-    display: inline;
-    text-align: center;
-    background-color: rgb(255, 0, 0);
-    padding: 3px 10px;
-    margin-left: 35%;
-    color: #ffffff;
-}
-
-.content-sec .content .cx-artigo{
-    height: 400px;
-    margin: 20px 0px 20px 0px;
-    color: unset;
-    overflow: hidden;
-}
-
-.content-sec .content .cx-artigo:hover{
-    background-color: rgba(255, 0, 0, .08);
-    transition: background-color .3s;
-
-}
-.content-sec .content .cx-artigo:nth-child(1) {
-  border-top: none;
-}
-.content-sec .content .a-content-sec{
+.container-posts .posts a img{
     width: 100%;
 }
-
-.content-sec .content .a-content-sec .artigo .art-content-title p{
-    display: none;
-}
-
-.content-sec .content .a-content-sec .artigo figure{
-    height: 140px;
-    margin-bottom: 15px;
-}
-.content-sec .content .a-content-sec .artigo .art-autores p{
-    color: rgba(43, 34, 0, .6);
-}
-.content-sec .content .a-content-sec .artigo figure img{
-    height: 140px;
-}
-.content-sec .content .a-content-sec .artigo figure figcaption{
-    display: none;
-}
-
-.content-sec .content .cx-artigo .sharethis-inline-share-buttons{
-    display: none !important;
-}
-
-.content-sec .content .cx-artigo .a-content-sec{
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-.content-sec .content .cx-artigo .a-content-sec .artigo .art-content-title h1{
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.content-sec .content .a-content-sec .artigo .a-content p{
-    font-size: 14px;
-    color: rgba(43, 34, 0, 1);
-}
-
-.content-sec .paginacao{
-    margin-top: 20px;
-    padding: 10px 0px;
-    background-color: rgba(0, 0, 0, .1);
-}
-.content-sec .paginacao p{
-    text-align: center;
-    margin-bottom: 10px;
-}
-.content-sec .paginacao a{
-    text-decoration: none;
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, .5);
-    padding: 2px 3px;
-}
-.content-sec .paginacao a:hover{
-    background-color: #000000;
-    transition: background-color 1s;
+.container-posts .posts a img:hover{
+    filter:contrast(170%);
+    transition: filter .3s;
 }
 
 
