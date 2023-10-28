@@ -96,13 +96,24 @@ header .menu .material-symbols-outlined{
     margin: 3px 0px 0px 0px;
 }
 
+.log-mob{
+    width: auto;
+}
+.log-mob h1{
+    text-align: center;
+}
+.log-mob h1 a{
+    text-decoration: none;
+    color: #ff0000;
+}
+
 
 /* Configuração da seção de posts */
 .sec-posts{
     margin: 40px 0px;
 }
 .container-posts{
-    width: 94%;
+    width: 93%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -113,9 +124,6 @@ header .menu .material-symbols-outlined{
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
-}
-.container-posts .posts{
-    asd
 }
 .container-posts .posts a img{
     width: 100%;

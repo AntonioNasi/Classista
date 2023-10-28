@@ -102,6 +102,17 @@ header .menu .material-symbols-outlined{
     margin: 3px 0px 0px 0px;
 }
 
+.log-mob{
+    width: auto;
+}
+.log-mob h1{
+    text-align: center;
+}
+.log-mob h1 a{
+    text-decoration: none;
+    color: #ff0000;
+}
+
 
 /* Formatação da section 0 */
 .a-content-sec{
@@ -182,15 +193,32 @@ header .menu .material-symbols-outlined{
       display: none;
     }
 
+
+
     .a-content-sec .artigo .art-content-title h1{
         font-size: 22px;
     }
+
+    .a-content-sec .artigo{
+        width: auto;
+    }
+    .a-content-sec .artigo figure{
+        width: auto;
+    }
+    .a-content-sec .artigo figure img{
+        width: 100%;
+    }
+    .a-content-sec .artigo .a-content{
+        max-width: auto;
+    }
+
+
 
     header #slide{
         display: none;
     }
 
-    header .cont-menu .logo_classista .des{
+    header .cont-menu .logo_classista{
         display: none;
     }
 }
@@ -235,6 +263,11 @@ header .menu .material-symbols-outlined{
 
     .a-content-sec .artigo figure{
         margin: 15px 0px 40px 0px;
+    }
+
+
+    .log-mob{
+        display: none;
     }
 }
 

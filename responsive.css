@@ -4,21 +4,20 @@
     display: none;
   }
 
-  header #slide{
-    display: none;
-  }
-
   .capa{
     margin: 10px auto 0px;
   }
 
-  header .cont-menu .logo_classista .des{
+  header .cont-menu .logo_classista{
     display: none;
   }
 
-  .capa #link-capa .noticia-capa{
-    padding: 0% 3% 20% 3%;
-    background-image: linear-gradient(360deg, #000000b9, #000000b9, transparent, transparent);
+
+  .container-posts{
+    display: block;
+  }
+  .container-posts .posts{
+    margin-bottom: 20px;
   }
 }
 
@@ -53,14 +52,8 @@
     margin: -100px auto 0px;
   }
 
-  .capa a .leia-mais{
-    display: block;
-    text-align: center;
-    font-weight: 700;
-    color: #ff0000;
-    border: solid 1px #ff0000;
-    padding: 8px 10px;
-    margin: -0% 0% 5% 0%;
+  .log-mob{
+    display: none;
   }
 
   .a-content-sec .artigo .a-content-para-capa{
