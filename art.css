@@ -181,6 +181,14 @@ header .menu .material-symbols-outlined{
     text-decoration: none;
 }
 
+.a-content-sec .artigo .outro-texto{
+    text-align: center;
+    margin-top: 20px;
+}
+.a-content-sec .artigo .outro-texto a{
+    text-decoration: none;
+}
+
 
 
 
