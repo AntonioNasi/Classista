@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
     <head>
-        
+
         <!----------------------------------------------
             Google AdSense
         ----------------------------------------------->
@@ -52,16 +52,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Classista">
 
-        <!-----------------------------------------------------
-            Meta tags configurations de descrições
-        ------------------------------------------------------->
-        <meta name="description" content="Reflexões classistas sobre o cotidiano.">
+        <meta name="description" content="Análise classista do cotidiano.">
 
-        <meta property="og:image" content="https://raw.githubusercontent.com/AntonioNasi/Classista/main/og-image.png">
+        <meta property="og:image" content="https://raw.githubusercontent.com/AntonioNasi/Classista/main/o_amor_e_suas_rela%C3%A7%C3%B5es.png">
 
-        <meta property="og:description" content="Reflexões classistas sobre o cotidiano">
+        <meta property="og:description" content="O amor não cabe num contrato!">
 
-        <title>Classista</title>
+        <title>Sobre o amor e suas relações</title>
 
         <!---------------------------------
             Carrega o fav icone do site
@@ -76,16 +73,7 @@
         <script>
             $(function () {
                 $('#menu').load("./menu.html");
-                $('#slide').load("./slide.html");
-                $('#slide2').load("./slide2.html");
                 $('#footer').load("./footer.html");
-
-                $('#art28').load("./art28.html");
-                $('#art29').load("./art29.html");
-                $('#art30').load("./art30.html");
-
-
-                $('#des-capa').load("./art31.html");
             });
         </script>
 
@@ -97,8 +85,7 @@
         <!---------------------------------
             Carrega css nativo
         ----------------------------------->
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <link rel="stylesheet" type="text/css" href="./responsive.css">
+        <link rel="stylesheet" type="text/css" href="./art.css">
 
         <!-----------------------------------------------
             Carrega os Icones do Google Material icons
@@ -106,7 +93,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-        
+
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
         <!-------------------------------------------------------
@@ -117,7 +104,7 @@
         <!-------------------------------------------------------
             Esconde e exibe navbar ao rolar a página
         --------------------------------------------------------->
-        <script src="./hide-menu.js"></script>
+        <script src="./h-menu.js"></script>
 
     </head>
 
@@ -143,6 +130,7 @@
                     <div class="menu" id="menu"></div>
                 </div>
             </div>
+
         </header>
 
         <div class="log-mob">
@@ -151,45 +139,29 @@
             </h1>
         </div>
 
-        <!-------------------------------------------
-            Seção de posts
-        --------------------------------------------->
+        <section class="a-content-sec">
+          
+            <article class="artigo" id="artigo-0">
 
-        <section class="sec-posts">
-            <div class="container-posts">
+                <figure id="a-figure">
+                    <img src="./origem-onto-religiosa.png">
+                </figure>
 
-                <div class="posts" id="txt01">
-                    <a href="./txt04.html">
-                        <img src="./origem-onto-religiosa.png" alt="Origem ontológica da necessidade religiosa">
-                    </a>
+                <!-- ShareThis BEGIN -->
+                <div class="sharethis-inline-share-buttons"></div>
+                <!-- ShareThis END -->
+
+                <div class="a-content">
+
+                    
+
                 </div>
 
-                <div class="posts">
-                    <a href="./txt03.html">
-                        <img src="./o_amor_e_suas_relações.png" alt="O amor e suas relações">
-                    </a>
-                </div>
+                <p class="outro-texto">Leia também: <br> <strong> <a href="./txt02.html"> Objetivação e exteriorização </a> </strong> </p>
 
-                <div class="posts">
-                    <a href="./txt02.html">
-                        <img src="./txt02.png" alt="Ontologia religiosa e ontologia filosófico-científica.">
-                    </a>
-                </div>
-                
-                <div class="posts">
-                    <a href="./txt01.html">
-                        <img src="./txt01.png" alt="Objetivação e exteriorização em Lukács.">
-                    </a>
-                </div>
-                
-            </div>
+            </article>
+            
         </section>
-
-        
-
-        <!-------------------------------------------
-            Rodapé do site
-        --------------------------------------------->
 
         <footer id="footer">
 
@@ -202,17 +174,6 @@
         </button>
 
         <script src="./subir.js"></script>
-
-            <!-- PushAlert Onsite Messaging
-                <script type="text/javascript">
-                    (function(d, t) {
-                        var g = d.createElement(t),
-                        s = d.getElementsByTagName(t)[0];
-                        g.src = "https://cdn.inwebr.com/inwebr_b7fe3cc7b2c441252acac614e4947ec7.js";
-                        s.parentNode.insertBefore(g, s);
-                    }(document, "script"));
-                </script>
-             End PushAlert Onsite Messaging -->
 
     </body>
 
