@@ -19,41 +19,48 @@ body .material-symbols-outlined{
 }
 
 header{
-    height: 70px;
+    height: 120px;
     background-image: linear-gradient(45deg, #db0101, #ff0000);
     margin-bottom: 0px;
+    border-top: solid 1px transparent;
 }
 
 /* Formatação do menu */
 header .cont-menu{
     height: 70px;
     width: 93%;
-    margin: 0px auto;
+    margin: 20px auto 0px;
     display: flex;
     align-items: center;
 }
 
 header .cont-menu .logo_classista{
-    width: auto;
-    display: flex;
-    align-items: center;
+    width: 100%;
 }
 header .cont-menu .logo_classista .log{
-    margin: 0px 20px 0px 0px;
+    margin: 0 auto;
+    width: 300px;
 }
 header .cont-menu .logo_classista .log h1{
     margin: 0px;
     padding: 0px;
     color: #ffffff;
+    text-align: center;
+    font-size: 40px;
 }
 header .cont-menu .logo_classista .log a{
     text-decoration: none;
     color: #ffffff;
 }
+header .cont-menu .logo_classista .des{
+    width: 300px;
+    margin: 0 auto;
+}
 header .cont-menu .logo_classista .des p{
     margin: 5px 0px 0px 0px;
     padding: 0px;
     color: #ffffff;
+    text-align: center;
 }
 
 header .cont-menu .cont-menu-m{
@@ -74,18 +81,6 @@ header .cont-menu .cont-menu-m .menu{
 }
 header .cont-menu .cont-menu-m .menu .caixa-menu-mobile{
     margin: auto;
-}
-
-header .cont-menu .cont-menu-m .menu .large-menu a{
-    padding: 8px 8px;
-    margin: 0px -2px;
-    color: #ffffff;
-    text-decoration: none;
-    border: solid 1px transparent;
-}
-header .cont-menu .cont-menu-m .menu .large-menu a:hover{
-    border: solid 1px #ffffff;
-    transition: border .3s;
 }
 
 header .menu .material-symbols-outlined{
@@ -110,27 +105,77 @@ header .menu .material-symbols-outlined{
 
 /* Configuração da seção de posts */
 .sec-posts{
-    margin: 40px 0px;
+    display: flex;
+    margin: 40px auto 0px;
+    max-width: 1024px;
 }
-.container-posts{
-    width: 93%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 20px;
+.sec-posts .container-posts{
+    width: 70%;
+    height: 800px;
+    border-right: solid 1px black;
 }
-.container-posts #txt01{
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
+.sec-posts .container-posts .lmais{
+    background-color: #ff0000;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
 }
-.container-posts .posts a img{
+.sec-posts .container-posts .posts{
+    height: 380px;
+    overflow: clip;
+}
+.sec-posts .container-posts .posts header, footer{
+    display: none;
+}
+.sec-posts .container-posts .posts .a-content-sec{
     width: 100%;
+    margin: auto;
 }
-.container-posts .posts a img:hover{
-    filter:contrast(170%);
-    transition: filter .3s;
+.sec-posts .container-posts .posts .a-content-sec .artigo{
+    width: 100%;
+    margin: 0 auto;
+}
+.sec-posts .container-posts .posts .sharethis-inline-share-buttons{
+    display: none;
+}
+.sec-posts .container-posts .posts img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.sec-posts .lateral{
+    width: 30%;
+    margin-left: 40px;
+}
+
+@media screen and (max-width:600px){
+    .sec-posts .lateral{
+        display: none;
+    }
+    .sec-posts{
+        display: block;
+    }
+    .sec-posts .container-posts{
+        width: 100%;
+    }
+}
+
+.sec-posts .lateral .menu-lateral{
+    display: block;
+    position: fixed;
+    background-color: #ff0000;
+    width: 295px;
+    height: 50vh;
+    padding: 20px;
+}
+.sec-posts .lateral .menu-lateral a{
+    display: block;
 }
 
 
