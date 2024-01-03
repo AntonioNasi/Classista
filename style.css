@@ -106,7 +106,7 @@ header .menu .material-symbols-outlined{
 /* Configuração da seção de posts */
 .sec-posts{
     display: flex;
-    margin: 40px auto 0px;
+    margin: 40px auto 80px;
     max-width: 1024px;
 }
 .sec-posts .container-posts{
@@ -114,20 +114,42 @@ header .menu .material-symbols-outlined{
     height: 800px;
     border-right: solid 1px black;
 }
+@media screen and (max-width:600px){
+    .sec-posts .container-posts{
+        border-right: none;
+    }
+}
+
 .sec-posts .container-posts .lmais{
-    background-color: #ff0000;
+    background-image: linear-gradient(45deg, #ff0000, transparent, transparent);
     padding: 5px 20px;
-    border-radius: 10px;
     text-decoration: none;
     color: white;
     font-weight: 700;
+    display: block;
+    margin-bottom: 40px;
 }
+
 .sec-posts .container-posts .posts{
-    height: 380px;
+    height: 400px;
     overflow: clip;
+    padding-bottom: 15px;
 }
-.sec-posts .container-posts .posts header, footer{
+
+.sec-posts .container-posts .posts header{
     display: none;
+}
+.sec-posts .container-posts .posts .log-mob{
+    display: none;
+}
+.sec-posts .container-posts .posts footer{
+    display: none;
+}
+.sec-posts .container-posts .posts .lateral{
+    display: none;
+}
+.sec-posts .container-posts .posts .artigo{
+    border-right: none;
 }
 .sec-posts .container-posts .posts .a-content-sec{
     width: 100%;
@@ -137,8 +159,13 @@ header .menu .material-symbols-outlined{
     width: 100%;
     margin: 0 auto;
 }
-.sec-posts .container-posts .posts .sharethis-inline-share-buttons{
+.sec-posts .container-posts .posts .a-content-sec .artigo #st-1{
     display: none;
+}
+@media screen and (max-width:600px){
+    #st-1{
+        display: none;
+    }
 }
 .sec-posts .container-posts .posts img{
     width: 100%;
@@ -152,6 +179,7 @@ header .menu .material-symbols-outlined{
 .sec-posts .lateral{
     width: 30%;
     margin-left: 40px;
+    background-color: #ff0000;
 }
 
 @media screen and (max-width:600px){
@@ -171,11 +199,17 @@ header .menu .material-symbols-outlined{
     position: fixed;
     background-color: #ff0000;
     width: 295px;
-    height: 50vh;
+    height: auto;
     padding: 20px;
 }
 .sec-posts .lateral .menu-lateral a{
     display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px white;
 }
 
 
@@ -203,3 +237,13 @@ header .menu .material-symbols-outlined{
   #up{
     font-size: 25px;
   }
+
+@media screen and (min-width:600px){
+    #myBtnS{
+        display: none;
+    }
+}
+
+footer{
+    margin-top: 150px;
+}
