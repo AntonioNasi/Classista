@@ -7,102 +7,12 @@
         <title>menu-mobile</title>
 
         <style>
-            .caixa-menu-mobile{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-                z-index: 1;
-            }
-            .dropbtn {
-                padding: 8px;
-                border: none;
-                cursor: pointer;
-            }
-
-            .dropdown {
-                position: relative;
-                display: inline-block;
-            }
-
-            .dropdown-content {
-                display: none;
-                position: relative;
-                background-color: #ff0000;
-                width: 100%;
-                overflow: auto;
-                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                border-radius: 5px;
-                z-index: 1;
-            }
-
-            .dropdown-content a {
-                color: white;
-                padding: 12px 16px;
-                width: 100%;
-                text-decoration: none;
-                display: inline-block;
-                text-align: center;
-                font-family: 'Roboto Slab', serif;
-            }
-
-            .dropdown a:hover {background-color: #000000;}
-
-            .show {display: block;}
-
-            .large-menu img{
-                width: 23px;
-            }
-            .caixa-menu-mobile .dropdown .dropdown-content img{
-                width: 25px;
-            }
+            
 
         </style>
 
     </head>
     <body>
-
-        
-        <div class="caixa-menu-mobile">
-          
-            <div class="dropdown">
-            
-                <span onclick="myFunction()" class="dropbtn material-symbols-outlined">
-                        menu
-                </span>
-                
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="./index.html">Início</a>
-                    <a href="https://coletivoveredas.com.br/livrospdf/">Livros em PDF</a>
-                    <a href="#">Cordel</a>
-                    <a href="./index.html">Grupos de Estudo</a>
-
-                    <a href="https://www.instagram.com/toimnasi/" target="_blank"> <img src="./insta.png"> </a>
-                </div>
-            </div>
-        </div>
-
-        <script>
-            /* When the user clicks on the button, 
-            toggle between hiding and showing the dropdown content */
-            function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-            }
-
-            // Close the dropdown if the user clicks outside of it
-            window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-                }
-            }
-            }
-        </script>
         
     </body>
 </html>
