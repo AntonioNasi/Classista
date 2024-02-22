@@ -10,10 +10,130 @@ html{
 }
 
 body{
-    font-family: 'Noto Serif', serif;
     color: #2b2200;
+
+    background-image: url(https://2.bp.blogspot.com/-8HegOSKO1Js/WCjJQdpbKBI/AAAAAAAAO7g/zc-czfUYZ-c0VGprioMqqYYF7yD4cuOhACLcB/s1600/comunismo.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+body .body-transparencia{
+    content: '';
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .95;
 }
 
 body .material-symbols-outlined{
     font-family: 'Material Icons';
+}
+
+body h1, h2, h3, h4{
+    font-family: 'Anton', sans-serif;
+}
+body p{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+header .barra-navega{
+    background-color: orangered;
+
+    height: 60px;
+}
+header .barra-navega .menu{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .barra-navega .menu a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    margin-top: 10px;
+    font-size: 23px;
+    letter-spacing: 2px;
+    padding: 0px 5px 2px 0px;
+    
+}
+header .barra-navega .menu a:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+
+header .banner{
+    height: 380px;
+    max-width: 1180px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+
+    background-color: orangered;
+}
+header .banner .temporaria-info{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+header .banner .temporaria-info h1{
+    font-size: 100px;
+    font-weight: 500;
+    margin: 0px;
+}
+header .banner .temporaria-info p{
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+/* Formatação da seção caixa de prévia dos textos */
+.cx-previa-textos{
+    margin-top: 40px;
+}
+.cx-previa-textos .previa-textos{
+    height: auto;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cx-previa-textos .previa-textos .texto{
+    width: 373px;
+    height: 280px;
+    margin: 0px 0px 40px 0px;
+
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+.cx-previa-textos .previa-textos .centro{
+    margin: 0px 30px;
+}
+
+
+.paginas{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 40px;
+}
+
+.paginas a{
+    text-decoration: none;
+    display:inline-block;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin: 0px 10px;
+    background-color: orangered;
+}
+
+
+.rodape{
+    height: 100px;
+
+    background-color: rgba(128, 128, 128, 0.219);
 }

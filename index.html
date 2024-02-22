@@ -56,11 +56,8 @@
             Meta tags configurations de descrições
         ------------------------------------------------------->
         <meta name="description" content="Reflexões classistas sobre o cotidiano.">
-
         <meta property="og:image" content="https://raw.githubusercontent.com/AntonioNasi/Classista/main/og-image.png">
-
         <meta property="og:description" content="Reflexões classistas sobre o cotidiano">
-
         <title>Classista</title>
 
         <!---------------------------------
@@ -77,11 +74,6 @@
             $(function () {
                 $('#menu').load("./menu.html");
                 $('#footer').load("./footer.html");
-
-                $('#nl2').load("./nl2.html");
-                $('#nl1').load("./txt04.html");
-
-                $('#des-capa').load("./art31.html");
             });
         </script>
 
@@ -97,13 +89,11 @@
         <link rel="stylesheet" type="text/css" href="./responsive.css">
 
         <!-----------------------------------------------
-            Carrega os Icones do Google Material icons
+            Carrega fontes do Google Fonts
         -------------------------------------------------->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
         <!-------------------------------------------------------
             Carrega os botões de compartilhar nas resdes sociais
@@ -119,7 +109,59 @@
 
     <body>
         
-        
+        <div class="body-transparencia">
+
+            <header>
+
+                <nav class="barra-navega">
+                    <div class="menu" id="menu">
+
+                    </div>
+                </nav>
+    
+                <div class="banner" id="banner">
+                    <div class="temporaria-info">
+                        <h1>Classista</h1>
+                        <p>Reflexões classistas sobre o cotidiano</p>
+                    </div>
+                </div>
+    
+            </header>
+    
+            <section class="cx-previa-textos">
+                <div class="previa-textos">
+    
+                    <div class="texto" id="texto-09"></div>
+    
+                    <div class="texto centro" id="texto-08"></div>
+    
+                    <div class="texto" id="texto-07"></div>
+    
+                    <div class="texto" id="texto-06"></div>
+    
+                    <div class="texto centro" id="texto-05"></div>
+    
+                    <div class="texto" id="texto-04"></div>
+    
+                    <div class="texto" id="texto-03"></div>
+    
+                    <div class="texto centro" id="texto-02"></div>
+    
+                    <div class="texto" id="texto-01"></div>
+    
+                </div>
+            </section>
+    
+            <div class="paginas">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </div>
+    
+            <footer class="rodape" id="rodape"></footer>
+
+        </div>
 
     </body>
 
