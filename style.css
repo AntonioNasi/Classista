@@ -25,6 +25,8 @@ body .body-transparencia{
     width: 100%;
     height: 100%;
     opacity: .95;
+
+    border-top: solid 1px transparent;
 }
 
 body .material-symbols-outlined{
@@ -41,10 +43,15 @@ body p{
 
 header .barra-navega{
     background-color: orangered;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    box-shadow: 1px 1px 5px rgb(71, 71, 71);
 
     height: 60px;
 }
-header .barra-navega .menu{
+header .barra-navega .menu .itens-menu{
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
@@ -55,7 +62,7 @@ header .barra-navega .menu a{
     text-decoration: none;
     color: #000000;
     text-transform: uppercase;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Antonio', sans-serif;
     margin-top: 10px;
     font-size: 23px;
     letter-spacing: 2px;
@@ -70,7 +77,7 @@ header .barra-navega .menu a:hover{
 header .banner{
     height: 380px;
     max-width: 1180px;
-    margin: 10px auto;
+    margin: 70px auto;
     display: flex;
     align-items: center;
 
@@ -90,6 +97,7 @@ header .banner .temporaria-info p{
     font-size: 40px;
     margin-top: -30px;
 }
+
 
 /* Formatação da seção caixa de prévia dos textos */
 .cx-previa-textos{
