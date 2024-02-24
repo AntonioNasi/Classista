@@ -67,7 +67,21 @@
 
 
 /* Configuração do banner/destaques */
+@media screen and (max-width:600px){
+    header .banner{
+        padding: 0px 15px;
+        height: 300px;
+    }
 
+    header .banner a .temporaria-info h1{
+        font-size: 80px;
+    }
+
+    header .banner a .temporaria-info p{
+        font-size: 24px;
+        margin-top: 0px;
+    }
+}
 
 
 
@@ -90,5 +104,26 @@
 
     .cx-previa-textos .previa-textos .link-texto .centro{
         margin-bottom: 40px;
+    }
+}
+
+
+
+/* Configuração da página do texto */
+@media screen and (max-width:600px){
+    .cx-texto{
+        padding: 0px 15px;
+    }
+
+    .cx-texto .texto-integra article h1{
+        font-size: 40px;
+    }
+
+    .cx-texto .texto-integra article .autor-data .nome-data p{
+        font-size: 18px;
+    }
+
+    .cx-texto .texto-integra article .conteudo p{
+        font-size: 26px;
     }
 }

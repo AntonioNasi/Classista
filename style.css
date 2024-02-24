@@ -83,17 +83,23 @@ header .banner{
 
     background-color: orangered;
 }
+header .banner a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: 100%;
+}
 header .banner .temporaria-info{
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
 }
-header .banner .temporaria-info h1{
+header .banner a .temporaria-info h1{
     font-size: 100px;
     font-weight: 500;
     margin: 0px;
 }
-header .banner .temporaria-info p{
+header .banner a .temporaria-info p{
     font-size: 40px;
     margin-top: -30px;
 }
@@ -168,8 +174,9 @@ header .banner .temporaria-info p{
 
 .rodape{
     height: 100px;
+    margin-top: 40px;
 
-    background-color: rgba(128, 128, 128, 0.219);
+    background-color: orangered;
 }
 
 
@@ -228,4 +235,14 @@ header .banner .temporaria-info p{
     line-height: 1.5;
     margin-bottom: 30px;
     font-weight: 500;
+}
+.cx-texto .texto-integra article .conteudo hr{
+    margin-bottom: 30px;
+}
+.cx-texto .texto-integra article .conteudo ul li{
+    list-style:decimal;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-family: 'Cormorant Garamond', serif;
+    list-style-position: inside;
 }
