@@ -74,6 +74,7 @@ header .barra-navega .menu a:hover{
 }
 
 
+/* Formatação do banner */
 header .banner{
     height: 380px;
     max-width: 1180px;
@@ -83,25 +84,29 @@ header .banner{
 
     background-color: orangered;
 }
-header .banner a{
-    text-decoration: none;
-    color: #000000;
-    display: block;
+
+header .banner .cx-banner-g{
     width: 100%;
+    height: auto;
 }
-header .banner .temporaria-info{
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+
+
+header .banner .cx-banner-g .w3-content{
+    width:100%;
 }
-header .banner a .temporaria-info h1{
-    font-size: 100px;
-    font-weight: 500;
-    margin: 0px;
+header .banner .cx-banner-g .w3-content img{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    object-position: center;
 }
-header .banner a .temporaria-info p{
-    font-size: 40px;
-    margin-top: -30px;
+
+.w3-animate-right{
+    position:relative;
+    animation:animateright 0.4s
+}
+@keyframes animateright{
+    from{right:-300px;opacity:0} to{right:0;opacity:1}
 }
 
 
