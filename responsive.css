@@ -73,13 +73,8 @@
         height: 300px;
     }
 
-    header .banner a .temporaria-info h1{
-        font-size: 80px;
-    }
-
-    header .banner a .temporaria-info p{
-        font-size: 24px;
-        margin-top: 0px;
+    header .banner .cx-banner-g .w3-content img{
+        height: 300px;
     }
 }
 
