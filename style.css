@@ -81,8 +81,6 @@ header .banner{
     margin: 70px auto;
     display: flex;
     align-items: center;
-
-    background-color: orangered;
 }
 
 header .banner .cx-banner-g{

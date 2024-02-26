@@ -2,10 +2,10 @@ var myIndex = 0;
 carousel();
 
 function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+  var s;
+  var x = document.getElementsByClassName("slide-g");
+  for (s = 0; s < x.length; s++) {
+    x[s].style.display = "none";  
   }
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
