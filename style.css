@@ -81,6 +81,8 @@ header .banner{
     margin: 70px auto;
     display: flex;
     align-items: center;
+
+    background-color: orangered;
 }
 
 header .banner .cx-banner-g{
@@ -101,10 +103,11 @@ header .banner .cx-banner-g .w3-content img{
 
 .w3-animate-right{
     position:relative;
-    animation:animateright 0.4s
+    animation:animateright 0.3s
 }
 @keyframes animateright{
-    from{right:-300px;opacity:0} to{right:0;opacity:1}
+    from{transform: scale(0%);}
+    to{transform: scale(100%);}
 }
 
 

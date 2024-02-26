@@ -71,6 +71,7 @@
     header .banner{
         padding: 0px 15px;
         height: 300px;
+        max-width: 600px;
     }
 
     header .banner .cx-banner-g .w3-content img{
