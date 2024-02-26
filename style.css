@@ -18,7 +18,6 @@ body{
     background-repeat: no-repeat;
 }
 body .body-transparencia{
-    content: '';
     background-color: #ffffff;
     top: 0;
     left: 0;

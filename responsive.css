@@ -65,17 +65,39 @@
 
 
 
+/* Configuração do fundo geral */
+@media screen and (max-width:375px){
+    body{
+        background-image: none;
+    }
+}
+
+
+
+
 
 /* Configuração do banner/destaques */
 @media screen and (max-width:600px){
     header .banner{
-        padding: 0px 15px;
-        height: 300px;
+        padding: 0px 0px;
+        height: 275px;
         max-width: 600px;
     }
 
     header .banner .cx-banner-g .w3-content img{
-        height: 300px;
+        height: 275px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:375px){
+    header .banner{
+        padding: 0px 0px;
+        height: 240px;
+    }
+
+    header .banner .cx-banner-g .w3-content img{
+        height: 240px;
+        margin: 0 auto;
     }
 }
 
