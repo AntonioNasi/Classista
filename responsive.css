@@ -144,4 +144,8 @@
     .cx-texto .texto-integra article .conteudo p{
         font-size: 26px;
     }
+
+    .cx-texto .texto-integra article .autor-data .imagem-autor{
+        width: 15%;
+    }
 }
