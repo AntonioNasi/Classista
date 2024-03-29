@@ -110,6 +110,22 @@ header .banner .cx-banner-g .w3-content img{
 }
 
 
+/* Formatação do contador de acessos */
+.cx-contador p{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+.meu-contador{
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* Formatação da seção caixa de prévia dos textos */
 .cx-previa-textos{
     margin-top: 40px;
