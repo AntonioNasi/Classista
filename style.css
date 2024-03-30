@@ -267,3 +267,22 @@ header .banner .cx-banner-g .w3-content img{
     font-family: 'Cormorant Garamond', serif;
     list-style-position: inside;
 }
+
+.prop{
+    display: block;
+    height: 380px;
+    width: 100%;
+    margin: 40px 0px 40px 0px;
+    background-image: url(./lessa.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-left: solid 1px black;
+}
+@media screen and (max-width:600px){
+    .prop{
+        height: 200px;
+        background-size: 200%;
+        border-left: solid 1px black;
+    }
+}
