@@ -149,3 +149,13 @@
         width: 15%;
     }
 }
+
+
+
+
+/* Formatação da página dos eventos */
+@media screen and (max-width:600px){
+    .cx-texto .texto-integra article .conteudo .link-evento{
+        font-size: 18px;
+    }
+}

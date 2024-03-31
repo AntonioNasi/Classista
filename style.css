@@ -286,3 +286,22 @@ header .banner .cx-banner-g .w3-content img{
         border-left: solid 1px black;
     }
 }
+
+
+
+
+
+/* Formatação da página dos eventos */
+.cx-texto .texto-integra article .conteudo .link-evento{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 32px;
+    background-color: #00000017;
+    margin: 10px 0px;
+    padding: 10px 5px;
+}
+.cx-texto .texto-integra article .conteudo .link-evento:hover{
+    background-color: orangered;
+    transition: background-color 0.3s;
+}
