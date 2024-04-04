@@ -140,10 +140,12 @@ header .banner .cx-banner-g .w3-content img{
 }
 
 
-.previa-textos > div:nth-child(1){
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-    font-size: 23px;
+@media screen and (min-width:600px){
+    .previa-textos > div:nth-child(1){
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        font-size: 23px;
+    }
 }
 
 
