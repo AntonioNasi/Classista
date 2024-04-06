@@ -40,9 +40,19 @@ body p{
 }
 
 
+header .topo-site{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:130px;
+}
+header .topo-site h1{
+    font-size: 45px;
+    font-weight: 500;
+}
 header .barra-navega{
-    background-color: orangered;
-    position: fixed;
+    background-color: black;
     width: 100%;
     top: 0;
     z-index: 1;
@@ -54,22 +64,22 @@ header .barra-navega .menu .itens-menu{
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
 }
 header .barra-navega .menu a{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
     font-family: 'Antonio', sans-serif;
-    margin-top: 10px;
+    margin: 10px 10px;
     font-size: 23px;
     letter-spacing: 2px;
     padding: 0px 5px 2px 0px;
     
 }
 header .barra-navega .menu a:hover{
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px red;
 }
 
 
