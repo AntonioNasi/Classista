@@ -45,6 +45,23 @@ header .topo-site{
     height:200px;
     margin-top: -1px;
 }
+
+header .topo-site {
+    background-image: linear-gradient(45deg, rgb(247, 56, 56), rgb(206, 5, 5), rgb(255, 38, 38));
+    background-size: 250% 200%;
+    background-repeat: no-repeat;
+
+    animation-name: anima-topo;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anima-topo {
+    0%{background-position-x: 0%;}
+    50%{background-position-x: 100%;}
+    100%{background-position-x: 0%;}
+}
+
 header .topo-site .logo-classista{
     display: flex;
     justify-content: center;
