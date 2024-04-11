@@ -35,7 +35,7 @@ body .material-symbols-outlined{
 body h1, h2, h3, h4{
     font-family: 'Anton', sans-serif;
 }
-body p{
+body p, a{
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -293,19 +293,47 @@ header .banner .cx-banner-g .w3-content img{
 
 
 .rodape{
-    height: 140px;
     margin-top: 40px;
+    border: solid 1px transparent;
 
     background-color: orangered;
 }
 .rodape .cx-footer{
     display: flex;
+    max-width: 1080px;
+    margin: 30px auto;
 }
 
 @media screen and (max-width:600px){
     .rodape .cx-footer{
         display: block;
     }
+}
+
+.rodape .cx-footer .item-footer{
+    margin: 0px 10px;
+    width: 33%;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .rodape .cx-footer .item-footer{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.rodape .cx-footer .item-footer h4{
+    font-weight: 500;
+    font-size: 23px;
+}
+.rodape .cx-footer .item-footer p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.rodape .cx-footer .item-footer a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
 }
 
 
