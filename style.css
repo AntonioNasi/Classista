@@ -293,10 +293,19 @@ header .banner .cx-banner-g .w3-content img{
 
 
 .rodape{
-    height: 100px;
+    height: 140px;
     margin-top: 40px;
 
     background-color: orangered;
+}
+.rodape .cx-footer{
+    display: flex;
+}
+
+@media screen and (max-width:600px){
+    .rodape .cx-footer{
+        display: block;
+    }
 }
 
 
