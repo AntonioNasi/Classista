@@ -193,6 +193,34 @@ header .banner .cx-banner-g .w3-content img{
         grid-row: 1 / 2;
     }
 
+    .previa-textos > div:nth-child(1)::before{
+        content: "Nova publicação - 09/abril/2024";
+        display: block;
+        width: auto;
+        position: absolute;
+        background-color: red;
+        box-shadow: 1px 5px 10px black;
+        font-family: "Antonio", sans-serif;
+        font-size: 28px;
+        color: #ffffff;
+        padding: 0px 20px 5px 5px;
+        margin: 0px;
+        z-index: 1;
+
+        animation-name: nova-pub;
+        animation-duration: .8s;
+        animation-timing-function: linear;
+        animation-iteration-count: 5;
+        animation-fill-mode: backwards;
+        animation-delay: 3s;
+    }
+
+    @keyframes nova-pub {
+        0%{background-color: transparent; box-shadow: none; color: transparent;}
+        100%{background-color: red; box-shadow: black; color: #ffffff;}
+    }
+
+    /*
     .cx-previa-textos .previa-textos #new::before{
         content: "News >>>";
         display: block;
@@ -204,6 +232,7 @@ header .banner .cx-banner-g .w3-content img{
         position: relative;
         background-color: red;
     }
+    */
 
     .cx-previa-textos .previa-textos{
         max-width: 1180px;
