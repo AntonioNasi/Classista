@@ -189,19 +189,24 @@ header .banner .cx-banner-g .w3-content img{
 
 @media screen and (min-width:600px){
     .previa-textos > div:nth-child(1){
-        grid-column: 1 / 3;
+        grid-column: 1 / 4;
         grid-row: 1 / 2;
+    }
+
+    .previa-textos > div:nth-child(1) h1{
+        font-size: 40px;
     }
 
     .previa-textos > div:nth-child(1)::before{
         content: "Nova publicação - 09/abril/2024";
         display: block;
         width: auto;
-        position: absolute;
+        position: relative;
         background-color: red;
         box-shadow: 1px 5px 10px black;
         font-family: "Antonio", sans-serif;
         font-size: 28px;
+        text-align: center;
         color: #ffffff;
         padding: 0px 20px 5px 5px;
         margin: 0px;
