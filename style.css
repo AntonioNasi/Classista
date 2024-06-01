@@ -182,7 +182,13 @@ header .banner .cx-banner-g .w3-content img{
 
 /* Formatação da seção caixa de prévia dos textos */
 .cx-previa-textos{
-    margin-top: 40px;
+    margin: 40px auto 0px;
+    display: flex;
+    max-width: 1480px;
+}
+
+.cx-previa-textos .side-left{
+    width: 70%;
 }
 
 
@@ -277,6 +283,42 @@ header .banner .cx-banner-g .w3-content img{
 
 
 
+
+.cx-previa-textos .side-right{
+    margin: 0px 0px 0px 50px;
+    width: 30%;
+}
+
+.cx-previa-textos .side-right .sidebar{
+    border: solid 1px red;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px red;
+    margin-bottom: 30px;
+}
+
+.cx-previa-textos .side-right .sidebar h2{
+    background-color: #000000;
+    padding: 5px 0px 5px 20px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.cx-previa-textos .side-right .sidebar ul li{
+    list-style: none;
+    font-family: 'Antonio', sans-serif;
+    padding: 5px 0px 5px 10px;
+}
+
+.cx-previa-textos .side-right .sidebar ul li:hover{
+    background-color: red;
+}
+
+.cx-previa-textos .side-right .sidebar ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Antonio', sans-serif;
+}
 
 
 /*
