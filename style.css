@@ -47,8 +47,32 @@ body a, span, p, li{
     margin-top: -2px;
 }
 
-.imagem-fundo .efeito-vidro header nav{
+
+/* Cabeçalho e menu */
+.imagem-fundo .efeito-vidro header .cx-menu{
+    display: flex;
     max-width: 1180px;
+    margin: 0 auto;
+}
+
+.imagem-fundo .efeito-vidro header .cx-menu .logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.imagem-fundo .efeito-vidro header .cx-menu .logo img{
+    width: 15%;
+}
+
+.imagem-fundo .efeito-vidro header .cx-menu .logo h1{
+    font-size: 38px;
+    margin: 0px 0px -8px 10px;
+    color: beige;
+}
+
+.imagem-fundo .efeito-vidro header .cx-menu nav{
+    width: 70%;
     margin: 30px auto;
     height: 50px;
     border-radius: 30px;
@@ -56,14 +80,15 @@ body a, span, p, li{
     align-items: center;
 }
 
-.imagem-fundo .efeito-vidro header nav .itens-menu{
+.imagem-fundo .efeito-vidro header .cx-menu nav .itens-menu{
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
 
-.imagem-fundo .efeito-vidro header nav .itens-menu a{
+.imagem-fundo .efeito-vidro header .cx-menu nav .itens-menu a{
     font-family: 'Hammersmith One', sans-serif;
+    font-size: 23px;
     color: beige;
     text-decoration: none;
     text-transform: uppercase;
