@@ -18,10 +18,10 @@ body a, span, p, li{
 
 .imagem-fundo{
     width: 100%;
-    height: 100vh;
+    height: auto;
     border-top: solid 1px transparent;
     background-image: url(./background.jpg);
-    background-size: 120%;
+    background-size: 130%;
     background-repeat: no-repeat;
     animation-name: mover;
     animation-duration: 40s;
@@ -39,7 +39,7 @@ body a, span, p, li{
 
 .imagem-fundo .efeito-vidro{
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(0px);
@@ -62,7 +62,7 @@ body a, span, p, li{
 }
 
 .imagem-fundo .efeito-vidro header .cx-menu .logo img{
-    width: 15%;
+    width: 10%;
 }
 
 .imagem-fundo .efeito-vidro header .cx-menu .logo h1{
@@ -92,4 +92,58 @@ body a, span, p, li{
     color: beige;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.imagem-fundo .efeito-vidro header .cx-menu nav .itens-menu a:hover{
+    color: red;
+}
+
+
+
+
+
+/* Formatação da seção de prévia de artigos */
+.sec-previa-art .cx-previa-art{
+    max-width: 1380px;
+    margin: 40px auto 0px;
+}
+
+.sec-previa-art .cx-previa-art ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-previa-art .cx-previa-art ul li{
+    display: block;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+
+    border: solid 1px beige;
+    border-radius: 10px;
+}
+
+.sec-previa-art .cx-previa-art ul li:hover{
+    background-image: linear-gradient(45deg, red, red);
+    top: 0px;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes color {
+    0%{background-position: 0px;}
+}
+
+.sec-previa-art .cx-previa-art ul li a{
+    display: block;
+}
+
+.sec-previa-art .cx-previa-art ul li a img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sec-previa-art .cx-previa-art ul li a h1{
+    color: beige;
 }
