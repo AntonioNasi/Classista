@@ -21,116 +21,122 @@ body a, span, p, li{
     font-family: 'Telegraf', sans-serif;
 }
 
-.imagem-fundo{
-    width: 100%;
-    height: auto;
-    border-top: solid 1px transparent;
-    background-image: url(./background.jpg);
-    background-size: 130%;
-    background-repeat: no-repeat;
-    animation-name: mover;
-    animation-duration: 60s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+/*
+Animação da tela inicial
+*/
 
-    margin-top: -2px;
-}
+.container-anima{
+    overflow: hidden;
 
-@keyframes mover {
-    0%{background-position: left;}
-    50%{background-position: right;}
-    100%{background-position: left;}
-}
-
-.imagem-fundo .efeito-vidro{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(0px);
-    border-top: solid 1px transparent;
-    margin-top: -2px;
-
-    animation-name: efeito-back;
-    animation-duration: 60s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-fill-mode: backwards;
-}
-
-@keyframes efeito-back {
-    0%{background-color: rgba(0, 0, 0, 0.9); backdrop-filter: blur(0px);}
-    5%{background-color: rgba(0, 0, 0, 0.8); backdrop-filter: blur(1px);}
-    10%{background-color: rgba(0, 0, 0, 0.7); backdrop-filter: blur(2px);}
-    15%{background-color: rgba(0, 0, 0, 0.6); backdrop-filter: blur(3px);}
-    20%{background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(4px);}
-    25%{background-color: rgba(0, 0, 0, 0.4); backdrop-filter: blur(5px);}
-    30%{background-color: rgba(0, 0, 0, 0.3); backdrop-filter: blur(6px);}
-    35%{background-color: rgba(0, 0, 0, 0.2); backdrop-filter: blur(7px);}
-    40%{background-color: rgba(0, 0, 0, 0.1); backdrop-filter: blur(8px);}
-    45%{background-color: rgba(0, 0, 0, 0.09); backdrop-filter: blur(9px);}
-    50%{background-color: rgba(0, 0, 0, 0.1); backdrop-filter: blur(8px);}
-    55%{background-color: rgba(0, 0, 0, 0.2); backdrop-filter: blur(7px);}
-    60%{background-color: rgba(0, 0, 0, 0.3); backdrop-filter: blur(6px);}
-    65%{background-color: rgba(0, 0, 0, 0.4); backdrop-filter: blur(5px);}
-    70%{background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(4px);}
-    75%{background-color: rgba(0, 0, 0, 0.6); backdrop-filter: blur(3px);}
-    80%{background-color: rgba(0, 0, 0, 0.7); backdrop-filter: blur(2px);}
-    85%{background-color: rgba(0, 0, 0, 0.8); backdrop-filter: blur(1px);}
-    90%{background-color: rgba(0, 0, 0, 0.9); backdrop-filter: blur(0px);}
-    95%{background-color: rgba(0, 0, 0, 0.93);}
-    100%{background-color: rgba(0, 0, 0, 0.96);}
-}
-
-
-
-
-
-
-.imagem-fundo .efeito-vidro header{
     height: 100vh;
+    border: solid 1px black;
 }
 
-.imagem-fundo .efeito-vidro header .logo{
+.container-anima .color{
+    position: absolute;
+
+    height: 100%;
+}
+
+.container-anima .c1{
+    z-index: 5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 0, 0, 0.6);
+    animation: color-width 20s ease-in-out infinite;
+}
+
+.container-anima .c2{
+    z-index: 4;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 0, 98, 0.6);
+    animation: color-height 20s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+.container-anima .c3{
+    z-index: 3;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 162, 255, 0.3);
+    animation: color-width 20s ease-in-out infinite;
+    animation-delay: 4s;
+}
+
+.container-anima .c4{
+    z-index: 2;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    animation: color-height 20s ease-in-out infinite;
+    animation-delay: 6s;
+}
+
+@keyframes color-width {
+    0%{width: 0%;}
+    50%{width: 100%;}
+    100%{width: 0%;}
+}
+
+@keyframes color-height {
+    0%{height: 0%;}
+    50%{height: 100%;}
+    100%{height: 0%;}
+}
+
+.container-anima .imagem{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./background.jpg);
+    animation: muda-imagem 20s ease-in-out infinite;
+}
+
+@keyframes muda-imagem {
+    0%{
+        background-position: right;
+        transform: scale(150%);
+        filter: opacity(20%);
+    }
+    50%{
+        background-position: right;
+        transform: scale(100%);
+        filter: opacity(100%);
+    }
+    100%{
+        transform: scale(150%);
+        background-position: right;
+        filter: opacity(20%);
+    }
+}
+
+
+
+.container-anima header{
     display: flex;
-    width: 80px;
-    margin: 40px auto;
+    position: relative;
     align-items: center;
     justify-content: center;
-}
-
-.imagem-fundo .efeito-vidro header .logo img{
-    width: 40%;
-    margin-right: 10px;
-}
-
-.imagem-fundo .efeito-vidro header .logo h1{
-    color: beige;
-
-}
-
-.imagem-fundo .efeito-vidro header .cx-icone{
     width: 60%;
+    height: auto;
     margin: 0 auto;
-    display: flex;
 
     border: solid 1px yellow;
 }
 
-.imagem-fundo .efeito-vidro header .cx-icone .icone{
-    display: block;
-    border: solid 1px beige;
-    flex-basis: 140px;
-}
+.container-anima header .cx-icone{
+    position:absolute;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    z-index: 100;
 
-.imagem-fundo .efeito-vidro header .cx-icone .icone .icone-img{
-    width: 100%;
-    border: solid 1px red;
-    border-radius: 100%;
-    padding: 30px;
-}
-
-.imagem-fundo .efeito-vidro header .cx-icone .icone .icone-img img{
-    width: 100%;
-    filter: invert(100%);
+    border: solid 1px white;
 }
