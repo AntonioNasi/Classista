@@ -215,7 +215,16 @@ Configuração da página blog
 */
 body{
     background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
+    animation: new-page 1s ease-in-out 1;
+}
+
+@keyframes new-page {
+    0%{background-size: 120%;}
+    100%{background-size: 100%;}
 }
 #header-blog{
     width: 100%;
@@ -257,15 +266,17 @@ body{
 
 #header-blog .back-color .container-logo-icone .cx-icone{
     display: flex;
-    flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 400px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width:600px){
     #header-blog .back-color .container-logo-icone .cx-icone{
         align-items: center;
         justify-content: center;
+        flex-wrap:wrap;
     }
 }
 
