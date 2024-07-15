@@ -1,170 +1,43 @@
-/* Configuração do menu mobile */
-.menu-mob{
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-}
-.dropbtn{
-    background-color: transparent;
-    color: white;
-    padding: 0px 0px 0px 0px;
-    font-size: 50px;
-    border: none;
-    cursor: pointer;
-
-    font-weight: 600;
-}
-  
-.dropbtn:hover, .dropbtn:focus {
-    background-color: transparent;
-}
-  
-.dropdown {
-    position: relative;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: orange;
-    min-width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-
-    left: -280%;
-    padding: 10px;
-}
-  
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-  
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-  
-.show {
-    display:block;
-}
-
-@media screen and (min-width:600px){
-    .menu-mob{
-        display: none;
-    }
-}
-
 @media screen and (max-width:600px){
-    header .barra-navega .menu .itens-menu{
-        display: none;
-    }
-}
-
-
-
-
-/* Configuração do fundo geral */
-@media screen and (max-width:375px){
-    body{
-        background-image: none;
-    }
-}
-
-
-
-
-
-/* Configuração do banner/destaques */
-@media screen and (max-width:600px){
-    header .banner{
-        padding: 0px 0px;
-        height: 275px;
-        max-width: 600px;
-    }
-
-    header .banner .cx-banner-g .w3-content img{
-        height: 275px;
-        margin: 0 auto;
-    }
-}
-@media screen and (max-width:375px){
-    header .banner{
-        padding: 0px 0px;
-        height: 240px;
-    }
-
-    header .banner .cx-banner-g .w3-content img{
-        height: 240px;
-        margin: 0 auto;
-    }
-}
-
-
-
-
-/* Configuração das prévias dos textos */
-@media screen and (max-width:600px){
-    .cx-previa-textos{
-        padding: 0px 15px;
+    .sec-1 .cx-previa-post{
         display: block;
     }
 
-    .cx-previa-textos .previa-textos .item-grid a{
+    .sec-1 .cx-previa-post a{
         display: block;
+        height: auto;
+        margin: 0px 0px 40px 0px;
     }
 
-    .cx-previa-textos .previa-textos .item-grid .link-texto .texto{
-        width: 373px;
-        height: 280px;
-        margin: 0px 0px 50px 0px;
+    .sec-1 .cx-previa-post a .post{
+        display: block;
+        height: auto;
+
+        border: solid 1px rgba(0, 0, 0, 0.1);
+
     }
 
-    .cx-previa-textos .previa-textos .item-grid .link-texto .centro{
-        margin-bottom: 50px;
-    }
-
-    .cx-previa-textos .previa-textos .item-grid a .texto img {
+    .sec-1 .cx-previa-post a .post .img-post{
         width: 100%;
-        height: 300px;
-        object-fit: cover;
-        object-position: center;
-    }
-}
-
-
-
-
-/* Configuração da página do texto */
-@media screen and (max-width:600px){
-    .cx-texto{
-        padding: 0px 15px;
+        height: 50%;
+        border-radius: 10px 10px 0px 0px;
     }
 
-    .cx-texto .texto-integra article h1{
-        font-size: 40px;
+    .sec-1 .cx-previa-post a .post .img-post img{
+        height: 360px;
+        border-radius: 10px 10px 0px 0px;
     }
 
-    .cx-texto .texto-integra article .autor-data .nome-data p{
-        font-size: 18px;
-    }
-
-    .cx-texto .texto-integra article .conteudo p{
+    .sec-1 .cx-previa-post a .post .txt-post h1{
         font-size: 26px;
     }
 
-    .cx-texto .texto-integra article .autor-data .imagem-autor{
-        width: 15%;
+    .sec-1 .cx-previa-post a .post .txt-post{
+        width: 100%;
+        height: 300px;
     }
-}
 
-
-
-
-/* Formatação da página dos eventos */
-@media screen and (max-width:600px){
-    .cx-texto .texto-integra article .conteudo .link-evento{
-        font-size: 18px;
+    .sec-1 .cx-previa-post a .post .txt-post p{
+        -webkit-line-clamp: 6;
     }
 }
