@@ -138,3 +138,38 @@ footer{
     height: 200px;
     background-color: red;
 }
+
+
+
+
+
+
+/*Configuração da página de post - singlepost*/
+.sec-singlepost{
+    margin-top: 80px;
+}
+
+.sec-singlepost .cx-singlepost{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.sec-singlepost .cx-singlepost article{
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 15px 15px 15px -3px rgba(0,0,0,0.1);
+}
+.sec-singlepost .cx-singlepost article .img-singlepost img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.sec-singlepost .cx-singlepost article .txt-singlepost{
+    padding: 50px 30px 30px;
+}
+.sec-singlepost .cx-singlepost article .txt-singlepost p{
+    margin-top: 30px;
+    line-height: 1.5;
+}
